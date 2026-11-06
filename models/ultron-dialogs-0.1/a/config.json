@@ -1,0 +1,286 @@
+{
+  "config": {
+    "context_tokens": 480,
+    "encoder": "tinyx",
+    "heads": 4,
+    "layers": 2,
+    "option_tokens": 96,
+    "rank": 96,
+    "width": 96
+  },
+  "format": "cua-s1",
+  "format_version": 1,
+  "metadata": {
+    "batch_size": 128,
+    "best_validation": {
+      "ece": 0.06573941954411566,
+      "examples": 1029,
+      "nll": 0.6256128963159056,
+      "per_action": {
+        "cookie": {
+          "acc": 0.7878787878787878,
+          "n": 33
+        },
+        "danger": {
+          "acc": 0.9014084507042254,
+          "n": 71
+        },
+        "locale": {
+          "acc": 0.8863636363636364,
+          "n": 44
+        },
+        "notify": {
+          "acc": 0.8448275862068966,
+          "n": 58
+        },
+        "promo": {
+          "acc": 0.9245283018867925,
+          "n": 53
+        },
+        "real_consent": {
+          "acc": 1.0,
+          "n": 1
+        },
+        "real_cookie": {
+          "acc": 0.8865030674846626,
+          "n": 326
+        },
+        "real_locale": {
+          "acc": 0.5,
+          "n": 6
+        },
+        "real_not_popup": {
+          "acc": 0.9226190476190477,
+          "n": 168
+        },
+        "real_other": {
+          "acc": 0.4,
+          "n": 5
+        },
+        "real_permission": {
+          "acc": 0.8,
+          "n": 25
+        },
+        "real_promo": {
+          "acc": 0.631578947368421,
+          "n": 38
+        },
+        "real_session": {
+          "acc": 0.0,
+          "n": 2
+        },
+        "real_settings": {
+          "acc": 1.0,
+          "n": 1
+        },
+        "real_wall": {
+          "acc": 0.5714285714285714,
+          "n": 7
+        },
+        "session": {
+          "acc": 0.86,
+          "n": 50
+        },
+        "trap_close": {
+          "acc": 0.9444444444444444,
+          "n": 36
+        },
+        "trap_closed": {
+          "acc": 0.717391304347826,
+          "n": 46
+        },
+        "wall": {
+          "acc": 0.8135593220338984,
+          "n": 59
+        }
+      },
+      "top1": 0.8590865135192871
+    },
+    "deterministic": true,
+    "epochs": 2,
+    "history": [
+      {
+        "epoch": 1,
+        "train_nll": 0.3573510658208529,
+        "validation": {
+          "ece": 0.06573941954411566,
+          "examples": 1029,
+          "nll": 0.6256128963159056,
+          "per_action": {
+            "cookie": {
+              "acc": 0.7878787878787878,
+              "n": 33
+            },
+            "danger": {
+              "acc": 0.9014084507042254,
+              "n": 71
+            },
+            "locale": {
+              "acc": 0.8863636363636364,
+              "n": 44
+            },
+            "notify": {
+              "acc": 0.8448275862068966,
+              "n": 58
+            },
+            "promo": {
+              "acc": 0.9245283018867925,
+              "n": 53
+            },
+            "real_consent": {
+              "acc": 1.0,
+              "n": 1
+            },
+            "real_cookie": {
+              "acc": 0.8865030674846626,
+              "n": 326
+            },
+            "real_locale": {
+              "acc": 0.5,
+              "n": 6
+            },
+            "real_not_popup": {
+              "acc": 0.9226190476190477,
+              "n": 168
+            },
+            "real_other": {
+              "acc": 0.4,
+              "n": 5
+            },
+            "real_permission": {
+              "acc": 0.8,
+              "n": 25
+            },
+            "real_promo": {
+              "acc": 0.631578947368421,
+              "n": 38
+            },
+            "real_session": {
+              "acc": 0.0,
+              "n": 2
+            },
+            "real_settings": {
+              "acc": 1.0,
+              "n": 1
+            },
+            "real_wall": {
+              "acc": 0.5714285714285714,
+              "n": 7
+            },
+            "session": {
+              "acc": 0.86,
+              "n": 50
+            },
+            "trap_close": {
+              "acc": 0.9444444444444444,
+              "n": 36
+            },
+            "trap_closed": {
+              "acc": 0.717391304347826,
+              "n": 46
+            },
+            "wall": {
+              "acc": 0.8135593220338984,
+              "n": 59
+            }
+          },
+          "top1": 0.8590865135192871
+        }
+      },
+      {
+        "epoch": 2,
+        "train_nll": 0.11872661774158477,
+        "validation": {
+          "ece": 0.07459957744140411,
+          "examples": 1029,
+          "nll": 0.7256785022100276,
+          "per_action": {
+            "cookie": {
+              "acc": 0.8181818181818182,
+              "n": 33
+            },
+            "danger": {
+              "acc": 0.8732394366197183,
+              "n": 71
+            },
+            "locale": {
+              "acc": 0.9545454545454546,
+              "n": 44
+            },
+            "notify": {
+              "acc": 0.9482758620689655,
+              "n": 58
+            },
+            "promo": {
+              "acc": 0.9622641509433962,
+              "n": 53
+            },
+            "real_consent": {
+              "acc": 1.0,
+              "n": 1
+            },
+            "real_cookie": {
+              "acc": 0.8680981595092024,
+              "n": 326
+            },
+            "real_locale": {
+              "acc": 0.8333333333333334,
+              "n": 6
+            },
+            "real_not_popup": {
+              "acc": 0.9285714285714286,
+              "n": 168
+            },
+            "real_other": {
+              "acc": 0.4,
+              "n": 5
+            },
+            "real_permission": {
+              "acc": 0.8,
+              "n": 25
+            },
+            "real_promo": {
+              "acc": 0.6578947368421053,
+              "n": 38
+            },
+            "real_session": {
+              "acc": 0.0,
+              "n": 2
+            },
+            "real_settings": {
+              "acc": 1.0,
+              "n": 1
+            },
+            "real_wall": {
+              "acc": 0.5714285714285714,
+              "n": 7
+            },
+            "session": {
+              "acc": 0.94,
+              "n": 50
+            },
+            "trap_close": {
+              "acc": 0.9166666666666666,
+              "n": 36
+            },
+            "trap_closed": {
+              "acc": 0.9130434782608695,
+              "n": 46
+            },
+            "wall": {
+              "acc": 0.8305084745762712,
+              "n": 59
+            }
+          },
+          "top1": 0.8794946670532227
+        }
+      }
+    ],
+    "learning_rate": 0.002,
+    "seed": 7,
+    "task": "form-specialist-choice-classification",
+    "warmup": 0.05,
+    "workers": 0
+  },
+  "state_signature": "59f0e9430343e08e61a2ce196f25a3cbd2c3f00fe6014757d4a1b0c25f066047"
+}

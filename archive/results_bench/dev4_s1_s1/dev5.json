@@ -1,0 +1,67 @@
+{
+ "form": "dev5",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 24.5,
+ "score": {
+  "submitted": true,
+  "fields": 14,
+  "wrong": {
+   "f1": null,
+   "f3": null,
+   "f12": null,
+   "f16": null,
+   "f18": null,
+   "f22": null,
+   "f23": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 6915,
+   "completion_tokens": 209
+  },
+  {
+   "seconds": 4.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 6124,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 7.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6155,
+   "completion_tokens": 275
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 605.8844551444054,
+   "url": "http://127.0.0.1:43431/dev5",
+   "goal": "Filled 8 field(s) from the document. Still empty, so check each against the document before submitting: First Name *; Middle Name; Last Name *; Driver's License # or Alt ID # *; Gender; Phone Number *; Payne County/Stillwater Address *; Apartment #; City *; If you do not live or own property in Payne County, please list your school or employer below.; Permanent or Mailing Address; City; E-Signature *."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 585.1084385067225,
+   "url": "http://127.0.0.1:43431/dev5",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.18661841750144958,
+   "url": "http://127.0.0.1:43431/dev5",
+   "goal": ""
+  }
+ ]
+}

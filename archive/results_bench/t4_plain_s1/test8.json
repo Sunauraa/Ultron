@@ -1,0 +1,168 @@
+{
+ "form": "test8",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "seconds": 142.9,
+ "score": {
+  "blocked": [
+   "* Supervisor District"
+  ],
+  "submitted": false,
+  "fields": 8,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null,
+   "f5": null,
+   "f7": null,
+   "f29": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 6743,
+   "completion_tokens": 261
+  },
+  {
+   "seconds": 4.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 6878,
+   "completion_tokens": 183
+  },
+  {
+   "seconds": 5.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 6938,
+   "completion_tokens": 209
+  },
+  {
+   "seconds": 5.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 7027,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 5.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 7100,
+   "completion_tokens": 225
+  },
+  {
+   "seconds": 6.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 7181,
+   "completion_tokens": 239
+  },
+  {
+   "seconds": 5.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 7296,
+   "completion_tokens": 218
+  },
+  {
+   "seconds": 5.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 7396,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 6.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 7464,
+   "completion_tokens": 231
+  },
+  {
+   "seconds": 5.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 7472,
+   "completion_tokens": 222
+  },
+  {
+   "seconds": 6.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 7566,
+   "completion_tokens": 243
+  },
+  {
+   "seconds": 6.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 7660,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 6.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 7754,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 5.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 7886,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 5.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 7980,
+   "completion_tokens": 215
+  },
+  {
+   "seconds": 5.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 8074,
+   "completion_tokens": 207
+  },
+  {
+   "seconds": 6.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 8088,
+   "completion_tokens": 261
+  },
+  {
+   "seconds": 6.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 8194,
+   "completion_tokens": 245
+  },
+  {
+   "seconds": 5.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 8390,
+   "completion_tokens": 199
+  },
+  {
+   "seconds": 5.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 8486,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 5.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 8593,
+   "completion_tokens": 202
+  },
+  {
+   "seconds": 8.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 8738,
+   "completion_tokens": 302
+  }
+ ],
+ "steps": 23,
+ "is_done": true,
+ "success": false,
+ "final": "The form was filled out with all available information from the provided document. However, there was no confirmation of successful submission after attempting to submit multiple times. The supervisor district field is missing from the document and needs to be left blank.",
+ "fast": []
+}

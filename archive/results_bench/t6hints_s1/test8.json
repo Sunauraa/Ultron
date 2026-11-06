@@ -1,0 +1,104 @@
+{
+ "form": "test8",
+ "lang": "en",
+ "arm": "hints",
+ "seed": 1,
+ "seconds": 103.7,
+ "score": {
+  "blocked": [
+   "* Supervisor District"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 8,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null,
+   "f5": null,
+   "f7": null,
+   "f29": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 10.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 6819,
+   "completion_tokens": 416
+  },
+  {
+   "seconds": 7.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 7036,
+   "completion_tokens": 297
+  },
+  {
+   "seconds": 6.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 7174,
+   "completion_tokens": 225
+  },
+  {
+   "seconds": 4.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 7230,
+   "completion_tokens": 159
+  },
+  {
+   "seconds": 4.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 7208,
+   "completion_tokens": 183
+  },
+  {
+   "seconds": 4.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 7281,
+   "completion_tokens": 178
+  },
+  {
+   "seconds": 4.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 7354,
+   "completion_tokens": 182
+  },
+  {
+   "seconds": 5.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 7431,
+   "completion_tokens": 199
+  },
+  {
+   "seconds": 5.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 7561,
+   "completion_tokens": 189
+  },
+  {
+   "seconds": 6.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 7651,
+   "completion_tokens": 229
+  },
+  {
+   "seconds": 6.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 7745,
+   "completion_tokens": 256
+  }
+ ],
+ "steps": 12,
+ "is_done": true,
+ "success": false,
+ "final": "The form submission was attempted but failed due to a missing required field (Supervisor District). The page did not confirm receipt of the form despite multiple attempts.",
+ "fast": []
+}

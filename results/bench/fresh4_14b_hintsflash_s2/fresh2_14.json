@@ -1,0 +1,89 @@
+{
+ "form": "fresh2_14",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 47.2,
+ "score": {
+  "blocked": [
+   "Message *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 2183,
+   "completion_tokens": 203
+  },
+  {
+   "seconds": 4.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 2357,
+   "completion_tokens": 190
+  },
+  {
+   "seconds": 6.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 2481,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 2.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 2628,
+   "completion_tokens": 99
+  },
+  {
+   "seconds": 2.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 2702,
+   "completion_tokens": 99
+  },
+  {
+   "seconds": 2.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 2776,
+   "completion_tokens": 99
+  },
+  {
+   "seconds": 2.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 2850,
+   "completion_tokens": 88
+  },
+  {
+   "seconds": 5.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 2962,
+   "completion_tokens": 214
+  },
+  {
+   "seconds": 3.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 1865,
+   "completion_tokens": 126
+  }
+ ],
+ "steps": 10,
+ "is_done": true,
+ "success": false,
+ "final": "Unable to submit the form due to missing 'Message' field value.",
+ "fast": []
+}

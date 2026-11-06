@@ -1,0 +1,80 @@
+{
+ "form": "test13",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 24.5,
+ "score": {
+  "submitted": true,
+  "fields": 5,
+  "wrong": {},
+  "extra": {
+   "f16": "Công ty TNHH Minh Long",
+   "f2": "21/06/1995"
+  },
+  "missing_consent": [],
+  "popup_choice": "Ok",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.9,
+   "format": "Answers",
+   "prompt_tokens": 297,
+   "completion_tokens": 118
+  },
+  {
+   "seconds": 4.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 6990,
+   "completion_tokens": 169
+  },
+  {
+   "seconds": 3.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 6130,
+   "completion_tokens": 149
+  },
+  {
+   "seconds": 6.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 6158,
+   "completion_tokens": 235
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 23.40240590274334,
+   "url": "http://127.0.0.1:38253/test13",
+   "goal": "Close the pop-up with 'Ok'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 3153.8196429610252,
+   "url": "http://127.0.0.1:38253/test13",
+   "goal": "Filled 7 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Huyện đang thường trú:; Xã đang thường trú:; Chuyên ngành:; Kinh nghiệm làm việc (nếu có):; Vị trí ứng tuyển:. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 276.6130454838276,
+   "url": "http://127.0.0.1:38253/test13",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.267568975687027,
+   "url": "http://127.0.0.1:38253/test13",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4763474464416504,
+   "url": "about:blank",
+   "goal": ""
+  }
+ ]
+}

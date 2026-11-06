@@ -1,0 +1,102 @@
+{
+ "form": "test10",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 94.8,
+ "score": {
+  "blocked": [
+   "Nội dung *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 9.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 6044,
+   "completion_tokens": 322
+  },
+  {
+   "seconds": 8.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 6282,
+   "completion_tokens": 304
+  },
+  {
+   "seconds": 8.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 6366,
+   "completion_tokens": 298
+  },
+  {
+   "seconds": 8.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 6478,
+   "completion_tokens": 289
+  },
+  {
+   "seconds": 6.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 6575,
+   "completion_tokens": 230
+  },
+  {
+   "seconds": 7.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 6554,
+   "completion_tokens": 243
+  },
+  {
+   "seconds": 7.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 6639,
+   "completion_tokens": 262
+  },
+  {
+   "seconds": 6.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 6753,
+   "completion_tokens": 243
+  },
+  {
+   "seconds": 7.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 6849,
+   "completion_tokens": 263
+  },
+  {
+   "seconds": 6.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 7007,
+   "completion_tokens": 217
+  },
+  {
+   "seconds": 8.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 7151,
+   "completion_tokens": 295
+  }
+ ],
+ "steps": 12,
+ "is_done": true,
+ "success": false,
+ "final": "The form cannot be submitted because there is no value provided for the 'Nội dung' field in your document. Please provide a value for this field or ensure it is optional.",
+ "fast": [],
+ "trap": ""
+}

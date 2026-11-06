@@ -1,0 +1,34 @@
+/home/tudao/project/.venv-llm/lib/python3.13/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+confirm_shaming/en n=13
+  model 0.5   right=9 deferred=4 WRONG=0 TRAP=0
+  model 0.9   right=6 deferred=7 WRONG=0 TRAP=0
+  model 0.99  right=3 deferred=10 WRONG=0 TRAP=0
+  filter 0.5  right=0 deferred=13 WRONG=0 TRAP=0
+  filter 0.9  right=0 deferred=13 WRONG=0 TRAP=0
+  filter 0.99 right=0 deferred=13 WRONG=0 TRAP=0
+  rules       right=0 deferred=13 WRONG=0 TRAP=0
+forced_action/en n=11
+  model 0.5   right=7 deferred=2 WRONG=0 TRAP=2
+  model 0.9   right=7 deferred=3 WRONG=0 TRAP=1
+  model 0.99  right=5 deferred=6 WRONG=0 TRAP=0
+  filter 0.5  right=4 deferred=7 WRONG=0 TRAP=0
+  filter 0.9  right=4 deferred=7 WRONG=0 TRAP=0
+  filter 0.99 right=3 deferred=8 WRONG=0 TRAP=0
+  rules       right=6 deferred=5 WRONG=0 TRAP=0
+pop-up_ad/en n=8
+  model 0.5   right=6 deferred=2 WRONG=0 TRAP=0
+  model 0.9   right=6 deferred=2 WRONG=0 TRAP=0
+  model 0.99  right=5 deferred=3 WRONG=0 TRAP=0
+  filter 0.5  right=6 deferred=2 WRONG=0 TRAP=0
+  filter 0.9  right=6 deferred=2 WRONG=0 TRAP=0
+  filter 0.99 right=5 deferred=3 WRONG=0 TRAP=0
+  rules       right=7 deferred=1 WRONG=0 TRAP=0
+ALL n=32
+  model 0.5   right=22 deferred=8 WRONG=0 TRAP=2
+  model 0.9   right=19 deferred=12 WRONG=0 TRAP=1
+  model 0.99  right=13 deferred=19 WRONG=0 TRAP=0
+  filter 0.5  right=10 deferred=22 WRONG=0 TRAP=0
+  filter 0.9  right=10 deferred=22 WRONG=0 TRAP=0
+  filter 0.99 right=8 deferred=24 WRONG=0 TRAP=0
+  rules       right=13 deferred=19 WRONG=0 TRAP=0

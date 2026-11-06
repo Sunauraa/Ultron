@@ -1,0 +1,149 @@
+{
+ "form": "test4",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 152.4,
+ "score": {
+  "blocked": [
+   "Please enter your question / comment in the space provided below, providing detailed information so we can better assist you. *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 9,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null,
+   "f9": null,
+   "f14": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 1433,
+   "completion_tokens": 106
+  },
+  {
+   "seconds": 11.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 1504,
+   "completion_tokens": 403
+  },
+  {
+   "seconds": 4.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 1601,
+   "completion_tokens": 160
+  },
+  {
+   "seconds": 3.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 1721,
+   "completion_tokens": 123
+  },
+  {
+   "seconds": 3.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 1802,
+   "completion_tokens": 103
+  },
+  {
+   "seconds": 3.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 1855,
+   "completion_tokens": 101
+  },
+  {
+   "seconds": 3.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 1935,
+   "completion_tokens": 102
+  },
+  {
+   "seconds": 3.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 2016,
+   "completion_tokens": 105
+  },
+  {
+   "seconds": 3.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 2112,
+   "completion_tokens": 117
+  },
+  {
+   "seconds": 3.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 2247,
+   "completion_tokens": 103
+  },
+  {
+   "seconds": 4.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 2341,
+   "completion_tokens": 167
+  },
+  {
+   "seconds": 4.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 2480,
+   "completion_tokens": 132
+  },
+  {
+   "seconds": 4.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 2516,
+   "completion_tokens": 153
+  },
+  {
+   "seconds": 4.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 2644,
+   "completion_tokens": 134
+  },
+  {
+   "seconds": 4.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 2772,
+   "completion_tokens": 134
+  },
+  {
+   "seconds": 3.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 2900,
+   "completion_tokens": 134
+  },
+  {
+   "seconds": 3.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 3028,
+   "completion_tokens": 134
+  },
+  {
+   "seconds": 4.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 3339,
+   "completion_tokens": 135
+  }
+ ],
+ "steps": 19,
+ "is_done": true,
+ "success": false,
+ "final": "Form was filled out with provided document values, but the page did not confirm receipt of the submission. Despite waiting and checking for a confirmation message or error, no change in the page content was observed.",
+ "fast": [],
+ "trap": ""
+}

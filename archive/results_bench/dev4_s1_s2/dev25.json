@@ -1,0 +1,61 @@
+{
+ "form": "dev25",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 18.3,
+ "score": {
+  "submitted": true,
+  "fields": 5,
+  "wrong": {
+   "f0": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept all",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 6313,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 5.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 6078,
+   "completion_tokens": 217
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 58.71044844388962,
+   "url": "http://127.0.0.1:33929/dev25",
+   "goal": "Close the pop-up with 'Accept all'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 132.70621001720428,
+   "url": "http://127.0.0.1:33929/dev25",
+   "goal": "Filled 4 field(s) from the document. Still empty, so check each against the document before submitting: 1. Họ và tên; 7 Kinh nghiệm làm việc."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 149.40346591174603,
+   "url": "http://127.0.0.1:33929/dev25",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.28628669679164886,
+   "url": "http://127.0.0.1:33929/dev25",
+   "goal": ""
+  }
+ ]
+}

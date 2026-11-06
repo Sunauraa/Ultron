@@ -1,0 +1,148 @@
+{
+ "form": "test33",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 56.2,
+ "score": {
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f5": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 6138,
+   "completion_tokens": 217
+  },
+  {
+   "seconds": 5.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 6242,
+   "completion_tokens": 194
+  },
+  {
+   "seconds": 8.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 6136,
+   "completion_tokens": 336
+  },
+  {
+   "seconds": 4.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 6286,
+   "completion_tokens": 165
+  },
+  {
+   "seconds": 4.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 6378,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 6470,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 6602,
+   "completion_tokens": 189
+  },
+  {
+   "seconds": 4.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 6733,
+   "completion_tokens": 187
+  },
+  {
+   "seconds": 7.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 7008,
+   "completion_tokens": 277
+  }
+ ],
+ "steps": 12,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 47.707926481962204,
+   "url": "http://127.0.0.1:46175/test33",
+   "goal": "Close the pop-up with 'Rechazar'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 108.61357674002647,
+   "url": "http://127.0.0.1:46175/test33",
+   "goal": "Fill 3 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 122.3150733858347,
+   "url": "http://127.0.0.1:46175/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 117.75363609194756,
+   "url": "http://127.0.0.1:46175/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 48.224763944745064,
+   "url": "http://127.0.0.1:46175/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 46.66852951049805,
+   "url": "http://127.0.0.1:46175/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 46.13206163048744,
+   "url": "http://127.0.0.1:46175/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 46.51438258588314,
+   "url": "http://127.0.0.1:46175/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 46.35332338511944,
+   "url": "http://127.0.0.1:46175/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 46.78139090538025,
+   "url": "http://127.0.0.1:46175/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 46.80129513144493,
+   "url": "http://127.0.0.1:46175/test33",
+   "goal": ""
+  }
+ ]
+}

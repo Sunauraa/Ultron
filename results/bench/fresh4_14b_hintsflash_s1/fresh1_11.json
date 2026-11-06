@@ -1,0 +1,87 @@
+{
+ "form": "fresh1_11",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 44.4,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f5": null,
+   "f6": null,
+   "f7": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "política de cookies",
+  "popup_ok": false,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 1227,
+   "completion_tokens": 87
+  },
+  {
+   "seconds": 11.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 1688,
+   "completion_tokens": 479
+  },
+  {
+   "seconds": 4.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 1844,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 1956,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 2.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 1519,
+   "completion_tokens": 90
+  },
+  {
+   "seconds": 4.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 1537,
+   "completion_tokens": 161
+  },
+  {
+   "seconds": 1.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 1823,
+   "completion_tokens": 76
+  },
+  {
+   "seconds": 1.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 2313,
+   "completion_tokens": 74
+  },
+  {
+   "seconds": 1.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 1827,
+   "completion_tokens": 72
+  }
+ ],
+ "steps": 10,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

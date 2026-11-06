@@ -1,0 +1,184 @@
+{
+ "form": "test2",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "seconds": 252.5,
+ "score": {
+  "blocked": [],
+  "submitted": false,
+  "fields": 8,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 6125,
+   "completion_tokens": 267
+  },
+  {
+   "seconds": 14.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 6274,
+   "completion_tokens": 584
+  },
+  {
+   "seconds": 11.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 6302,
+   "completion_tokens": 464
+  },
+  {
+   "seconds": 15.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 6545,
+   "completion_tokens": 602
+  },
+  {
+   "seconds": 11.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 6625,
+   "completion_tokens": 442
+  },
+  {
+   "seconds": 7.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 6856,
+   "completion_tokens": 275
+  },
+  {
+   "seconds": 7.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 6955,
+   "completion_tokens": 274
+  },
+  {
+   "seconds": 7.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 7935,
+   "completion_tokens": 299
+  },
+  {
+   "seconds": 7.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 8018,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 6.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 8139,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 7.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 8252,
+   "completion_tokens": 274
+  },
+  {
+   "seconds": 7.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 8370,
+   "completion_tokens": 288
+  },
+  {
+   "seconds": 6.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 8568,
+   "completion_tokens": 225
+  },
+  {
+   "seconds": 8.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 8663,
+   "completion_tokens": 320
+  },
+  {
+   "seconds": 5.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 8760,
+   "completion_tokens": 199
+  },
+  {
+   "seconds": 5.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 8860,
+   "completion_tokens": 207
+  },
+  {
+   "seconds": 18.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 8957,
+   "completion_tokens": 712
+  },
+  {
+   "seconds": 7.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 9194,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 7.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 9391,
+   "completion_tokens": 275
+  },
+  {
+   "seconds": 13.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 9485,
+   "completion_tokens": 527
+  },
+  {
+   "seconds": 6.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 9577,
+   "completion_tokens": 225
+  },
+  {
+   "seconds": 6.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 9667,
+   "completion_tokens": 238
+  },
+  {
+   "seconds": 7.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 9776,
+   "completion_tokens": 297
+  },
+  {
+   "seconds": 7.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 9885,
+   "completion_tokens": 267
+  },
+  {
+   "seconds": 8.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 10005,
+   "completion_tokens": 296
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Visited http://127.0.0.1:34455/test2 and filled in most of the form fields using the provided document, leaving some fields empty as instructed. Encountered issues with handling pop-ups or modals and could not submit the form successfully.",
+ "fast": []
+}

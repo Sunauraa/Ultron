@@ -1,0 +1,65 @@
+{
+ "form": "fresh1_17",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 5.9,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.28,
+   "format": "Answers",
+   "prompt_tokens": 264,
+   "completion_tokens": 68
+  },
+  {
+   "seconds": 0.2,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.15,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 7
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 1336.4966996014118,
+   "url": "http://127.0.0.1:37583/fresh1_17",
+   "goal": "Filled 3 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Tham gia lớp học. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 259.1971643269062,
+   "url": "http://127.0.0.1:37583/fresh1_17",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 154.4033009558916,
+   "url": "http://127.0.0.1:37583/fresh1_17",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

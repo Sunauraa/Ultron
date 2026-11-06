@@ -1,0 +1,128 @@
+{
+ "form": "fresh2_16",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 77.8,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 7,
+  "wrong": {
+   "f5": null,
+   "f6": null,
+   "f7": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept optional cookies",
+  "popup_ok": false,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 1218,
+   "completion_tokens": 85
+  },
+  {
+   "seconds": 6.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 1439,
+   "completion_tokens": 248
+  },
+  {
+   "seconds": 4.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 1555,
+   "completion_tokens": 178
+  },
+  {
+   "seconds": 4.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 2098,
+   "completion_tokens": 160
+  },
+  {
+   "seconds": 4.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 1923,
+   "completion_tokens": 168
+  },
+  {
+   "seconds": 4.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 2342,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 4.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 2151,
+   "completion_tokens": 179
+  },
+  {
+   "seconds": 4.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 2593,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 3.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 2095,
+   "completion_tokens": 123
+  },
+  {
+   "seconds": 4.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 2018,
+   "completion_tokens": 166
+  },
+  {
+   "seconds": 2.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 2117,
+   "completion_tokens": 110
+  },
+  {
+   "seconds": 3.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 2220,
+   "completion_tokens": 128
+  },
+  {
+   "seconds": 3.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 2323,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 3.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 2426,
+   "completion_tokens": 127
+  },
+  {
+   "seconds": 4.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 2610,
+   "completion_tokens": 162
+  },
+  {
+   "seconds": 3.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 2848,
+   "completion_tokens": 131
+  }
+ ],
+ "steps": 17,
+ "is_done": true,
+ "success": false,
+ "final": "Failed to complete the task due to issues with filling the State field and verifying the confirmation message.",
+ "fast": []
+}

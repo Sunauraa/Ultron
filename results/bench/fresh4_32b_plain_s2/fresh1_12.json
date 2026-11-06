@@ -1,0 +1,52 @@
+{
+ "form": "fresh1_12",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 27.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "OK",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 5898,
+   "completion_tokens": 178
+  },
+  {
+   "seconds": 7.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 6029,
+   "completion_tokens": 370
+  },
+  {
+   "seconds": 6.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 6167,
+   "completion_tokens": 322
+  },
+  {
+   "seconds": 4.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 6118,
+   "completion_tokens": 198
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully filled and submitted. All required fields were present in the document.",
+ "fast": []
+}

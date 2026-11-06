@@ -1,0 +1,70 @@
+{
+ "form": "test10",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 8.2,
+ "score": {
+  "blocked": [
+   "Nội dung *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {
+   "f6": "Công ty TNHH Minh Long"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.59,
+   "format": "Answers",
+   "prompt_tokens": 284,
+   "completion_tokens": 105
+  },
+  {
+   "seconds": 0.27,
+   "format": "Review",
+   "prompt_tokens": 132,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 2688.931990414858,
+   "url": "http://127.0.0.1:36307/test10",
+   "goal": "Filled 5 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Lĩnh vực; Chi nhánh. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 368.06102842092514,
+   "url": "http://127.0.0.1:36307/test10",
+   "goal": "Sent the form with 'Gửi đi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 171.02025821805,
+   "url": "http://127.0.0.1:36307/test10",
+   "goal": "The page confirmed receipt."
+  }
+ ],
+ "trap": ""
+}

@@ -1,0 +1,58 @@
+{
+ "form": "fresh1_11",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 27.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Rechazar no necesarias",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 1225,
+   "completion_tokens": 78
+  },
+  {
+   "seconds": 4.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 1676,
+   "completion_tokens": 239
+  },
+  {
+   "seconds": 4.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 1781,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 4.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 1893,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 2.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 1465,
+   "completion_tokens": 108
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

@@ -1,0 +1,314 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 185.9,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 5968,
+   "completion_tokens": 229
+  },
+  {
+   "seconds": 5.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 6007,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 5.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 6115,
+   "completion_tokens": 214
+  },
+  {
+   "seconds": 4.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 6229,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 5.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 6309,
+   "completion_tokens": 211
+  },
+  {
+   "seconds": 5.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 6466,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 6.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 6673,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 6.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 6839,
+   "completion_tokens": 269
+  },
+  {
+   "seconds": 6.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 6967,
+   "completion_tokens": 261
+  },
+  {
+   "seconds": 6.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 7150,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 6.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 7336,
+   "completion_tokens": 261
+  },
+  {
+   "seconds": 6.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 7524,
+   "completion_tokens": 240
+  },
+  {
+   "seconds": 6.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 7672,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 5.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 7787,
+   "completion_tokens": 217
+  },
+  {
+   "seconds": 6.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 7914,
+   "completion_tokens": 235
+  },
+  {
+   "seconds": 6.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 8038,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 6.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 8202,
+   "completion_tokens": 245
+  },
+  {
+   "seconds": 5.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 8252,
+   "completion_tokens": 223
+  },
+  {
+   "seconds": 9.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 8444,
+   "completion_tokens": 354
+  },
+  {
+   "seconds": 8.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 8545,
+   "completion_tokens": 339
+  },
+  {
+   "seconds": 21.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 8701,
+   "completion_tokens": 826
+  },
+  {
+   "seconds": 8.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 8822,
+   "completion_tokens": 335
+  },
+  {
+   "seconds": 5.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 9047,
+   "completion_tokens": 221
+  }
+ ],
+ "steps": 24,
+ "is_done": true,
+ "success": false,
+ "final": "Unable to locate the correct form page despite multiple attempts. The provided URL(s) did not contain a visible or dynamically loaded form. Please check if there are any additional instructions or alternative URLs provided.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 48.81967231631279,
+   "url": "http://127.0.0.1:42183/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.30975230038166046,
+   "url": "http://127.0.0.1:42183/fresh1_4/form-page-url-here",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.005668193101883,
+   "url": "http://127.0.0.1:42183/fresh1_4/form-page-url-here",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.6846805810928345,
+   "url": "http://127.0.0.1:42183/fresh1_4/form-page-url-here",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2785343676805496,
+   "url": "http://127.0.0.1:42183/fresh1_4/form-page-url-here",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4493800699710846,
+   "url": "http://127.0.0.1:42183/fresh1_4/form-page-url-here",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.28432905673980713,
+   "url": "http://127.0.0.1:42183/fresh1_4/form-page-url-here",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.28432905673980713,
+   "url": "http://127.0.0.1:42183/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.1822320520877838,
+   "url": "http://127.0.0.1:42183/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2751089632511139,
+   "url": "http://127.0.0.1:42183/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4657936990261078,
+   "url": "http://127.0.0.1:42183/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.6575120389461517,
+   "url": "http://127.0.0.1:42183/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.3569071888923645,
+   "url": "http://127.0.0.1:42183/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.19947253167629242,
+   "url": "http://127.0.0.1:42183/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.420116052031517,
+   "url": "http://127.0.0.1:42183/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.3872217386960983,
+   "url": "http://127.0.0.1:42183/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4158561825752258,
+   "url": "http://127.0.0.1:42183/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2319496124982834,
+   "url": "http://127.0.0.1:42183/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2117641270160675,
+   "url": "http://127.0.0.1:42183/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.2283269315958023,
+   "url": "about:blank",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.493869349360466,
+   "url": "about:blank",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4377869665622711,
+   "url": "about:blank",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5155225992202759,
+   "url": "about:blank",
+   "goal": ""
+  }
+ ]
+}

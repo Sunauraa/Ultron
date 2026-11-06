@@ -1,0 +1,49 @@
+{
+ "form": "fresh1_5",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 26.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f1": "+84934567890",
+   "f6": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 10.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 6401,
+   "completion_tokens": 513
+  },
+  {
+   "seconds": 5.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 6649,
+   "completion_tokens": 273
+  },
+  {
+   "seconds": 5.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 6140,
+   "completion_tokens": 255
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted with the following information: Full Name: Phạm Thu Hà, Phone Number: +84934567890, Email Address: ha.pham@example.com. Other fields were left empty as they are not present in the document.",
+ "fast": []
+}

@@ -1,0 +1,60 @@
+{
+ "form": "fresh2_6",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 13.5,
+ "score": {
+  "blocked": [
+   "Closest Main Intersection:*",
+   "Occupation*",
+   "Why do you want to volunteer with us?*",
+   "Please briefly outline your pet owning history*",
+   "For how long are you looking to volunteer?*",
+   "How did you hear about Abbey Cat Adoptions?*"
+  ],
+  "unclear": [
+   "Full Home Address:*"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 3,
+  "wrong": {
+   "f0": null,
+   "f4": null,
+   "f5": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.6,
+   "format": "Answers",
+   "prompt_tokens": 485,
+   "completion_tokens": 349
+  }
+ ],
+ "steps": 3,
+ "is_done": true,
+ "success": false,
+ "final": "Nothing was sent. The form requires these and the document has no value for them: Closest Main Intersection; Home Phone; Occupation; Why do you want to volunteer with us?; Please briefly outline your pet owning history; For how long are you looking to volunteer?; How did you hear about Abbey Cat Adoptions?.",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 9068.03542561829,
+   "url": "http://127.0.0.1:45947/fresh2_6",
+   "goal": "Filled 4 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Closest Main Intersection:*; Age Range:*; Home Phone:*; Occupation*; Work Phone:; Why do you want to volunteer with us?*; Please briefly outline your pet owning history*; Do you have any relevant experience or applicable skills you’d like us to know about?; Driving: Please indicate the area in which you are willing to drive to / from; If so, please indicate what digital software you are familiar with; Social Media Contributor; Additional Information; For how long are you looking to volunteer?*; How did you hear about Abbey Cat Adoptions?*; Are you familiar with Google Spreadsheets/Gmail?*; Cat Adoption Counsellor - In Home Visits; Are you willing to travel to foster parents’ homes?; Cat Adoption Counsellor - “Screener” - Phone Interviews; Do you have experience building/maintaining websites?; Are you able to edit images?*. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "stop",
+   "milliseconds": 455.34559711813927,
+   "url": "http://127.0.0.1:45947/fresh2_6",
+   "goal": "Nothing was sent. The form requires these and the document has no value for them: Closest Main Intersection; Home Phone; Occupation; Why do you want to volunteer with us?; Please briefly outline your pet owning history; For how long are you looking to volunteer?; How did you hear about Abbey Cat Adoptions?."
+  }
+ ]
+}

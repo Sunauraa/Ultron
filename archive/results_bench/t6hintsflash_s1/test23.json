@@ -1,0 +1,45 @@
+{
+ "form": "test23",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "seconds": 15.6,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 2591,
+   "completion_tokens": 242
+  },
+  {
+   "seconds": 1.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 2815,
+   "completion_tokens": 69
+  },
+  {
+   "seconds": 2.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 1331,
+   "completion_tokens": 99
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

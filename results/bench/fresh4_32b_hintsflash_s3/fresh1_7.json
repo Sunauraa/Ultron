@@ -1,0 +1,72 @@
+{
+ "form": "fresh1_7",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 43.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {
+   "f1": "21/06/1995"
+  },
+  "missing_consent": [],
+  "popup_choice": "Nu, mulțumesc",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 1207,
+   "completion_tokens": 89
+  },
+  {
+   "seconds": 5.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 1341,
+   "completion_tokens": 274
+  },
+  {
+   "seconds": 6.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 1507,
+   "completion_tokens": 335
+  },
+  {
+   "seconds": 8.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 1643,
+   "completion_tokens": 455
+  },
+  {
+   "seconds": 4.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 1737,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 3.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 1812,
+   "completion_tokens": 196
+  },
+  {
+   "seconds": 2.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 1710,
+   "completion_tokens": 116
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

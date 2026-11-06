@@ -1,0 +1,206 @@
+{
+ "form": "fresh1_1",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "seconds": 165.7,
+ "score": {
+  "blocked": [
+   "Subdivision *",
+   "Emergency Contact Name *",
+   "Emergency Contact Number *",
+   "What volunteer opportunities interest you? *",
+   "Please list any previous volunteer experience you have *",
+   "Do you have any special skills or training? *",
+   "Please explain your level of proficiency (Native/Fluent, Advanced, Intermediate or Basic) *",
+   "What is your purpose for volunteering? *",
+   "Do you have any restrictions or limitations for service? (i.e., health concerns, allergies, etc.) *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "Please provide details below *",
+   "Please provide details below *",
+   "Please provide details below *"
+  ],
+  "submitted": false,
+  "fields": 9,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null,
+   "f9": null,
+   "f10": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 6676,
+   "completion_tokens": 194
+  },
+  {
+   "seconds": 9.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 7444,
+   "completion_tokens": 360
+  },
+  {
+   "seconds": 5.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 7719,
+   "completion_tokens": 209
+  },
+  {
+   "seconds": 5.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 7653,
+   "completion_tokens": 220
+  },
+  {
+   "seconds": 5.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 7736,
+   "completion_tokens": 207
+  },
+  {
+   "seconds": 7.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 7805,
+   "completion_tokens": 275
+  },
+  {
+   "seconds": 6.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 7915,
+   "completion_tokens": 246
+  },
+  {
+   "seconds": 7.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 7973,
+   "completion_tokens": 263
+  },
+  {
+   "seconds": 7.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 8088,
+   "completion_tokens": 287
+  },
+  {
+   "seconds": 6.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 8205,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 7.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 8326,
+   "completion_tokens": 280
+  },
+  {
+   "seconds": 6.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 8431,
+   "completion_tokens": 248
+  },
+  {
+   "seconds": 5.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 8503,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 5.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 8578,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 5.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 8642,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 5.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 8706,
+   "completion_tokens": 193
+  },
+  {
+   "seconds": 5.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 8770,
+   "completion_tokens": 190
+  },
+  {
+   "seconds": 5.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 8883,
+   "completion_tokens": 192
+  },
+  {
+   "seconds": 5.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 9048,
+   "completion_tokens": 188
+  },
+  {
+   "seconds": 4.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 9111,
+   "completion_tokens": 170
+  },
+  {
+   "seconds": 5.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 9169,
+   "completion_tokens": 197
+  },
+  {
+   "seconds": 5.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 9236,
+   "completion_tokens": 205
+  },
+  {
+   "seconds": 5.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 9317,
+   "completion_tokens": 207
+  },
+  {
+   "seconds": 5.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 9427,
+   "completion_tokens": 190
+  },
+  {
+   "seconds": 10.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 9507,
+   "completion_tokens": 383
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Form submission attempted with the following values:\n- First Name: Jordan\n- Last Name: Reed\n- Address1: 742 Cedar Lane\n- Subdivision: (left empty)\n- Phone: +1503-555-0147\n- Email: jordan.reed@example.com\n- City: Portland\n- State: Oregon\n- Zip: (left empty)\n- Date of Birth: 02/17/1990\n- Emergency Contact Name: (left empty)\n- Emergency Contact Number: (left empty)\n- Volunteer Opportunities Interest: (left empty)\n- Previous Volunteer Experience: (left empty)\n- Special Skills or Training: (left empty)\n- Purpose for Volunteering: (left empty)\n- Restrictions or Limitations for Service: (left empty)\nThe form was not fully completed due to missing required fields.\nsuccess: false",
+ "fast": []
+}

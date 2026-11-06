@@ -1,0 +1,71 @@
+{
+ "form": "fresh1_13",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 8.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Reject optional cookies",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.29,
+   "format": "Answers",
+   "prompt_tokens": 302,
+   "completion_tokens": 92
+  },
+  {
+   "seconds": 0.27,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 49.18893426656723,
+   "url": "http://127.0.0.1:39697/fresh1_13",
+   "goal": "Close the pop-up with 'Reject optional cookies'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2288.841614499688,
+   "url": "http://127.0.0.1:39697/fresh1_13",
+   "goal": "Filled 3 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Mã số sinh viên TDTU:; Bạn đã thi chứng chỉ chưa? Nếu đã từng thi, số điểm đạt được là bao nhiêu?; Ghi chú:. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 268.11258867383003,
+   "url": "http://127.0.0.1:39697/fresh1_13",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 172.40278609097004,
+   "url": "http://127.0.0.1:39697/fresh1_13",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

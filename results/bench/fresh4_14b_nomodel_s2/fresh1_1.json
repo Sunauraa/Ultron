@@ -1,0 +1,357 @@
+{
+ "form": "fresh1_1",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 290.9,
+ "score": {
+  "blocked": [
+   "Subdivision *",
+   "Emergency Contact Name *",
+   "Emergency Contact Number *",
+   "What volunteer opportunities interest you? *",
+   "Please list any previous volunteer experience you have *",
+   "Do you have any special skills or training? *",
+   "Please explain your level of proficiency (Native/Fluent, Advanced, Intermediate or Basic) *",
+   "What is your purpose for volunteering? *",
+   "Do you have any restrictions or limitations for service? (i.e., health concerns, allergies, etc.) *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "Please provide details below *",
+   "Please provide details below *",
+   "Please provide details below *"
+  ],
+  "unclear": [
+   "First Name *",
+   "Last Name *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 9,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null,
+   "f9": null,
+   "f10": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 7418,
+   "completion_tokens": 336
+  },
+  {
+   "seconds": 8.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 7687,
+   "completion_tokens": 301
+  },
+  {
+   "seconds": 8.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 7771,
+   "completion_tokens": 332
+  },
+  {
+   "seconds": 9.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 7848,
+   "completion_tokens": 355
+  },
+  {
+   "seconds": 9.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 7940,
+   "completion_tokens": 364
+  },
+  {
+   "seconds": 9.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 8043,
+   "completion_tokens": 358
+  },
+  {
+   "seconds": 6.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 8151,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 7.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 8099,
+   "completion_tokens": 279
+  },
+  {
+   "seconds": 7.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 8164,
+   "completion_tokens": 261
+  },
+  {
+   "seconds": 6.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 8259,
+   "completion_tokens": 245
+  },
+  {
+   "seconds": 9.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 8336,
+   "completion_tokens": 359
+  },
+  {
+   "seconds": 8.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 8399,
+   "completion_tokens": 315
+  },
+  {
+   "seconds": 9.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 8458,
+   "completion_tokens": 355
+  },
+  {
+   "seconds": 13.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 8523,
+   "completion_tokens": 523
+  },
+  {
+   "seconds": 5.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 8626,
+   "completion_tokens": 219
+  },
+  {
+   "seconds": 3.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 8634,
+   "completion_tokens": 135
+  },
+  {
+   "seconds": 4.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 8682,
+   "completion_tokens": 143
+  },
+  {
+   "seconds": 4.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 8817,
+   "completion_tokens": 142
+  },
+  {
+   "seconds": 4.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 8868,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 4.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 8919,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 4.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 9052,
+   "completion_tokens": 165
+  },
+  {
+   "seconds": 5.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 9078,
+   "completion_tokens": 195
+  },
+  {
+   "seconds": 5.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 9159,
+   "completion_tokens": 196
+  },
+  {
+   "seconds": 7.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 9256,
+   "completion_tokens": 272
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "All required fields have been filled in according to the provided document. The consent checkbox has been ticked if required. However, despite clicking the submit button multiple times, no confirmation message or change in page content was observed indicating successful form submission. Therefore, setting success to false.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 56.76477216184139,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": "Close the pop-up with 'Endast nödvändiga'"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 101387.09574751556,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.6637258231639862,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5368927270174026,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5959776937961578,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.3451017439365387,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4125015586614609,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4169029891490936,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.6706399619579315,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5095844864845276,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.6459878534078598,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5081167221069336,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4500077813863754,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.2701619416475296,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.3293884694576263,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.670781522989273,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4648139476776123,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.058816909790039,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.3271514326334,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.1036582291126251,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.356557011604309,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.0831952095031738,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.0436605662107468,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.0437984019517899,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.3016629964113235,
+   "url": "http://127.0.0.1:36705/fresh1_1",
+   "goal": ""
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "form": "test4",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 19.7,
+ "score": {
+  "submitted": true,
+  "fields": 9,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "ÖSSZES ELUTASÍTÁSA",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.49,
+   "format": "Answers",
+   "prompt_tokens": 270,
+   "completion_tokens": 101
+  },
+  {
+   "seconds": 4.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 6449,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 6135,
+   "completion_tokens": 186
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 57.35647678375244,
+   "url": "http://127.0.0.1:38253/test4",
+   "goal": "Close the pop-up with 'ÖSSZES ELUTASÍTÁSA'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2685.3401362895966,
+   "url": "http://127.0.0.1:38253/test4",
+   "goal": "Filled 9 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Address2; Please enter your question / comment in the space provided below, providing detailed information so we can better assist you. *. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 186.54914759099483,
+   "url": "http://127.0.0.1:38253/test4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2942495048046112,
+   "url": "http://127.0.0.1:38253/test4",
+   "goal": ""
+  }
+ ]
+}

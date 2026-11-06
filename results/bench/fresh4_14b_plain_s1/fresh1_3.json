@@ -1,0 +1,126 @@
+{
+ "form": "fresh1_3",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 461.3,
+ "score": {
+  "blocked": [],
+  "unclear": [
+   "Complete Home Address: Be sure to include the CITY, STATE, and ZIP CODE (Please double-check for accuracy—your card will be mailed to this address.) If you are an MSMS student, please skip this section and enter \"N/A.\" All other students are required to answer this question.",
+   "Complete Mailing Address: Include CITY, STATE, and ZIP CODE. (Only if different from your home address. Please ensure this information is accurate—your card will be mailed here.) If you are an MSMS student, please skip this section and enter \"N/A.\" All other students are required to answer this question."
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f5": null,
+   "f7": null,
+   "f9": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 9.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 6641,
+   "completion_tokens": 347
+  },
+  {
+   "seconds": 7.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 6912,
+   "completion_tokens": 301
+  },
+  {
+   "seconds": 9.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 6981,
+   "completion_tokens": 360
+  },
+  {
+   "seconds": 9.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 7132,
+   "completion_tokens": 357
+  },
+  {
+   "seconds": 9.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 7261,
+   "completion_tokens": 351
+  },
+  {
+   "seconds": 9.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 7378,
+   "completion_tokens": 374
+  },
+  {
+   "seconds": 5.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 7487,
+   "completion_tokens": 213
+  },
+  {
+   "seconds": 4.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 7429,
+   "completion_tokens": 155
+  },
+  {
+   "seconds": 3.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 7485,
+   "completion_tokens": 140
+  },
+  {
+   "seconds": 4.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 7541,
+   "completion_tokens": 152
+  },
+  {
+   "seconds": 5.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 7599,
+   "completion_tokens": 199
+  },
+  {
+   "seconds": 5.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 7699,
+   "completion_tokens": 215
+  },
+  {
+   "seconds": 5.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 7831,
+   "completion_tokens": 205
+  },
+  {
+   "seconds": 5.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 7920,
+   "completion_tokens": 201
+  },
+  {
+   "seconds": 8.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 8002,
+   "completion_tokens": 310
+  }
+ ],
+ "steps": 14,
+ "is_done": true,
+ "success": false,
+ "final": "The form was filled out with all available information from the provided document. However, after submitting the form multiple times, there was no indication of successful submission on the page. Therefore, I am unable to confirm that the form was submitted successfully.",
+ "fast": []
+}

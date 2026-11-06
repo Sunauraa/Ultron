@@ -1,0 +1,60 @@
+{
+ "form": "fresh2_19",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 36.9,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 5,
+  "wrong": {
+   "f3": "(503) 555-0147"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 5979,
+   "completion_tokens": 372
+  },
+  {
+   "seconds": 6.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 6206,
+   "completion_tokens": 314
+  },
+  {
+   "seconds": 7.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 6298,
+   "completion_tokens": 357
+  },
+  {
+   "seconds": 6.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 6263,
+   "completion_tokens": 316
+  },
+  {
+   "seconds": 3.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 6281,
+   "completion_tokens": 188
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed. All required fields were filled with data from the document.",
+ "fast": []
+}

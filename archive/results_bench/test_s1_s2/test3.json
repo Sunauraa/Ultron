@@ -1,0 +1,208 @@
+{
+ "form": "test3",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 138.9,
+ "score": {
+  "submitted": true,
+  "fields": 6,
+  "wrong": {
+   "f11": null,
+   "f12": null,
+   "f13": null,
+   "f14": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Endast nödvändiga",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 14.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 6377,
+   "completion_tokens": 542
+  },
+  {
+   "seconds": 6.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 6557,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 8.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 6696,
+   "completion_tokens": 314
+  },
+  {
+   "seconds": 7.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 6830,
+   "completion_tokens": 302
+  },
+  {
+   "seconds": 9.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 6952,
+   "completion_tokens": 376
+  },
+  {
+   "seconds": 7.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 7038,
+   "completion_tokens": 282
+  },
+  {
+   "seconds": 7.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 7153,
+   "completion_tokens": 268
+  },
+  {
+   "seconds": 6.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 7250,
+   "completion_tokens": 263
+  },
+  {
+   "seconds": 7.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 7344,
+   "completion_tokens": 303
+  },
+  {
+   "seconds": 6.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 7445,
+   "completion_tokens": 264
+  },
+  {
+   "seconds": 6.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 7577,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 23.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 7666,
+   "completion_tokens": 914
+  },
+  {
+   "seconds": 5.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 7757,
+   "completion_tokens": 218
+  },
+  {
+   "seconds": 4.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 7319,
+   "completion_tokens": 170
+  }
+ ],
+ "steps": 17,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 47.184837982058525,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": "Close the pop-up with 'Endast nödvändiga'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 294.9116323143244,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": "Fill 2 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 287.77830488979816,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 306.36013485491276,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 290.0398951023817,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 302.2021222859621,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 291.2683002650738,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 336.83370240032673,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 329.7070115804672,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 301.57432332634926,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 309.7302932292223,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 302.8611149638891,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 303.6061991006136,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 296.269491314888,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 312.07752227783203,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5199203044176102,
+   "url": "http://127.0.0.1:46175/test3",
+   "goal": ""
+  }
+ ]
+}

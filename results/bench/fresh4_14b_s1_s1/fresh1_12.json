@@ -1,0 +1,71 @@
+{
+ "form": "fresh1_12",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 7.8,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "OK",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.62,
+   "format": "Answers",
+   "prompt_tokens": 278,
+   "completion_tokens": 65
+  },
+  {
+   "seconds": 0.27,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 45.73976248502731,
+   "url": "http://127.0.0.1:45329/fresh1_12",
+   "goal": "Close the pop-up with 'OK'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1685.7284475117922,
+   "url": "http://127.0.0.1:45329/fresh1_12",
+   "goal": "Filled 4 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Workshop bạn muốn đăng ký. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 342.062346637249,
+   "url": "http://127.0.0.1:45329/fresh1_12",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 172.10060730576515,
+   "url": "http://127.0.0.1:45329/fresh1_12",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

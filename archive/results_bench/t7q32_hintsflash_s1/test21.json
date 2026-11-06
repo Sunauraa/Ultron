@@ -1,0 +1,53 @@
+{
+ "form": "test21",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "seconds": 21.8,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 7,
+  "wrong": {
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Configurar",
+  "popup_ok": false,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 1143,
+   "completion_tokens": 85
+  },
+  {
+   "seconds": 8.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 3008,
+   "completion_tokens": 419
+  },
+  {
+   "seconds": 3.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 3292,
+   "completion_tokens": 124
+  },
+  {
+   "seconds": 1.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 1457,
+   "completion_tokens": 92
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

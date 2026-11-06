@@ -1,0 +1,53 @@
+{
+ "form": "fresh2_14",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 25.2,
+ "score": {
+  "blocked": [
+   "Message *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 6900,
+   "completion_tokens": 314
+  },
+  {
+   "seconds": 7.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 7065,
+   "completion_tokens": 339
+  },
+  {
+   "seconds": 6.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 7157,
+   "completion_tokens": 303
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": false,
+ "final": "Could not complete the form submission because the 'Message' field is required but missing from the provided document.",
+ "fast": []
+}

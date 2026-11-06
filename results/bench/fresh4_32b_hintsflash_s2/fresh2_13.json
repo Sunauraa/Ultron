@@ -1,0 +1,187 @@
+{
+ "form": "fresh2_13",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 127.2,
+ "score": {
+  "blocked": [
+   "Comments-Question *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 6,
+  "wrong": {
+   "f1": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 1248,
+   "completion_tokens": 75
+  },
+  {
+   "seconds": 4.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 1361,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 4.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 1475,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 3.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 1617,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 3.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 1700,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 3.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 1784,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 3.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 1868,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 2.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 2001,
+   "completion_tokens": 141
+  },
+  {
+   "seconds": 2.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 2089,
+   "completion_tokens": 146
+  },
+  {
+   "seconds": 3.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 2216,
+   "completion_tokens": 146
+  },
+  {
+   "seconds": 2.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 2309,
+   "completion_tokens": 133
+  },
+  {
+   "seconds": 2.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 2389,
+   "completion_tokens": 133
+  },
+  {
+   "seconds": 4.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 2472,
+   "completion_tokens": 235
+  },
+  {
+   "seconds": 4.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 2573,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 4.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 2671,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 4.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 2765,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 4.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 2862,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 4.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 2959,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 4.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 3140,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 4.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 3237,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 4.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 3334,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 3.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 3431,
+   "completion_tokens": 169
+  },
+  {
+   "seconds": 2.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 3520,
+   "completion_tokens": 133
+  },
+  {
+   "seconds": 2.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 3600,
+   "completion_tokens": 103
+  },
+  {
+   "seconds": 4.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 3695,
+   "completion_tokens": 202
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "The form was filled with the following details: Name - Jordan Avery Reed, Address - 742 Cedar Lane, City - Portland, State - Oregon, ZIP Code - 97201, Email - jordan.reed@example.com, Comments-Question left empty. The form was submitted but did not progress as expected. Task completion status is uncertain due to lack of confirmation from the page.",
+ "fast": []
+}

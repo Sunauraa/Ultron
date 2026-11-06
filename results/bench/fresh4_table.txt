@@ -1,0 +1,327 @@
+
+All: 42 forms, 3 seeds. Totals per seed on average.
+                                           14B default                   14B tuned                  14B Ultron  14B Ultron, conformal gate          14B no forms model                 32B default                   32B tuned                  32B Ultron
+Handled correctly                                 19.3                        15.7                        31.0                        32.0                        33.0                        17.0                        24.0                        35.0
+LLM calls                                        429.0                       391.0                       132.0                       138.3                       166.3                       222.3                       306.0                       120.3
+Seconds                                         3696.0                      2422.5                       798.0                       628.1                       944.5                      2035.1                      1681.7                       427.3
+Prompt tokens                                3053489.7                    955947.3                    165284.3                    218361.7                    465330.3                   1504041.7                    753467.0                     85231.3
+Completion tokens                             112114.7                     65472.3                     11469.0                     13931.0                     22446.3                     75699.0                     59681.3                      9192.3
+Submitted                                         33.7                        35.7                        36.0                        36.0                        36.0                        32.7                        37.0                        36.0
+Sent despite a gap                                 0.0                         0.7                         0.0                         0.0                         0.0                         0.0                         0.3                         0.0
+Fields wrong or empty                             35.3                        35.7                         3.0                         2.0                         2.0                        41.0                        14.7                         1.0
+Wrong, on sent forms                              21.0                        28.3                         3.0                         2.0                         2.0                        21.3                        13.7                         1.0
+Claimed success, unsent                            0.7                         0.0                         0.0                         0.0                         0.0                         0.0                         0.3                         0.0
+Choice controls answered                          14.0                        10.3                         0.0                         0.0                         0.0                        12.3                        15.0                         1.0
+Extra fields filled                                5.3                        20.3                        16.7                        13.3                        13.3                         6.7                        12.3                        13.0
+Pop-up bad choices                                 4.7                         5.0                         0.0                         0.0                         0.0                         3.0                         3.0                         1.7
+Pop-up traps                                       0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0
+
+Completable, with a clear answer for every required field: 36 forms, 3 seeds. Totals per seed on average.
+                                           14B default                   14B tuned                  14B Ultron  14B Ultron, conformal gate          14B no forms model                 32B default                   32B tuned                  32B Ultron
+Handled correctly                                 18.0                        15.0                        28.0                        29.0                        30.0                        15.3                        21.7                        31.0
+LLM calls                                        309.3                       269.3                       114.0                       114.0                       115.3                       176.3                       198.3                       110.7
+Seconds                                         2484.6                      1674.1                       383.7                       388.3                       391.8                      1587.2                      1077.3                       336.9
+Prompt tokens                                2122485.7                    592338.0                     74678.3                     74874.7                     83673.7                   1157545.7                    395292.7                     52771.0
+Completion tokens                              82618.7                     46142.0                      6952.3                      7260.7                      7696.3                     58035.0                     37482.7                      6610.3
+Submitted                                         33.7                        34.7                        36.0                        36.0                        36.0                        32.7                        35.7                        36.0
+Sent despite a gap                                 0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0
+Fields wrong or empty                             31.3                        32.7                         3.0                         2.0                         2.0                        37.0                        14.7                         1.0
+Wrong, on sent forms                              21.0                        27.7                         3.0                         2.0                         2.0                        21.3                        13.7                         1.0
+Claimed success, unsent                            0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0
+Choice controls answered                          14.0                        10.0                         0.0                         0.0                         0.0                        12.3                        14.0                         1.0
+Extra fields filled                                5.3                        19.7                        16.7                        13.3                        13.3                         6.7                        11.7                        13.0
+Pop-up bad choices                                 4.7                         4.7                         0.0                         0.0                         0.0                         3.0                         3.0                         1.7
+Pop-up traps                                       0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0
+
+en: 22 forms, 3 seeds. Totals per seed on average.
+                                           14B default                   14B tuned                  14B Ultron  14B Ultron, conformal gate          14B no forms model                 32B default                   32B tuned                  32B Ultron
+Handled correctly                                  6.0                         7.3                        15.0                        16.0                        16.0                         5.7                        12.7                        18.0
+LLM calls                                        291.0                       216.0                        67.0                        73.3                       100.0                       131.3                       189.0                        58.7
+Seconds                                         2642.0                      1343.8                       583.6                       412.0                       723.3                      1267.2                      1053.6                       244.4
+Prompt tokens                                2149350.7                    552855.0                    105274.0                    158221.0                    396443.7                    916530.0                    523962.0                     47129.7
+Completion tokens                              76761.7                     34474.7                      7423.7                      9757.7                     17993.7                     46217.3                     37283.0                      5560.7
+Submitted                                         14.3                        17.0                        16.0                        16.0                        16.0                        14.3                        17.0                        16.0
+Sent despite a gap                                 0.0                         0.7                         0.0                         0.0                         0.0                         0.0                         0.3                         0.0
+Fields wrong or empty                             26.3                        18.0                         3.0                         2.0                         2.0                        26.0                         7.0                         1.0
+Wrong, on sent forms                              14.3                        15.7                         3.0                         2.0                         2.0                        13.0                         6.0                         1.0
+Claimed success, unsent                            0.7                         0.0                         0.0                         0.0                         0.0                         0.0                         0.3                         0.0
+Choice controls answered                           7.0                         8.0                         0.0                         0.0                         0.0                         5.7                         9.0                         0.0
+Extra fields filled                                3.0                         8.0                         8.7                         6.0                         6.3                         3.7                         5.0                         7.0
+Pop-up bad choices                                 2.0                         1.7                         0.0                         0.0                         0.0                         1.0                         1.0                         1.0
+Pop-up traps                                       0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0
+
+vi: 20 forms, 3 seeds. Totals per seed on average.
+                                           14B default                   14B tuned                  14B Ultron  14B Ultron, conformal gate          14B no forms model                 32B default                   32B tuned                  32B Ultron
+Handled correctly                                 13.3                         8.3                        16.0                        16.0                        17.0                        11.3                        11.3                        17.0
+LLM calls                                        138.0                       175.0                        65.0                        65.0                        66.3                        91.0                       117.0                        61.7
+Seconds                                         1054.0                      1078.7                       214.4                       216.1                       221.2                       767.9                       628.1                       182.9
+Prompt tokens                                 904139.0                    403092.3                     60010.3                     60140.7                     68886.7                    587511.7                    229505.0                     38101.7
+Completion tokens                              35353.0                     30997.7                      4045.3                      4173.3                      4452.7                     29481.7                     22398.3                      3631.7
+Submitted                                         19.3                        18.7                        20.0                        20.0                        20.0                        18.3                        20.0                        20.0
+Sent despite a gap                                 0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0
+Fields wrong or empty                              9.0                        17.7                         0.0                         0.0                         0.0                        15.0                         7.7                         0.0
+Wrong, on sent forms                               6.7                        12.7                         0.0                         0.0                         0.0                         8.3                         7.7                         0.0
+Claimed success, unsent                            0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0
+Choice controls answered                           7.0                         2.3                         0.0                         0.0                         0.0                         6.7                         6.0                         1.0
+Extra fields filled                                2.3                        12.3                         8.0                         7.3                         7.0                         3.0                         7.3                         6.0
+Pop-up bad choices                                 2.7                         3.3                         0.0                         0.0                         0.0                         2.0                         2.0                         0.7
+Pop-up traps                                       0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0                         0.0
+
+All: 42 forms. First arm minus second, with the 95% interval on the gap.
+  14B Ultron vs 14B default
+    Handled correctly               +11.7   +60%   [+6.0, +17.3]
+    LLM calls                      -297.0   -69%   [-376.3, -223.3]
+    Seconds                       -2898.0   -78%   [-3859.4, -1971.2]
+    Prompt tokens              -2888205.3   -95%   [-3522664.0, -2300958.0]
+    Completion tokens           -100645.7   -90%   [-121125.7, -81082.7]
+    Submitted                        +2.3    +7%   [+1.0, +4.0]
+    Sent despite a gap               +0.0          [+0.0, +0.0]
+    Fields wrong or empty           -32.3   -92%   [-46.3, -20.0]
+    Wrong, on sent forms            -18.0   -86%   [-27.7, -9.3]
+    Claimed success, unsent          -0.7  -100%   [-1.7, +0.0]
+    Choice controls answered        -14.0  -100%   [-21.0, -7.7]
+    Extra fields filled             +11.3  +213%   [+0.7, +24.3]
+    Pop-up bad choices               -4.7  -100%   [-9.0, -1.0]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+  14B Ultron vs 14B tuned
+    Handled correctly               +15.3   +98%   [+10.0, +20.7]
+    LLM calls                      -259.0   -66%   [-355.3, -172.7]
+    Seconds                       -1624.5   -67%   [-2417.3, -778.0]
+    Prompt tokens               -790663.0   -83%   [-1116081.0, -492539.3]
+    Completion tokens            -54003.3   -82%   [-71497.0, -37351.7]
+    Submitted                        +0.3    +1%   [-1.7, +2.3]
+    Sent despite a gap               -0.7  -100%   [-1.7, +0.0]
+    Fields wrong or empty           -32.7   -92%   [-46.0, -20.7]
+    Wrong, on sent forms            -25.3   -89%   [-34.3, -16.7]
+    Claimed success, unsent          +0.0          [+0.0, +0.0]
+    Choice controls answered        -10.3  -100%   [-15.3, -5.7]
+    Extra fields filled              -3.7   -18%   [-13.7, +8.0]
+    Pop-up bad choices               -5.0  -100%   [-8.7, -2.0]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+  32B Ultron vs 32B default
+    Handled correctly               +18.0  +106%   [+13.0, +23.3]
+    LLM calls                      -102.0   -46%   [-152.7, -62.0]
+    Seconds                       -1607.8   -79%   [-2180.4, -1154.8]
+    Prompt tokens              -1418810.3   -94%   [-1830940.7, -1103757.3]
+    Completion tokens            -66506.7   -88%   [-87749.7, -50035.7]
+    Submitted                        +3.3   +10%   [+1.3, +5.7]
+    Sent despite a gap               +0.0          [+0.0, +0.0]
+    Fields wrong or empty           -40.0   -98%   [-56.0, -26.0]
+    Wrong, on sent forms            -20.3   -95%   [-27.7, -13.7]
+    Claimed success, unsent          +0.0          [+0.0, +0.0]
+    Choice controls answered        -11.3   -92%   [-16.7, -6.3]
+    Extra fields filled              +6.3   +95%   [-2.7, +19.0]
+    Pop-up bad choices               -1.3   -44%   [-3.7, +0.0]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+  32B Ultron vs 32B tuned
+    Handled correctly               +11.0   +46%   [+6.7, +15.7]
+    LLM calls                      -185.7   -61%   [-273.3, -109.7]
+    Seconds                       -1254.4   -75%   [-1731.6, -839.2]
+    Prompt tokens               -668235.7   -89%   [-990833.3, -399293.7]
+    Completion tokens            -50489.0   -85%   [-69044.7, -34647.7]
+    Submitted                        -1.0    -3%   [-3.3, +0.7]
+    Sent despite a gap               -0.3  -100%   [-1.0, +0.0]
+    Fields wrong or empty           -13.7   -93%   [-20.7, -7.7]
+    Wrong, on sent forms            -12.7   -93%   [-19.3, -6.7]
+    Claimed success, unsent          -0.3  -100%   [-1.0, +0.0]
+    Choice controls answered        -14.0   -93%   [-20.0, -8.3]
+    Extra fields filled              +0.7    +5%   [-8.3, +12.3]
+    Pop-up bad choices               -1.3   -44%   [-4.7, +1.3]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+  14B Ultron vs 14B no forms model
+    Handled correctly                -2.0    -6%   [-5.0, +0.0]
+    LLM calls                       -34.3   -21%   [-90.7, +0.0]
+    Seconds                        -146.5   -16%   [-898.4, +468.4]
+    Prompt tokens               -300046.0   -64%   [-792303.3, -282.0]
+    Completion tokens            -10977.3   -49%   [-28022.3, -674.3]
+    Submitted                        +0.0    +0%   [+0.0, +0.0]
+    Sent despite a gap               +0.0          [+0.0, +0.0]
+    Fields wrong or empty            +1.0   +50%   [+0.0, +3.0]
+    Wrong, on sent forms             +1.0   +50%   [+0.0, +3.0]
+    Claimed success, unsent          +0.0          [+0.0, +0.0]
+    Choice controls answered         +0.0          [+0.0, +0.0]
+    Extra fields filled              +3.3   +25%   [-2.0, +10.0]
+    Pop-up bad choices               +0.0          [+0.0, +0.0]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+  14B Ultron, conformal gate vs 14B Ultron
+    Handled correctly                +1.0    +3%   [+0.0, +3.0]
+    LLM calls                        +6.3    +5%   [+0.0, +19.0]
+    Seconds                        -169.9   -21%   [-543.6, +26.3]
+    Prompt tokens                +53077.3   +32%   [+138.0, +158860.7]
+    Completion tokens             +2462.0   +21%   [+266.3, +6458.7]
+    Submitted                        +0.0    +0%   [+0.0, +0.0]
+    Sent despite a gap               +0.0          [+0.0, +0.0]
+    Fields wrong or empty            -1.0   -33%   [-3.0, +0.0]
+    Wrong, on sent forms             -1.0   -33%   [-3.0, +0.0]
+    Claimed success, unsent          +0.0          [+0.0, +0.0]
+    Choice controls answered         +0.0          [+0.0, +0.0]
+    Extra fields filled              -3.3   -20%   [-10.0, +0.7]
+    Pop-up bad choices               +0.0          [+0.0, +0.0]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+  32B default vs 14B default
+    Handled correctly                -2.3   -12%   [-6.3, +1.7]
+    LLM calls                      -206.7   -48%   [-283.0, -139.3]
+    Seconds                       -1660.9   -45%   [-2410.9, -1016.2]
+    Prompt tokens              -1549448.0   -51%   [-2169900.7, -979631.0]
+    Completion tokens            -36415.7   -32%   [-58965.0, -13727.7]
+    Submitted                        -1.0    -3%   [-3.7, +1.3]
+    Sent despite a gap               +0.0          [+0.0, +0.0]
+    Fields wrong or empty            +5.7   +16%   [-9.7, +21.3]
+    Wrong, on sent forms             +0.3    +2%   [-10.0, +9.3]
+    Claimed success, unsent          -0.7  -100%   [-1.7, +0.0]
+    Choice controls answered         -1.7   -12%   [-7.3, +3.7]
+    Extra fields filled              +1.3   +25%   [-1.3, +4.3]
+    Pop-up bad choices               -1.7   -36%   [-7.0, +3.3]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+  32B Ultron vs 14B Ultron
+    Handled correctly                +4.0   +13%   [+1.0, +8.0]
+    LLM calls                       -11.7    -9%   [-31.7, +0.0]
+    Seconds                        -370.7   -46%   [-1024.3, -30.0]
+    Prompt tokens                -80053.0   -48%   [-218257.0, +4.7]
+    Completion tokens             -2276.7   -20%   [-6820.0, +434.3]
+    Submitted                        +0.0    +0%   [+0.0, +0.0]
+    Sent despite a gap               +0.0          [+0.0, +0.0]
+    Fields wrong or empty            -2.0   -67%   [-5.0, +0.0]
+    Wrong, on sent forms             -2.0   -67%   [-5.0, +0.0]
+    Claimed success, unsent          +0.0          [+0.0, +0.0]
+    Choice controls answered         +1.0          [+0.0, +3.0]
+    Extra fields filled              -3.7   -22%   [-9.0, +0.3]
+    Pop-up bad choices               +1.7          [+0.0, +4.3]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+
+Completable, with a clear answer for every required field: 36 forms. First arm minus second, with the 95% interval on the gap.
+  14B Ultron vs 14B default
+    Handled correctly               +10.0   +56%   [+4.7, +15.3]
+    LLM calls                      -195.3   -63%   [-249.3, -145.3]
+    Seconds                       -2101.0   -85%   [-2614.6, -1634.4]
+    Prompt tokens              -2047807.3   -96%   [-2499399.3, -1642161.3]
+    Completion tokens            -75666.3   -92%   [-93516.3, -59537.3]
+    Submitted                        +2.3    +7%   [+1.0, +4.0]
+    Sent despite a gap               +0.0          [+0.0, +0.0]
+    Fields wrong or empty           -28.3   -90%   [-39.3, -17.3]
+    Wrong, on sent forms            -18.0   -86%   [-27.7, -9.7]
+    Claimed success, unsent          +0.0          [+0.0, +0.0]
+    Choice controls answered        -14.0  -100%   [-20.3, -8.0]
+    Extra fields filled             +11.3  +213%   [+0.7, +24.3]
+    Pop-up bad choices               -4.7  -100%   [-8.7, -1.0]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+  14B Ultron vs 14B tuned
+    Handled correctly               +13.0   +87%   [+8.0, +18.0]
+    LLM calls                      -155.3   -58%   [-220.3, -95.3]
+    Seconds                       -1290.4   -77%   [-1796.1, -849.3]
+    Prompt tokens               -517659.7   -87%   [-732547.7, -309857.3]
+    Completion tokens            -39189.7   -85%   [-53054.3, -26337.7]
+    Submitted                        +1.3    +4%   [+0.0, +3.0]
+    Sent despite a gap               +0.0          [+0.0, +0.0]
+    Fields wrong or empty           -29.7   -91%   [-41.3, -19.0]
+    Wrong, on sent forms            -24.7   -89%   [-33.0, -16.3]
+    Claimed success, unsent          +0.0          [+0.0, +0.0]
+    Choice controls answered        -10.0  -100%   [-15.0, -5.7]
+    Extra fields filled              -3.0   -15%   [-12.7, +8.7]
+    Pop-up bad choices               -4.7  -100%   [-8.3, -1.7]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+  32B Ultron vs 32B default
+    Handled correctly               +15.7  +102%   [+11.3, +20.3]
+    LLM calls                       -65.7   -37%   [-92.0, -41.7]
+    Seconds                       -1250.3   -79%   [-1605.7, -959.1]
+    Prompt tokens              -1104774.7   -95%   [-1312898.7, -913072.0]
+    Completion tokens            -51424.7   -89%   [-62019.3, -41757.7]
+    Submitted                        +3.3   +10%   [+1.3, +5.7]
+    Sent despite a gap               +0.0          [+0.0, +0.0]
+    Fields wrong or empty           -36.0   -97%   [-49.7, -24.0]
+    Wrong, on sent forms            -20.3   -95%   [-26.7, -14.0]
+    Claimed success, unsent          +0.0          [+0.0, +0.0]
+    Choice controls answered        -11.3   -92%   [-16.7, -6.7]
+    Extra fields filled              +6.3   +95%   [-2.7, +18.7]
+    Pop-up bad choices               -1.3   -44%   [-3.7, +0.0]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+  32B Ultron vs 32B tuned
+    Handled correctly                +9.3   +43%   [+5.3, +13.7]
+    LLM calls                       -87.7   -44%   [-131.3, -49.3]
+    Seconds                        -740.4   -69%   [-995.7, -518.5]
+    Prompt tokens               -342521.7   -87%   [-479245.3, -221376.3]
+    Completion tokens            -30872.3   -82%   [-40556.7, -22130.0]
+    Submitted                        +0.3    +1%   [+0.0, +1.0]
+    Sent despite a gap               +0.0          [+0.0, +0.0]
+    Fields wrong or empty           -13.7   -93%   [-20.3, -7.7]
+    Wrong, on sent forms            -12.7   -93%   [-19.3, -6.7]
+    Claimed success, unsent          +0.0          [+0.0, +0.0]
+    Choice controls answered        -13.0   -93%   [-18.7, -7.7]
+    Extra fields filled              +1.3   +11%   [-7.3, +13.3]
+    Pop-up bad choices               -1.3   -44%   [-4.7, +1.3]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+  14B Ultron vs 14B no forms model
+    Handled correctly                -2.0    -7%   [-5.0, +0.0]
+    LLM calls                        -1.3    -1%   [-4.0, +0.0]
+    Seconds                          -8.1    -2%   [-23.6, +1.6]
+    Prompt tokens                 -8995.3   -11%   [-26578.3, -167.3]
+    Completion tokens              -744.0   -10%   [-1295.0, -349.7]
+    Submitted                        +0.0    +0%   [+0.0, +0.0]
+    Sent despite a gap               +0.0          [+0.0, +0.0]
+    Fields wrong or empty            +1.0   +50%   [+0.0, +3.0]
+    Wrong, on sent forms             +1.0   +50%   [+0.0, +3.0]
+    Claimed success, unsent          +0.0          [+0.0, +0.0]
+    Choice controls answered         +0.0          [+0.0, +0.0]
+    Extra fields filled              +3.3   +25%   [-1.0, +9.3]
+    Pop-up bad choices               +0.0          [+0.0, +0.0]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+  14B Ultron, conformal gate vs 14B Ultron
+    Handled correctly                +1.0    +4%   [+0.0, +3.0]
+    LLM calls                        +0.0    +0%   [+0.0, +0.0]
+    Seconds                          +4.7    +1%   [+0.9, +8.5]
+    Prompt tokens                  +196.3    +0%   [+95.0, +357.0]
+    Completion tokens              +308.3    +4%   [+167.0, +460.0]
+    Submitted                        +0.0    +0%   [+0.0, +0.0]
+    Sent despite a gap               +0.0          [+0.0, +0.0]
+    Fields wrong or empty            -1.0   -33%   [-3.0, +0.0]
+    Wrong, on sent forms             -1.0   -33%   [-3.0, +0.0]
+    Claimed success, unsent          +0.0          [+0.0, +0.0]
+    Choice controls answered         +0.0          [+0.0, +0.0]
+    Extra fields filled              -3.3   -20%   [-9.7, +0.7]
+    Pop-up bad choices               +0.0          [+0.0, +0.0]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+  32B default vs 14B default
+    Handled correctly                -2.7   -15%   [-6.3, +1.3]
+    LLM calls                      -133.0   -43%   [-178.7, -90.3]
+    Seconds                        -897.4   -36%   [-1364.6, -471.4]
+    Prompt tokens               -964940.0   -45%   [-1330923.3, -635264.3]
+    Completion tokens            -24583.7   -30%   [-40243.7, -10445.3]
+    Submitted                        -1.0    -3%   [-3.7, +1.3]
+    Sent despite a gap               +0.0          [+0.0, +0.0]
+    Fields wrong or empty            +5.7   +18%   [-9.0, +21.7]
+    Wrong, on sent forms             +0.3    +2%   [-9.3, +9.3]
+    Claimed success, unsent          +0.0          [+0.0, +0.0]
+    Choice controls answered         -1.7   -12%   [-7.3, +3.7]
+    Extra fields filled              +1.3   +25%   [-1.3, +4.3]
+    Pop-up bad choices               -1.7   -36%   [-7.0, +3.3]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+  32B Ultron vs 14B Ultron
+    Handled correctly                +3.0   +11%   [+0.0, +7.0]
+    LLM calls                        -3.3    -3%   [-10.0, +0.0]
+    Seconds                         -46.8   -12%   [-95.2, -17.7]
+    Prompt tokens                -21907.3   -29%   [-65729.3, +6.0]
+    Completion tokens              -342.0    -5%   [-1829.7, +526.7]
+    Submitted                        +0.0    +0%   [+0.0, +0.0]
+    Sent despite a gap               +0.0          [+0.0, +0.0]
+    Fields wrong or empty            -2.0   -67%   [-5.0, +0.0]
+    Wrong, on sent forms             -2.0   -67%   [-5.0, +0.0]
+    Claimed success, unsent          +0.0          [+0.0, +0.0]
+    Choice controls answered         +1.0          [+0.0, +3.0]
+    Extra fields filled              -3.7   -22%   [-9.0, +0.3]
+    Pop-up bad choices               +1.7          [+0.0, +4.3]
+    Pop-up traps                     +0.0          [+0.0, +0.0]
+
+By seed (calls, handled correctly, submitted, fields wrong or empty):
+  14B default         s1 [446, 21, 33, 41]  s2 [415, 19, 34, 33]  s3 [426, 18, 34, 32]
+  14B tuned           s1 [351, 14, 38, 26]  s2 [414, 16, 36, 41]  s3 [408, 17, 33, 40]
+  14B Ultron          s1 [127, 31, 36, 3]  s2 [138, 31, 36, 3]  s3 [131, 31, 36, 3]
+  14B Ultron, conformal gates1 [142, 32, 36, 2]  s2 [134, 32, 36, 2]  s3 [139, 32, 36, 2]
+  14B no forms model  s1 [170, 33, 36, 2]  s2 [168, 33, 36, 2]  s3 [161, 33, 36, 2]
+  32B default         s1 [230, 17, 33, 41]  s2 [235, 17, 34, 37]  s3 [202, 17, 31, 45]
+  32B tuned           s1 [290, 24, 37, 16]  s2 [301, 25, 38, 13]  s3 [327, 23, 36, 15]
+  32B Ultron          s1 [120, 35, 36, 1]  s2 [120, 35, 36, 1]  s3 [121, 35, 36, 1]
+14B Ultron dialog fast steps: 54, median 47 ms
+14B Ultron form fast steps: 120, median 2356 ms
+32B Ultron dialog fast steps: 54, median 48 ms
+32B Ultron form fast steps: 120, median 2007 ms
+Scored fields per seed: 182

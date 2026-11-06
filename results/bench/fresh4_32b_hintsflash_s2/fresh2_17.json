@@ -1,0 +1,74 @@
+{
+ "form": "fresh2_17",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 30.7,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {
+   "f3": "(503) 555-0147"
+  },
+  "extra": {
+   "f5": "Portland"
+  },
+  "missing_consent": [],
+  "popup_choice": "Afwijzen",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 1261,
+   "completion_tokens": 100
+  },
+  {
+   "seconds": 4.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 1421,
+   "completion_tokens": 255
+  },
+  {
+   "seconds": 4.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 1585,
+   "completion_tokens": 205
+  },
+  {
+   "seconds": 2.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 1782,
+   "completion_tokens": 144
+  },
+  {
+   "seconds": 3.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 1780,
+   "completion_tokens": 160
+  },
+  {
+   "seconds": 2.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 1901,
+   "completion_tokens": 112
+  },
+  {
+   "seconds": 2.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 1658,
+   "completion_tokens": 106
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

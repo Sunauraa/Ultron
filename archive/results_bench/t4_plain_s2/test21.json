@@ -1,0 +1,52 @@
+{
+ "form": "test21",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 2,
+ "seconds": 32.0,
+ "score": {
+  "blocked": [],
+  "submitted": true,
+  "fields": 7,
+  "wrong": {
+   "f9": null,
+   "f10": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Aceptar todas",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 5856,
+   "completion_tokens": 162
+  },
+  {
+   "seconds": 9.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 7756,
+   "completion_tokens": 362
+  },
+  {
+   "seconds": 6.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 7933,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 5.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 6127,
+   "completion_tokens": 195
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed. Here is the confirmation message:",
+ "fast": []
+}

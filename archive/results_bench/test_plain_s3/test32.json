@@ -1,0 +1,64 @@
+{
+ "form": "test32",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 3,
+ "seconds": 51.0,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 5933,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 5.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 6102,
+   "completion_tokens": 224
+  },
+  {
+   "seconds": 7.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 6190,
+   "completion_tokens": 274
+  },
+  {
+   "seconds": 5.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 6285,
+   "completion_tokens": 228
+  },
+  {
+   "seconds": 6.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 6375,
+   "completion_tokens": 268
+  },
+  {
+   "seconds": 6.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 6500,
+   "completion_tokens": 240
+  },
+  {
+   "seconds": 4.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 6397,
+   "completion_tokens": 180
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "fast": []
+}

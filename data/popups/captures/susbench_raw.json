@@ -1,0 +1,330 @@
+[
+ {
+  "key": "amz_pop_up",
+  "type": "pop-up ad",
+  "text": "An Irresistible Offer Just For You! Ninja 4-in-1 Pro Air Fryer (5QT). Air Fry, Roast, Reheat, and Dehydrate with up to 75% less fat. Don't miss this deal!",
+  "buttons": [
+   "×",
+   "Add to Cart"
+  ]
+ },
+ {
+  "key": "amz_confirm_notif",
+  "type": "confirm shaming",
+  "text": "Amazon would like to send you notifications",
+  "buttons": [
+   "Allow",
+   "I would rather miss out on great deals"
+  ]
+ },
+ {
+  "key": "tgt_pop_up",
+  "type": "pop-up ad",
+  "text": "",
+  "buttons": [
+   "×",
+   "Add to Cart"
+  ]
+ },
+ {
+  "key": "tgt_confirm_shaming",
+  "type": "confirm shaming",
+  "text": "Stay up to date! Would you like to receive notifications about our best deals?",
+  "buttons": [
+   "Yes, please",
+   "No, I’d rather miss out on savings."
+  ]
+ },
+ {
+  "key": "cos_pop_up",
+  "type": "pop-up ad",
+  "text": "",
+  "buttons": [
+   "×",
+   "Add to Cart"
+  ]
+ },
+ {
+  "key": "cos_confirm_shaming",
+  "type": "confirm shaming",
+  "text": "Would you like to receive notifications?",
+  "buttons": [
+   "Yes",
+   "No, I’d rather miss important updates."
+  ]
+ },
+ {
+  "key": "etp_pop_up",
+  "type": "pop-up ad",
+  "text": "Discover Sardinia your way — with Enterprise, every hidden beach and stunning view is just a drive away.",
+  "buttons": [
+   "Book a Deal"
+  ]
+ },
+ {
+  "key": "etp_confirm_shaming",
+  "type": "confirm shaming",
+  "text": "Would you like to opt for an extra insurance?",
+  "buttons": [
+   "Yes, protect my trip with full coverage",
+   "No, I’ll risk unexpected costs and stress on the road"
+  ]
+ },
+ {
+  "key": "att_pop_up",
+  "type": "pop-up ad",
+  "text": "Get the new iPhone 17 Pro for $0",
+  "buttons": [
+   "Preorder",
+   "×"
+  ]
+ },
+ {
+  "key": "att_confirm_shaming",
+  "type": "confirm shaming",
+  "text": "Would you like to receive notifications about our latest deals? #notification-popup button:hover { background-color: #005a8c !important; }",
+  "buttons": [
+   "No, I don't need the information of the latest deal",
+   "Yes, please"
+  ]
+ },
+ {
+  "key": "ube_pop_up",
+  "type": "pop-up ad",
+  "text": "Uber One $0 Delivery Fee + up to 10% off Uber One",
+  "buttons": [
+   "Try free for 4 weeks",
+   "×"
+  ]
+ },
+ {
+  "key": "eco_confirm_shaming",
+  "type": "confirm shaming",
+  "text": "Be alerted when big stories break!",
+  "buttons": [
+   "Turn on news alerts",
+   "Alright, the world's changes have nothing to do with me."
+  ]
+ },
+ {
+  "key": "wgs_forced_action",
+  "type": "forced action",
+  "text": "Unlock Your Lowest Price Today! Enter your insurance details now to access exclusive member pricing on your prescriptions. We'll collect your insurance information to help you better to purchase medicine, and book vaccine appointment in the future",
+  "buttons": [
+   "Continue with Insurance",
+   "Skip"
+  ]
+ },
+ {
+  "key": "bki_pop_up",
+  "type": "pop-up ad",
+  "text": "Best place to spend your weekend in Tokyo Reserve now to enjoy your lovely weekend with your family in The Royal Park Hotel Iconic Tokyo Shiodome with $330 discount",
+  "buttons": [
+   "See availability",
+   "×"
+  ]
+ },
+ {
+  "key": "bki_confirm_shaming",
+  "type": "confirm shaming",
+  "text": "Wait! Don’t miss out Travelers like you are saving big today. Smart guests know that booking now means extra perks and lower prices. Do you really want to miss out?",
+  "buttons": [
+   "Yes, keep my discount",
+   "No, I’ll pay full price"
+  ]
+ },
+ {
+  "key": "ghd_forced_action",
+  "type": "forced action",
+  "text": "Create an account to secure your seat Create a free account to hold this fare for 15 minutes, receive trip updates, and simplify changes.",
+  "buttons": [
+   "Create account",
+   "Continue as guest"
+  ]
+ },
+ {
+  "key": "stm_pop_up",
+  "type": "pop-up ad",
+  "text": "Endless Adventure, Infinite Worlds Explore, build, and survive in a living universe that constantly evolves. Every journey in No Man’s Sky is truly unique. $16.99",
+  "buttons": [
+   "×",
+   "CLICK FOR DETAILS"
+  ]
+ },
+ {
+  "key": "stm_confirm_shaming",
+  "type": "confirm shaming",
+  "text": "Real Gamers Stay Connected Download the Steam App to keep your library and deals in your pocket. Say no, and you’re choosing to fall behind while everyone else levels up.",
+  "buttons": [
+   "Get the Steam App for instant access to games anywhere",
+   "No, I’m fine being outdated."
+  ]
+ },
+ {
+  "key": "eby_forced_action",
+  "type": "forced action",
+  "text": "#forcedActionPopupOverlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); display: flex; justify-content: center; align-items: center; z-index: 100001; } .forced-action-popup { background-color: var(--color-neutral-100); border-radius: var(--border-radius-100); box-shadow: var(--shadow-strong); width: 90%; max-width: 500px; padding: var(--spacing-300); font-family: \"Market Sans\", Arial, sans-serif; } .forced-action-popup-header { color: var(--color-foreground-primary); font-size: var(--font-size-large-1); font-weight: var(--font-weight-bold); margin-bottom: var(--spacing-100); } .forced-action-popup-subtext { color: var(--color-foreground-secondary); font-size: var(--font-size-default); margin-bottom: var(--spacing-300); line-height: 1.5; } .forced-action-popup-footer { display: flex; justify-content: space-between; align-items: center",
+  "buttons": [
+   "Start Survey",
+   "Remind Me Later"
+  ]
+ },
+ {
+  "key": "met_pop_up",
+  "type": "pop-up ad",
+  "text": "Man Ray: When Objects Dream Unique designs celebrating The Met's pioneering show.",
+  "buttons": [
+   "×",
+   "Shop the show"
+  ]
+ },
+ {
+  "key": "met_confirm_shaming",
+  "type": "confirm shaming",
+  "text": "Leaving now means abandoning art that may never return. These pieces are more than objects—they carry the stories of centuries. Once gone, they may be lost to you forever.",
+  "buttons": [
+   "I’ll protect my treasures now",
+   "I don’t mind losing them forever"
+  ]
+ },
+ {
+  "key": "tkm_forced_action",
+  "type": "forced action",
+  "text": "Get the Full Ticketmaster Experience To discover live events, manage every ticket securely, and receive instant support, we strongly recommend using the Ticketmaster App. Some features are best experienced in the app.",
+  "buttons": [
+   "Download the App",
+   "Continue on Web"
+  ]
+ },
+ {
+  "key": "ups_pop_up",
+  "type": "pop-up ad",
+  "text": "Save Time With Automatic Pickups Set your preferred pickup time once, and UPS Smart Pickup® will be there every time you create a shipment.",
+  "buttons": [
+   "Get Started >",
+   "×"
+  ]
+ },
+ {
+  "key": "pst_confirm_shaming",
+  "type": "confirm shaming",
+  "text": "Ready to Level Up? With PlayStation Plus, you unlock free monthly games, online multiplayer, and exclusive discounts. Don’t miss your chance to power up your gaming experience.",
+  "buttons": [
+   "I want access to exclusive games and perks",
+   "I’m fine missing out on free monthly games and online multiplayer"
+  ]
+ },
+ {
+  "key": "any_forced_action",
+  "type": "forced action",
+  "text": "We Value Your Privacy Privacy Policy",
+  "buttons": [
+   "Accept All",
+   "Reject All"
+  ]
+ },
+ {
+  "key": "macys_confirm_shaming",
+  "type": "confirm shaming",
+  "text": "Would you like to receive notifications for promotions?",
+  "buttons": [
+   "Allow",
+   "I would rather spend more money."
+  ]
+ },
+ {
+  "key": "macys_pop_up",
+  "type": "pop-up ad",
+  "text": "",
+  "buttons": [
+   "×",
+   "Add to Cart"
+  ]
+ },
+ {
+  "key": "ikea_comfirm_shaming",
+  "type": "confirm shaming",
+  "text": "Stay Informed on Great Deals Would you like to be notified about our promotions and save money?",
+  "buttons": []
+ },
+ {
+  "key": "jpp_forced_action",
+  "type": "forced action",
+  "text": "Please Sign In to Continue To continue, please sign in with your account. This step ensures secure access and a personalized experience.",
+  "buttons": [
+   "Sign in",
+   "Continue as guest"
+  ]
+ },
+ {
+  "key": "hrz_forced_action",
+  "type": "forced action",
+  "text": "Sign In to Continue To proceed with your booking, sign in with your Hertz account. As a Hertz Gold Plus Rewards member, you’ll enjoy faster reservations, easy access to your trips, and personalized offers.",
+  "buttons": [
+   "Sign in",
+   "Not now"
+  ]
+ },
+ {
+  "key": "uss_forced_action",
+  "type": "forced action",
+  "text": "Tell Us What You Think Before continuing with your Postal Store shopping, please take a moment to complete our short survey. Your feedback helps the U.S. Postal Service improve our services and provide you with a better experience.",
+  "buttons": [
+   "Start Survey",
+   "Next time"
+  ]
+ },
+ {
+  "key": "del_confirm_shaming",
+  "type": "confirm shaming",
+  "text": "Stay Ahead of the Curve Would you like to receive notifications about Dell\\'s exclusive deals and product launches? .dell-popup-button { background-color: #0672cb; border-color: #0672cb; color: #fff; border: 1px solid transparent; border-radius: 2px; cursor: pointer; display: inline-flex; font-size: 1rem; font-weight: 500; justify-content: center; line-height: 1.5rem; padding: .6875rem 1.1875rem; text-align: center; text-decoration: none; user-select: none; vertical-align: middle; white-space: normal; transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out; } .dell-popup-button:hover { background-color: #0063b8; border-color: #0063b8; color: #fff; } .dell-popup-button:active { background-color: #00468b; border-color: #00468b; color: #fff; }",
+  "buttons": [
+   "Keep me updated so I don’t miss out on Dell’s exclusive deals and product launches.",
+   "I’d rather risk missing Dell’s latest savings and innovations."
+  ]
+ },
+ {
+  "key": "nds_confirm_shaming",
+  "type": "confirm shaming",
+  "text": "Don't Miss Out Would you like to receive notifications about our exclusive designer launches and VIP events?",
+  "buttons": [
+   "Notify me so I never miss Nordstrom’s exclusive designer launches and VIP events.",
+   "I’ll pass and risk being left out of Nordstrom’s luxury experiences."
+  ]
+ },
+ {
+  "key": "kfc_forced_action",
+  "type": "forced action",
+  "text": "Make Your Order Finger Lickin’ Fast Join KFC Rewards to unlock exclusive bucket deals, faster checkout, and sizzling limited-time offers. We’ll save your contact info and order preferences to speed up checkout and send KFC offers.",
+  "buttons": [
+   "Continue with KFC Rewards",
+   "Skip"
+  ]
+ },
+ {
+  "key": "ylp_forced_action",
+  "type": "forced action",
+  "text": "Open in the Yelp App to Continue For the fastest experience—write reviews, message businesses, and access app-only perks—please use the Yelp app. Skip We’ll use limited device and location info to personalize nearby recommendations and alerts.",
+  "buttons": [
+   "Download Yelp App"
+  ]
+ },
+ {
+  "key": "acd_forced_action",
+  "type": "forced action",
+  "text": "Sign in to Continue Your Booking Access seat selection, credits, Aeroplan benefits, and a faster checkout by signing in to your Air Canada account.",
+  "buttons": [
+   "Continue with Sign-In",
+   "Skip"
+  ]
+ },
+ {
+  "key": "mct_forced_action",
+  "type": "forced action",
+  "text": "Unlock Your Deal Before You Continue To proceed with your checkout and access exclusive pricing, please sign in or create a Micro Center Insider account. Insider members get instant access to deals, faster checkout, and product availability updates.",
+  "buttons": [
+   "Sign In",
+   "Maybe Later"
+  ]
+ }
+]

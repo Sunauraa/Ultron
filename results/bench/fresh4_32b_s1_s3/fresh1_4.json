@@ -1,0 +1,98 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 38.3,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 5964,
+   "completion_tokens": 175
+  },
+  {
+   "seconds": 8.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 6363,
+   "completion_tokens": 430
+  },
+  {
+   "seconds": 6.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 6588,
+   "completion_tokens": 326
+  },
+  {
+   "seconds": 5.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 6703,
+   "completion_tokens": 255
+  },
+  {
+   "seconds": 5.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 6792,
+   "completion_tokens": 240
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": false,
+ "final": "Could not submit the form due to an empty CAPTCHA field. All other required fields were filled correctly according to the provided document.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 49.51308108866215,
+   "url": "http://127.0.0.1:45791/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.24437904357910156,
+   "url": "http://127.0.0.1:45791/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.25422871112823486,
+   "url": "http://127.0.0.1:45791/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2247542142868042,
+   "url": "http://127.0.0.1:45791/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.30332617461681366,
+   "url": "http://127.0.0.1:45791/fresh1_4",
+   "goal": ""
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "form": "test4",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 3,
+ "seconds": 43.9,
+ "score": {
+  "submitted": true,
+  "fields": 9,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "ÖSSZES ELUTASÍTÁSA",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 6248,
+   "completion_tokens": 303
+  },
+  {
+   "seconds": 6.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6441,
+   "completion_tokens": 230
+  },
+  {
+   "seconds": 6.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 6531,
+   "completion_tokens": 238
+  },
+  {
+   "seconds": 5.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 6625,
+   "completion_tokens": 197
+  },
+  {
+   "seconds": 4.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 6326,
+   "completion_tokens": 159
+  },
+  {
+   "seconds": 5.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 6304,
+   "completion_tokens": 210
+  }
+ ],
+ "steps": 9,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 59.98631194233894,
+   "url": "http://127.0.0.1:39479/test4",
+   "goal": "Close the pop-up with 'ÖSSZES ELUTASÍTÁSA'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 257.75695964694023,
+   "url": "http://127.0.0.1:39479/test4",
+   "goal": "Fill 4 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 248.87121841311455,
+   "url": "http://127.0.0.1:39479/test4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 250.7422473281622,
+   "url": "http://127.0.0.1:39479/test4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 250.43214671313763,
+   "url": "http://127.0.0.1:39479/test4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 280.21938167512417,
+   "url": "http://127.0.0.1:39479/test4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2285260707139969,
+   "url": "http://127.0.0.1:39479/test4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5804022550582886,
+   "url": "about:blank",
+   "goal": ""
+  }
+ ]
+}

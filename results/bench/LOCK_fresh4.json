@@ -1,0 +1,51 @@
+{
+ "when": "2026-11-05 11:25:24",
+ "split": "fresh",
+ "form_gate": 0.9,
+ "dialog_gate": 0.6,
+ "finish": true,
+ "seeds": [
+  1,
+  2,
+  3
+ ],
+ "llms": [
+  "Qwen/Qwen2.5-14B-Instruct",
+  "Qwen/Qwen2.5-32B-Instruct-AWQ"
+ ],
+ "arms": {
+  "14b": [
+   "default",
+   "tuned (hints + flash mode)",
+   "ultron",
+   "ultron without forms model"
+  ],
+  "32b": [
+   "default",
+   "tuned (hints + flash mode)",
+   "ultron"
+  ]
+ },
+ "primary_metric": "Handled correctly",
+ "primary_comparisons": [
+  "Ultron vs default, each LLM",
+  "Ultron vs tuned, each LLM"
+ ],
+ "secondary": "LLM calls, seconds, tokens, submitted, sent despite a gap, wrong on sent forms; all-forms and clear-only tables",
+ "tuning_choice": "Tuned arm chosen on used forms, 14B, seed 1, one run each: default 7 handled/2751 s/2.03M prompt tokens; hints 6/2090 s/1.63M; hints+flash 5/1708 s/0.69M. On the 18 clear forms: 5, 4, 5. Chosen because it ties default on clear forms and is cheapest, so it is the hardest baseline on cost; default stays as its own column because it is better on all forms. Not retuned for 32B.",
+ "note": "Replaces LOCK_fresh3.json. Plugin unchanged since that lock. Added tuned and 32B columns; table layout changed, scoring rules did not; each record now names the served model. Partial runs fresh_*, fresh2_*, fresh3_* were never read and are not used.",
+ "sha": {
+  "ultron/fastpath.py": "b2a8444df52c30a5",
+  "experiments/bench/real_bench.py": "ba8fa7d3c071da80",
+  "experiments/bench/run_bench.py": "948b505488c4a0d0",
+  "experiments/bench/bench_table.py": "8fbf718d7deb854f",
+  "scripts/bench_fresh4.sh": "81f0cc10918d604a",
+  "data/forms/real/testset.json": "676b41b03bb5140c",
+  "data/forms/real/fresh/labels_batch1.json": "03fbffd4bc642beb",
+  "data/forms/real/fresh/labels_batch2.json": "0ed0ac4f9459fab0",
+  "models/ultron-forms-0.1/a/model.safetensors": "36a7b131159533e7",
+  "models/ultron-forms-0.1/b/model.safetensors": "346ea5a1c27a816f",
+  "models/ultron-dialogs-0.1/a/model.safetensors": "ff871dd902c3fe55",
+  "models/ultron-dialogs-0.1/b/model.safetensors": "109717522b5797b7"
+ }
+}

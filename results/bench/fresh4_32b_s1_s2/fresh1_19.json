@@ -1,0 +1,79 @@
+{
+ "form": "fresh1_19",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 13.9,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {
+   "f8": "Trường THPT Chu Văn An"
+  },
+  "missing_consent": [],
+  "popup_choice": "AUSWAHL BESTÄTIGEN",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 6050,
+   "completion_tokens": 194
+  },
+  {
+   "seconds": 2.24,
+   "format": "Answers",
+   "prompt_tokens": 300,
+   "completion_tokens": 122
+  },
+  {
+   "seconds": 0.22,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.15,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 7
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 49.94874820113182,
+   "url": "http://127.0.0.1:44187/fresh1_19",
+   "goal": ""
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2387.8455720841885,
+   "url": "http://127.0.0.1:44187/fresh1_19",
+   "goal": "Filled 7 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Vị trí đăng ký ứng tuyển; Kinh nghiệm làm việc(nếu có); Mức lương mong muốn. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 380.3162444382906,
+   "url": "http://127.0.0.1:44187/fresh1_19",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 156.7627713084221,
+   "url": "http://127.0.0.1:44187/fresh1_19",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

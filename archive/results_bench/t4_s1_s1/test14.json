@@ -1,0 +1,77 @@
+{
+ "form": "test14",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 20.5,
+ "score": {
+  "blocked": [],
+  "submitted": true,
+  "fields": 5,
+  "wrong": {
+   "f1": "21/06/1995",
+   "f4": "0934567890"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "JE REFUSE",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.51,
+   "format": "Answers",
+   "prompt_tokens": 407,
+   "completion_tokens": 142
+  },
+  {
+   "seconds": 0.35,
+   "format": "Review",
+   "prompt_tokens": 871,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 4.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 6960,
+   "completion_tokens": 171
+  },
+  {
+   "seconds": 5.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 6294,
+   "completion_tokens": 210
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission was successful. Confirmation message: Thank you. Your form has been received and no further action is needed.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 50.668537616729736,
+   "url": "http://127.0.0.1:43801/test14",
+   "goal": "Close the pop-up with 'JE REFUSE'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 3692.8649488836527,
+   "url": "http://127.0.0.1:43801/test14",
+   "goal": "Filled 5 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Họ và tên phụ huynh - Parent's name; Lớp đăng ký - Grade; Câu hỏi dành cho nhà trường (nếu có) - Questions for Hanoi Academy (if any); Kết quả học tập học kỳ gần nhất của học sinh - Student's most recent sem; Kết quả hạnh kiểm học kỳ gần nhất của học sinh - Students' latest semest. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 554.3785840272903,
+   "url": "http://127.0.0.1:43801/test14",
+   "goal": "submit declined"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.2650638818740845,
+   "url": "http://127.0.0.1:43801/test14",
+   "goal": ""
+  }
+ ]
+}

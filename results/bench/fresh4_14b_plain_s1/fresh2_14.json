@@ -1,0 +1,185 @@
+{
+ "form": "fresh2_14",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 150.8,
+ "score": {
+  "blocked": [
+   "Message *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 6902,
+   "completion_tokens": 234
+  },
+  {
+   "seconds": 5.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 7045,
+   "completion_tokens": 196
+  },
+  {
+   "seconds": 5.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 7106,
+   "completion_tokens": 193
+  },
+  {
+   "seconds": 6.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 7198,
+   "completion_tokens": 228
+  },
+  {
+   "seconds": 5.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 7295,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 5.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 7375,
+   "completion_tokens": 197
+  },
+  {
+   "seconds": 5.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 7450,
+   "completion_tokens": 197
+  },
+  {
+   "seconds": 5.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 7530,
+   "completion_tokens": 203
+  },
+  {
+   "seconds": 5.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 7609,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 5.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 7689,
+   "completion_tokens": 213
+  },
+  {
+   "seconds": 4.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 7817,
+   "completion_tokens": 168
+  },
+  {
+   "seconds": 4.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 7845,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 5.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 7923,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 4.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 8004,
+   "completion_tokens": 167
+  },
+  {
+   "seconds": 4.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 8083,
+   "completion_tokens": 159
+  },
+  {
+   "seconds": 4.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 8163,
+   "completion_tokens": 156
+  },
+  {
+   "seconds": 4.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 8243,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 5.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 8320,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 4.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 8483,
+   "completion_tokens": 168
+  },
+  {
+   "seconds": 4.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 8562,
+   "completion_tokens": 168
+  },
+  {
+   "seconds": 4.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 8641,
+   "completion_tokens": 168
+  },
+  {
+   "seconds": 4.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 8720,
+   "completion_tokens": 168
+  },
+  {
+   "seconds": 4.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 8799,
+   "completion_tokens": 163
+  },
+  {
+   "seconds": 4.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 8878,
+   "completion_tokens": 168
+  },
+  {
+   "seconds": 7.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 8973,
+   "completion_tokens": 274
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "The form has been partially filled out with First Name: Jordan, Last Name: Reed, Email: jordan.reed@example.com, and Phone: 503-555-0147. However, the 'Billing' radio button for the message category was not selected due to repeated failures in identifying and clicking it. The task cannot be completed as requested.",
+ "fast": []
+}

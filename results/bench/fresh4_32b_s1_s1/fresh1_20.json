@@ -1,0 +1,65 @@
+{
+ "form": "fresh1_20",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 6.3,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.16,
+   "format": "Answers",
+   "prompt_tokens": 282,
+   "completion_tokens": 61
+  },
+  {
+   "seconds": 0.21,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.15,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 7
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 1244.0186366438866,
+   "url": "http://127.0.0.1:37583/fresh1_20",
+   "goal": "Filled 4 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Địa điểm đăng ký dự thi theo khu vực:. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 288.6144556105137,
+   "url": "http://127.0.0.1:37583/fresh1_20",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 152.78442576527596,
+   "url": "http://127.0.0.1:37583/fresh1_20",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

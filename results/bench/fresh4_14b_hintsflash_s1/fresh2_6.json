@@ -1,0 +1,191 @@
+{
+ "form": "fresh2_6",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 130.3,
+ "score": {
+  "blocked": [
+   "Closest Main Intersection:*",
+   "Occupation*",
+   "Why do you want to volunteer with us?*",
+   "Please briefly outline your pet owning history*",
+   "For how long are you looking to volunteer?*",
+   "How did you hear about Abbey Cat Adoptions?*"
+  ],
+  "unclear": [
+   "Full Home Address:*"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 3,
+  "wrong": {
+   "f0": null,
+   "f4": null,
+   "f5": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 10.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 2173,
+   "completion_tokens": 422
+  },
+  {
+   "seconds": 5.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 2421,
+   "completion_tokens": 203
+  },
+  {
+   "seconds": 6.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 2600,
+   "completion_tokens": 239
+  },
+  {
+   "seconds": 3.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 3733,
+   "completion_tokens": 115
+  },
+  {
+   "seconds": 1.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 2845,
+   "completion_tokens": 58
+  },
+  {
+   "seconds": 2.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 2893,
+   "completion_tokens": 98
+  },
+  {
+   "seconds": 1.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 2970,
+   "completion_tokens": 69
+  },
+  {
+   "seconds": 1.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 3029,
+   "completion_tokens": 69
+  },
+  {
+   "seconds": 2.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 3121,
+   "completion_tokens": 82
+  },
+  {
+   "seconds": 2.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 3194,
+   "completion_tokens": 80
+  },
+  {
+   "seconds": 3.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 3264,
+   "completion_tokens": 115
+  },
+  {
+   "seconds": 3.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 3354,
+   "completion_tokens": 114
+  },
+  {
+   "seconds": 3.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 3459,
+   "completion_tokens": 114
+  },
+  {
+   "seconds": 2.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 3563,
+   "completion_tokens": 100
+  },
+  {
+   "seconds": 2.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 3650,
+   "completion_tokens": 99
+  },
+  {
+   "seconds": 2.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 3738,
+   "completion_tokens": 102
+  },
+  {
+   "seconds": 2.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 3826,
+   "completion_tokens": 102
+  },
+  {
+   "seconds": 3.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 3914,
+   "completion_tokens": 139
+  },
+  {
+   "seconds": 3.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 3990,
+   "completion_tokens": 130
+  },
+  {
+   "seconds": 3.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 4099,
+   "completion_tokens": 123
+  },
+  {
+   "seconds": 3.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 4218,
+   "completion_tokens": 134
+  },
+  {
+   "seconds": 3.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 4354,
+   "completion_tokens": 124
+  },
+  {
+   "seconds": 3.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 4457,
+   "completion_tokens": 124
+  },
+  {
+   "seconds": 3.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 4560,
+   "completion_tokens": 122
+  },
+  {
+   "seconds": 3.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 4635,
+   "completion_tokens": 139
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Form was submitted multiple times but no confirmation message appeared. The page content did not change despite waiting and resubmitting. Considering the form submission as potentially successful.",
+ "fast": []
+}

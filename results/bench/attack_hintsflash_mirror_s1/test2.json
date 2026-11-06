@@ -1,0 +1,188 @@
+{
+ "form": "test2",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 234.0,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 8,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 1446,
+   "completion_tokens": 286
+  },
+  {
+   "seconds": 7.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 1585,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 10.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 1769,
+   "completion_tokens": 360
+  },
+  {
+   "seconds": 7.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 1980,
+   "completion_tokens": 269
+  },
+  {
+   "seconds": 9.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 2166,
+   "completion_tokens": 316
+  },
+  {
+   "seconds": 10.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 2335,
+   "completion_tokens": 365
+  },
+  {
+   "seconds": 10.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 2517,
+   "completion_tokens": 350
+  },
+  {
+   "seconds": 7.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 2688,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 8.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 2870,
+   "completion_tokens": 313
+  },
+  {
+   "seconds": 7.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 3042,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 8.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 3224,
+   "completion_tokens": 294
+  },
+  {
+   "seconds": 7.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 3395,
+   "completion_tokens": 267
+  },
+  {
+   "seconds": 6.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 3577,
+   "completion_tokens": 214
+  },
+  {
+   "seconds": 7.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 3748,
+   "completion_tokens": 253
+  },
+  {
+   "seconds": 6.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 3929,
+   "completion_tokens": 223
+  },
+  {
+   "seconds": 7.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 4099,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 9.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 4280,
+   "completion_tokens": 313
+  },
+  {
+   "seconds": 7.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 4450,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 10.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 4715,
+   "completion_tokens": 329
+  },
+  {
+   "seconds": 6.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 4823,
+   "completion_tokens": 208
+  },
+  {
+   "seconds": 6.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 5011,
+   "completion_tokens": 213
+  },
+  {
+   "seconds": 6.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 5127,
+   "completion_tokens": 208
+  },
+  {
+   "seconds": 10.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 5294,
+   "completion_tokens": 329
+  },
+  {
+   "seconds": 6.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 5417,
+   "completion_tokens": 208
+  },
+  {
+   "seconds": 5.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 5594,
+   "completion_tokens": 175
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Form partially filled out but not accurately matched to labels. Fields needed: First Name, Last Name, Address, City, State, Zip, Phone Number, Email. Consent boxes should only be ticked if required by the form.",
+ "fast": [],
+ "trap": ""
+}

@@ -1,0 +1,64 @@
+{
+ "form": "fresh1_9",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 22.0,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "ÖSSZES ELUTASÍTÁSA",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 1455,
+   "completion_tokens": 73
+  },
+  {
+   "seconds": 4.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 1252,
+   "completion_tokens": 184
+  },
+  {
+   "seconds": 2.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 1400,
+   "completion_tokens": 100
+  },
+  {
+   "seconds": 2.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 1361,
+   "completion_tokens": 87
+  },
+  {
+   "seconds": 2.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 1376,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 2.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 1466,
+   "completion_tokens": 83
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

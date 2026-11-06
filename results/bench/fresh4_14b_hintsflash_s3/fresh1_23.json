@@ -1,0 +1,182 @@
+{
+ "form": "fresh1_23",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 208.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f0": "001195004567",
+   "f2": "21/06/1995000119500456700119500456700119500456701195004567",
+   "f3": "ha.pham@ex45 Trần Phú, Ba Đình45 Trần Phú, Ba Đình45 Trần Phú, Ba Đìnhample.com",
+   "f4": "001195004545 Trần Phú, Ba Đình45 Trần Phú, Ba Đình6745 Trần Phú, Ba Đình"
+  },
+  "extra": {
+   "f1": "001195004567",
+   "f5": "001195004500119500456767",
+   "f6": "45 Trần Phú, Ba Đình",
+   "f7": "Trường THPT Chu Văn AnCông ty TNHTrường THPT Chu Văn AnCông ty TNHH Minh LongH Minh Long"
+  },
+  "missing_consent": [],
+  "popup_choice": "Reject All",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 1173,
+   "completion_tokens": 62
+  },
+  {
+   "seconds": 5.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 1331,
+   "completion_tokens": 209
+  },
+  {
+   "seconds": 4.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 1457,
+   "completion_tokens": 167
+  },
+  {
+   "seconds": 30.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 1662,
+   "completion_tokens": 1228
+  },
+  {
+   "seconds": 2.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 1538,
+   "completion_tokens": 110
+  },
+  {
+   "seconds": 5.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 1693,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 3.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 1850,
+   "completion_tokens": 135
+  },
+  {
+   "seconds": 5.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 1941,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 11.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 2126,
+   "completion_tokens": 450
+  },
+  {
+   "seconds": 9.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 2391,
+   "completion_tokens": 362
+  },
+  {
+   "seconds": 5.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 2565,
+   "completion_tokens": 203
+  },
+  {
+   "seconds": 9.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 2743,
+   "completion_tokens": 385
+  },
+  {
+   "seconds": 7.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 2910,
+   "completion_tokens": 296
+  },
+  {
+   "seconds": 8.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 3117,
+   "completion_tokens": 345
+  },
+  {
+   "seconds": 7.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 3292,
+   "completion_tokens": 290
+  },
+  {
+   "seconds": 8.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 3484,
+   "completion_tokens": 343
+  },
+  {
+   "seconds": 5.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 3675,
+   "completion_tokens": 210
+  },
+  {
+   "seconds": 9.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 3868,
+   "completion_tokens": 352
+  },
+  {
+   "seconds": 9.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 4123,
+   "completion_tokens": 352
+  },
+  {
+   "seconds": 4.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 4295,
+   "completion_tokens": 180
+  },
+  {
+   "seconds": 4.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 4461,
+   "completion_tokens": 180
+  },
+  {
+   "seconds": 2.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 4102,
+   "completion_tokens": 75
+  },
+  {
+   "seconds": 3.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 4121,
+   "completion_tokens": 116
+  },
+  {
+   "seconds": 2.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 4225,
+   "completion_tokens": 110
+  }
+ ],
+ "steps": 25,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission successful",
+ "fast": []
+}

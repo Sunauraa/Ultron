@@ -1,0 +1,190 @@
+{
+ "form": "test0",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 95.3,
+ "score": {
+  "blocked": [
+   "Title (Mr/Mrs/Ms/Miss/Other) *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 5,
+  "wrong": {
+   "f1": "Reed",
+   "f2": "742 Cedar Lane",
+   "f3": "97201",
+   "f4": "503-555-0147",
+   "f8": null
+  },
+  "extra": {
+   "f0": "Jordan",
+   "f9": "Portland"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 1349,
+   "completion_tokens": 209
+  },
+  {
+   "seconds": 4.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 1471,
+   "completion_tokens": 165
+  },
+  {
+   "seconds": 4.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 1273,
+   "completion_tokens": 144
+  },
+  {
+   "seconds": 2.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 1637,
+   "completion_tokens": 81
+  },
+  {
+   "seconds": 2.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 1699,
+   "completion_tokens": 80
+  },
+  {
+   "seconds": 3.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 1761,
+   "completion_tokens": 115
+  },
+  {
+   "seconds": 2.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 1834,
+   "completion_tokens": 91
+  },
+  {
+   "seconds": 2.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 1956,
+   "completion_tokens": 93
+  },
+  {
+   "seconds": 2.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 2029,
+   "completion_tokens": 91
+  },
+  {
+   "seconds": 2.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 2103,
+   "completion_tokens": 88
+  },
+  {
+   "seconds": 3.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 2176,
+   "completion_tokens": 140
+  },
+  {
+   "seconds": 3.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 2271,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 3.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 2367,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 3.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 2471,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 3.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 2567,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 3.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 2662,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 3.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 2757,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 3.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 2852,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 3.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 3031,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 3.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 3126,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 3.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 3221,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 3.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 3316,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 3.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 3411,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 3.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 3506,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 3.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 3617,
+   "completion_tokens": 129
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": true,
+ "final": "Form was successfully filled and submitted. Confirmation message 'Thank you. Your form has been received and no further action is needed.' is displayed.",
+ "fast": [],
+ "trap": ""
+}

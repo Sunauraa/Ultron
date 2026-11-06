@@ -1,0 +1,122 @@
+"""Record the LLM agent alone and with Ultron on one form, then join them side by side. Usage: record_side_by_side.py FORM_ID
+
+Each arm runs once, with the benchmark's task, LLM and locked settings. The page and its counters are sampled from
+the running agent, so the video plays real time at 2x with whatever each run actually did.
+"""
+
+import asyncio
+import io
+import json
+import os
+import sys
+import time
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+os.environ.update(
+    ANONYMIZED_TELEMETRY="false", BROWSER_USE_CLOUD_SYNC="false", BROWSER_USE_LOGGING_LEVEL="result", SKIP_LLM_API_KEY_VERIFICATION="true",
+    XDG_CONFIG_HOME=str(ROOT / ".cache/config"), BROWSER_USE_CONFIG_DIR=str(ROOT / ".cache/config/browseruse"),
+)
+sys.path[:0] = [str(ROOT), str(ROOT / "experiments/bench"), str(ROOT / "third_party/cua/libs/cua-s1/python/src")]
+
+import imageio_ffmpeg  # noqa: E402
+import torch  # noqa: E402
+from browser_use import Agent, BrowserProfile, ChatOpenAI  # noqa: E402
+from PIL import Image, ImageDraw, ImageFont  # noqa: E402
+from real_bench import Server, load_forms  # noqa: E402
+from run_baseline import LoggedLLM  # noqa: E402
+
+from ultron import FastPath, install, parse_document  # noqa: E402
+
+torch.set_num_threads(1)
+CHROME = ROOT / ".cache/pw/chromium-1248/chrome-linux64/chrome"
+DIALOGS = [ROOT / f"models/ultron-dialogs-0.1/{m}/model.safetensors" for m in "ab"]
+FORMS = [str(ROOT / f"models/ultron-forms-0.1/{m}/model.safetensors") for m in "ab"]
+SPEED, FPS, SIDE, PAGE_H, BAR_H = 2, 10, 640, 620, 96
+FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+
+
+async def run_arm(form, server, arm):
+    url = f"http://127.0.0.1:{server.port}/{form['id']}"
+    task = (
+        f"Go to {url}, fill in the form using the document below, and submit it. "
+        "Leave fields empty if the document has no value for them, and tick a consent box only if it is required. "
+        "If a pop-up appears, clear it safely: refuse cookies if you can, otherwise close it. Finish once the page confirms receipt.\n\n"
+        f"Document:\n{form['document']}"
+    )
+    llm = LoggedLLM(ChatOpenAI(model="local", base_url="http://127.0.0.1:8007/v1", api_key="local", temperature=0.0, seed=1))
+    profile = BrowserProfile(headless=True, executable_path=str(CHROME), chromium_sandbox=False, user_data_dir=None, allowed_domains=["127.0.0.1"], window_size={"width": 1000, "height": 970})
+    agent = Agent(task=task, llm=llm, browser_profile=profile, use_vision=False, use_judge=False, max_failures=5)
+    fast = install(agent, FastPath(parse_document(form["document"]), FORMS, DIALOGS, form_gate=0.6)) if arm == "s1" else None
+    frames, errors, start = [], [], time.perf_counter()
+
+    async def sample():
+        while True:
+            try:
+                shot = await asyncio.wait_for(agent.browser_session.take_screenshot(), 3)
+                count = sum(s.kind != "llm" for s in fast.steps) if fast else 0
+                frames.append((time.perf_counter() - start, Image.open(io.BytesIO(shot)).convert("RGB"), len(llm.calls), count))
+            except Exception as error:  # the browser isn't up yet, or is between pages
+                errors.append(repr(error)[:160])
+            await asyncio.sleep(0.4)
+
+    sampler = asyncio.create_task(sample())
+    await agent.run(max_steps=25)
+    seconds = time.perf_counter() - start
+    sampler.cancel()
+    print(arm, len(frames), "frames;", len(errors), "misses, last:", errors[-1:], flush=True)
+    return {"frames": frames, "seconds": seconds, "calls": len(llm.calls), "score": server.score(form), "fast": sum(s.kind != "llm" for s in fast.steps) if fast else 0}
+
+
+def panel(run, t, title, colour):
+    canvas = Image.new("RGB", (SIDE, PAGE_H + BAR_H), "white")
+    draw = ImageDraw.Draw(canvas)
+    seen = [f for f in run["frames"] if f[0] <= t]
+    finished = t >= run["seconds"]
+    calls, fast = (run["calls"], run["fast"]) if finished else seen[-1][2:] if seen else (0, 0)
+    if seen:
+        page = seen[-1][1]
+        canvas.paste(page.resize((SIDE, int(page.height * SIDE / page.width))).crop((0, 0, SIDE, PAGE_H)), (0, BAR_H))
+    draw.rectangle((0, 0, SIDE, BAR_H), fill=colour)
+    draw.text((14, 8), title, font=ImageFont.truetype(BOLD, 22), fill="white")
+    clock = f"{min(t, run['seconds']):5.1f} s" + ("  finished" if finished else "")
+    draw.text((14, 40), f"LLM calls: {calls}", font=ImageFont.truetype(BOLD, 20), fill="white")
+    draw.text((14, 68), f"Handled without LLM: {fast}", font=ImageFont.truetype(FONT, 17), fill="white")
+    draw.text((400, 40), clock, font=ImageFont.truetype(FONT, 20), fill="white")
+    return canvas
+
+
+def compose(plain, fast, out, note):
+    total = max(plain["seconds"], fast["seconds"]) + 3 * SPEED
+    writer = imageio_ffmpeg.write_frames(str(out), (SIDE * 2 + 8, PAGE_H + BAR_H + 34), fps=FPS, codec="libx264", macro_block_size=2, output_params=["-pix_fmt", "yuv420p"])
+    writer.send(None)
+    for number in range(int(total * FPS / SPEED)):
+        t = number * SPEED / FPS
+        frame = Image.new("RGB", (SIDE * 2 + 8, PAGE_H + BAR_H + 34), "#222222")
+        frame.paste(panel(plain, t, "LLM agent only", "#555555"), (0, 0))
+        frame.paste(panel(fast, t, "LLM agent + Ultron", "#0b6e4f"), (SIDE + 8, 0))
+        ImageDraw.Draw(frame).text((12, PAGE_H + BAR_H + 7), note, font=ImageFont.truetype(FONT, 15), fill="white")
+        writer.send(frame.tobytes())
+    writer.close()
+
+
+async def main():
+    form_id = sys.argv[1]
+    form = next(f for f in load_forms("dev") if f["id"] == form_id)
+    server = Server([form])
+    plain = await run_arm(form, server, "plain")
+    server.received.clear()
+    server.submitted.clear()
+    fast = await run_arm(form, server, "s1")
+    out = ROOT / "demo/ultron_side_by_side.mp4"
+    note = "One run per side on one English practice form, 2x speed, same local LLM. All 23 test forms: 38% fewer LLM calls; English only: 13%, within noise."
+    compose(plain, fast, out, note)
+    summary = {name: {k: run[k] for k in ("seconds", "calls", "fast", "score")} for name, run in (("plain", plain), ("s1", fast))}
+    summary["form"], summary["frames"] = form_id, {"plain": len(plain["frames"]), "s1": len(fast["frames"])}
+    (ROOT / "demo/ultron_side_by_side.json").write_text(json.dumps(summary, ensure_ascii=False, indent=1))
+    print(json.dumps(summary, ensure_ascii=False))
+
+
+if __name__ == "__main__":
+    asyncio.run(main())

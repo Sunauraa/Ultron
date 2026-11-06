@@ -1,0 +1,71 @@
+{
+ "form": "test20",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 27.5,
+ "score": {
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Rejeitar cookies",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 9.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 6563,
+   "completion_tokens": 376
+  },
+  {
+   "seconds": 4.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 6698,
+   "completion_tokens": 184
+  },
+  {
+   "seconds": 4.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 6073,
+   "completion_tokens": 174
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 48.844119533896446,
+   "url": "http://127.0.0.1:46175/test20",
+   "goal": "Close the pop-up with 'Rejeitar cookies'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 260.49356907606125,
+   "url": "http://127.0.0.1:46175/test20",
+   "goal": "Fill 4 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 262.4914273619652,
+   "url": "http://127.0.0.1:46175/test20",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 290.0380827486515,
+   "url": "http://127.0.0.1:46175/test20",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.19646808505058289,
+   "url": "http://127.0.0.1:46175/test20",
+   "goal": ""
+  }
+ ]
+}

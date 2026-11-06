@@ -1,0 +1,67 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 32.6,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 5966,
+   "completion_tokens": 181
+  },
+  {
+   "seconds": 6.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 6368,
+   "completion_tokens": 335
+  },
+  {
+   "seconds": 5.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 6556,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 5.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 6651,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 5.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 6729,
+   "completion_tokens": 240
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": false,
+ "final": "The form could not be submitted because the CAPTCHA Code field is missing and required. All other fields were filled in successfully.",
+ "fast": []
+}

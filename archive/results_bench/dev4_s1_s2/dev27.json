@@ -1,0 +1,91 @@
+{
+ "form": "dev27",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 37.1,
+ "score": {
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {
+   "f3": "Trường THPT Chu Văn An"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 6240,
+   "completion_tokens": 215
+  },
+  {
+   "seconds": 6.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 6383,
+   "completion_tokens": 270
+  },
+  {
+   "seconds": 5.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 6481,
+   "completion_tokens": 220
+  },
+  {
+   "seconds": 5.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 6561,
+   "completion_tokens": 228
+  },
+  {
+   "seconds": 5.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 6276,
+   "completion_tokens": 213
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 114.36925269663334,
+   "url": "http://127.0.0.1:33929/dev27",
+   "goal": "Filled 2 field(s) from the document. Still empty, so check each against the document before submitting: Điền Họ & Tên của Anh/Chị :; Khóa học muốn tham gia :."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 104.61360402405262,
+   "url": "http://127.0.0.1:33929/dev27",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 102.85761207342148,
+   "url": "http://127.0.0.1:33929/dev27",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 105.17555847764015,
+   "url": "http://127.0.0.1:33929/dev27",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 114.8796621710062,
+   "url": "http://127.0.0.1:33929/dev27",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.16594305634498596,
+   "url": "http://127.0.0.1:33929/dev27",
+   "goal": ""
+  }
+ ]
+}

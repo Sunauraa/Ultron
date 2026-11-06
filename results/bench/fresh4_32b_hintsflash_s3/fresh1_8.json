@@ -1,0 +1,175 @@
+{
+ "form": "fresh1_8",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 198.0,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {
+   "f0": "21/06/1995",
+   "f1": "001195004567"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 1307,
+   "completion_tokens": 256
+  },
+  {
+   "seconds": 5.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 1477,
+   "completion_tokens": 281
+  },
+  {
+   "seconds": 3.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 1405,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 2.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 1496,
+   "completion_tokens": 146
+  },
+  {
+   "seconds": 12.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 1870,
+   "completion_tokens": 639
+  },
+  {
+   "seconds": 5.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 2034,
+   "completion_tokens": 264
+  },
+  {
+   "seconds": 11.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 2176,
+   "completion_tokens": 617
+  },
+  {
+   "seconds": 5.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 2318,
+   "completion_tokens": 302
+  },
+  {
+   "seconds": 9.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 2447,
+   "completion_tokens": 481
+  },
+  {
+   "seconds": 5.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 2587,
+   "completion_tokens": 299
+  },
+  {
+   "seconds": 3.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 2751,
+   "completion_tokens": 196
+  },
+  {
+   "seconds": 4.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 2947,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 10.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 3006,
+   "completion_tokens": 527
+  },
+  {
+   "seconds": 5.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 3143,
+   "completion_tokens": 284
+  },
+  {
+   "seconds": 7.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 3311,
+   "completion_tokens": 392
+  },
+  {
+   "seconds": 6.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 3455,
+   "completion_tokens": 303
+  },
+  {
+   "seconds": 6.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 3623,
+   "completion_tokens": 329
+  },
+  {
+   "seconds": 6.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 3767,
+   "completion_tokens": 303
+  },
+  {
+   "seconds": 4.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 4019,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 4.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 3926,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 4.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 4306,
+   "completion_tokens": 218
+  },
+  {
+   "seconds": 3.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 4472,
+   "completion_tokens": 172
+  },
+  {
+   "seconds": 3.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 4346,
+   "completion_tokens": 177
+  },
+  {
+   "seconds": 3.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 4431,
+   "completion_tokens": 144
+  }
+ ],
+ "steps": 25,
+ "is_done": true,
+ "success": false,
+ "final": "Form submission was partially successful but not all required fields were filled. Missing fields: 'Ngày sinh', 'CMND/CCCD', and 'Địa chỉ'.",
+ "fast": []
+}

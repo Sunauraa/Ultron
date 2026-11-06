@@ -1,0 +1,61 @@
+{
+ "form": "fresh2_13",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 31.7,
+ "score": {
+  "blocked": [
+   "Comments-Question *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 6,
+  "wrong": {
+   "f1": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 5965,
+   "completion_tokens": 192
+  },
+  {
+   "seconds": 8.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 6117,
+   "completion_tokens": 437
+  },
+  {
+   "seconds": 6.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 6229,
+   "completion_tokens": 339
+  },
+  {
+   "seconds": 5.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 6353,
+   "completion_tokens": 280
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": false,
+ "final": "The form could not be submitted because a required field ('Comments-Question') is missing from the provided document.",
+ "fast": []
+}

@@ -1,0 +1,123 @@
+{
+ "form": "fresh1_11",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 159.6,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f5": null,
+   "f6": null,
+   "f7": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 5942,
+   "completion_tokens": 194
+  },
+  {
+   "seconds": 8.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 6453,
+   "completion_tokens": 438
+  },
+  {
+   "seconds": 12.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 6535,
+   "completion_tokens": 602
+  },
+  {
+   "seconds": 10.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 6588,
+   "completion_tokens": 504
+  },
+  {
+   "seconds": 8.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 6638,
+   "completion_tokens": 413
+  },
+  {
+   "seconds": 8.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 6696,
+   "completion_tokens": 421
+  },
+  {
+   "seconds": 9.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 6754,
+   "completion_tokens": 443
+  },
+  {
+   "seconds": 8.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 6850,
+   "completion_tokens": 414
+  },
+  {
+   "seconds": 8.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 6926,
+   "completion_tokens": 430
+  },
+  {
+   "seconds": 12.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6998,
+   "completion_tokens": 588
+  },
+  {
+   "seconds": 9.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 7080,
+   "completion_tokens": 440
+  },
+  {
+   "seconds": 8.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 7194,
+   "completion_tokens": 426
+  },
+  {
+   "seconds": 7.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 7297,
+   "completion_tokens": 359
+  },
+  {
+   "seconds": 8.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 7415,
+   "completion_tokens": 398
+  },
+  {
+   "seconds": 6.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 7521,
+   "completion_tokens": 299
+  }
+ ],
+ "steps": 16,
+ "is_done": true,
+ "success": false,
+ "final": "The form could not be submitted because a required field (phone number) is missing from the provided document.",
+ "fast": []
+}

@@ -1,0 +1,134 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 63.3,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 5966,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 13.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 6015,
+   "completion_tokens": 514
+  },
+  {
+   "seconds": 5.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 6166,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 5.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 6278,
+   "completion_tokens": 224
+  },
+  {
+   "seconds": 5.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 6336,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 6.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 6498,
+   "completion_tokens": 267
+  },
+  {
+   "seconds": 7.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 6714,
+   "completion_tokens": 292
+  },
+  {
+   "seconds": 7.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 7003,
+   "completion_tokens": 292
+  }
+ ],
+ "steps": 9,
+ "is_done": true,
+ "success": false,
+ "final": "The form page at http://127.0.0.1:45329/fresh1_4/apply-form.html could not be interacted with as no interactive elements were found despite multiple attempts and waiting periods. The task cannot be completed as requested.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 50.77787861227989,
+   "url": "http://127.0.0.1:45329/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.30849501490592957,
+   "url": "http://127.0.0.1:45329/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.206330955028534,
+   "url": "http://127.0.0.1:45329/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.258503645658493,
+   "url": "http://127.0.0.1:45329/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.294262707233429,
+   "url": "http://127.0.0.1:45329/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.2538246810436249,
+   "url": "http://127.0.0.1:45329/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.3482514768838882,
+   "url": "http://127.0.0.1:45329/fresh1_4/apply-form.html",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.28628669679164886,
+   "url": "http://127.0.0.1:45329/fresh1_4/apply-form.html",
+   "goal": ""
+  }
+ ]
+}

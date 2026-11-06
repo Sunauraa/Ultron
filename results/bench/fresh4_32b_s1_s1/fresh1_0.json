@@ -1,0 +1,65 @@
+{
+ "form": "fresh1_0",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 14.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 8,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.66,
+   "format": "Answers",
+   "prompt_tokens": 349,
+   "completion_tokens": 281
+  },
+  {
+   "seconds": 0.23,
+   "format": "Review",
+   "prompt_tokens": 129,
+   "completion_tokens": 8
+  },
+  {
+   "seconds": 0.16,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 7
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 6024.403443560004,
+   "url": "http://127.0.0.1:37583/fresh1_0",
+   "goal": "Filled 15 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Today's Date; f14; f15; f16; f17; f18; f19; f20. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 680.0553873181343,
+   "url": "http://127.0.0.1:37583/fresh1_0",
+   "goal": "Sent the form with 'Submit'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 164.93670269846916,
+   "url": "http://127.0.0.1:37583/fresh1_0",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

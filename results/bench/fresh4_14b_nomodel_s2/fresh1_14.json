@@ -1,0 +1,113 @@
+{
+ "form": "fresh1_14",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 52.6,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 6137,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 6.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 6309,
+   "completion_tokens": 244
+  },
+  {
+   "seconds": 6.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 6403,
+   "completion_tokens": 257
+  },
+  {
+   "seconds": 7.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 6513,
+   "completion_tokens": 271
+  },
+  {
+   "seconds": 10.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 6624,
+   "completion_tokens": 395
+  },
+  {
+   "seconds": 5.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 6697,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 4.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 6439,
+   "completion_tokens": 180
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed received.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 0.3556404262781143,
+   "url": "http://127.0.0.1:36705/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.36555901169776917,
+   "url": "http://127.0.0.1:36705/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3451649099588394,
+   "url": "http://127.0.0.1:36705/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5067773163318634,
+   "url": "http://127.0.0.1:36705/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5053132772445679,
+   "url": "http://127.0.0.1:36705/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.41842833161354065,
+   "url": "http://127.0.0.1:36705/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.7773620784282684,
+   "url": "http://127.0.0.1:36705/fresh1_14",
+   "goal": ""
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "form": "fresh1_0",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 210.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 8,
+  "wrong": {
+   "f2": null,
+   "f3": null,
+   "f4": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null,
+   "f9": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 12.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 6685,
+   "completion_tokens": 425
+  },
+  {
+   "seconds": 7.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 6894,
+   "completion_tokens": 302
+  },
+  {
+   "seconds": 7.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 7004,
+   "completion_tokens": 280
+  },
+  {
+   "seconds": 7.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 7106,
+   "completion_tokens": 290
+  },
+  {
+   "seconds": 7.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 7208,
+   "completion_tokens": 272
+  },
+  {
+   "seconds": 7.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 7310,
+   "completion_tokens": 290
+  },
+  {
+   "seconds": 6.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 7461,
+   "completion_tokens": 259
+  },
+  {
+   "seconds": 7.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 7591,
+   "completion_tokens": 282
+  },
+  {
+   "seconds": 6.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 7677,
+   "completion_tokens": 261
+  },
+  {
+   "seconds": 6.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 7767,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 7.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 7851,
+   "completion_tokens": 295
+  },
+  {
+   "seconds": 7.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 7938,
+   "completion_tokens": 275
+  },
+  {
+   "seconds": 7.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 8025,
+   "completion_tokens": 295
+  },
+  {
+   "seconds": 6.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 8111,
+   "completion_tokens": 259
+  },
+  {
+   "seconds": 6.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 8199,
+   "completion_tokens": 257
+  },
+  {
+   "seconds": 7.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 8285,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 13.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 8383,
+   "completion_tokens": 524
+  },
+  {
+   "seconds": 7.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 8486,
+   "completion_tokens": 265
+  },
+  {
+   "seconds": 7.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 8657,
+   "completion_tokens": 280
+  },
+  {
+   "seconds": 7.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 8755,
+   "completion_tokens": 266
+  },
+  {
+   "seconds": 7.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 8853,
+   "completion_tokens": 280
+  },
+  {
+   "seconds": 7.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 8951,
+   "completion_tokens": 279
+  },
+  {
+   "seconds": 10.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 9049,
+   "completion_tokens": 388
+  },
+  {
+   "seconds": 6.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 9147,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 6.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 9259,
+   "completion_tokens": 259
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "I attempted to fill in the form but encountered issues with filling in the Date of Birth field. The provided document does not include a value for this field, so it was left blank. However, I was unable to proceed further due to repeated failures in filling this field correctly. Therefore, I am unable to submit the form as requested.",
+ "fast": []
+}

@@ -1,0 +1,64 @@
+{
+ "form": "fresh1_20",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 49.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 6004,
+   "completion_tokens": 240
+  },
+  {
+   "seconds": 7.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 6182,
+   "completion_tokens": 292
+  },
+  {
+   "seconds": 7.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 6300,
+   "completion_tokens": 275
+  },
+  {
+   "seconds": 7.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 6412,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 8.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 6520,
+   "completion_tokens": 324
+  },
+  {
+   "seconds": 6.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 6411,
+   "completion_tokens": 259
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed received. Here is a summary of the information provided:\n\n- Họ và tên: Phạm Thu Hà\n- Ngày sinh: 21/06/1995\n- Số điện thoại: 0934567890\n- Email cá nhân (nếu có): ha.pham@example.com\n- Địa điểm đăng ký dự thi: Khu vực phía Bắc - Hà Nội",
+ "fast": []
+}

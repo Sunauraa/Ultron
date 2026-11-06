@@ -1,0 +1,78 @@
+{
+ "form": "fresh2_17",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 70.7,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {
+   "f3": "+15035550147"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Afwijzen",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 5978,
+   "completion_tokens": 199
+  },
+  {
+   "seconds": 5.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 6167,
+   "completion_tokens": 270
+  },
+  {
+   "seconds": 5.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 6245,
+   "completion_tokens": 262
+  },
+  {
+   "seconds": 10.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 6348,
+   "completion_tokens": 500
+  },
+  {
+   "seconds": 8.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 6525,
+   "completion_tokens": 405
+  },
+  {
+   "seconds": 7.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 6658,
+   "completion_tokens": 386
+  },
+  {
+   "seconds": 6.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 6782,
+   "completion_tokens": 307
+  },
+  {
+   "seconds": 5.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 6586,
+   "completion_tokens": 278
+  }
+ ],
+ "steps": 9,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully filled out and submitted. Here are the details:\n- Given name: Jordan\n- Family name: Reed\n- Email address: jordan.reed@example.com\n- Contact number: +15035550147\n- Residence: 742 Cedar Lane\n- Municipality: Portland\n- Province or state: Oregon\n- Postcode: 97201",
+ "fast": []
+}

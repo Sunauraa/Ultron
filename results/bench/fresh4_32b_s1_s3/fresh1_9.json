@@ -1,0 +1,71 @@
+{
+ "form": "fresh1_9",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 7.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "ÖSSZES ELUTASÍTÁSA",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.6,
+   "format": "Answers",
+   "prompt_tokens": 277,
+   "completion_tokens": 86
+  },
+  {
+   "seconds": 0.2,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.15,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 7
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 51.868537440896034,
+   "url": "http://127.0.0.1:45791/fresh1_9",
+   "goal": "Close the pop-up with 'ÖSSZES ELUTASÍTÁSA'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1658.6074959486723,
+   "url": "http://127.0.0.1:45791/fresh1_9",
+   "goal": "Filled 3 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Khóa học (vui lòng nhập tên khóa học). Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 262.2320130467415,
+   "url": "http://127.0.0.1:45791/fresh1_9",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 150.83431266248226,
+   "url": "http://127.0.0.1:45791/fresh1_9",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "form": "fresh1_13",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 1,
+ "seconds": 28.9,
+ "score": {
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Reject optional cookies",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 5860,
+   "completion_tokens": 131
+  },
+  {
+   "seconds": 7.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 6093,
+   "completion_tokens": 297
+  },
+  {
+   "seconds": 6.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 6214,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 5.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 6065,
+   "completion_tokens": 203
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": []
+}

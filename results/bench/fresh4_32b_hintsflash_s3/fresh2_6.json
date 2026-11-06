@@ -1,0 +1,191 @@
+{
+ "form": "fresh2_6",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 158.1,
+ "score": {
+  "blocked": [
+   "Closest Main Intersection:*",
+   "Occupation*",
+   "Why do you want to volunteer with us?*",
+   "Please briefly outline your pet owning history*",
+   "For how long are you looking to volunteer?*",
+   "How did you hear about Abbey Cat Adoptions?*"
+  ],
+  "unclear": [
+   "Full Home Address:*"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 3,
+  "wrong": {
+   "f0": null,
+   "f4": null,
+   "f5": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 2173,
+   "completion_tokens": 313
+  },
+  {
+   "seconds": 4.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 2409,
+   "completion_tokens": 205
+  },
+  {
+   "seconds": 4.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 2513,
+   "completion_tokens": 205
+  },
+  {
+   "seconds": 4.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 2618,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 4.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 2725,
+   "completion_tokens": 205
+  },
+  {
+   "seconds": 5.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 2830,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 5.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 3002,
+   "completion_tokens": 270
+  },
+  {
+   "seconds": 4.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 3127,
+   "completion_tokens": 225
+  },
+  {
+   "seconds": 4.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 3246,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 4.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 3357,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 4.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 3467,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 4.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 3577,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 5.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 3736,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 5.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 3910,
+   "completion_tokens": 235
+  },
+  {
+   "seconds": 5.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 4045,
+   "completion_tokens": 235
+  },
+  {
+   "seconds": 5.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 4180,
+   "completion_tokens": 235
+  },
+  {
+   "seconds": 5.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 4315,
+   "completion_tokens": 235
+  },
+  {
+   "seconds": 4.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 4450,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 5.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 4640,
+   "completion_tokens": 235
+  },
+  {
+   "seconds": 5.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 4775,
+   "completion_tokens": 235
+  },
+  {
+   "seconds": 4.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 4910,
+   "completion_tokens": 220
+  },
+  {
+   "seconds": 4.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 5015,
+   "completion_tokens": 200
+  },
+  {
+   "seconds": 4.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 5115,
+   "completion_tokens": 220
+  },
+  {
+   "seconds": 5.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 5220,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 3.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 5362,
+   "completion_tokens": 162
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "The form could not be fully completed because the document does not provide a value for the required field 'Occupation'. Other required fields were filled with available data from the document.",
+ "fast": []
+}

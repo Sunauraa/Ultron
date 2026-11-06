@@ -1,0 +1,73 @@
+{
+ "form": "dev17",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 2,
+ "seconds": 59.0,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {
+   "f2": "21/06/1995",
+   "f6": "Công ty TNHH Minh Long"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 6039,
+   "completion_tokens": 264
+  },
+  {
+   "seconds": 6.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 6231,
+   "completion_tokens": 266
+  },
+  {
+   "seconds": 6.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 6343,
+   "completion_tokens": 246
+  },
+  {
+   "seconds": 7.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 6434,
+   "completion_tokens": 280
+  },
+  {
+   "seconds": 6.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 6529,
+   "completion_tokens": 260
+  },
+  {
+   "seconds": 7.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 6631,
+   "completion_tokens": 305
+  },
+  {
+   "seconds": 5.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 6738,
+   "completion_tokens": 224
+  },
+  {
+   "seconds": 5.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 6497,
+   "completion_tokens": 212
+  }
+ ],
+ "steps": 9,
+ "is_done": true,
+ "fast": []
+}

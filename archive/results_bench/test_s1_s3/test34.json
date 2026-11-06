@@ -1,0 +1,87 @@
+{
+ "form": "test34",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 3,
+ "seconds": 34.9,
+ "score": {
+  "submitted": true,
+  "fields": 3,
+  "wrong": {
+   "f0": null
+  },
+  "extra": {
+   "f5": "ha.pham@example.com"
+  },
+  "missing_consent": [],
+  "popup_choice": "Nie akceptuję",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 6136,
+   "completion_tokens": 317
+  },
+  {
+   "seconds": 6.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 6255,
+   "completion_tokens": 265
+  },
+  {
+   "seconds": 6.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 6359,
+   "completion_tokens": 253
+  },
+  {
+   "seconds": 5.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 6184,
+   "completion_tokens": 209
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 49.31825399398804,
+   "url": "http://127.0.0.1:39479/test34",
+   "goal": "Close the pop-up with 'Nie akceptuję'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 92.32795424759388,
+   "url": "http://127.0.0.1:39479/test34",
+   "goal": "Fill 1 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 98.68141449987888,
+   "url": "http://127.0.0.1:39479/test34",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 97.18615375459194,
+   "url": "http://127.0.0.1:39479/test34",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 99.27850216627121,
+   "url": "http://127.0.0.1:39479/test34",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2862177789211273,
+   "url": "http://127.0.0.1:39479/test34",
+   "goal": ""
+  }
+ ]
+}

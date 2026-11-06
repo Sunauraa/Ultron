@@ -1,0 +1,154 @@
+{
+ "form": "test3",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 207.0,
+ "score": {
+  "blocked": [],
+  "unclear": [
+   "House number or house name *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 6,
+  "wrong": {
+   "f8": null,
+   "f9": null,
+   "f11": null,
+   "f12": null,
+   "f13": null,
+   "f14": null
+  },
+  "extra": {},
+  "missing_consent": [
+   "f0"
+  ],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 5924,
+   "completion_tokens": 153
+  },
+  {
+   "seconds": 10.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 6414,
+   "completion_tokens": 349
+  },
+  {
+   "seconds": 8.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 6489,
+   "completion_tokens": 294
+  },
+  {
+   "seconds": 10.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 6595,
+   "completion_tokens": 334
+  },
+  {
+   "seconds": 10.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 6685,
+   "completion_tokens": 354
+  },
+  {
+   "seconds": 9.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 6831,
+   "completion_tokens": 309
+  },
+  {
+   "seconds": 9.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 6934,
+   "completion_tokens": 310
+  },
+  {
+   "seconds": 9.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 7038,
+   "completion_tokens": 310
+  },
+  {
+   "seconds": 10.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 7142,
+   "completion_tokens": 348
+  },
+  {
+   "seconds": 10.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 7247,
+   "completion_tokens": 361
+  },
+  {
+   "seconds": 10.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 7351,
+   "completion_tokens": 352
+  },
+  {
+   "seconds": 8.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 7493,
+   "completion_tokens": 284
+  },
+  {
+   "seconds": 9.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 7508,
+   "completion_tokens": 299
+  },
+  {
+   "seconds": 9.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 7610,
+   "completion_tokens": 340
+  },
+  {
+   "seconds": 10.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 7705,
+   "completion_tokens": 371
+  },
+  {
+   "seconds": 12.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 7819,
+   "completion_tokens": 424
+  },
+  {
+   "seconds": 11.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 7942,
+   "completion_tokens": 416
+  },
+  {
+   "seconds": 12.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 8072,
+   "completion_tokens": 416
+  },
+  {
+   "seconds": 9.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 8286,
+   "completion_tokens": 311
+  }
+ ],
+ "steps": 20,
+ "is_done": true,
+ "success": false,
+ "final": "The form could not be completed due to missing required fields: House number or house name and Street name.",
+ "fast": [],
+ "trap": ""
+}

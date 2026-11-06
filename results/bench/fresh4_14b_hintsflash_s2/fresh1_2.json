@@ -1,0 +1,54 @@
+{
+ "form": "fresh1_2",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 17.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f1": "Jordan Reed"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Reject All",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 1153,
+   "completion_tokens": 58
+  },
+  {
+   "seconds": 5.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 2057,
+   "completion_tokens": 201
+  },
+  {
+   "seconds": 2.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 2259,
+   "completion_tokens": 87
+  },
+  {
+   "seconds": 1.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 1283,
+   "completion_tokens": 75
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

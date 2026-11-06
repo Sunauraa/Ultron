@@ -1,0 +1,56 @@
+{
+ "form": "fresh2_14",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 20.8,
+ "score": {
+  "blocked": [
+   "Message *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {
+   "f31": "I am applying for a position."
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 2185,
+   "completion_tokens": 239
+  },
+  {
+   "seconds": 3.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 2293,
+   "completion_tokens": 177
+  },
+  {
+   "seconds": 4.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 2432,
+   "completion_tokens": 189
+  },
+  {
+   "seconds": 1.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 1398,
+   "completion_tokens": 99
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

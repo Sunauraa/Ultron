@@ -1,0 +1,187 @@
+{
+ "form": "fresh2_13",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 147.9,
+ "score": {
+  "blocked": [
+   "Comments-Question *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 6,
+  "wrong": {
+   "f1": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 1244,
+   "completion_tokens": 69
+  },
+  {
+   "seconds": 5.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 1352,
+   "completion_tokens": 223
+  },
+  {
+   "seconds": 4.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 1459,
+   "completion_tokens": 160
+  },
+  {
+   "seconds": 4.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 1586,
+   "completion_tokens": 195
+  },
+  {
+   "seconds": 3.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 1615,
+   "completion_tokens": 155
+  },
+  {
+   "seconds": 4.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 1734,
+   "completion_tokens": 193
+  },
+  {
+   "seconds": 5.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 1818,
+   "completion_tokens": 207
+  },
+  {
+   "seconds": 5.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 1993,
+   "completion_tokens": 209
+  },
+  {
+   "seconds": 5.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 2041,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 6.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 2177,
+   "completion_tokens": 240
+  },
+  {
+   "seconds": 9.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 2254,
+   "completion_tokens": 395
+  },
+  {
+   "seconds": 7.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 2279,
+   "completion_tokens": 292
+  },
+  {
+   "seconds": 5.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 2423,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 7.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 2520,
+   "completion_tokens": 286
+  },
+  {
+   "seconds": 4.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 2617,
+   "completion_tokens": 194
+  },
+  {
+   "seconds": 4.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 2714,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 5.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 2859,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 5.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 2956,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 4.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 3137,
+   "completion_tokens": 157
+  },
+  {
+   "seconds": 4.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 3241,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 4.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 3338,
+   "completion_tokens": 157
+  },
+  {
+   "seconds": 4.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 3435,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 5.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 3533,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 5.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 3630,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 3.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 3741,
+   "completion_tokens": 144
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "The form submission failed because the required fields 'Date of Birth' and 'Contact Number' were not provided in the document. These fields are mandatory and cannot be left blank. Therefore, the task cannot be completed as requested.",
+ "fast": []
+}

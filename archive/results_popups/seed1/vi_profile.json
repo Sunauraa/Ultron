@@ -1,0 +1,236 @@
+{
+ "form": "vi_profile",
+ "lang": "vi",
+ "pages": 1,
+ "seconds": 64.1,
+ "score": {
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {}
+ },
+ "calls": [
+  {
+   "seconds": 6.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 5962,
+   "completion_tokens": 249
+  },
+  {
+   "seconds": 7.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 6164,
+   "completion_tokens": 287
+  },
+  {
+   "seconds": 7.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6271,
+   "completion_tokens": 260
+  },
+  {
+   "seconds": 7.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 6365,
+   "completion_tokens": 264
+  },
+  {
+   "seconds": 7.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 6623,
+   "completion_tokens": 272
+  },
+  {
+   "seconds": 8.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 6548,
+   "completion_tokens": 311
+  },
+  {
+   "seconds": 7.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 6658,
+   "completion_tokens": 274
+  },
+  {
+   "seconds": 5.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 6514,
+   "completion_tokens": 192
+  }
+ ],
+ "steps": [
+  {
+   "actions": [
+    {
+     "name": "navigate",
+     "params": {
+      "url": "http://127.0.0.1:43645/vi_profile",
+      "new_tab": false
+     },
+     "tag": null,
+     "input_type": null
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/vi_profile",
+   "title": "Initial Actions",
+   "evaluation": "Start",
+   "next_goal": "Initial navigation"
+  },
+  {
+   "actions": [
+    {
+     "name": "input",
+     "params": {
+      "index": 3,
+      "text": "Lê Minh Tuấn",
+      "clear": true
+     },
+     "tag": "input",
+     "input_type": "text"
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/vi_profile",
+   "title": "127.0.0.1:43645/vi_profile",
+   "evaluation": "Navigated to http://127.0.0.1:43645/vi_profile successfully. Verdict: Success",
+   "next_goal": "Input 'Lê Minh Tuấn' into the 'Họ tên khách hàng' field."
+  },
+  {
+   "actions": [
+    {
+     "name": "input",
+     "params": {
+      "index": 4,
+      "text": "0901222333",
+      "clear": false
+     },
+     "tag": "input",
+     "input_type": "text"
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/vi_profile",
+   "title": "127.0.0.1:43645/vi_profile",
+   "evaluation": "Successfully inputted 'Lê Minh Tuấn' into the 'Họ tên khách hàng' field. Verdict: Success",
+   "next_goal": "Input '0901222333' into the 'Điện thoại liên hệ' field."
+  },
+  {
+   "actions": [
+    {
+     "name": "click",
+     "params": {
+      "index": 7
+     },
+     "tag": "input",
+     "input_type": "radio"
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/vi_profile",
+   "title": "127.0.0.1:43645/vi_profile",
+   "evaluation": "Successfully inputted 'Lê Minh Tuấn' into the 'Họ tên khách hàng' field and '0901222333' into the 'Điện thoại liên hệ' field. Verdict: Success",
+   "next_goal": "Select 'Nam' for Giới tính."
+  },
+  {
+   "actions": [
+    {
+     "name": "click",
+     "params": {
+      "index": 5
+     },
+     "tag": "select",
+     "input_type": null
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/vi_profile",
+   "title": "127.0.0.1:43645/vi_profile",
+   "evaluation": "Selected 'Nam' for Giới tính successfully. Verdict: Success",
+   "next_goal": "Select 'Vay mua nhà' for Sản phẩm quan tâm."
+  },
+  {
+   "actions": [
+    {
+     "name": "select_dropdown",
+     "params": {
+      "index": 5,
+      "text": "Vay mua nhà"
+     },
+     "tag": "select",
+     "input_type": null
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/vi_profile",
+   "title": "127.0.0.1:43645/vi_profile",
+   "evaluation": "Selected 'Nam' for Giới tính successfully. Verdict: Success",
+   "next_goal": "Select 'Vay mua nhà' for Sản phẩm quan tâm."
+  },
+  {
+   "actions": [
+    {
+     "name": "input",
+     "params": {
+      "index": 6,
+      "text": "190333444555",
+      "clear": true
+     },
+     "tag": "input",
+     "input_type": "text"
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/vi_profile",
+   "title": "127.0.0.1:43645/vi_profile",
+   "evaluation": "Selected 'Nam' for Giới tính successfully. Verdict: Success",
+   "next_goal": "Input '190333444555' into the Số tài khoản ngân hàng field."
+  },
+  {
+   "actions": [
+    {
+     "name": "click",
+     "params": {
+      "index": 9
+     },
+     "tag": "input",
+     "input_type": "checkbox"
+    },
+    {
+     "name": "click",
+     "params": {
+      "index": 57
+     },
+     "tag": "button",
+     "input_type": "submit"
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/vi_profile",
+   "title": "127.0.0.1:43645/vi_profile",
+   "evaluation": "Successfully filled in the 'Số tài khoản ngân hàng' field. Verdict: Success",
+   "next_goal": "Check the 'Tôi đồng ý với các điều khoản' checkbox and submit the form."
+  },
+  {
+   "actions": [
+    {
+     "name": "done",
+     "params": {
+      "text": "The form has been successfully submitted and confirmed.",
+      "success": true,
+      "files_to_display": []
+     },
+     "tag": null,
+     "input_type": null
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/vi_profile/0",
+   "title": "127.0.0.1:43645/vi_profile/0",
+   "evaluation": "Form submission was successful and the confirmation message appeared. Verdict: Success",
+   "next_goal": "Since the form has been successfully submitted and confirmed, I will call done to conclude the task."
+  }
+ ],
+ "is_done": true
+}

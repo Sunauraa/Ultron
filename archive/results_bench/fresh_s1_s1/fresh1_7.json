@@ -1,0 +1,79 @@
+{
+ "form": "fresh1_7",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 23.3,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {
+   "f1": "21/06/1995"
+  },
+  "missing_consent": [],
+  "popup_choice": "Nu, mulțumesc",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.93,
+   "format": "Answers",
+   "prompt_tokens": 258,
+   "completion_tokens": 78
+  },
+  {
+   "seconds": 4.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 6224,
+   "completion_tokens": 166
+  },
+  {
+   "seconds": 4.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 6088,
+   "completion_tokens": 156
+  },
+  {
+   "seconds": 6.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6116,
+   "completion_tokens": 234
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 34.72474962472916,
+   "url": "http://127.0.0.1:34731/fresh1_7",
+   "goal": "Close the pop-up with 'Nu, mulțumesc'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2005.4945722222328,
+   "url": "http://127.0.0.1:34731/fresh1_7",
+   "goal": "Filled 5 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Link Facebook. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 88.13448809087276,
+   "url": "http://127.0.0.1:34731/fresh1_7",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2672877162694931,
+   "url": "http://127.0.0.1:34731/fresh1_7",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.932760700583458,
+   "url": "about:blank",
+   "goal": ""
+  }
+ ]
+}

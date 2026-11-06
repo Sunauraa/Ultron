@@ -1,0 +1,187 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 206.0,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 5968,
+   "completion_tokens": 217
+  },
+  {
+   "seconds": 4.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 6000,
+   "completion_tokens": 181
+  },
+  {
+   "seconds": 4.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 6081,
+   "completion_tokens": 167
+  },
+  {
+   "seconds": 4.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 6157,
+   "completion_tokens": 192
+  },
+  {
+   "seconds": 5.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 6245,
+   "completion_tokens": 212
+  },
+  {
+   "seconds": 6.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 6333,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 6.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 6467,
+   "completion_tokens": 266
+  },
+  {
+   "seconds": 5.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 6616,
+   "completion_tokens": 196
+  },
+  {
+   "seconds": 6.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 6715,
+   "completion_tokens": 240
+  },
+  {
+   "seconds": 8.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 6879,
+   "completion_tokens": 314
+  },
+  {
+   "seconds": 6.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 7041,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 6.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 7229,
+   "completion_tokens": 248
+  },
+  {
+   "seconds": 6.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 7416,
+   "completion_tokens": 248
+  },
+  {
+   "seconds": 6.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 7601,
+   "completion_tokens": 248
+  },
+  {
+   "seconds": 5.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 7837,
+   "completion_tokens": 220
+  },
+  {
+   "seconds": 6.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 8009,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 5.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 8142,
+   "completion_tokens": 211
+  },
+  {
+   "seconds": 6.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 8222,
+   "completion_tokens": 260
+  },
+  {
+   "seconds": 6.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 8499,
+   "completion_tokens": 229
+  },
+  {
+   "seconds": 5.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 8581,
+   "completion_tokens": 208
+  },
+  {
+   "seconds": 5.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 8667,
+   "completion_tokens": 208
+  },
+  {
+   "seconds": 5.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 8786,
+   "completion_tokens": 209
+  },
+  {
+   "seconds": 5.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 8867,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 7.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 8948,
+   "completion_tokens": 281
+  },
+  {
+   "seconds": 6.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 9064,
+   "completion_tokens": 255
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Unable to locate and access the form page despite multiple attempts. The provided URLs did not lead to a visible form. Please check if there are any additional instructions or alternative URLs available.",
+ "fast": []
+}

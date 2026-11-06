@@ -1,0 +1,188 @@
+{
+ "form": "test2",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 122.6,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 8,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 1421,
+   "completion_tokens": 116
+  },
+  {
+   "seconds": 3.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 1155,
+   "completion_tokens": 116
+  },
+  {
+   "seconds": 2.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 1242,
+   "completion_tokens": 105
+  },
+  {
+   "seconds": 3.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 1328,
+   "completion_tokens": 115
+  },
+  {
+   "seconds": 2.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 1427,
+   "completion_tokens": 83
+  },
+  {
+   "seconds": 2.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 1501,
+   "completion_tokens": 86
+  },
+  {
+   "seconds": 3.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 1566,
+   "completion_tokens": 110
+  },
+  {
+   "seconds": 3.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 1657,
+   "completion_tokens": 110
+  },
+  {
+   "seconds": 3.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 1721,
+   "completion_tokens": 120
+  },
+  {
+   "seconds": 4.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 1834,
+   "completion_tokens": 165
+  },
+  {
+   "seconds": 4.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 1920,
+   "completion_tokens": 137
+  },
+  {
+   "seconds": 5.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 2062,
+   "completion_tokens": 210
+  },
+  {
+   "seconds": 4.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 2212,
+   "completion_tokens": 156
+  },
+  {
+   "seconds": 3.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 2417,
+   "completion_tokens": 133
+  },
+  {
+   "seconds": 3.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 2575,
+   "completion_tokens": 133
+  },
+  {
+   "seconds": 3.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 2735,
+   "completion_tokens": 133
+  },
+  {
+   "seconds": 7.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 2897,
+   "completion_tokens": 266
+  },
+  {
+   "seconds": 4.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 3099,
+   "completion_tokens": 133
+  },
+  {
+   "seconds": 4.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 3325,
+   "completion_tokens": 141
+  },
+  {
+   "seconds": 4.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 3494,
+   "completion_tokens": 133
+  },
+  {
+   "seconds": 4.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 3669,
+   "completion_tokens": 140
+  },
+  {
+   "seconds": 4.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 3836,
+   "completion_tokens": 140
+  },
+  {
+   "seconds": 4.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 4003,
+   "completion_tokens": 140
+  },
+  {
+   "seconds": 4.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 4170,
+   "completion_tokens": 140
+  },
+  {
+   "seconds": 3.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 4353,
+   "completion_tokens": 133
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Reached the specified URL but could not locate the form. The page remains empty despite multiple attempts to navigate and refresh. No interactive elements are visible on the page.",
+ "fast": [],
+ "trap": ""
+}

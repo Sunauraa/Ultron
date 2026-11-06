@@ -1,0 +1,42 @@
+{
+ "form": "fresh2_7",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 17.0,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 2,
+  "wrong": {
+   "f0": "Jordan Reed"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 5911,
+   "completion_tokens": 397
+  },
+  {
+   "seconds": 4.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 5978,
+   "completion_tokens": 237
+  }
+ ],
+ "steps": 3,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and the page confirms receipt with the message 'Thank you. Your form has been received and no further action is needed.'",
+ "fast": []
+}

@@ -1,0 +1,70 @@
+{
+ "form": "fresh1_18",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 15.6,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 5,
+  "wrong": {},
+  "extra": {
+   "f19": "Trường THPT Chu Văn An",
+   "f23": "Trường THPT Chu Văn An",
+   "f24": "Công ty TNHH Minh Long",
+   "f29": "Công ty TNHH Minh Long"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.58,
+   "format": "Answers",
+   "prompt_tokens": 473,
+   "completion_tokens": 408
+  },
+  {
+   "seconds": 0.22,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.15,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 7
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 8075.814062729478,
+   "url": "http://127.0.0.1:45791/fresh1_18",
+   "goal": "Filled 10 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Nơi sinh; Nguyên quán; Ngày cấp; Nơi cấp; Tình trạng hôn nhân; Chiều cao; Cân nặng; Vị trí công việc mong muốn; Trình độ ngoại ngữ; Trình độ tin học; Mức lương hiện đang nhận; Mức lương đề nghị (thử việc); Mức lương đề nghị (chính thức); Trình độ văn hóa; Giới tính; Dân tộc; f12; f14; Vị trí dự tuyển; Trình độ học vấn. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 717.4205332994461,
+   "url": "http://127.0.0.1:45791/fresh1_18",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 153.8071408867836,
+   "url": "http://127.0.0.1:45791/fresh1_18",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

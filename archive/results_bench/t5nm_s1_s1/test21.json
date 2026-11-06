@@ -1,0 +1,68 @@
+{
+ "form": "test21",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 10.9,
+ "score": {
+  "blocked": [],
+  "submitted": true,
+  "fields": 7,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Aceptar todas",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.86,
+   "format": "Answers",
+   "prompt_tokens": 530,
+   "completion_tokens": 155
+  },
+  {
+   "seconds": 0.28,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 25.021210312843323,
+   "url": "http://127.0.0.1:44349/test21",
+   "goal": "Close the pop-up with 'Aceptar todas'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 3860.681936144829,
+   "url": "http://127.0.0.1:44349/test21",
+   "goal": "Filled 7 field(s) from the document. Left empty because the document has no value for them, so do not fill these: ĐIỂM TRUNG BÌNH CẢ NĂM 12 (THÍ SINH ĐƯỢC LỰA CHỌN 1 TRONG 2 HÌNH THỨC XÉT TUYỂN TỪ ĐIỂM THI THPT 2024 HOẶC ĐIỂM HỌC BẠ THPT); ĐIỂM THI TỐT NGHIỆP THPT 2024 (THÍ SINH ĐƯỢC LỰA CHỌN 1 TRONG 2 HÌNH THỨC XÉT TUYỂN TỪ ĐIỂM THI THPT 2022 HOẶC ĐIỂM HỌC BẠ THPT) TỔNG ĐIỂM 3 MÔN THEO KHỐI LỰA CHỌN; ĐĂNG KÝ BẬC HỌC; NGÀNH ĐĂNG KÝ. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 279.25390005111694,
+   "url": "http://127.0.0.1:44349/test21",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 170.99680751562119,
+   "url": "http://127.0.0.1:44349/test21",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

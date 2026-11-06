@@ -1,0 +1,169 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 158.7,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 5968,
+   "completion_tokens": 272
+  },
+  {
+   "seconds": 6.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 6192,
+   "completion_tokens": 261
+  },
+  {
+   "seconds": 8.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 6316,
+   "completion_tokens": 320
+  },
+  {
+   "seconds": 8.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 6774,
+   "completion_tokens": 340
+  },
+  {
+   "seconds": 4.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 6977,
+   "completion_tokens": 184
+  },
+  {
+   "seconds": 4.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 7038,
+   "completion_tokens": 153
+  },
+  {
+   "seconds": 4.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 7093,
+   "completion_tokens": 160
+  },
+  {
+   "seconds": 4.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 7150,
+   "completion_tokens": 160
+  },
+  {
+   "seconds": 4.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 7209,
+   "completion_tokens": 153
+  },
+  {
+   "seconds": 4.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 7270,
+   "completion_tokens": 171
+  },
+  {
+   "seconds": 4.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 7371,
+   "completion_tokens": 175
+  },
+  {
+   "seconds": 4.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 7445,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 6.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 7551,
+   "completion_tokens": 238
+  },
+  {
+   "seconds": 7.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 7644,
+   "completion_tokens": 279
+  },
+  {
+   "seconds": 7.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 7759,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 6.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 7875,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 7.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 7963,
+   "completion_tokens": 265
+  },
+  {
+   "seconds": 4.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 8071,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 5.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 8244,
+   "completion_tokens": 211
+  },
+  {
+   "seconds": 6.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 8388,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 8.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 8558,
+   "completion_tokens": 303
+  },
+  {
+   "seconds": 7.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 8767,
+   "completion_tokens": 271
+  }
+ ],
+ "steps": 23,
+ "is_done": true,
+ "success": false,
+ "final": "I have filled in all available fields from the document but was unable to submit the form successfully. The page content did not change despite multiple attempts to click 'Submit'. Please check if there are any additional requirements or hidden elements that might be causing issues with form submission.",
+ "fast": []
+}

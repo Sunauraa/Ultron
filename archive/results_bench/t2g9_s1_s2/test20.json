@@ -1,0 +1,65 @@
+{
+ "form": "test20",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 20.2,
+ "score": {
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Rejeitar cookies",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.96,
+   "format": "Answers",
+   "prompt_tokens": 283,
+   "completion_tokens": 79
+  },
+  {
+   "seconds": 5.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 6714,
+   "completion_tokens": 193
+  },
+  {
+   "seconds": 4.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 6136,
+   "completion_tokens": 181
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 48.37180860340595,
+   "url": "http://127.0.0.1:43747/test20",
+   "goal": "Close the pop-up with 'Rejeitar cookies'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2167.2138813883066,
+   "url": "http://127.0.0.1:43747/test20",
+   "goal": "Filled 6 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Điện thoại người thân; Người giới thiệu (Nếu có). Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 223.81984069943428,
+   "url": "http://127.0.0.1:43747/test20",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5555433928966522,
+   "url": "http://127.0.0.1:43747/test20",
+   "goal": ""
+  }
+ ]
+}

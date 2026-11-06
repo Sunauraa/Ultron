@@ -1,0 +1,72 @@
+{
+ "form": "test20",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 11.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Rejeitar cookies",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.93,
+   "format": "Answers",
+   "prompt_tokens": 349,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 0.29,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 58.35810489952564,
+   "url": "http://127.0.0.1:44211/test20",
+   "goal": "Close the pop-up with 'Rejeitar cookies'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 4172.415474429727,
+   "url": "http://127.0.0.1:44211/test20",
+   "goal": "Filled 6 field(s) from the document. Left empty because the document has no value for them, so do not fill these: This is the right place to input the Họ và tên; Điện thoại người thân; Đối tượng ưu tiên; Nghành ĐKXT; Người giới thiệu (Nếu có); Giới tính; Khu vực ưu tiên. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 621.4355155825615,
+   "url": "http://127.0.0.1:44211/test20",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 176.5319313853979,
+   "url": "http://127.0.0.1:44211/test20",
+   "goal": "The page confirmed receipt."
+  }
+ ],
+ "trap": ""
+}

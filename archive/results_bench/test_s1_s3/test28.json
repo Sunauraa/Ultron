@@ -1,0 +1,59 @@
+{
+ "form": "test28",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 3,
+ "seconds": 16.7,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Close",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 6092,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 4.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 5962,
+   "completion_tokens": 177
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 52.55126953125,
+   "url": "http://127.0.0.1:39479/test28",
+   "goal": "Close the pop-up with 'Close'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 118.55502426624298,
+   "url": "http://127.0.0.1:39479/test28",
+   "goal": "Fill 3 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 123.14013577997684,
+   "url": "http://127.0.0.1:39479/test28",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.6894284635782242,
+   "url": "http://127.0.0.1:39479/test28",
+   "goal": ""
+  }
+ ]
+}

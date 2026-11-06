@@ -1,0 +1,113 @@
+{
+ "form": "test24",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 56.4,
+ "score": {
+  "blocked": [],
+  "submitted": true,
+  "fields": 5,
+  "wrong": {
+   "f4": null,
+   "f11": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 7621,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 7.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 7802,
+   "completion_tokens": 273
+  },
+  {
+   "seconds": 7.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 7905,
+   "completion_tokens": 282
+  },
+  {
+   "seconds": 7.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 8025,
+   "completion_tokens": 283
+  },
+  {
+   "seconds": 9.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 8132,
+   "completion_tokens": 354
+  },
+  {
+   "seconds": 7.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 8210,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 4.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 6442,
+   "completion_tokens": 185
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission was successful. Confirmation message: Thank you. Your form has been received and no further action is needed.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 0.9170379489660263,
+   "url": "http://127.0.0.1:35097/test24",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.9567756205797195,
+   "url": "http://127.0.0.1:35097/test24",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.431697815656662,
+   "url": "http://127.0.0.1:35097/test24",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3949590027332306,
+   "url": "http://127.0.0.1:35097/test24",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5667731165885925,
+   "url": "http://127.0.0.1:35097/test24",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.552598387002945,
+   "url": "http://127.0.0.1:35097/test24",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.21008774638175964,
+   "url": "http://127.0.0.1:35097/test24",
+   "goal": ""
+  }
+ ]
+}

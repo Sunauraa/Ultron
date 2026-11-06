@@ -1,0 +1,95 @@
+{
+ "form": "fresh2_6",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 81.0,
+ "score": {
+  "blocked": [
+   "Closest Main Intersection:*",
+   "Occupation*",
+   "Why do you want to volunteer with us?*",
+   "Please briefly outline your pet owning history*",
+   "For how long are you looking to volunteer?*",
+   "How did you hear about Abbey Cat Adoptions?*"
+  ],
+  "unclear": [
+   "Full Home Address:*"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 3,
+  "wrong": {
+   "f0": null,
+   "f4": null,
+   "f5": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 6886,
+   "completion_tokens": 298
+  },
+  {
+   "seconds": 7.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 7100,
+   "completion_tokens": 351
+  },
+  {
+   "seconds": 7.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 7261,
+   "completion_tokens": 370
+  },
+  {
+   "seconds": 8.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 7567,
+   "completion_tokens": 378
+  },
+  {
+   "seconds": 8.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 7486,
+   "completion_tokens": 370
+  },
+  {
+   "seconds": 7.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 7600,
+   "completion_tokens": 365
+  },
+  {
+   "seconds": 7.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 7702,
+   "completion_tokens": 343
+  },
+  {
+   "seconds": 8.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 7814,
+   "completion_tokens": 415
+  },
+  {
+   "seconds": 9.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 7916,
+   "completion_tokens": 439
+  }
+ ],
+ "steps": 10,
+ "is_done": true,
+ "success": false,
+ "final": "Could not complete the form submission because some required fields are missing values. Missing fields: Why do you want to volunteer with us?, Please briefly outline your pet owning history.",
+ "fast": []
+}

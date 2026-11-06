@@ -1,0 +1,184 @@
+{
+ "form": "fresh1_18",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 105.8,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 5,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f5": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 2331,
+   "completion_tokens": 243
+  },
+  {
+   "seconds": 4.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 2479,
+   "completion_tokens": 187
+  },
+  {
+   "seconds": 4.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 2578,
+   "completion_tokens": 173
+  },
+  {
+   "seconds": 4.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 2657,
+   "completion_tokens": 177
+  },
+  {
+   "seconds": 4.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 2715,
+   "completion_tokens": 154
+  },
+  {
+   "seconds": 2.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 1511,
+   "completion_tokens": 91
+  },
+  {
+   "seconds": 5.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 1516,
+   "completion_tokens": 220
+  },
+  {
+   "seconds": 3.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 2953,
+   "completion_tokens": 117
+  },
+  {
+   "seconds": 4.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 3030,
+   "completion_tokens": 179
+  },
+  {
+   "seconds": 2.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 3108,
+   "completion_tokens": 105
+  },
+  {
+   "seconds": 1.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 1908,
+   "completion_tokens": 55
+  },
+  {
+   "seconds": 2.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 1913,
+   "completion_tokens": 103
+  },
+  {
+   "seconds": 4.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 2005,
+   "completion_tokens": 170
+  },
+  {
+   "seconds": 2.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 3501,
+   "completion_tokens": 106
+  },
+  {
+   "seconds": 1.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 2242,
+   "completion_tokens": 65
+  },
+  {
+   "seconds": 2.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 2247,
+   "completion_tokens": 104
+  },
+  {
+   "seconds": 2.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 2389,
+   "completion_tokens": 116
+  },
+  {
+   "seconds": 2.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 2467,
+   "completion_tokens": 118
+  },
+  {
+   "seconds": 3.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 2629,
+   "completion_tokens": 133
+  },
+  {
+   "seconds": 2.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 4126,
+   "completion_tokens": 107
+  },
+  {
+   "seconds": 1.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 2868,
+   "completion_tokens": 54
+  },
+  {
+   "seconds": 4.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 2873,
+   "completion_tokens": 189
+  },
+  {
+   "seconds": 6.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 3093,
+   "completion_tokens": 265
+  },
+  {
+   "seconds": 4.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 4557,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 3.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 4745,
+   "completion_tokens": 126
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Form was submitted successfully but unable to navigate to confirmation page due to invalid URL. Task cannot be marked as fully completed.",
+ "fast": []
+}

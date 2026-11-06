@@ -1,0 +1,58 @@
+{
+ "form": "fresh1_22",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 29.9,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 5906,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 4.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 6036,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 5.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 6127,
+   "completion_tokens": 262
+  },
+  {
+   "seconds": 4.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 6224,
+   "completion_tokens": 243
+  },
+  {
+   "seconds": 4.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 6193,
+   "completion_tokens": 223
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed. Fields filled: Full Name - Phạm Thu Hà, Email - ha.pham@example.com, Phone - 0934567890.",
+ "fast": []
+}

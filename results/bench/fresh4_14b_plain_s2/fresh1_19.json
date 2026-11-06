@@ -1,0 +1,60 @@
+{
+ "form": "fresh1_19",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 41.3,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {
+   "f5": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "AUSWAHL BESTÄTIGEN",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 6054,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 10.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 6182,
+   "completion_tokens": 419
+  },
+  {
+   "seconds": 8.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 6367,
+   "completion_tokens": 349
+  },
+  {
+   "seconds": 4.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 6501,
+   "completion_tokens": 178
+  },
+  {
+   "seconds": 5.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 6274,
+   "completion_tokens": 201
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission successful. Confirmation message received.",
+ "fast": []
+}

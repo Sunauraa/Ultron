@@ -1,0 +1,65 @@
+{
+ "form": "test34",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 8.0,
+ "score": {
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Nie akceptuję",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.13,
+   "format": "Answers",
+   "prompt_tokens": 261,
+   "completion_tokens": 86
+  },
+  {
+   "seconds": 0.24,
+   "format": "Review",
+   "prompt_tokens": 419,
+   "completion_tokens": 8
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 51.089027896523476,
+   "url": "http://127.0.0.1:34637/test34",
+   "goal": "Close the pop-up with 'Nie akceptuję'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2207.784827798605,
+   "url": "http://127.0.0.1:34637/test34",
+   "goal": "Filled 3 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Chức vụ; Nội dung liên hệ; Nội dung tư vấn. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 325.7934655994177,
+   "url": "http://127.0.0.1:34637/test34",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 171.661164611578,
+   "url": "http://127.0.0.1:34637/test34",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

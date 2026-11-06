@@ -1,0 +1,64 @@
+{
+ "form": "test23",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 27.1,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f0": "Trường THPT Chu Văn An",
+   "f1": "Công ty TNHH Minh Long",
+   "f2": "ha.pham@example.com",
+   "f3": "21/06/1995"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 2627,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 6.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 2773,
+   "completion_tokens": 197
+  },
+  {
+   "seconds": 2.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 2899,
+   "completion_tokens": 56
+  },
+  {
+   "seconds": 3.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 1363,
+   "completion_tokens": 133
+  },
+  {
+   "seconds": 2.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 1437,
+   "completion_tokens": 81
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": [],
+ "trap": "45 Trần Phú, Ba Đình"
+}

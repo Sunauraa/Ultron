@@ -1,0 +1,97 @@
+{
+ "form": "test33",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "seconds": 63.8,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f1": "21/06/1995"
+  },
+  "extra": {
+   "f0": "Phạm Thu Hà"
+  },
+  "missing_consent": [],
+  "popup_choice": "Rechazar",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 1188,
+   "completion_tokens": 89
+  },
+  {
+   "seconds": 4.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 1384,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 5.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 1543,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 4.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 1688,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 4.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 1848,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 4.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 2008,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 5.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 2168,
+   "completion_tokens": 303
+  },
+  {
+   "seconds": 4.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 2401,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 4.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 2529,
+   "completion_tokens": 217
+  },
+  {
+   "seconds": 3.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 2389,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 2.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 2513,
+   "completion_tokens": 99
+  }
+ ],
+ "steps": 12,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission successful",
+ "fast": []
+}

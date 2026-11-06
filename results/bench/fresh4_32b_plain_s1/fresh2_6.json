@@ -1,0 +1,83 @@
+{
+ "form": "fresh2_6",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 64.7,
+ "score": {
+  "blocked": [
+   "Closest Main Intersection:*",
+   "Occupation*",
+   "Why do you want to volunteer with us?*",
+   "Please briefly outline your pet owning history*",
+   "For how long are you looking to volunteer?*",
+   "How did you hear about Abbey Cat Adoptions?*"
+  ],
+  "unclear": [
+   "Full Home Address:*"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 3,
+  "wrong": {
+   "f0": null,
+   "f4": null,
+   "f5": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 6890,
+   "completion_tokens": 321
+  },
+  {
+   "seconds": 8.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 7127,
+   "completion_tokens": 383
+  },
+  {
+   "seconds": 10.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 7241,
+   "completion_tokens": 489
+  },
+  {
+   "seconds": 7.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 7613,
+   "completion_tokens": 349
+  },
+  {
+   "seconds": 7.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 7506,
+   "completion_tokens": 339
+  },
+  {
+   "seconds": 8.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 7581,
+   "completion_tokens": 402
+  },
+  {
+   "seconds": 9.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 7685,
+   "completion_tokens": 424
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "success": false,
+ "final": "Could not complete the form because the required field 'Occupation' is missing from the document.",
+ "fast": []
+}

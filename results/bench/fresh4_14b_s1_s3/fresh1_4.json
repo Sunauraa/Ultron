@@ -1,0 +1,182 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 170.0,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 5966,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 4.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 6004,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 5.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6090,
+   "completion_tokens": 192
+  },
+  {
+   "seconds": 5.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 6197,
+   "completion_tokens": 201
+  },
+  {
+   "seconds": 4.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 6248,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 5.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 6344,
+   "completion_tokens": 218
+  },
+  {
+   "seconds": 5.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 6480,
+   "completion_tokens": 214
+  },
+  {
+   "seconds": 6.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 6583,
+   "completion_tokens": 242
+  },
+  {
+   "seconds": 7.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 6904,
+   "completion_tokens": 269
+  },
+  {
+   "seconds": 6.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 7060,
+   "completion_tokens": 242
+  },
+  {
+   "seconds": 7.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 7178,
+   "completion_tokens": 299
+  },
+  {
+   "seconds": 10.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 7334,
+   "completion_tokens": 386
+  }
+ ],
+ "steps": 13,
+ "is_done": true,
+ "success": false,
+ "final": "The form is not available on the specified URLs (http://127.0.0.1:45947/fresh1_4 and http://127.0.0.1:45947/fresh1_4/form). Please check if there are any other URLs or methods to access the form.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 49.58225600421429,
+   "url": "http://127.0.0.1:45947/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.637248158454895,
+   "url": "http://127.0.0.1:45947/fresh1_4/form",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.515451818704605,
+   "url": "http://127.0.0.1:45947/fresh1_4/form",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4101974666118622,
+   "url": "http://127.0.0.1:45947/fresh1_4/form",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.3946238905191422,
+   "url": "http://127.0.0.1:45947/fresh1_4/form",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4849994331598282,
+   "url": "http://127.0.0.1:45947/fresh1_4/form",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.6703642904758453,
+   "url": "http://127.0.0.1:45947/fresh1_4/form",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2368353307247162,
+   "url": "http://127.0.0.1:45947/fresh1_4/form",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 56.40632472932339,
+   "url": "http://127.0.0.1:45947/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 49.50514808297157,
+   "url": "http://127.0.0.1:45947/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 49.795763567090034,
+   "url": "http://127.0.0.1:45947/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 51.36548355221748,
+   "url": "http://127.0.0.1:45947/fresh1_4",
+   "goal": ""
+  }
+ ]
+}

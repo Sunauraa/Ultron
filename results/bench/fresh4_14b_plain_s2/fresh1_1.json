@@ -1,0 +1,176 @@
+{
+ "form": "fresh1_1",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 159.8,
+ "score": {
+  "blocked": [
+   "Subdivision *",
+   "Emergency Contact Name *",
+   "Emergency Contact Number *",
+   "What volunteer opportunities interest you? *",
+   "Please list any previous volunteer experience you have *",
+   "Do you have any special skills or training? *",
+   "Please explain your level of proficiency (Native/Fluent, Advanced, Intermediate or Basic) *",
+   "What is your purpose for volunteering? *",
+   "Do you have any restrictions or limitations for service? (i.e., health concerns, allergies, etc.) *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "Please provide details below *",
+   "Please provide details below *",
+   "Please provide details below *"
+  ],
+  "unclear": [
+   "First Name *",
+   "Last Name *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 9,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null,
+   "f9": null,
+   "f10": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 6674,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 11.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 7490,
+   "completion_tokens": 440
+  },
+  {
+   "seconds": 9.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 7628,
+   "completion_tokens": 348
+  },
+  {
+   "seconds": 10.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 7794,
+   "completion_tokens": 391
+  },
+  {
+   "seconds": 6.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 7962,
+   "completion_tokens": 239
+  },
+  {
+   "seconds": 5.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 8014,
+   "completion_tokens": 213
+  },
+  {
+   "seconds": 4.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 8110,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 4.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 8167,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 4.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 8224,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 7.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 8364,
+   "completion_tokens": 289
+  },
+  {
+   "seconds": 7.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 8462,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 6.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 8570,
+   "completion_tokens": 244
+  },
+  {
+   "seconds": 6.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 8678,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 6.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 8778,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 8.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 8872,
+   "completion_tokens": 298
+  },
+  {
+   "seconds": 6.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 8996,
+   "completion_tokens": 218
+  },
+  {
+   "seconds": 10.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 9071,
+   "completion_tokens": 390
+  },
+  {
+   "seconds": 10.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 9193,
+   "completion_tokens": 388
+  },
+  {
+   "seconds": 8.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 9399,
+   "completion_tokens": 297
+  }
+ ],
+ "steps": 20,
+ "is_done": true,
+ "success": false,
+ "final": "Visited http://127.0.0.1:33025/fresh1_1 and filled in all available fields from the provided document, leaving some required fields empty as instructed. Attempted to submit the form multiple times without success.",
+ "fast": []
+}

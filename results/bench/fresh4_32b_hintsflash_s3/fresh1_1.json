@@ -1,0 +1,206 @@
+{
+ "form": "fresh1_1",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 157.5,
+ "score": {
+  "blocked": [
+   "Subdivision *",
+   "Emergency Contact Name *",
+   "Emergency Contact Number *",
+   "What volunteer opportunities interest you? *",
+   "Please list any previous volunteer experience you have *",
+   "Do you have any special skills or training? *",
+   "Please explain your level of proficiency (Native/Fluent, Advanced, Intermediate or Basic) *",
+   "What is your purpose for volunteering? *",
+   "Do you have any restrictions or limitations for service? (i.e., health concerns, allergies, etc.) *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "Please provide details below *",
+   "Please provide details below *",
+   "Please provide details below *"
+  ],
+  "unclear": [
+   "First Name *",
+   "Last Name *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 9,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null,
+   "f9": null,
+   "f10": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 1959,
+   "completion_tokens": 243
+  },
+  {
+   "seconds": 5.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 2782,
+   "completion_tokens": 246
+  },
+  {
+   "seconds": 5.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 2916,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 4.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 3064,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 6.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 3143,
+   "completion_tokens": 278
+  },
+  {
+   "seconds": 5.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 3261,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 5.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 3377,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 6.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 3493,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 6.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 3609,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 4.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 3764,
+   "completion_tokens": 195
+  },
+  {
+   "seconds": 5.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 3849,
+   "completion_tokens": 265
+  },
+  {
+   "seconds": 5.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 3962,
+   "completion_tokens": 265
+  },
+  {
+   "seconds": 5.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 4075,
+   "completion_tokens": 265
+  },
+  {
+   "seconds": 5.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 4188,
+   "completion_tokens": 265
+  },
+  {
+   "seconds": 5.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 4301,
+   "completion_tokens": 265
+  },
+  {
+   "seconds": 5.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 4452,
+   "completion_tokens": 267
+  },
+  {
+   "seconds": 4.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 4567,
+   "completion_tokens": 195
+  },
+  {
+   "seconds": 5.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 4682,
+   "completion_tokens": 267
+  },
+  {
+   "seconds": 5.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 4881,
+   "completion_tokens": 267
+  },
+  {
+   "seconds": 4.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 4996,
+   "completion_tokens": 210
+  },
+  {
+   "seconds": 5.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 5167,
+   "completion_tokens": 231
+  },
+  {
+   "seconds": 5.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 5279,
+   "completion_tokens": 231
+  },
+  {
+   "seconds": 4.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 5391,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 4.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 5503,
+   "completion_tokens": 168
+  }
+ ],
+ "steps": 25,
+ "is_done": true,
+ "success": false,
+ "final": "Unable to complete the form due to missing required fields: Emergency Contact Name, Emergency Contact Number, Volunteer Opportunities Interest, Previous Volunteer Experience, Special Skills or Training.",
+ "fast": []
+}

@@ -1,0 +1,58 @@
+{
+ "form": "test7",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "seconds": 36.1,
+ "score": {
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Continue without accepting",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 6001,
+   "completion_tokens": 152
+  },
+  {
+   "seconds": 4.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 5934,
+   "completion_tokens": 190
+  },
+  {
+   "seconds": 4.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 6062,
+   "completion_tokens": 188
+  },
+  {
+   "seconds": 5.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 6141,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 5.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 6259,
+   "completion_tokens": 231
+  },
+  {
+   "seconds": 5.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 6178,
+   "completion_tokens": 212
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "fast": []
+}

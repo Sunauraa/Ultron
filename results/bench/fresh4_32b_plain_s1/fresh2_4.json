@@ -1,0 +1,163 @@
+{
+ "form": "fresh2_4",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 385.1,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f8": null,
+   "f9": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Close this consent banner",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 5850,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 10.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 6927,
+   "completion_tokens": 483
+  },
+  {
+   "seconds": 3.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 6004,
+   "completion_tokens": 175
+  },
+  {
+   "seconds": 4.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 6035,
+   "completion_tokens": 212
+  },
+  {
+   "seconds": 4.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 6064,
+   "completion_tokens": 208
+  },
+  {
+   "seconds": 7.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 6148,
+   "completion_tokens": 367
+  },
+  {
+   "seconds": 4.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 6208,
+   "completion_tokens": 231
+  },
+  {
+   "seconds": 4.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 6280,
+   "completion_tokens": 209
+  },
+  {
+   "seconds": 5.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 6414,
+   "completion_tokens": 289
+  },
+  {
+   "seconds": 6.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 6510,
+   "completion_tokens": 331
+  },
+  {
+   "seconds": 5.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 6582,
+   "completion_tokens": 271
+  },
+  {
+   "seconds": 7.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 6736,
+   "completion_tokens": 354
+  },
+  {
+   "seconds": 6.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 6920,
+   "completion_tokens": 296
+  },
+  {
+   "seconds": 14.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 7147,
+   "completion_tokens": 695
+  },
+  {
+   "seconds": 6.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 7298,
+   "completion_tokens": 304
+  },
+  {
+   "seconds": 7.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 7535,
+   "completion_tokens": 353
+  },
+  {
+   "seconds": 7.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 8708,
+   "completion_tokens": 352
+  },
+  {
+   "seconds": 8.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 8822,
+   "completion_tokens": 374
+  },
+  {
+   "seconds": 7.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 7868,
+   "completion_tokens": 366
+  },
+  {
+   "seconds": 7.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 7939,
+   "completion_tokens": 339
+  },
+  {
+   "seconds": 7.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 8036,
+   "completion_tokens": 339
+  },
+  {
+   "seconds": 4.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 8131,
+   "completion_tokens": 216
+  }
+ ],
+ "steps": 25,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and the page confirms receipt with the message: 'Thank you. Your form has been received and no further action is needed.'",
+ "fast": []
+}

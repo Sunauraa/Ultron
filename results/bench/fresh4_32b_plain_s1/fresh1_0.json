@@ -1,0 +1,66 @@
+{
+ "form": "fresh1_0",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 59.6,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 8,
+  "wrong": {},
+  "extra": {
+   "f1": "2026-11-05"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 10.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 6687,
+   "completion_tokens": 355
+  },
+  {
+   "seconds": 9.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 6954,
+   "completion_tokens": 432
+  },
+  {
+   "seconds": 9.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 7048,
+   "completion_tokens": 464
+  },
+  {
+   "seconds": 9.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 7165,
+   "completion_tokens": 458
+  },
+  {
+   "seconds": 7.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 7341,
+   "completion_tokens": 351
+  },
+  {
+   "seconds": 4.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 6468,
+   "completion_tokens": 208
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed by the page. All required fields were filled in correctly according to the provided document.",
+ "fast": []
+}

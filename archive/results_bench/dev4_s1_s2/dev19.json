@@ -1,0 +1,104 @@
+{
+ "form": "dev19",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 52.0,
+ "score": {
+  "submitted": true,
+  "fields": 8,
+  "wrong": {
+   "f3": null,
+   "f6": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Zavřít",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 10.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 8160,
+   "completion_tokens": 402
+  },
+  {
+   "seconds": 9.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 8434,
+   "completion_tokens": 339
+  },
+  {
+   "seconds": 7.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 8546,
+   "completion_tokens": 285
+  },
+  {
+   "seconds": 3.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 6762,
+   "completion_tokens": 148
+  },
+  {
+   "seconds": 4.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 6793,
+   "completion_tokens": 180
+  },
+  {
+   "seconds": 4.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 6774,
+   "completion_tokens": 175
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 54.07169461250305,
+   "url": "http://127.0.0.1:33929/dev19",
+   "goal": "Close the pop-up with 'Zavřít'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 365.3011582791805,
+   "url": "http://127.0.0.1:33929/dev19",
+   "goal": "Filled 4 field(s) from the document. Still empty, so check each against the document before submitting: Họ và tên thí sinh; Nơi sinh (Ghi tên tỉnh, thành phố nơi sinh); Số CMND/CCCD; Số điện thoại sử dụng zalo; Số điện thoại liên lạc Cha/Mẹ; Năm tốt nghiệp THPT/TT GDTX-GDNN hoặc tương đương; Ghi tên trường THPT/TT GDTX-GDNN đang học hoặc đã tốt nghiệp; Vui lòng copy Link Facebook hoặc số điện thoại Zalo cá nhân của thí sinh * Hoặc bạn Like trang fanpage của trường tại => https://www.facebook.com/caodangvanlangsaigon (Để Trường chuyển tải thông tin nhanh nhất đến thí sinh); Câu hỏi thắc mắc: * Bạn muốn cần tư vấn gì thêm, vui lòng nhập câu hỏi tại đây. VLSC sẽ giải đáp ngay khi nhận được thông tin đăng ký của bạn."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 399.0185558795929,
+   "url": "http://127.0.0.1:33929/dev19",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 425.81683211028576,
+   "url": "http://127.0.0.1:33929/dev19",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 409.4833843410015,
+   "url": "http://127.0.0.1:33929/dev19",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.616859808564186,
+   "url": "http://127.0.0.1:33929/dev19",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.341748982667923,
+   "url": "http://127.0.0.1:33929/dev19",
+   "goal": ""
+  }
+ ]
+}

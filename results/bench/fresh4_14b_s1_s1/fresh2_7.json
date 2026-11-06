@@ -1,0 +1,65 @@
+{
+ "form": "fresh2_7",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 6.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 2,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.57,
+   "format": "Answers",
+   "prompt_tokens": 280,
+   "completion_tokens": 63
+  },
+  {
+   "seconds": 0.27,
+   "format": "Review",
+   "prompt_tokens": 129,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 1648.4862081706524,
+   "url": "http://127.0.0.1:45329/fresh2_7",
+   "goal": "Filled 2 field(s) from the document. Left empty because the document has no value for them, so do not fill these: If any, with what organization are you affiliated?; Do you have any other skills or accommodations you'd like to share?. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 336.31134405732155,
+   "url": "http://127.0.0.1:45329/fresh2_7",
+   "goal": "Sent the form with 'Submit'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 171.28704860806465,
+   "url": "http://127.0.0.1:45329/fresh2_7",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

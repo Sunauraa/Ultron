@@ -1,0 +1,88 @@
+{
+ "form": "dev16",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 1,
+ "seconds": 95.5,
+ "score": {
+  "submitted": true,
+  "fields": 6,
+  "wrong": {
+   "f30": null
+  },
+  "extra": {
+   "f2": "001195004567",
+   "f6": "ha.pham@example.com",
+   "f8": "Trường THPT Chu Văn An"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 9.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 8421,
+   "completion_tokens": 328
+  },
+  {
+   "seconds": 10.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 8682,
+   "completion_tokens": 370
+  },
+  {
+   "seconds": 10.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 8796,
+   "completion_tokens": 384
+  },
+  {
+   "seconds": 10.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 8913,
+   "completion_tokens": 390
+  },
+  {
+   "seconds": 10.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 9021,
+   "completion_tokens": 387
+  },
+  {
+   "seconds": 11.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 9132,
+   "completion_tokens": 427
+  },
+  {
+   "seconds": 10.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 9254,
+   "completion_tokens": 375
+  },
+  {
+   "seconds": 7.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 9362,
+   "completion_tokens": 256
+  },
+  {
+   "seconds": 5.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 9294,
+   "completion_tokens": 180
+  },
+  {
+   "seconds": 4.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 6650,
+   "completion_tokens": 171
+  }
+ ],
+ "steps": 11,
+ "is_done": true,
+ "fast": []
+}

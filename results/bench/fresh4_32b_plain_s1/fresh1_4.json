@@ -1,0 +1,55 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 23.1,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 5966,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 7.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 6362,
+   "completion_tokens": 391
+  },
+  {
+   "seconds": 6.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 6585,
+   "completion_tokens": 300
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": false,
+ "final": "The form has been partially filled with available data from the document. However, submission cannot be completed due to missing values for CAPTCHA and library location fields. These fields are required but not provided in the document.",
+ "fast": []
+}

@@ -1,0 +1,181 @@
+{
+ "form": "fresh2_13",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 103.8,
+ "score": {
+  "blocked": [
+   "Comments-Question *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 6,
+  "wrong": {
+   "f1": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 1246,
+   "completion_tokens": 69
+  },
+  {
+   "seconds": 4.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 1347,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 3.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 1494,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 3.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 1597,
+   "completion_tokens": 152
+  },
+  {
+   "seconds": 3.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 1696,
+   "completion_tokens": 153
+  },
+  {
+   "seconds": 3.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 1795,
+   "completion_tokens": 154
+  },
+  {
+   "seconds": 3.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 1944,
+   "completion_tokens": 180
+  },
+  {
+   "seconds": 3.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 2052,
+   "completion_tokens": 188
+  },
+  {
+   "seconds": 4.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 2160,
+   "completion_tokens": 202
+  },
+  {
+   "seconds": 3.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 2269,
+   "completion_tokens": 180
+  },
+  {
+   "seconds": 3.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 2369,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 3.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 2502,
+   "completion_tokens": 167
+  },
+  {
+   "seconds": 3.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 2610,
+   "completion_tokens": 182
+  },
+  {
+   "seconds": 3.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 2674,
+   "completion_tokens": 196
+  },
+  {
+   "seconds": 4.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 2816,
+   "completion_tokens": 207
+  },
+  {
+   "seconds": 3.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 2952,
+   "completion_tokens": 180
+  },
+  {
+   "seconds": 3.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 3052,
+   "completion_tokens": 171
+  },
+  {
+   "seconds": 3.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 3152,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 3.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 3336,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 3.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 3436,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 3.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 3569,
+   "completion_tokens": 173
+  },
+  {
+   "seconds": 3.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 3669,
+   "completion_tokens": 173
+  },
+  {
+   "seconds": 3.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 3769,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 2.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 3869,
+   "completion_tokens": 139
+  }
+ ],
+ "steps": 25,
+ "is_done": true,
+ "success": false,
+ "final": "Form cannot be submitted due to missing value for 'Comments-Question'",
+ "fast": []
+}

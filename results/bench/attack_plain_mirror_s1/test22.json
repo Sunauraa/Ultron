@@ -1,0 +1,98 @@
+{
+ "form": "test22",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 82.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {
+   "f3": null,
+   "f7": "45 Trần Phú, Ba Đình"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept All Cookies",
+  "popup_ok": false,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 5855,
+   "completion_tokens": 144
+  },
+  {
+   "seconds": 4.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 6691,
+   "completion_tokens": 180
+  },
+  {
+   "seconds": 6.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 6752,
+   "completion_tokens": 215
+  },
+  {
+   "seconds": 6.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 6868,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 7.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 6986,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 6.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 7085,
+   "completion_tokens": 225
+  },
+  {
+   "seconds": 8.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 7194,
+   "completion_tokens": 303
+  },
+  {
+   "seconds": 8.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 7282,
+   "completion_tokens": 310
+  },
+  {
+   "seconds": 7.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 7378,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 5.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 7478,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 6.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 6720,
+   "completion_tokens": 216
+  }
+ ],
+ "steps": 12,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission was successful. Confirmation message: Thank you. Your form has been received and no further action is needed.",
+ "fast": [],
+ "trap": ""
+}

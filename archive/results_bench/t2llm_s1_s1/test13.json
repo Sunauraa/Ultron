@@ -1,0 +1,69 @@
+{
+ "form": "test13",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 20.4,
+ "score": {
+  "submitted": true,
+  "fields": 5,
+  "wrong": {},
+  "extra": {
+   "f13": "Công ty TNHH Minh Long",
+   "f16": "Công ty TNHH Minh Long",
+   "f2": "21/06/1995"
+  },
+  "missing_consent": [],
+  "popup_choice": "Ok",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.24,
+   "format": "Answers",
+   "prompt_tokens": 322,
+   "completion_tokens": 173
+  },
+  {
+   "seconds": 4.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 6990,
+   "completion_tokens": 167
+  },
+  {
+   "seconds": 4.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 6125,
+   "completion_tokens": 186
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 22.495321929454803,
+   "url": "http://127.0.0.1:36341/test13",
+   "goal": "Close the pop-up with 'Ok'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 4241.506865248084,
+   "url": "http://127.0.0.1:36341/test13",
+   "goal": "Filled 8 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Huyện đang thường trú:; Xã đang thường trú:; Chuyên ngành:; Vị trí ứng tuyển:. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 3.4123901277780533,
+   "url": "http://127.0.0.1:36341/test13",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2989973872900009,
+   "url": "http://127.0.0.1:36341/test13",
+   "goal": ""
+  }
+ ]
+}

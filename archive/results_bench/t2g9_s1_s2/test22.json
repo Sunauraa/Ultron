@@ -1,0 +1,77 @@
+{
+ "form": "test22",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 24.3,
+ "score": {
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Reject All",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.26,
+   "format": "Answers",
+   "prompt_tokens": 379,
+   "completion_tokens": 91
+  },
+  {
+   "seconds": 4.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 7052,
+   "completion_tokens": 180
+  },
+  {
+   "seconds": 4.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 7140,
+   "completion_tokens": 170
+  },
+  {
+   "seconds": 4.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 6379,
+   "completion_tokens": 189
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 23.273300379514694,
+   "url": "http://127.0.0.1:43747/test22",
+   "goal": "Close the pop-up with 'Reject All'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2467.554148286581,
+   "url": "http://127.0.0.1:43747/test22",
+   "goal": "Filled 6 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Link facebook của bạn:; - Đối với học sinh THPT: Cần bổ sung Bảng điểm hoặc Bằng TN THPT. - Đối với sinh viên/Người đi làm: Bằng TN THPT, Cao đẳng hoặc bằng Đại học. (Nộp file ảnh hoặc bản scan qua kênh online Zalo: 0868 952 535 - 0868 952 545 Mail: tuyensinh@cusc.ctu.edu.vn) Quét QR kết nối zalo gửi hồ sơ. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 199.12593625485897,
+   "url": "http://127.0.0.1:43747/test22",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 201.64712890982628,
+   "url": "http://127.0.0.1:43747/test22",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.26568397879600525,
+   "url": "http://127.0.0.1:43747/test22",
+   "goal": ""
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "form": "test21",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 19.6,
+ "score": {
+  "submitted": true,
+  "fields": 7,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Aceptar todas",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.16,
+   "format": "Answers",
+   "prompt_tokens": 485,
+   "completion_tokens": 127
+  },
+  {
+   "seconds": 4.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 8308,
+   "completion_tokens": 166
+  },
+  {
+   "seconds": 5.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 6455,
+   "completion_tokens": 198
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 25.2529364079237,
+   "url": "http://127.0.0.1:36341/test21",
+   "goal": "Close the pop-up with 'Aceptar todas'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 3164.8551374673843,
+   "url": "http://127.0.0.1:36341/test21",
+   "goal": "Filled 7 field(s) from the document. Left empty because the document has no value for them, so do not fill these: ĐIỂM TRUNG BÌNH CẢ NĂM 12 (THÍ SINH ĐƯỢC LỰA CHỌN 1 TRONG 2 HÌNH THỨC XÉT TUYỂN TỪ ĐIỂM THI THPT 2024 HOẶC ĐIỂM HỌC BẠ THPT); ĐIỂM THI TỐT NGHIỆP THPT 2024 (THÍ SINH ĐƯỢC LỰA CHỌN 1 TRONG 2 HÌNH THỨC XÉT TUYỂN TỪ ĐIỂM THI THPT 2022 HOẶC ĐIỂM HỌC BẠ THPT) TỔNG ĐIỂM 3 MÔN THEO KHỐI LỰA CHỌN. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5872398614883423,
+   "url": "http://127.0.0.1:36341/test21",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5181079506874084,
+   "url": "http://127.0.0.1:36341/test21",
+   "goal": ""
+  }
+ ]
+}

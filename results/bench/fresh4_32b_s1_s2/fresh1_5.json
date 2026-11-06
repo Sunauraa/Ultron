@@ -1,0 +1,65 @@
+{
+ "form": "fresh1_5",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 7.9,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.5,
+   "format": "Answers",
+   "prompt_tokens": 349,
+   "completion_tokens": 131
+  },
+  {
+   "seconds": 0.21,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.15,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 7
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 2656.669182702899,
+   "url": "http://127.0.0.1:44187/fresh1_5",
+   "goal": "Filled 4 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Hiện tại bạn đang đảm nhiệm vị trí nào tại doanh nghiệp?; Tóm lược kinh nghiệm công việc của bạn:; Mong muốn, kỳ vọng của bạn khi tham gia khóa học này là:; Bạn là tốt nghiệp tại CodeGym vào năm nào?; Bạn là cựu học viên tại trung tâm nào?. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 369.11262199282646,
+   "url": "http://127.0.0.1:44187/fresh1_5",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 153.27786840498447,
+   "url": "http://127.0.0.1:44187/fresh1_5",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

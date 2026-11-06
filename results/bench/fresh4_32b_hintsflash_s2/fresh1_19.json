@@ -1,0 +1,103 @@
+{
+ "form": "fresh1_19",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 50.9,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {
+   "f6": "Công ty TNHH Minh Long",
+   "f8": "Trường THPT Chu Văn An"
+  },
+  "missing_consent": [],
+  "popup_choice": "AUSWAHL BESTÄTIGEN",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 1337,
+   "completion_tokens": 70
+  },
+  {
+   "seconds": 8.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 1408,
+   "completion_tokens": 451
+  },
+  {
+   "seconds": 5.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 1584,
+   "completion_tokens": 302
+  },
+  {
+   "seconds": 3.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 1782,
+   "completion_tokens": 146
+  },
+  {
+   "seconds": 3.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 1857,
+   "completion_tokens": 169
+  },
+  {
+   "seconds": 3.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 1956,
+   "completion_tokens": 169
+  },
+  {
+   "seconds": 3.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 2055,
+   "completion_tokens": 169
+  },
+  {
+   "seconds": 2.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 2203,
+   "completion_tokens": 108
+  },
+  {
+   "seconds": 1.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 2333,
+   "completion_tokens": 82
+  },
+  {
+   "seconds": 2.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 2419,
+   "completion_tokens": 118
+  },
+  {
+   "seconds": 2.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 2526,
+   "completion_tokens": 104
+  },
+  {
+   "seconds": 2.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 2261,
+   "completion_tokens": 134
+  }
+ ],
+ "steps": 13,
+ "is_done": true,
+ "success": true,
+ "final": "Form submitted successfully and confirmed receipt.",
+ "fast": []
+}

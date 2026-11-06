@@ -1,0 +1,65 @@
+{
+ "form": "test14",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 19.8,
+ "score": {
+  "submitted": true,
+  "fields": 5,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "JE REFUSE",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.28,
+   "format": "Answers",
+   "prompt_tokens": 358,
+   "completion_tokens": 92
+  },
+  {
+   "seconds": 5.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 6789,
+   "completion_tokens": 208
+  },
+  {
+   "seconds": 5.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 6763,
+   "completion_tokens": 209
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 50.114043056964874,
+   "url": "http://127.0.0.1:45719/test14",
+   "goal": "Close the pop-up with 'JE REFUSE'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2466.2711564451456,
+   "url": "http://127.0.0.1:45719/test14",
+   "goal": "Filled 5 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Họ và tên phụ huynh - Parent's name; Câu hỏi dành cho nhà trường (nếu có) - Questions for Hanoi Academy (if any). Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 199.34440962970257,
+   "url": "http://127.0.0.1:45719/test14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4962460845708847,
+   "url": "http://127.0.0.1:45719/test14",
+   "goal": ""
+  }
+ ]
+}

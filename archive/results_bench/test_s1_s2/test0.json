@@ -1,0 +1,94 @@
+{
+ "form": "test0",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 48.7,
+ "score": {
+  "submitted": true,
+  "fields": 5,
+  "wrong": {
+   "f2": null,
+   "f3": null
+  },
+  "extra": {
+   "f0": "Mr"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 6082,
+   "completion_tokens": 307
+  },
+  {
+   "seconds": 8.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 6173,
+   "completion_tokens": 339
+  },
+  {
+   "seconds": 11.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 6294,
+   "completion_tokens": 454
+  },
+  {
+   "seconds": 6.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 6396,
+   "completion_tokens": 239
+  },
+  {
+   "seconds": 6.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 6239,
+   "completion_tokens": 240
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 214.7084902971983,
+   "url": "http://127.0.0.1:46175/test0",
+   "goal": "Fill 2 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 193.16400587558746,
+   "url": "http://127.0.0.1:46175/test0",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 203.80498468875885,
+   "url": "http://127.0.0.1:46175/test0",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 203.438313677907,
+   "url": "http://127.0.0.1:46175/test0",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 195.494182407856,
+   "url": "http://127.0.0.1:46175/test0",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2705715596675873,
+   "url": "http://127.0.0.1:46175/test0",
+   "goal": ""
+  }
+ ]
+}

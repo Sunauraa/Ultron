@@ -1,0 +1,25 @@
+{
+ "when": "2026-11-05 21:40:34",
+ "extends": "LOCK_fresh5.json",
+ "sha_changed": {
+  "experiments/bench/run_bench.py": "ecc0c7d0ce0c0233",
+  "scripts/bench_32b_seed.sh": "28ca3fef641789dc"
+ },
+ "unchanged": [
+  "ultron/fastpath.py",
+  "experiments/bench/attack_bench.py",
+  "experiments/bench/calibrate_gate.py",
+  "tests/test_ultron_safety.py",
+  "experiments/bench/real_bench.py",
+  "experiments/bench/bench_table.py",
+  "scripts/bench_fresh4.sh",
+  "data/forms/real/testset.json",
+  "data/forms/real/fresh/labels_batch1.json",
+  "data/forms/real/fresh/labels_batch2.json",
+  "models/ultron-forms-0.1/a/model.safetensors",
+  "models/ultron-forms-0.1/b/model.safetensors",
+  "models/ultron-dialogs-0.1/a/model.safetensors",
+  "models/ultron-dialogs-0.1/b/model.safetensors"
+ ],
+ "note": "The user allowed all free GPUs for 12 hours at 21:39. 14B fresh arms all ran on GPU 7 as locked, one at a time, before this change. The 32B fresh arms now run one seed per GPU (4, 5, 6), each with its own server; within a seed the arms run one at a time on the same GPU, so paired comparisons within a seed are as locked. Seeds run at the same time, so 32B seconds include some shared CPU load, and 14B and 32B seconds come from different GPUs of the same model. run_bench.py only gained ULTRON_LLM_PORT (default 8007); nothing else changed. The 14B attack arms for the LLM-only agent run at the same time on GPU 7; attack records are scored on what reached the trap, not on time. No fresh result has been read."
+}

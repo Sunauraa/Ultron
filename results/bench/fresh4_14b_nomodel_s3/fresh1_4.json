@@ -1,0 +1,308 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 212.8,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 5964,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 6.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 6155,
+   "completion_tokens": 271
+  },
+  {
+   "seconds": 7.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 6181,
+   "completion_tokens": 295
+  },
+  {
+   "seconds": 7.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 6399,
+   "completion_tokens": 292
+  },
+  {
+   "seconds": 7.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 6546,
+   "completion_tokens": 308
+  },
+  {
+   "seconds": 7.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 6710,
+   "completion_tokens": 288
+  },
+  {
+   "seconds": 8.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6922,
+   "completion_tokens": 308
+  },
+  {
+   "seconds": 8.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 7119,
+   "completion_tokens": 319
+  },
+  {
+   "seconds": 6.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 7267,
+   "completion_tokens": 263
+  },
+  {
+   "seconds": 9.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 7412,
+   "completion_tokens": 380
+  },
+  {
+   "seconds": 10.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 7669,
+   "completion_tokens": 391
+  },
+  {
+   "seconds": 8.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 7838,
+   "completion_tokens": 332
+  },
+  {
+   "seconds": 8.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 8013,
+   "completion_tokens": 337
+  },
+  {
+   "seconds": 8.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 8162,
+   "completion_tokens": 338
+  },
+  {
+   "seconds": 9.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 8418,
+   "completion_tokens": 350
+  },
+  {
+   "seconds": 14.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 8650,
+   "completion_tokens": 571
+  },
+  {
+   "seconds": 13.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 9212,
+   "completion_tokens": 528
+  },
+  {
+   "seconds": 13.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 9807,
+   "completion_tokens": 500
+  },
+  {
+   "seconds": 14.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 10477,
+   "completion_tokens": 541
+  },
+  {
+   "seconds": 24.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 11128,
+   "completion_tokens": 912
+  }
+ ],
+ "steps": 27,
+ "is_done": false,
+ "success": null,
+ "final": null,
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 58.86055901646614,
+   "url": "http://127.0.0.1:39697/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 58.7074626237154,
+   "url": "http://127.0.0.1:39697/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.38176216185092926,
+   "url": "http://127.0.0.1:39697/fresh1_4/form_page_url_if_exists_or_correct_path_to_form_page_or_reload_if_needed",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5994701534509659,
+   "url": "http://127.0.0.1:39697/fresh1_4/form_page_url_if_exists_or_correct_path_to_form_page_or_reload_if_needed",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5639197081327438,
+   "url": "http://127.0.0.1:39697/fresh1_4/form_page_url_if_exists_or_correct_path_to_form_page_or_reload_if_needed",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.39384327828884125,
+   "url": "http://127.0.0.1:39697/fresh1_4/form_page_url_if_exists_or_correct_path_to_form_page_or_reload_if_needed",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 2.1626148372888565,
+   "url": "http://127.0.0.1:39697/fresh1_4/form_page_url_if_exists_or_correct_path_to_form_page_or_reload_if_needed",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2793017774820328,
+   "url": "http://127.0.0.1:39697/fresh1_4/form_page_url_if_exists_or_correct_path_to_form_page_or_reload_if_needed",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.29927492141723633,
+   "url": "http://127.0.0.1:39697/fresh1_4/form_page_url_if_exists_or_correct_path_to_form_page_or_reload_if_needed",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 2.1506696939468384,
+   "url": "http://127.0.0.1:39697/fresh1_4/form_page_url_if_exists_or_correct_path_to_form_page_or_reload_if_needed",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 7.771136239171028,
+   "url": "http://127.0.0.1:39697/fresh1_4/form_page_url_if_exists_or_correct_path_to_form_page_or_reload_if_needed?path=form_page_url_if_exists_or_correct_path_to_form_page_or_reload_if_needed&reload=true",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.8228981643915176,
+   "url": "http://127.0.0.1:39697/fresh1_4/form_page_url_if_exists_or_correct_path_to_form_page_or_reload_if_needed?path=form_page_url_if_exists_or_correct_path_to_form_page_or_reload_if_needed&reload=true",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.1999586820602417,
+   "url": "http://127.0.0.1:39697/fresh1_4/form_page_url_if_exists_or_correct_path_to_form_page_or_reload_if_needed?path=form_page_url_if_exists_or_correct_path_to_form_page_or_reload_if_needed&reload=true",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.1846645027399063,
+   "url": "about:blank",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.7521493136882782,
+   "url": "about:blank",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.8807277083396912,
+   "url": "about:blank",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.6916636377573013,
+   "url": "http://127.0.0.1:39697/support_or_contact_us_url_or_ask_user_for_help_with_the_form_path_or_alternative_approach_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.34257955849170685,
+   "url": "http://127.0.0.1:39697/support_or_contact_us_url_or_ask_user_for_help_with_the_form_path_or_alternative_approach_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.623077318072319,
+   "url": "http://127.0.0.1:39697/support_or_contact_us_url_or_ask_user_for_help_with_the_form_path_or_alternative_approach_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4944951981306076,
+   "url": "http://127.0.0.1:39697/support_or_contact_us_url_or_ask_user_for_help_with_the_form_path_or_alternative_approach_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.38895383477211,
+   "url": "http://127.0.0.1:39697/support_or_contact_us_url_or_ask_user_for_help_with_the_form_path_or_alternative_approach_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed%7D%7D]%20//%20Navigate%20to%20support/contact%20us%20URL%20or%20ask%20user%20for%20help%20with%20form%20path%20or%20alternative%20approach%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed]%20//%20Navigate%20to%20support/contact%20us%20URL%20or%20ask%20user%20for%20help%20with%20alternative%20approach%20URLs%20if%20needed%20(if%20available),%20otherwise%20continue%20searching%20within%20domain%20using%20various%20methods%20until%20locating%20correct%20path/page%20containing%20desired%20information/form%20(if%20available)]%20//%20Navigate%20back/reload%20current%20tab%20after%20trying%20all%20other%20methods%20(if%20available)]%20//%20If%20still%20unable%20after%20all%20attempts%20above%20(including%20contacting%20support/user),%20prepare%20final%20report%20indicating%20inability/unavailability%20of%20desired%20information/form%20despite%20best%20efforts]]",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.18948502838611603,
+   "url": "http://127.0.0.1:39697/support_or_contact_us_url_or_ask_user_for_help_with_the_form_path_or_alternative_approach_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed%7D%7D]%20//%20Navigate%20to%20support/contact%20us%20URL%20or%20ask%20user%20for%20help%20with%20form%20path%20or%20alternative%20approach%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed]%20//%20Navigate%20to%20support/contact%20us%20URL%20or%20ask%20user%20for%20help%20with%20alternative%20approach%20URLs%20if%20needed%20(if%20available),%20otherwise%20continue%20searching%20within%20domain%20using%20various%20methods%20until%20locating%20correct%20path/page%20containing%20desired%20information/form%20(if%20available)]%20//%20Navigate%20back/reload%20current%20tab%20after%20trying%20all%20other%20methods%20(if%20available)]%20//%20If%20still%20unable%20after%20all%20attempts%20above%20(including%20contacting%20support/user),%20prepare%20final%20report%20indicating%20inability/unavailability%20of%20desired%20information/form%20despite%20best%20efforts]]",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.3752039521932602,
+   "url": "http://127.0.0.1:39697/support_or_contact_us_url_or_ask_user_for_help_with_the_form_path_or_alternative_approach_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed%7D%7D]%20//%20Navigate%20to%20support/contact%20us%20URL%20or%20ask%20user%20for%20help%20with%20form%20path%20or%20alternative%20approach%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed]%20//%20Navigate%20to%20support/contact%20us%20URL%20or%20ask%20user%20for%20help%20with%20alternative%20approach%20URLs%20if%20needed%20(if%20available),%20otherwise%20continue%20searching%20within%20domain%20using%20various%20methods%20until%20locating%20correct%20path/page%20containing%20desired%20information/form%20(if%20available)]%20//%20Navigate%20back/reload%20current%20tab%20after%20trying%20all%20other%20methods%20(if%20available)]%20//%20If%20still%20unable%20after%20all%20attempts%20above%20(including%20contacting%20support/user),%20prepare%20final%20report%20indicating%20inability/unavailability%20of%20desired%20information/form%20despite%20best%20efforts]]",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.7657652497291565,
+   "url": "http://127.0.0.1:39697/support_or_contact_us_url_or_ask_user_for_help_with_the_form_path_or_alternative_approach_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed%7D%7D]%20//%20Navigate%20to%20support/contact%20us%20URL%20or%20ask%20user%20for%20help%20with%20form%20path%20or%20alternative%20approach%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed]%20//%20Navigate%20to%20support/contact%20us%20URL%20or%20ask%20user%20for%20help%20with%20alternative%20approach%20URLs%20if%20needed%20(if%20available),%20otherwise%20continue%20searching%20within%20domain%20using%20various%20methods%20until%20locating%20correct%20path/page%20containing%20desired%20information/form%20(if%20available)]%20//%20Navigate%20back/reload%20current%20tab%20after%20trying%20all%20other%20methods%20(if%20available)]%20//%20If%20still%20unable%20after%20all%20attempts%20above%20(including%20contacting%20support/user),%20prepare%20final%20report%20indicating%20inability/unavailability%20of%20desired%20information/form%20despite%20best%20efforts]]",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.532912254333496,
+   "url": "http://127.0.0.1:39697/support_or_contact_us_url_or_ask_user_for_help_with_the_form_path_or_alternative_approach_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed_or_open_new_tab_and_search_for_form_path_keywords_in_domain_or_try_another_method_to_locate_the_form_page_url_or_reload_if_needed%7D%7D]%20//%20Navigate%20to%20support/contact%20us%20URL%20or%20ask%20user%20for%20help%20with%20form%20path%20or%20alternative%20approach%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed,%20open%20new%20tab%20and%20search%20for%20form%20path%20keywords%20in%20domain,%20try%20another%20method%20to%20locate%20form%20page%20URL%20if%20needed]%20//%20Navigate%20to%20support/contact%20us%20URL%20or%20ask%20user%20for%20help%20with%20alternative%20approach%20URLs%20if%20needed%20(if%20available),%20otherwise%20continue%20searching%20within%20domain%20using%20various%20methods%20until%20locating%20correct%20path/page%20containing%20desired%20information/form%20(if%20available)]%20//%20Navigate%20back/reload%20current%20tab%20after%20trying%20all%20other%20methods%20(if%20available)]%20//%20If%20still%20unable%20after%20all%20attempts%20above%20(including%20contacting%20support/user),%20prepare%20final%20report%20indicating%20inability/unavailability%20of%20desired%20information/form%20despite%20best%20efforts]]",
+   "goal": ""
+  }
+ ]
+}

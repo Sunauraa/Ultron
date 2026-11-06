@@ -1,0 +1,55 @@
+{
+ "form": "fresh1_3",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 9.4,
+ "score": {
+  "blocked": [],
+  "unclear": [
+   "Complete Home Address: Be sure to include the CITY, STATE, and ZIP CODE (Please double-check for accuracy—your card will be mailed to this address.) If you are an MSMS student, please skip this section and enter \"N/A.\" All other students are required to answer this question.",
+   "Complete Mailing Address: Include CITY, STATE, and ZIP CODE. (Only if different from your home address. Please ensure this information is accurate—your card will be mailed here.) If you are an MSMS student, please skip this section and enter \"N/A.\" All other students are required to answer this question."
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f5": null,
+   "f7": null,
+   "f9": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.24,
+   "format": "Answers",
+   "prompt_tokens": 677,
+   "completion_tokens": 170
+  }
+ ],
+ "steps": 3,
+ "is_done": true,
+ "success": false,
+ "final": "Nothing was sent. The form requires these and the document has no value for them: Complete Mailing Address: Include CITY, STATE, and ZIP CODE. (Only if different from your home address. Please ensure this information is accurate—your card will be mailed here.) If you are an MSMS student, please skip this section and enter \"N/A.\" All other students are  to answer this question..",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 4458.08339305222,
+   "url": "http://127.0.0.1:35547/fresh1_3",
+   "goal": "Filled 6 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Complete School W-Box Mailing Address: Be sure to include the CITY, STATE, and ZIP CODE [Your card will be mailed to this address, so it’s important we have your correct W-Box information. (This only applies to MSMS students. If it doesn't apply to you, please enter N/A.); Complete Mailing Address: Include CITY, STATE, and ZIP CODE. (Only if different from your home address. Please ensure this information is accurate—your card will be mailed here.) If you are an MSMS student, please skip this section and enter \"N/A.\" All other students are required to answer this question.; Parent's Email Address: (This will be used to contact your parent or guardian to obtain their consent for issuing your library card.); Parent or Guardian Phone Number: (This number is for record-keeping purposes only; we will not contact your parent or guardian without necessity.); Student's OR Parent's Initials and Date; Acceptance of Responsibility: Please read the following statement thorou. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "stop",
+   "milliseconds": 248.3376506716013,
+   "url": "http://127.0.0.1:35547/fresh1_3",
+   "goal": "Nothing was sent. The form requires these and the document has no value for them: Complete Mailing Address: Include CITY, STATE, and ZIP CODE. (Only if different from your home address. Please ensure this information is accurate—your card will be mailed here.) If you are an MSMS student, please skip this section and enter \"N/A.\" All other students are  to answer this question.."
+  }
+ ]
+}

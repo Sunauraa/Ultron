@@ -1,0 +1,77 @@
+{
+ "form": "test20",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 27.2,
+ "score": {
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Rejeitar cookies",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.9,
+   "format": "Answers",
+   "prompt_tokens": 298,
+   "completion_tokens": 118
+  },
+  {
+   "seconds": 5.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 6718,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 4.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 6144,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 5.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 6174,
+   "completion_tokens": 211
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 53.92964370548725,
+   "url": "http://127.0.0.1:36341/test20",
+   "goal": "Close the pop-up with 'Rejeitar cookies'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2904.656847938895,
+   "url": "http://127.0.0.1:36341/test20",
+   "goal": "Filled 6 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Điện thoại người thân; Người giới thiệu (Nếu có). Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.29292330145835876,
+   "url": "http://127.0.0.1:36341/test20",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4385543763637543,
+   "url": "http://127.0.0.1:36341/test20",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.1725815236568451,
+   "url": "about:blank",
+   "goal": ""
+  }
+ ]
+}

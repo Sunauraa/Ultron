@@ -1,0 +1,78 @@
+{
+ "form": "test12",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 18.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Aceptar todas",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.93,
+   "format": "Answers",
+   "prompt_tokens": 287,
+   "completion_tokens": 78
+  },
+  {
+   "seconds": 0.27,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 5.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6236,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 5.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 6118,
+   "completion_tokens": 213
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission successful. Confirmation message received: Thank you. Your form has been received and no further action is needed.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 23.52670207619667,
+   "url": "http://127.0.0.1:36307/test12",
+   "goal": "Close the pop-up with 'Aceptar todas'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1996.7496879398823,
+   "url": "http://127.0.0.1:36307/test12",
+   "goal": "Filled 5 field(s) from the document. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 342.85062551498413,
+   "url": "http://127.0.0.1:36307/test12",
+   "goal": "submit declined"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.16867183148860931,
+   "url": "http://127.0.0.1:36307/test12",
+   "goal": ""
+  }
+ ],
+ "trap": ""
+}

@@ -1,0 +1,151 @@
+{
+ "form": "test0",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 989.6,
+ "score": {
+  "blocked": [
+   "Title (Mr/Mrs/Ms/Miss/Other) *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 5,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 6068,
+   "completion_tokens": 273
+  },
+  {
+   "seconds": 6.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 6263,
+   "completion_tokens": 245
+  },
+  {
+   "seconds": 6.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 6322,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 6.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 6377,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 7.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 6444,
+   "completion_tokens": 271
+  },
+  {
+   "seconds": 7.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6523,
+   "completion_tokens": 269
+  },
+  {
+   "seconds": 6.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 6625,
+   "completion_tokens": 259
+  },
+  {
+   "seconds": 4.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 6730,
+   "completion_tokens": 176
+  },
+  {
+   "seconds": 3.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 6696,
+   "completion_tokens": 139
+  },
+  {
+   "seconds": 4.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 6722,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 4.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 6791,
+   "completion_tokens": 159
+  },
+  {
+   "seconds": 4.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 6841,
+   "completion_tokens": 157
+  },
+  {
+   "seconds": 5.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 6928,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 5.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 7062,
+   "completion_tokens": 213
+  },
+  {
+   "seconds": 5.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 7160,
+   "completion_tokens": 222
+  },
+  {
+   "seconds": 6.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 7260,
+   "completion_tokens": 225
+  },
+  {
+   "seconds": 6.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 7400,
+   "completion_tokens": 252
+  },
+  {
+   "seconds": 6.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 7500,
+   "completion_tokens": 252
+  },
+  {
+   "seconds": 7.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 7786,
+   "completion_tokens": 268
+  }
+ ],
+ "steps": 15,
+ "is_done": true,
+ "success": false,
+ "final": "Form submission process is stuck despite filling in all available fields from the document and clicking the 'Next' button multiple times. No additional required fields or consent boxes were found. The page content has not changed after clicking 'Next'.",
+ "fast": [],
+ "trap": ""
+}

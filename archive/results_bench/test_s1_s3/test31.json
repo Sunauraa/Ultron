@@ -1,0 +1,61 @@
+{
+ "form": "test31",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 3,
+ "seconds": 17.9,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {
+   "f3": "21/06/1995"
+  },
+  "missing_consent": [],
+  "popup_choice": "Niet accepteren",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 6218,
+   "completion_tokens": 263
+  },
+  {
+   "seconds": 4.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 5995,
+   "completion_tokens": 182
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 47.914475202560425,
+   "url": "http://127.0.0.1:39479/test31",
+   "goal": "Close the pop-up with 'Niet accepteren'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 206.52933232486248,
+   "url": "http://127.0.0.1:39479/test31",
+   "goal": "Fill 3 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 201.73224620521069,
+   "url": "http://127.0.0.1:39479/test31",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.24508126080036163,
+   "url": "http://127.0.0.1:39479/test31",
+   "goal": ""
+  }
+ ]
+}

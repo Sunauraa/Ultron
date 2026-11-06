@@ -1,0 +1,52 @@
+{
+ "form": "fresh1_10",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 30.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Хорошо",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 5864,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 7.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 6497,
+   "completion_tokens": 356
+  },
+  {
+   "seconds": 6.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 6628,
+   "completion_tokens": 293
+  },
+  {
+   "seconds": 5.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 6098,
+   "completion_tokens": 291
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed by the page. Fields filled with provided document values: Full Name (Phạm Thu Hà), Birthday (21/06/1995), Email (ha.pham@example.com), Phone (0934567890). Other fields were left empty as they were not required or had no corresponding values in the document.",
+ "fast": []
+}

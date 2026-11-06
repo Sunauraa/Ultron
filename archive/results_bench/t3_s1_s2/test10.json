@@ -1,0 +1,59 @@
+{
+ "form": "test10",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 6.9,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.63,
+   "format": "Answers",
+   "prompt_tokens": 252,
+   "completion_tokens": 66
+  },
+  {
+   "seconds": 0.31,
+   "format": "Review",
+   "prompt_tokens": 365,
+   "completion_tokens": 11
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 1725.316908210516,
+   "url": "http://127.0.0.1:34637/test10",
+   "goal": "Filled 4 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Lĩnh vực; Chi nhánh; Nội dung *. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 403.07362750172615,
+   "url": "http://127.0.0.1:34637/test10",
+   "goal": "Sent the form with 'Gửi đi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 170.1139472424984,
+   "url": "http://127.0.0.1:34637/test10",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "form": "test3",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 1,
+ "seconds": 115.4,
+ "score": {
+  "blocked": [],
+  "unclear": [
+   "House number or house name *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 6,
+  "wrong": {
+   "f8": null,
+   "f9": null,
+   "f11": null,
+   "f12": null,
+   "f13": null,
+   "f14": null
+  },
+  "extra": {},
+  "missing_consent": [
+   "f0"
+  ],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 1207,
+   "completion_tokens": 93
+  },
+  {
+   "seconds": 6.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 1641,
+   "completion_tokens": 325
+  },
+  {
+   "seconds": 5.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 1795,
+   "completion_tokens": 253
+  },
+  {
+   "seconds": 5.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 1890,
+   "completion_tokens": 281
+  },
+  {
+   "seconds": 5.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 2189,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 5.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 2458,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 5.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 2727,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 2.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 2904,
+   "completion_tokens": 90
+  },
+  {
+   "seconds": 2.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 2961,
+   "completion_tokens": 92
+  },
+  {
+   "seconds": 1.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 3025,
+   "completion_tokens": 69
+  },
+  {
+   "seconds": 1.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 3070,
+   "completion_tokens": 72
+  },
+  {
+   "seconds": 1.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 3118,
+   "completion_tokens": 72
+  },
+  {
+   "seconds": 2.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 3215,
+   "completion_tokens": 99
+  },
+  {
+   "seconds": 2.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 3290,
+   "completion_tokens": 99
+  },
+  {
+   "seconds": 2.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 3398,
+   "completion_tokens": 135
+  },
+  {
+   "seconds": 2.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 3078,
+   "completion_tokens": 106
+  },
+  {
+   "seconds": 2.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 3164,
+   "completion_tokens": 115
+  },
+  {
+   "seconds": 2.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 3248,
+   "completion_tokens": 117
+  },
+  {
+   "seconds": 4.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 3418,
+   "completion_tokens": 234
+  },
+  {
+   "seconds": 4.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 3504,
+   "completion_tokens": 234
+  },
+  {
+   "seconds": 4.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 3590,
+   "completion_tokens": 234
+  },
+  {
+   "seconds": 4.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 3680,
+   "completion_tokens": 226
+  },
+  {
+   "seconds": 4.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 3774,
+   "completion_tokens": 222
+  },
+  {
+   "seconds": 6.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 4329,
+   "completion_tokens": 334
+  },
+  {
+   "seconds": 4.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 4435,
+   "completion_tokens": 201
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "The form was filled out with the following details: Forename: Jordan, Surname: Reed, House number or house name: 742, Street name: Cedar Lane, What town do you live in?: Portland, Telephone number: 503-555-0147, Email address: jordan.reed@example.com. The consent checkbox for storing submitted data was not checked due to reaching the maximum steps. The form was submitted without confirmation of receipt.",
+ "fast": []
+}

@@ -1,0 +1,95 @@
+{
+ "form": "dev18",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 40.4,
+ "score": {
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 6940,
+   "completion_tokens": 295
+  },
+  {
+   "seconds": 6.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 7054,
+   "completion_tokens": 238
+  },
+  {
+   "seconds": 6.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 7159,
+   "completion_tokens": 226
+  },
+  {
+   "seconds": 5.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 7266,
+   "completion_tokens": 200
+  },
+  {
+   "seconds": 5.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 6259,
+   "completion_tokens": 212
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 495.23957446217537,
+   "url": "http://127.0.0.1:39125/dev18",
+   "goal": "Fill 3 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 542.305612936616,
+   "url": "http://127.0.0.1:39125/dev18",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 474.38102401793003,
+   "url": "http://127.0.0.1:39125/dev18",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 479.0564402937889,
+   "url": "http://127.0.0.1:39125/dev18",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 469.9229598045349,
+   "url": "http://127.0.0.1:39125/dev18",
+   "goal": ""
+  },
+  {
+   "kind": "form",
+   "milliseconds": 484.7294073551893,
+   "url": "http://127.0.0.1:39125/dev18",
+   "goal": "Submit with 'Gửi'"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3542434424161911,
+   "url": "http://127.0.0.1:39125/dev18",
+   "goal": ""
+  }
+ ]
+}

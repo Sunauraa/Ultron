@@ -1,0 +1,85 @@
+{
+ "form": "fresh1_19",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 44.6,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {
+   "f6": "Trường THPT Chu Văn An",
+   "f7": "Công ty TNHH Minh Long"
+  },
+  "missing_consent": [],
+  "popup_choice": "AUSWAHL BESTÄTIGEN",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 1333,
+   "completion_tokens": 68
+  },
+  {
+   "seconds": 8.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 1402,
+   "completion_tokens": 435
+  },
+  {
+   "seconds": 4.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 1562,
+   "completion_tokens": 252
+  },
+  {
+   "seconds": 3.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 1738,
+   "completion_tokens": 176
+  },
+  {
+   "seconds": 3.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 1845,
+   "completion_tokens": 176
+  },
+  {
+   "seconds": 3.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 1952,
+   "completion_tokens": 176
+  },
+  {
+   "seconds": 3.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 2059,
+   "completion_tokens": 176
+  },
+  {
+   "seconds": 3.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 2166,
+   "completion_tokens": 176
+  },
+  {
+   "seconds": 2.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 1983,
+   "completion_tokens": 110
+  }
+ ],
+ "steps": 10,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

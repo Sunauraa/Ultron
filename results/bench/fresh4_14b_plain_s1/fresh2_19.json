@@ -1,0 +1,48 @@
+{
+ "form": "fresh2_19",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 28.4,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 5,
+  "wrong": {
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 5981,
+   "completion_tokens": 304
+  },
+  {
+   "seconds": 11.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 6193,
+   "completion_tokens": 437
+  },
+  {
+   "seconds": 4.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 6316,
+   "completion_tokens": 172
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed as received.",
+ "fast": []
+}

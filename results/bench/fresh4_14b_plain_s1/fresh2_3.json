@@ -1,0 +1,117 @@
+{
+ "form": "fresh2_3",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 127.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 9,
+  "wrong": {
+   "f9": null,
+   "f10": null,
+   "f11": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 6719,
+   "completion_tokens": 304
+  },
+  {
+   "seconds": 6.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 6942,
+   "completion_tokens": 264
+  },
+  {
+   "seconds": 7.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 7016,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 8.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 7108,
+   "completion_tokens": 304
+  },
+  {
+   "seconds": 7.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 7205,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 11.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 7207,
+   "completion_tokens": 439
+  },
+  {
+   "seconds": 11.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 7297,
+   "completion_tokens": 429
+  },
+  {
+   "seconds": 11.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 7387,
+   "completion_tokens": 436
+  },
+  {
+   "seconds": 11.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 7477,
+   "completion_tokens": 436
+  },
+  {
+   "seconds": 11.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 7568,
+   "completion_tokens": 436
+  },
+  {
+   "seconds": 6.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 7696,
+   "completion_tokens": 232
+  },
+  {
+   "seconds": 6.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 7727,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 5.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 7815,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 4.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 6899,
+   "completion_tokens": 174
+  }
+ ],
+ "steps": 15,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed received.",
+ "fast": []
+}

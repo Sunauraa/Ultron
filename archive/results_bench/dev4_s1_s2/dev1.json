@@ -1,0 +1,79 @@
+{
+ "form": "dev1",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 29.8,
+ "score": {
+  "submitted": true,
+  "fields": 9,
+  "wrong": {
+   "f11": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Да, верно",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 6383,
+   "completion_tokens": 327
+  },
+  {
+   "seconds": 5.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 6504,
+   "completion_tokens": 192
+  },
+  {
+   "seconds": 3.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 6191,
+   "completion_tokens": 142
+  },
+  {
+   "seconds": 4.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 6222,
+   "completion_tokens": 183
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 17.758449539542198,
+   "url": "http://127.0.0.1:33929/dev1",
+   "goal": "Close the pop-up with 'Да, верно'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 268.1775111705065,
+   "url": "http://127.0.0.1:33929/dev1",
+   "goal": "Filled 4 field(s) from the document. Still empty, so check each against the document before submitting: First Name *; Last Name *; Address *; City; Area Code *; Phone Number *; Specific document or record you are seeking *; If you are seeking to view a Public Disclosure Form, please enter the elected or appointed officials name."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 262.61997781693935,
+   "url": "http://127.0.0.1:33929/dev1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 262.77544908225536,
+   "url": "http://127.0.0.1:33929/dev1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.1827087253332138,
+   "url": "http://127.0.0.1:33929/dev1",
+   "goal": ""
+  }
+ ]
+}

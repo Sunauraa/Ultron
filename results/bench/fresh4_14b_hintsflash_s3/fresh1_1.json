@@ -1,0 +1,212 @@
+{
+ "form": "fresh1_1",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 142.6,
+ "score": {
+  "blocked": [
+   "Subdivision *",
+   "Emergency Contact Name *",
+   "Emergency Contact Number *",
+   "What volunteer opportunities interest you? *",
+   "Please list any previous volunteer experience you have *",
+   "Do you have any special skills or training? *",
+   "Please explain your level of proficiency (Native/Fluent, Advanced, Intermediate or Basic) *",
+   "What is your purpose for volunteering? *",
+   "Do you have any restrictions or limitations for service? (i.e., health concerns, allergies, etc.) *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "Please provide details below *",
+   "Please provide details below *",
+   "Please provide details below *"
+  ],
+  "unclear": [
+   "First Name *",
+   "Last Name *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 9,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null,
+   "f9": null,
+   "f10": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 1959,
+   "completion_tokens": 310
+  },
+  {
+   "seconds": 6.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 1969,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 3.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 2142,
+   "completion_tokens": 149
+  },
+  {
+   "seconds": 2.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 2301,
+   "completion_tokens": 103
+  },
+  {
+   "seconds": 2.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 3078,
+   "completion_tokens": 105
+  },
+  {
+   "seconds": 2.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 3172,
+   "completion_tokens": 104
+  },
+  {
+   "seconds": 3.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 3262,
+   "completion_tokens": 115
+  },
+  {
+   "seconds": 2.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 3352,
+   "completion_tokens": 101
+  },
+  {
+   "seconds": 3.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 3442,
+   "completion_tokens": 118
+  },
+  {
+   "seconds": 2.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 3585,
+   "completion_tokens": 86
+  },
+  {
+   "seconds": 2.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 3694,
+   "completion_tokens": 82
+  },
+  {
+   "seconds": 2.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 3765,
+   "completion_tokens": 98
+  },
+  {
+   "seconds": 2.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 3838,
+   "completion_tokens": 83
+  },
+  {
+   "seconds": 6.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 3917,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 4.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 3978,
+   "completion_tokens": 171
+  },
+  {
+   "seconds": 5.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 4075,
+   "completion_tokens": 214
+  },
+  {
+   "seconds": 7.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 4122,
+   "completion_tokens": 295
+  },
+  {
+   "seconds": 6.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 4212,
+   "completion_tokens": 235
+  },
+  {
+   "seconds": 3.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 4380,
+   "completion_tokens": 116
+  },
+  {
+   "seconds": 3.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 4478,
+   "completion_tokens": 116
+  },
+  {
+   "seconds": 2.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 4569,
+   "completion_tokens": 102
+  },
+  {
+   "seconds": 3.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 4660,
+   "completion_tokens": 116
+  },
+  {
+   "seconds": 2.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 4751,
+   "completion_tokens": 102
+  },
+  {
+   "seconds": 2.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 4924,
+   "completion_tokens": 80
+  },
+  {
+   "seconds": 3.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 5016,
+   "completion_tokens": 137
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Form submitted but no confirmation message appeared. The 'Date of Birth' and 'Emergency Contact' sections were left blank as per the document. Consent checkbox was mistakenly clicked previously.",
+ "fast": []
+}

@@ -1,0 +1,114 @@
+{
+ "form": "fresh1_3",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 268.0,
+ "score": {
+  "blocked": [],
+  "unclear": [
+   "Complete Home Address: Be sure to include the CITY, STATE, and ZIP CODE (Please double-check for accuracy—your card will be mailed to this address.) If you are an MSMS student, please skip this section and enter \"N/A.\" All other students are required to answer this question.",
+   "Complete Mailing Address: Include CITY, STATE, and ZIP CODE. (Only if different from your home address. Please ensure this information is accurate—your card will be mailed here.) If you are an MSMS student, please skip this section and enter \"N/A.\" All other students are required to answer this question."
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f5": null,
+   "f7": null,
+   "f9": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 6641,
+   "completion_tokens": 312
+  },
+  {
+   "seconds": 7.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 6874,
+   "completion_tokens": 269
+  },
+  {
+   "seconds": 8.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 6934,
+   "completion_tokens": 314
+  },
+  {
+   "seconds": 8.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 7070,
+   "completion_tokens": 305
+  },
+  {
+   "seconds": 7.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 7184,
+   "completion_tokens": 300
+  },
+  {
+   "seconds": 8.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 7294,
+   "completion_tokens": 333
+  },
+  {
+   "seconds": 5.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 7431,
+   "completion_tokens": 196
+  },
+  {
+   "seconds": 4.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 7373,
+   "completion_tokens": 155
+  },
+  {
+   "seconds": 4.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 7423,
+   "completion_tokens": 168
+  },
+  {
+   "seconds": 6.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 7471,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 5.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 7565,
+   "completion_tokens": 187
+  },
+  {
+   "seconds": 5.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 7663,
+   "completion_tokens": 212
+  },
+  {
+   "seconds": 6.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 7794,
+   "completion_tokens": 248
+  }
+ ],
+ "steps": 13,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission assumed to be successful as all required fields were filled and the consent checkbox was ticked. No confirmation message appeared on the page.",
+ "fast": []
+}

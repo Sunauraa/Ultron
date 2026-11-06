@@ -1,0 +1,182 @@
+{
+ "form": "fresh2_9",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 262.0,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 3,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 6285,
+   "completion_tokens": 301
+  },
+  {
+   "seconds": 7.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 6470,
+   "completion_tokens": 305
+  },
+  {
+   "seconds": 8.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 7027,
+   "completion_tokens": 338
+  },
+  {
+   "seconds": 8.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 6766,
+   "completion_tokens": 330
+  },
+  {
+   "seconds": 8.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 7271,
+   "completion_tokens": 318
+  },
+  {
+   "seconds": 9.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 6942,
+   "completion_tokens": 367
+  },
+  {
+   "seconds": 9.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 7447,
+   "completion_tokens": 346
+  },
+  {
+   "seconds": 8.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 7183,
+   "completion_tokens": 339
+  },
+  {
+   "seconds": 12.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 7758,
+   "completion_tokens": 494
+  },
+  {
+   "seconds": 9.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 7489,
+   "completion_tokens": 381
+  },
+  {
+   "seconds": 12.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 8025,
+   "completion_tokens": 466
+  },
+  {
+   "seconds": 9.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 7806,
+   "completion_tokens": 381
+  },
+  {
+   "seconds": 12.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 8344,
+   "completion_tokens": 487
+  },
+  {
+   "seconds": 9.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 8075,
+   "completion_tokens": 346
+  },
+  {
+   "seconds": 11.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 8611,
+   "completion_tokens": 432
+  },
+  {
+   "seconds": 9.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 8346,
+   "completion_tokens": 362
+  },
+  {
+   "seconds": 9.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 8884,
+   "completion_tokens": 339
+  },
+  {
+   "seconds": 9.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 8642,
+   "completion_tokens": 370
+  },
+  {
+   "seconds": 9.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 9283,
+   "completion_tokens": 369
+  },
+  {
+   "seconds": 9.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 8999,
+   "completion_tokens": 354
+  },
+  {
+   "seconds": 9.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 9556,
+   "completion_tokens": 348
+  },
+  {
+   "seconds": 10.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 9275,
+   "completion_tokens": 394
+  },
+  {
+   "seconds": 10.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 9833,
+   "completion_tokens": 382
+  },
+  {
+   "seconds": 10.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 9551,
+   "completion_tokens": 393
+  },
+  {
+   "seconds": 9.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 10140,
+   "completion_tokens": 342
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Failed to complete the form submission due to an issue with leaving the current age field empty. The current age field was auto-filled with 'Yes, I am aged 18 or older'. Please resolve this issue before attempting again.",
+ "fast": []
+}

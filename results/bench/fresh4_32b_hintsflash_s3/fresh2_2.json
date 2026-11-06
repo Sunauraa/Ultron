@@ -1,0 +1,182 @@
+{
+ "form": "fresh2_2",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 142.6,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 3,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 1179,
+   "completion_tokens": 180
+  },
+  {
+   "seconds": 5.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 1287,
+   "completion_tokens": 272
+  },
+  {
+   "seconds": 5.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 1483,
+   "completion_tokens": 287
+  },
+  {
+   "seconds": 5.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 1689,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 5.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 1893,
+   "completion_tokens": 285
+  },
+  {
+   "seconds": 5.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 2097,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 5.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 2301,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 2.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 2543,
+   "completion_tokens": 104
+  },
+  {
+   "seconds": 5.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 2559,
+   "completion_tokens": 259
+  },
+  {
+   "seconds": 5.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 2650,
+   "completion_tokens": 259
+  },
+  {
+   "seconds": 4.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 2736,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 4.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 2822,
+   "completion_tokens": 245
+  },
+  {
+   "seconds": 6.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 2895,
+   "completion_tokens": 330
+  },
+  {
+   "seconds": 4.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 2968,
+   "completion_tokens": 238
+  },
+  {
+   "seconds": 6.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 3041,
+   "completion_tokens": 330
+  },
+  {
+   "seconds": 4.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 3114,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 4.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 3192,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 4.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 3270,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 4.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 3432,
+   "completion_tokens": 245
+  },
+  {
+   "seconds": 5.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 3505,
+   "completion_tokens": 290
+  },
+  {
+   "seconds": 7.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 3604,
+   "completion_tokens": 372
+  },
+  {
+   "seconds": 6.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 3787,
+   "completion_tokens": 315
+  },
+  {
+   "seconds": 6.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 3949,
+   "completion_tokens": 315
+  },
+  {
+   "seconds": 6.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 4111,
+   "completion_tokens": 315
+  },
+  {
+   "seconds": 4.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 4289,
+   "completion_tokens": 204
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "The form was partially filled with First Name: Jordan, Last Name: Reed, and Mobile Phone Number: 503-555-0147. The remaining fields such as Email Address, Date of Birth, Residence, Municipality, Province or State, and Postcode were not filled due to the page not accepting input as expected. The task is not fully completed.",
+ "fast": []
+}

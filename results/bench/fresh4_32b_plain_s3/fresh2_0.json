@@ -1,0 +1,66 @@
+{
+ "form": "fresh2_0",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 42.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {
+   "f0": "Jordan Reed"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Rifiuta",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 6000,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 6.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 6042,
+   "completion_tokens": 342
+  },
+  {
+   "seconds": 7.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 6179,
+   "completion_tokens": 390
+  },
+  {
+   "seconds": 7.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 6319,
+   "completion_tokens": 376
+  },
+  {
+   "seconds": 3.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 6242,
+   "completion_tokens": 184
+  },
+  {
+   "seconds": 4.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 6258,
+   "completion_tokens": 204
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been filled and submitted successfully. The page confirms receipt of the form.",
+ "fast": []
+}

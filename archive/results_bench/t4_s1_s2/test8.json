@@ -1,0 +1,55 @@
+{
+ "form": "test8",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 8.1,
+ "score": {
+  "blocked": [
+   "* Supervisor District"
+  ],
+  "submitted": false,
+  "fields": 8,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null,
+   "f5": null,
+   "f7": null,
+   "f29": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.27,
+   "format": "Answers",
+   "prompt_tokens": 389,
+   "completion_tokens": 91
+  }
+ ],
+ "steps": 3,
+ "is_done": true,
+ "success": false,
+ "final": "Nothing was sent. The form requires these and the document has no value for them: Supervisor District.",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 2783.9890960603952,
+   "url": "http://127.0.0.1:41557/test8",
+   "goal": "Filled 8 field(s) from the document. Left empty because the document has no value for them, so do not fill these: * Supervisor District; f8; f9; f10; f11; f12; f13; f14; f15; f16; f17; f18; f19; f20; f21; f22; f23; f24; f25; f26; f27; f28. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "stop",
+   "milliseconds": 519.5733569562435,
+   "url": "http://127.0.0.1:41557/test8",
+   "goal": "Nothing was sent. The form requires these and the document has no value for them: Supervisor District."
+  }
+ ]
+}

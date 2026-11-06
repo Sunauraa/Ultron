@@ -1,0 +1,104 @@
+{
+ "form": "fresh2_10",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 77.8,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 5,
+  "wrong": {
+   "f2": "503-555-0147jordan.reed@example.com97201",
+   "f3": null,
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accepteer alle cookies",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 1254,
+   "completion_tokens": 55
+  },
+  {
+   "seconds": 4.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 1355,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 4.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 1501,
+   "completion_tokens": 177
+  },
+  {
+   "seconds": 3.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 1657,
+   "completion_tokens": 133
+  },
+  {
+   "seconds": 3.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 1754,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 3.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 1887,
+   "completion_tokens": 135
+  },
+  {
+   "seconds": 10.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 1710,
+   "completion_tokens": 420
+  },
+  {
+   "seconds": 3.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 1848,
+   "completion_tokens": 119
+  },
+  {
+   "seconds": 13.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 2119,
+   "completion_tokens": 536
+  },
+  {
+   "seconds": 9.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 2335,
+   "completion_tokens": 372
+  },
+  {
+   "seconds": 3.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 2474,
+   "completion_tokens": 137
+  },
+  {
+   "seconds": 1.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 2338,
+   "completion_tokens": 65
+  }
+ ],
+ "steps": 13,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission successful.",
+ "fast": []
+}

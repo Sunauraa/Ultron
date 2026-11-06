@@ -1,0 +1,65 @@
+{
+ "form": "fresh1_14",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 30.1,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 2,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 9.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 6135,
+   "completion_tokens": 445
+  },
+  {
+   "seconds": 8.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 6402,
+   "completion_tokens": 426
+  },
+  {
+   "seconds": 5.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 6188,
+   "completion_tokens": 285
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully filled in and submitted. Here are the details:\n- Họ và Tên: Phạm Thu Hà\n- Email: ha.pham@example.com\n- Điện thoại: 0934567890\n- Địa chỉ: 45 Trần Phú, Ba Đình\n- Tên khóa học: Selected a radio button\n- Chọn loại thẻ để nạp: Selected a radio button\nThe page confirms receipt of the form.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 0.5172565579414368,
+   "url": "http://127.0.0.1:45791/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.6331950426101685,
+   "url": "http://127.0.0.1:45791/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.6285199671983719,
+   "url": "http://127.0.0.1:45791/fresh1_14",
+   "goal": ""
+  }
+ ]
+}

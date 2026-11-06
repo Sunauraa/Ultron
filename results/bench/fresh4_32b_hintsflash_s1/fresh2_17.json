@@ -1,0 +1,54 @@
+{
+ "form": "fresh2_17",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 19.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {
+   "f3": "(503) 555-0147"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Afwijzen",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 1257,
+   "completion_tokens": 81
+  },
+  {
+   "seconds": 5.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 1398,
+   "completion_tokens": 263
+  },
+  {
+   "seconds": 4.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 1570,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 2.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 1369,
+   "completion_tokens": 109
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

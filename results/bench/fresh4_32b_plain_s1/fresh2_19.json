@@ -1,0 +1,88 @@
+{
+ "form": "fresh2_19",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 62.9,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 5,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 5981,
+   "completion_tokens": 413
+  },
+  {
+   "seconds": 6.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6201,
+   "completion_tokens": 295
+  },
+  {
+   "seconds": 5.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 6296,
+   "completion_tokens": 272
+  },
+  {
+   "seconds": 5.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 6392,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 6.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 6498,
+   "completion_tokens": 301
+  },
+  {
+   "seconds": 6.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 6653,
+   "completion_tokens": 298
+  },
+  {
+   "seconds": 5.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 6684,
+   "completion_tokens": 293
+  },
+  {
+   "seconds": 6.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 6665,
+   "completion_tokens": 334
+  },
+  {
+   "seconds": 7.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 6957,
+   "completion_tokens": 384
+  }
+ ],
+ "steps": 9,
+ "is_done": true,
+ "success": false,
+ "final": "The form was partially filled with the provided document values: First Name: Jordan, Last Name: Reed, Email: jordan.reed@example.com, Phone: (503) 555-0147. However, I was unable to determine if the 'City' field is required. As a result, I could not submit the form. The task cannot be completed as requested by the user.",
+ "fast": []
+}

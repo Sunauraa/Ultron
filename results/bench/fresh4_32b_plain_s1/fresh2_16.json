@@ -1,0 +1,66 @@
+{
+ "form": "fresh2_16",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 61.9,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 7,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 5939,
+   "completion_tokens": 177
+  },
+  {
+   "seconds": 21.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 6194,
+   "completion_tokens": 1106
+  },
+  {
+   "seconds": 7.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 6296,
+   "completion_tokens": 378
+  },
+  {
+   "seconds": 10.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 6870,
+   "completion_tokens": 497
+  },
+  {
+   "seconds": 7.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 7149,
+   "completion_tokens": 342
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": false,
+ "final": "The form could not be submitted because the required field 'State' does not have a matching option ('Oregon') in the dropdown menu. Please provide a valid state option or ensure that all required fields are present in your document.",
+ "fast": []
+}

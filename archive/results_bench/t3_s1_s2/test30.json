@@ -1,0 +1,328 @@
+{
+ "form": "test30",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 173.3,
+ "score": {
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.93,
+   "format": "Answers",
+   "prompt_tokens": 273,
+   "completion_tokens": 78
+  },
+  {
+   "seconds": 0.25,
+   "format": "Review",
+   "prompt_tokens": 430,
+   "completion_tokens": 8
+  },
+  {
+   "seconds": 4.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 6277,
+   "completion_tokens": 187
+  },
+  {
+   "seconds": 5.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 6372,
+   "completion_tokens": 219
+  },
+  {
+   "seconds": 5.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 6483,
+   "completion_tokens": 212
+  },
+  {
+   "seconds": 5.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 6590,
+   "completion_tokens": 213
+  },
+  {
+   "seconds": 4.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 6697,
+   "completion_tokens": 187
+  },
+  {
+   "seconds": 5.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 6777,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 6.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 6884,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 6.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 6765,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 5.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 6885,
+   "completion_tokens": 202
+  },
+  {
+   "seconds": 6.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 6986,
+   "completion_tokens": 268
+  },
+  {
+   "seconds": 6.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 7147,
+   "completion_tokens": 268
+  },
+  {
+   "seconds": 6.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 7308,
+   "completion_tokens": 268
+  },
+  {
+   "seconds": 6.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 7518,
+   "completion_tokens": 252
+  },
+  {
+   "seconds": 6.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 7679,
+   "completion_tokens": 252
+  },
+  {
+   "seconds": 7.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 7985,
+   "completion_tokens": 284
+  },
+  {
+   "seconds": 6.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 7974,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 7.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 8355,
+   "completion_tokens": 274
+  },
+  {
+   "seconds": 8.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 8504,
+   "completion_tokens": 342
+  },
+  {
+   "seconds": 8.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 8651,
+   "completion_tokens": 337
+  },
+  {
+   "seconds": 8.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 8798,
+   "completion_tokens": 334
+  },
+  {
+   "seconds": 8.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 8945,
+   "completion_tokens": 334
+  },
+  {
+   "seconds": 9.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 9092,
+   "completion_tokens": 373
+  },
+  {
+   "seconds": 8.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 9278,
+   "completion_tokens": 326
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 46.304771676659584,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": "Close the pop-up with 'Accept'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1997.014731168747,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": "Filled 4 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Bạn muốn học với hình thức nào?. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 323.4651517122984,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 74.84566792845726,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 74.85104911029339,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 74.38869029283524,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 76.53167471289635,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 81.78958483040333,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 74.47732239961624,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 46.731097623705864,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 45.69358378648758,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 45.59594765305519,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 47.562720254063606,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 46.20574600994587,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 46.29004746675491,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 45.88006995618343,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 71.97228632867336,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 45.89180462062359,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 76.05802081525326,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 71.42939977347851,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 72.24782183766365,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 70.80270536243916,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 71.1678434163332,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 71.16994261741638,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 70.64682431519032,
+   "url": "http://127.0.0.1:34637/test30",
+   "goal": ""
+  }
+ ]
+}

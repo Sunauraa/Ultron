@@ -1,0 +1,76 @@
+{
+ "form": "test12",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 18.3,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Aceptar todas",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.26,
+   "format": "Answers",
+   "prompt_tokens": 272,
+   "completion_tokens": 67
+  },
+  {
+   "seconds": 0.23,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 11
+  },
+  {
+   "seconds": 6.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 6205,
+   "completion_tokens": 214
+  },
+  {
+   "seconds": 4.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 6107,
+   "completion_tokens": 223
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted with all required fields filled from the document. The page confirms receipt of the form.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 23.518497124314308,
+   "url": "http://127.0.0.1:36915/test12",
+   "goal": "Close the pop-up with 'Aceptar todas'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1330.9219107031822,
+   "url": "http://127.0.0.1:36915/test12",
+   "goal": "Filled 5 field(s) from the document. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 303.67650277912617,
+   "url": "http://127.0.0.1:36915/test12",
+   "goal": "submit declined"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2667997032403946,
+   "url": "http://127.0.0.1:36915/test12",
+   "goal": ""
+  }
+ ]
+}

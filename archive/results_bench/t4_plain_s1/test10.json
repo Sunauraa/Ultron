@@ -1,0 +1,182 @@
+{
+ "form": "test10",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 1,
+ "seconds": 218.2,
+ "score": {
+  "blocked": [
+   "Nội dung *"
+  ],
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 6013,
+   "completion_tokens": 287
+  },
+  {
+   "seconds": 6.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 6208,
+   "completion_tokens": 239
+  },
+  {
+   "seconds": 6.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 6298,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 6.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 6397,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 7.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 6486,
+   "completion_tokens": 296
+  },
+  {
+   "seconds": 7.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 6578,
+   "completion_tokens": 294
+  },
+  {
+   "seconds": 7.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 6670,
+   "completion_tokens": 301
+  },
+  {
+   "seconds": 7.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 6762,
+   "completion_tokens": 301
+  },
+  {
+   "seconds": 7.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 6854,
+   "completion_tokens": 301
+  },
+  {
+   "seconds": 7.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 7029,
+   "completion_tokens": 282
+  },
+  {
+   "seconds": 7.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 7141,
+   "completion_tokens": 304
+  },
+  {
+   "seconds": 7.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 7258,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 7.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 7361,
+   "completion_tokens": 289
+  },
+  {
+   "seconds": 7.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 7464,
+   "completion_tokens": 282
+  },
+  {
+   "seconds": 7.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 7568,
+   "completion_tokens": 289
+  },
+  {
+   "seconds": 7.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 7671,
+   "completion_tokens": 299
+  },
+  {
+   "seconds": 8.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 8001,
+   "completion_tokens": 318
+  },
+  {
+   "seconds": 8.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 7889,
+   "completion_tokens": 333
+  },
+  {
+   "seconds": 7.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 8305,
+   "completion_tokens": 296
+  },
+  {
+   "seconds": 7.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 8196,
+   "completion_tokens": 291
+  },
+  {
+   "seconds": 8.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 8303,
+   "completion_tokens": 329
+  },
+  {
+   "seconds": 13.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 8424,
+   "completion_tokens": 534
+  },
+  {
+   "seconds": 8.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 8505,
+   "completion_tokens": 338
+  },
+  {
+   "seconds": 11.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 8623,
+   "completion_tokens": 436
+  },
+  {
+   "seconds": 10.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 9057,
+   "completion_tokens": 385
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Form submission did not succeed despite filling in all required fields ('Họ và tên': Phạm Thu Hà, 'Địa chỉ': 45 Trần Phú, Ba Đình, 'Điện thoại': 0934567890, 'Email': ha.pham@example.com) and leaving optional fields empty ('Chi nhánh') or selecting an option from a dropdown ('Lĩnh vực'). The page content did not change after clicking submit.",
+ "fast": []
+}

@@ -1,0 +1,86 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 31.9,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 5966,
+   "completion_tokens": 181
+  },
+  {
+   "seconds": 6.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 6368,
+   "completion_tokens": 333
+  },
+  {
+   "seconds": 5.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 6554,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 6.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 6666,
+   "completion_tokens": 304
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": false,
+ "final": "Form could not be submitted due to missing CAPTCHA Code field which is required but not present in the provided document.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 48.7214419990778,
+   "url": "http://127.0.0.1:37583/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2654027193784714,
+   "url": "http://127.0.0.1:37583/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3480277955532074,
+   "url": "http://127.0.0.1:37583/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2094600349664688,
+   "url": "http://127.0.0.1:37583/fresh1_4",
+   "goal": ""
+  }
+ ]
+}

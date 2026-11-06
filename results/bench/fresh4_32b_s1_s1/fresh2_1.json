@@ -1,0 +1,65 @@
+{
+ "form": "fresh2_1",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 8.3,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.91,
+   "format": "Answers",
+   "prompt_tokens": 337,
+   "completion_tokens": 156
+  },
+  {
+   "seconds": 0.18,
+   "format": "Review",
+   "prompt_tokens": 129,
+   "completion_tokens": 8
+  },
+  {
+   "seconds": 0.15,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 7
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 3133.637795224786,
+   "url": "http://127.0.0.1:37583/fresh2_1",
+   "goal": "Filled 4 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Do you speak another language other than English? If so, what?; I would like to be notified of other volunteer opporunities in the future; Have you volunteered at an immigration event before?; You are :; Time Slot; Where would you like to be assigned?; Do you need service / clinic hours?; How did you hear about this volunteer opportunity?. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 384.7944401204586,
+   "url": "http://127.0.0.1:37583/fresh2_1",
+   "goal": "Sent the form with 'Submit'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 152.25370414555073,
+   "url": "http://127.0.0.1:37583/fresh2_1",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

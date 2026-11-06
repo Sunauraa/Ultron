@@ -1,0 +1,76 @@
+{
+ "form": "fresh2_17",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 48.4,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Afwijzen",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 5976,
+   "completion_tokens": 210
+  },
+  {
+   "seconds": 5.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 6166,
+   "completion_tokens": 265
+  },
+  {
+   "seconds": 4.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 6237,
+   "completion_tokens": 234
+  },
+  {
+   "seconds": 5.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 6311,
+   "completion_tokens": 259
+  },
+  {
+   "seconds": 6.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 6429,
+   "completion_tokens": 329
+  },
+  {
+   "seconds": 7.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 6534,
+   "completion_tokens": 346
+  },
+  {
+   "seconds": 4.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 6663,
+   "completion_tokens": 199
+  },
+  {
+   "seconds": 4.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 6413,
+   "completion_tokens": 205
+  }
+ ],
+ "steps": 9,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully filled in and submitted using the provided document information. The page confirms receipt of the form.",
+ "fast": []
+}

@@ -1,0 +1,191 @@
+{
+ "form": "fresh2_6",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 218.5,
+ "score": {
+  "blocked": [
+   "Closest Main Intersection:*",
+   "Occupation*",
+   "Why do you want to volunteer with us?*",
+   "Please briefly outline your pet owning history*",
+   "For how long are you looking to volunteer?*",
+   "How did you hear about Abbey Cat Adoptions?*"
+  ],
+  "unclear": [
+   "Full Home Address:*"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 3,
+  "wrong": {
+   "f0": null,
+   "f4": null,
+   "f5": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 6888,
+   "completion_tokens": 331
+  },
+  {
+   "seconds": 8.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 7133,
+   "completion_tokens": 303
+  },
+  {
+   "seconds": 8.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 7210,
+   "completion_tokens": 315
+  },
+  {
+   "seconds": 8.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 7305,
+   "completion_tokens": 334
+  },
+  {
+   "seconds": 7.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 7417,
+   "completion_tokens": 278
+  },
+  {
+   "seconds": 8.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 7458,
+   "completion_tokens": 327
+  },
+  {
+   "seconds": 8.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 7748,
+   "completion_tokens": 313
+  },
+  {
+   "seconds": 8.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 7643,
+   "completion_tokens": 326
+  },
+  {
+   "seconds": 7.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 7727,
+   "completion_tokens": 296
+  },
+  {
+   "seconds": 7.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 7803,
+   "completion_tokens": 288
+  },
+  {
+   "seconds": 8.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 7917,
+   "completion_tokens": 328
+  },
+  {
+   "seconds": 9.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 8028,
+   "completion_tokens": 373
+  },
+  {
+   "seconds": 7.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 8127,
+   "completion_tokens": 285
+  },
+  {
+   "seconds": 7.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 8215,
+   "completion_tokens": 280
+  },
+  {
+   "seconds": 7.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 8303,
+   "completion_tokens": 283
+  },
+  {
+   "seconds": 8.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 8436,
+   "completion_tokens": 323
+  },
+  {
+   "seconds": 9.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 8736,
+   "completion_tokens": 355
+  },
+  {
+   "seconds": 9.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 8649,
+   "completion_tokens": 356
+  },
+  {
+   "seconds": 6.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 8808,
+   "completion_tokens": 238
+  },
+  {
+   "seconds": 6.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 8761,
+   "completion_tokens": 234
+  },
+  {
+   "seconds": 6.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 8874,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 7.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 9001,
+   "completion_tokens": 288
+  },
+  {
+   "seconds": 5.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 9175,
+   "completion_tokens": 199
+  },
+  {
+   "seconds": 5.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 9265,
+   "completion_tokens": 196
+  },
+  {
+   "seconds": 7.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 9388,
+   "completion_tokens": 295
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "I have filled in all required fields except for Occupation and Why do you want to volunteer with us?, which were left blank as no values were provided in the document. Despite multiple attempts, the form submission did not succeed. The page content has not changed after clicking the submit button multiple times.",
+ "fast": []
+}

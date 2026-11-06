@@ -1,0 +1,182 @@
+{
+ "form": "fresh2_4",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 182.0,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f7": "Portland",
+   "f8": "Oregon",
+   "f9": "97201"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Close this consent banner",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 1133,
+   "completion_tokens": 81
+  },
+  {
+   "seconds": 10.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 2182,
+   "completion_tokens": 397
+  },
+  {
+   "seconds": 6.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 2267,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 5.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 2400,
+   "completion_tokens": 208
+  },
+  {
+   "seconds": 5.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 2707,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 5.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 2752,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 5.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 2854,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 5.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 2964,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 5.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 3074,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 5.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 3185,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 6.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 3295,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 7.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 3398,
+   "completion_tokens": 272
+  },
+  {
+   "seconds": 5.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 3528,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 7.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 3589,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 6.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 3789,
+   "completion_tokens": 240
+  },
+  {
+   "seconds": 7.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 3846,
+   "completion_tokens": 308
+  },
+  {
+   "seconds": 7.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 3976,
+   "completion_tokens": 308
+  },
+  {
+   "seconds": 6.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 4077,
+   "completion_tokens": 269
+  },
+  {
+   "seconds": 6.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 4263,
+   "completion_tokens": 242
+  },
+  {
+   "seconds": 7.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 4365,
+   "completion_tokens": 308
+  },
+  {
+   "seconds": 6.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 4467,
+   "completion_tokens": 230
+  },
+  {
+   "seconds": 6.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 4693,
+   "completion_tokens": 242
+  },
+  {
+   "seconds": 5.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 4779,
+   "completion_tokens": 211
+  },
+  {
+   "seconds": 4.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 4889,
+   "completion_tokens": 160
+  },
+  {
+   "seconds": 1.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 3892,
+   "completion_tokens": 70
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission successful. Page confirms receipt.",
+ "fast": []
+}

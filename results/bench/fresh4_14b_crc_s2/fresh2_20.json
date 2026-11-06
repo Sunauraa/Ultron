@@ -1,0 +1,65 @@
+{
+ "form": "fresh2_20",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 7.9,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.64,
+   "format": "Answers",
+   "prompt_tokens": 270,
+   "completion_tokens": 107
+  },
+  {
+   "seconds": 0.27,
+   "format": "Review",
+   "prompt_tokens": 129,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 2738.875426352024,
+   "url": "http://127.0.0.1:41663/fresh2_20",
+   "goal": "Filled 4 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Description or Comments; City; Type of Service. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 385.361947119236,
+   "url": "http://127.0.0.1:41663/fresh2_20",
+   "goal": "Sent the form with 'Submit'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 173.3859796077013,
+   "url": "http://127.0.0.1:41663/fresh2_20",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

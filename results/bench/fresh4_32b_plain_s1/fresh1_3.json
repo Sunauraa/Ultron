@@ -1,0 +1,198 @@
+{
+ "form": "fresh1_3",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 299.9,
+ "score": {
+  "blocked": [],
+  "unclear": [
+   "Complete Home Address: Be sure to include the CITY, STATE, and ZIP CODE (Please double-check for accuracy—your card will be mailed to this address.) If you are an MSMS student, please skip this section and enter \"N/A.\" All other students are required to answer this question.",
+   "Complete Mailing Address: Include CITY, STATE, and ZIP CODE. (Only if different from your home address. Please ensure this information is accurate—your card will be mailed here.) If you are an MSMS student, please skip this section and enter \"N/A.\" All other students are required to answer this question."
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f5": null,
+   "f7": null,
+   "f9": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 6641,
+   "completion_tokens": 323
+  },
+  {
+   "seconds": 13.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 6876,
+   "completion_tokens": 675
+  },
+  {
+   "seconds": 11.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 7009,
+   "completion_tokens": 538
+  },
+  {
+   "seconds": 10.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 7160,
+   "completion_tokens": 518
+  },
+  {
+   "seconds": 11.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 7369,
+   "completion_tokens": 521
+  },
+  {
+   "seconds": 12.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 7466,
+   "completion_tokens": 622
+  },
+  {
+   "seconds": 12.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 7658,
+   "completion_tokens": 597
+  },
+  {
+   "seconds": 9.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 7797,
+   "completion_tokens": 457
+  },
+  {
+   "seconds": 7.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 7911,
+   "completion_tokens": 353
+  },
+  {
+   "seconds": 7.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 8009,
+   "completion_tokens": 329
+  },
+  {
+   "seconds": 6.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 8089,
+   "completion_tokens": 291
+  },
+  {
+   "seconds": 6.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 8120,
+   "completion_tokens": 324
+  },
+  {
+   "seconds": 6.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 8168,
+   "completion_tokens": 317
+  },
+  {
+   "seconds": 6.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 8246,
+   "completion_tokens": 308
+  },
+  {
+   "seconds": 6.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 8277,
+   "completion_tokens": 319
+  },
+  {
+   "seconds": 7.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 8326,
+   "completion_tokens": 322
+  },
+  {
+   "seconds": 7.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 8452,
+   "completion_tokens": 329
+  },
+  {
+   "seconds": 12.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 8583,
+   "completion_tokens": 578
+  },
+  {
+   "seconds": 12.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 8679,
+   "completion_tokens": 571
+  },
+  {
+   "seconds": 12.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 8831,
+   "completion_tokens": 599
+  },
+  {
+   "seconds": 12.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 9064,
+   "completion_tokens": 559
+  },
+  {
+   "seconds": 11.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 9214,
+   "completion_tokens": 554
+  },
+  {
+   "seconds": 11.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 9360,
+   "completion_tokens": 535
+  },
+  {
+   "seconds": 11.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 9506,
+   "completion_tokens": 535
+  },
+  {
+   "seconds": 11.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 9652,
+   "completion_tokens": 535
+  },
+  {
+   "seconds": 11.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 9798,
+   "completion_tokens": 535
+  },
+  {
+   "seconds": 7.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 9960,
+   "completion_tokens": 344
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "The form was filled in with the following details: First Name: Jordan Avery Reed; Complete Home Address: 742 Cedar Lane, Portland, Oregon, 97201; Email Address: jordan.reed@example.com; Personal Phone Number: +15035550147; Birthdate: 02/17/1990. The Acceptance of Responsibility was selected. However, despite multiple attempts to submit the form, there was no visible confirmation of receipt or any changes on the page indicating successful submission.",
+ "fast": []
+}

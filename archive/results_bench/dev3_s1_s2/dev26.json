@@ -1,0 +1,77 @@
+{
+ "form": "dev26",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 19.9,
+ "score": {
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Refuser",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 6058,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 4.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 6172,
+   "completion_tokens": 170
+  },
+  {
+   "seconds": 4.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 6059,
+   "completion_tokens": 191
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 60.56857667863369,
+   "url": "http://127.0.0.1:39453/dev26",
+   "goal": "Close the pop-up with 'Refuser'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 80.66901005804539,
+   "url": "http://127.0.0.1:39453/dev26",
+   "goal": "Fill 1 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 78.70977558195591,
+   "url": "http://127.0.0.1:39453/dev26",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 77.40797661244869,
+   "url": "http://127.0.0.1:39453/dev26",
+   "goal": ""
+  },
+  {
+   "kind": "form",
+   "milliseconds": 84.88241955637932,
+   "url": "http://127.0.0.1:39453/dev26",
+   "goal": "Submit with 'Gửi'"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.23509003221988678,
+   "url": "http://127.0.0.1:39453/dev26",
+   "goal": ""
+  }
+ ]
+}

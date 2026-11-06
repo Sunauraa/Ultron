@@ -1,0 +1,68 @@
+{
+ "form": "test7",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 7.3,
+ "score": {
+  "blocked": [],
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Continue without accepting",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.37,
+   "format": "Answers",
+   "prompt_tokens": 232,
+   "completion_tokens": 55
+  },
+  {
+   "seconds": 0.35,
+   "format": "Review",
+   "prompt_tokens": 279,
+   "completion_tokens": 13
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 52.92879976332188,
+   "url": "http://127.0.0.1:41557/test7",
+   "goal": "Close the pop-up with 'Continue without accepting'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1428.6478627473116,
+   "url": "http://127.0.0.1:41557/test7",
+   "goal": "Filled 3 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Volunteer Areas of Interest. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 409.14195217192173,
+   "url": "http://127.0.0.1:41557/test7",
+   "goal": "Sent the form with 'Submit'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 171.03907465934753,
+   "url": "http://127.0.0.1:41557/test7",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

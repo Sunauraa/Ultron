@@ -1,0 +1,59 @@
+{
+ "form": "test10",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 17.1,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.27,
+   "format": "Answers",
+   "prompt_tokens": 260,
+   "completion_tokens": 92
+  },
+  {
+   "seconds": 5.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 6174,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 4.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 6014,
+   "completion_tokens": 176
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 2271.947817876935,
+   "url": "http://127.0.0.1:40017/test10",
+   "goal": "Filled 4 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Chi nhánh; Nội dung *. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.39460137486457825,
+   "url": "http://127.0.0.1:40017/test10",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2957787364721298,
+   "url": "http://127.0.0.1:40017/test10",
+   "goal": ""
+  }
+ ]
+}

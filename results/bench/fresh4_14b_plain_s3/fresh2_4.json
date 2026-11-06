@@ -1,0 +1,151 @@
+{
+ "form": "fresh2_4",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 165.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 2,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f1": null,
+   "f9": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Close this consent banner",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 5848,
+   "completion_tokens": 125
+  },
+  {
+   "seconds": 10.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 6881,
+   "completion_tokens": 398
+  },
+  {
+   "seconds": 10.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 7213,
+   "completion_tokens": 384
+  },
+  {
+   "seconds": 6.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 7296,
+   "completion_tokens": 232
+  },
+  {
+   "seconds": 6.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 7158,
+   "completion_tokens": 230
+  },
+  {
+   "seconds": 5.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 7247,
+   "completion_tokens": 218
+  },
+  {
+   "seconds": 6.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 7335,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 6.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 7422,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 5.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 7524,
+   "completion_tokens": 208
+  },
+  {
+   "seconds": 5.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 7640,
+   "completion_tokens": 222
+  },
+  {
+   "seconds": 7.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 7781,
+   "completion_tokens": 289
+  },
+  {
+   "seconds": 7.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 7896,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 7.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 8007,
+   "completion_tokens": 278
+  },
+  {
+   "seconds": 7.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 8118,
+   "completion_tokens": 278
+  },
+  {
+   "seconds": 7.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 8229,
+   "completion_tokens": 281
+  },
+  {
+   "seconds": 7.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 8340,
+   "completion_tokens": 284
+  },
+  {
+   "seconds": 7.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 8451,
+   "completion_tokens": 293
+  },
+  {
+   "seconds": 13.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 8599,
+   "completion_tokens": 512
+  },
+  {
+   "seconds": 6.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 8701,
+   "completion_tokens": 224
+  },
+  {
+   "seconds": 7.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 7685,
+   "completion_tokens": 270
+  }
+ ],
+ "steps": 21,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed as received. Here is a summary of the information provided:\n\n- Name as in NRIC/Passport: Jordan Avery Reed\n- Nationality: (left blank)\n- Birthday (DD/MM/YYYY): 02/17/1990\n- Given Name: Jordan\n- Family name: Reed\n- Address: 742 Cedar Lane\n- E-mail address: jordan.reed@example.com",
+ "fast": []
+}

@@ -1,0 +1,61 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 29.6,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 5966,
+   "completion_tokens": 181
+  },
+  {
+   "seconds": 7.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 6370,
+   "completion_tokens": 375
+  },
+  {
+   "seconds": 6.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 6569,
+   "completion_tokens": 297
+  },
+  {
+   "seconds": 6.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 6655,
+   "completion_tokens": 308
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": false,
+ "final": "Form could not be submitted because a required CAPTCHA Code field was missing from the provided document.",
+ "fast": []
+}

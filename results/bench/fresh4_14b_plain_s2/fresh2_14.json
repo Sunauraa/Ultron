@@ -1,0 +1,185 @@
+{
+ "form": "fresh2_14",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 187.0,
+ "score": {
+  "blocked": [
+   "Message *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 6902,
+   "completion_tokens": 314
+  },
+  {
+   "seconds": 6.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 7103,
+   "completion_tokens": 245
+  },
+  {
+   "seconds": 6.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 7169,
+   "completion_tokens": 239
+  },
+  {
+   "seconds": 6.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 7261,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 6.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 7324,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 7.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 7388,
+   "completion_tokens": 294
+  },
+  {
+   "seconds": 7.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 7452,
+   "completion_tokens": 286
+  },
+  {
+   "seconds": 7.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 7548,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 7.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 7622,
+   "completion_tokens": 273
+  },
+  {
+   "seconds": 7.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 7707,
+   "completion_tokens": 285
+  },
+  {
+   "seconds": 7.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 7796,
+   "completion_tokens": 264
+  },
+  {
+   "seconds": 7.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 7883,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 7.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 7967,
+   "completion_tokens": 278
+  },
+  {
+   "seconds": 6.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 8044,
+   "completion_tokens": 248
+  },
+  {
+   "seconds": 6.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 8107,
+   "completion_tokens": 231
+  },
+  {
+   "seconds": 6.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 8175,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 6.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 8238,
+   "completion_tokens": 246
+  },
+  {
+   "seconds": 6.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 8296,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 6.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 8498,
+   "completion_tokens": 239
+  },
+  {
+   "seconds": 6.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 8562,
+   "completion_tokens": 246
+  },
+  {
+   "seconds": 6.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 8628,
+   "completion_tokens": 239
+  },
+  {
+   "seconds": 3.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 8692,
+   "completion_tokens": 140
+  },
+  {
+   "seconds": 4.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 8634,
+   "completion_tokens": 150
+  },
+  {
+   "seconds": 6.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 8731,
+   "completion_tokens": 260
+  },
+  {
+   "seconds": 7.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 8838,
+   "completion_tokens": 268
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "I have filled in all available fields from the document and clicked the checkbox for receiving an email copy of the form. However, I was unable to submit the form successfully despite multiple attempts. The page did not show any confirmation message after clicking 'Submit'. Therefore, I am setting success to false.",
+ "fast": []
+}

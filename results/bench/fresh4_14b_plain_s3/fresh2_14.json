@@ -1,0 +1,137 @@
+{
+ "form": "fresh2_14",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 460.0,
+ "score": {
+  "blocked": [
+   "Message *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6902,
+   "completion_tokens": 301
+  },
+  {
+   "seconds": 6.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 7092,
+   "completion_tokens": 226
+  },
+  {
+   "seconds": 5.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 7153,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 6.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 7245,
+   "completion_tokens": 253
+  },
+  {
+   "seconds": 6.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 7340,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 6.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 7403,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 6.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 7476,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 6.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 7554,
+   "completion_tokens": 261
+  },
+  {
+   "seconds": 4.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 7641,
+   "completion_tokens": 165
+  },
+  {
+   "seconds": 4.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 7628,
+   "completion_tokens": 166
+  },
+  {
+   "seconds": 4.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 7677,
+   "completion_tokens": 182
+  },
+  {
+   "seconds": 4.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 7755,
+   "completion_tokens": 182
+  },
+  {
+   "seconds": 5.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 7841,
+   "completion_tokens": 205
+  },
+  {
+   "seconds": 5.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 7926,
+   "completion_tokens": 213
+  },
+  {
+   "seconds": 5.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 8070,
+   "completion_tokens": 211
+  },
+  {
+   "seconds": 4.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 8149,
+   "completion_tokens": 182
+  },
+  {
+   "seconds": 6.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 8219,
+   "completion_tokens": 229
+  }
+ ],
+ "steps": 16,
+ "is_done": true,
+ "success": false,
+ "final": "Form submission was attempted but no confirmation message was found on the page.",
+ "fast": []
+}

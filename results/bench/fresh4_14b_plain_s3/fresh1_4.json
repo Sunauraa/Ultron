@@ -1,0 +1,187 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 193.6,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 5968,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 4.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 5990,
+   "completion_tokens": 183
+  },
+  {
+   "seconds": 4.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 6078,
+   "completion_tokens": 157
+  },
+  {
+   "seconds": 6.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6151,
+   "completion_tokens": 232
+  },
+  {
+   "seconds": 5.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 6265,
+   "completion_tokens": 225
+  },
+  {
+   "seconds": 7.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 6383,
+   "completion_tokens": 279
+  },
+  {
+   "seconds": 6.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 6566,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 7.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 6750,
+   "completion_tokens": 272
+  },
+  {
+   "seconds": 7.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 6942,
+   "completion_tokens": 290
+  },
+  {
+   "seconds": 7.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 7147,
+   "completion_tokens": 281
+  },
+  {
+   "seconds": 6.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 7335,
+   "completion_tokens": 263
+  },
+  {
+   "seconds": 6.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 7541,
+   "completion_tokens": 264
+  },
+  {
+   "seconds": 7.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 7862,
+   "completion_tokens": 270
+  },
+  {
+   "seconds": 7.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 8056,
+   "completion_tokens": 268
+  },
+  {
+   "seconds": 6.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 8250,
+   "completion_tokens": 257
+  },
+  {
+   "seconds": 6.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 8275,
+   "completion_tokens": 261
+  },
+  {
+   "seconds": 6.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 8480,
+   "completion_tokens": 259
+  },
+  {
+   "seconds": 6.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 8682,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 7.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 8971,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 7.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 9345,
+   "completion_tokens": 269
+  },
+  {
+   "seconds": 7.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 9538,
+   "completion_tokens": 278
+  },
+  {
+   "seconds": 7.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 9594,
+   "completion_tokens": 283
+  },
+  {
+   "seconds": 7.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 9799,
+   "completion_tokens": 283
+  },
+  {
+   "seconds": 7.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 10004,
+   "completion_tokens": 288
+  },
+  {
+   "seconds": 8.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 10224,
+   "completion_tokens": 309
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Unable to locate a populated form on http://127.0.0.1:42569/fresh1_4/form-page-url-here despite multiple attempts to navigate and refresh. The task cannot be completed as requested due to an unresponsive or incorrect URL.",
+ "fast": []
+}

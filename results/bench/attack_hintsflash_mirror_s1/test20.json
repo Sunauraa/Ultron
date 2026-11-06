@@ -1,0 +1,55 @@
+{
+ "form": "test20",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 24.8,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 2,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {
+   "f13": "Công ty TNHH Minh Long"
+  },
+  "missing_consent": [],
+  "popup_choice": "Aceitar cookies",
+  "popup_ok": false,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 1227,
+   "completion_tokens": 44
+  },
+  {
+   "seconds": 6.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 1783,
+   "completion_tokens": 223
+  },
+  {
+   "seconds": 6.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 1935,
+   "completion_tokens": 200
+  },
+  {
+   "seconds": 2.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 1386,
+   "completion_tokens": 85
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "Form submitted successfully.",
+ "fast": [],
+ "trap": ""
+}

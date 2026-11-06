@@ -1,0 +1,73 @@
+{
+ "form": "test29",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 25.2,
+ "score": {
+  "submitted": true,
+  "fields": 2,
+  "wrong": {},
+  "extra": {
+   "f1": "21/06/1995"
+  },
+  "missing_consent": [],
+  "popup_choice": "Accept essential cookies only",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 5879,
+   "completion_tokens": 145
+  },
+  {
+   "seconds": 2.24,
+   "format": "Answers",
+   "prompt_tokens": 301,
+   "completion_tokens": 91
+  },
+  {
+   "seconds": 8.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 6639,
+   "completion_tokens": 327
+  },
+  {
+   "seconds": 4.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 6176,
+   "completion_tokens": 185
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 49.63567666709423,
+   "url": "http://127.0.0.1:40017/test29",
+   "goal": ""
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2240.207012742758,
+   "url": "http://127.0.0.1:40017/test29",
+   "goal": "Filled 3 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Bạn biết khóa học này từ đâu? (Ví dụ: từ web nào, từ fanpage nào, từ group nào, từ email nào, từ quảng cáo...); Bạn muốn đạt được gì khi tham gia khóa học này?; Ghi chú. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.43302029371261597,
+   "url": "http://127.0.0.1:40017/test29",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5516038984060287,
+   "url": "http://127.0.0.1:40017/test29",
+   "goal": ""
+  }
+ ]
+}

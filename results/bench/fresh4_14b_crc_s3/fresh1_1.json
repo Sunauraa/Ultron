@@ -1,0 +1,87 @@
+{
+ "form": "fresh1_1",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 25.6,
+ "score": {
+  "blocked": [
+   "Subdivision *",
+   "Emergency Contact Name *",
+   "Emergency Contact Number *",
+   "What volunteer opportunities interest you? *",
+   "Please list any previous volunteer experience you have *",
+   "Do you have any special skills or training? *",
+   "Please explain your level of proficiency (Native/Fluent, Advanced, Intermediate or Basic) *",
+   "What is your purpose for volunteering? *",
+   "Do you have any restrictions or limitations for service? (i.e., health concerns, allergies, etc.) *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "Please provide details below *",
+   "Please provide details below *",
+   "Please provide details below *"
+  ],
+  "unclear": [
+   "First Name *",
+   "Last Name *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 9,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null,
+   "f9": null,
+   "f10": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 15.29,
+   "format": "Answers",
+   "prompt_tokens": 561,
+   "completion_tokens": 623
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": false,
+ "final": "Nothing was sent. The form requires these and the document has no value for them: Emergency Contact Name; Emergency Contact Number; What volunteer opportunities interest you?; Please list any previous volunteer experience you have; Do you have any special skills or training?; Please explain your level of proficiency (Native/Fluent, Advanced, Intermediate or Basic); What is your purpose for volunteering?; Do you have any restrictions or limitations for service? (i.e., health concerns, allergies, etc.); Relationship; Relationship; Please provide details below; Please provide details below; Please provide details below.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 69.62169334292412,
+   "url": "http://127.0.0.1:34723/fresh1_1",
+   "goal": "Close the pop-up with 'Endast nödvändiga'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 16255.893852561712,
+   "url": "http://127.0.0.1:34723/fresh1_1",
+   "goal": "Filled 20 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Address2; Emergency Contact Name *; Emergency Contact Number *; What volunteer opportunities interest you? *; Please list any previous volunteer experience you have *; Do you have any special skills or training? *; Please explain your level of proficiency (Native/Fluent, Advanced, Intermediate or Basic) *; What is your purpose for volunteering? *; Do you have any restrictions or limitations for service? (i.e., health concerns, allergies, etc.) *; Relationship *; Relationship *; Please provide details below *; Please provide details below *; Please provide details below *; Parent/Guardian First Name; Parent/Guardian Last Name; f17; f18; f40; f41; f42; f44; f45; f46; f48; f49. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "stop",
+   "milliseconds": 970.6304650753736,
+   "url": "http://127.0.0.1:34723/fresh1_1",
+   "goal": "Nothing was sent. The form requires these and the document has no value for them: Emergency Contact Name; Emergency Contact Number; What volunteer opportunities interest you?; Please list any previous volunteer experience you have; Do you have any special skills or training?; Please explain your level of proficiency (Native/Fluent, Advanced, Intermediate or Basic); What is your purpose for volunteering?; Do you have any restrictions or limitations for service? (i.e., health concerns, allergies, etc.); Relationship; Relationship; Please provide details below; Please provide details below; Please provide details below."
+  }
+ ]
+}

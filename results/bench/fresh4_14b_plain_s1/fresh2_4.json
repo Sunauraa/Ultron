@@ -1,0 +1,183 @@
+{
+ "form": "fresh2_4",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 215.0,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f1": null,
+   "f7": null,
+   "f8": null,
+   "f9": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 5850,
+   "completion_tokens": 143
+  },
+  {
+   "seconds": 4.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 6932,
+   "completion_tokens": 168
+  },
+  {
+   "seconds": 6.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 7002,
+   "completion_tokens": 232
+  },
+  {
+   "seconds": 5.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 7099,
+   "completion_tokens": 205
+  },
+  {
+   "seconds": 6.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 7176,
+   "completion_tokens": 232
+  },
+  {
+   "seconds": 6.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 7260,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 6.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 7344,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 6.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 7459,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 6.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 7540,
+   "completion_tokens": 244
+  },
+  {
+   "seconds": 7.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 7634,
+   "completion_tokens": 299
+  },
+  {
+   "seconds": 7.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 7731,
+   "completion_tokens": 267
+  },
+  {
+   "seconds": 7.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 7826,
+   "completion_tokens": 272
+  },
+  {
+   "seconds": 7.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 7921,
+   "completion_tokens": 267
+  },
+  {
+   "seconds": 6.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 8065,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 10.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 8139,
+   "completion_tokens": 416
+  },
+  {
+   "seconds": 7.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 8298,
+   "completion_tokens": 289
+  },
+  {
+   "seconds": 7.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 8364,
+   "completion_tokens": 287
+  },
+  {
+   "seconds": 8.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 8499,
+   "completion_tokens": 318
+  },
+  {
+   "seconds": 8.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 8714,
+   "completion_tokens": 327
+  },
+  {
+   "seconds": 10.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 8916,
+   "completion_tokens": 395
+  },
+  {
+   "seconds": 9.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 9014,
+   "completion_tokens": 360
+  },
+  {
+   "seconds": 9.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 9216,
+   "completion_tokens": 365
+  },
+  {
+   "seconds": 9.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 9266,
+   "completion_tokens": 361
+  },
+  {
+   "seconds": 5.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 9488,
+   "completion_tokens": 213
+  },
+  {
+   "seconds": 8.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 9577,
+   "completion_tokens": 334
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Reached maximum steps allowed. Filled in Name as in NRIC/Passport, Birthday (DD/MM/YYYY), Address, Email, and Mobile Number fields based on provided document. Left Nationality and Ethnicity/Race fields empty since no values were provided. Skipped Gender field due to issues. Form submission was attempted but did not succeed due to an issue with the Gender field.",
+ "fast": []
+}

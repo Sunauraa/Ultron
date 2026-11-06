@@ -1,0 +1,77 @@
+{
+ "form": "dev27",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 28.4,
+ "score": {
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 6242,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 6.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 6320,
+   "completion_tokens": 242
+  },
+  {
+   "seconds": 5.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 6437,
+   "completion_tokens": 220
+  },
+  {
+   "seconds": 4.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 6153,
+   "completion_tokens": 188
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 105.50362057983875,
+   "url": "http://127.0.0.1:43431/dev27",
+   "goal": "Filled 2 field(s) from the document. Still empty, so check each against the document before submitting: Điền Họ & Tên của Anh/Chị :; Khóa học muốn tham gia :."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 104.01862487196922,
+   "url": "http://127.0.0.1:43431/dev27",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 104.99174520373344,
+   "url": "http://127.0.0.1:43431/dev27",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 102.88465209305286,
+   "url": "http://127.0.0.1:43431/dev27",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.20659714937210083,
+   "url": "http://127.0.0.1:43431/dev27",
+   "goal": ""
+  }
+ ]
+}

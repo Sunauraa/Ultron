@@ -1,0 +1,60 @@
+{
+ "form": "fresh2_3",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 48.9,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 9,
+  "wrong": {
+   "f0": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 6717,
+   "completion_tokens": 379
+  },
+  {
+   "seconds": 12.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 6967,
+   "completion_tokens": 608
+  },
+  {
+   "seconds": 10.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 7245,
+   "completion_tokens": 499
+  },
+  {
+   "seconds": 7.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 7378,
+   "completion_tokens": 331
+  },
+  {
+   "seconds": 4.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 6444,
+   "completion_tokens": 205
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted with all required fields filled in according to the document. The page confirms receipt of the form.",
+ "fast": []
+}

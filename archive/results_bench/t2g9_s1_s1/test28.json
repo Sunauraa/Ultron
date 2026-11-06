@@ -1,0 +1,65 @@
+{
+ "form": "test28",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 18.5,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Close",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.59,
+   "format": "Answers",
+   "prompt_tokens": 270,
+   "completion_tokens": 105
+  },
+  {
+   "seconds": 5.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 6219,
+   "completion_tokens": 208
+  },
+  {
+   "seconds": 4.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 6107,
+   "completion_tokens": 183
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 50.06650649011135,
+   "url": "http://127.0.0.1:37625/test28",
+   "goal": "Close the pop-up with 'Close'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2691.4279386401176,
+   "url": "http://127.0.0.1:37625/test28",
+   "goal": "Filled 4 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Khóa học; Ngày khai giảng; Lời nhắn; Nơi sinh. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 113.25156316161156,
+   "url": "http://127.0.0.1:37625/test28",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.26617012917995453,
+   "url": "http://127.0.0.1:37625/test28",
+   "goal": ""
+  }
+ ]
+}

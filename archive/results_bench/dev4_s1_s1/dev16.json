@@ -1,0 +1,59 @@
+{
+ "form": "dev16",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 23.0,
+ "score": {
+  "submitted": true,
+  "fields": 6,
+  "wrong": {
+   "f0": null,
+   "f15": null,
+   "f30": null
+  },
+  "extra": {
+   "f2": "21/06/1995"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 8786,
+   "completion_tokens": 322
+  },
+  {
+   "seconds": 4.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 6364,
+   "completion_tokens": 161
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 697.0857642591,
+   "url": "http://127.0.0.1:43431/dev16",
+   "goal": "Filled 6 field(s) from the document. Still empty, so check each against the document before submitting: 1. Họ và tên; 4. Nơi cư trú trước khi vào học tại trường CĐTM; 7. Facebook; 8. Email; 9. Ngành tốt nghiệp; 16. Tên cơ quan Anh/Chị đang làm việc; 17. Địa chỉ cơ quan; 31. Theo Anh/Chị để nâng cao chất lượng đào tạo của nhà trường cần:."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 690.3737224638462,
+   "url": "http://127.0.0.1:43431/dev16",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2814680337905884,
+   "url": "http://127.0.0.1:43431/dev16",
+   "goal": ""
+  }
+ ]
+}

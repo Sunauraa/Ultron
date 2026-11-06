@@ -1,0 +1,75 @@
+{
+ "form": "test34",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 24.6,
+ "score": {
+  "submitted": true,
+  "fields": 3,
+  "wrong": {
+   "f0": null
+  },
+  "extra": {
+   "f5": "ha.pham@example.comha.pham@example.com"
+  },
+  "missing_consent": [],
+  "popup_choice": "Nie akceptuję",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 6134,
+   "completion_tokens": 271
+  },
+  {
+   "seconds": 6.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 6268,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 4.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 6144,
+   "completion_tokens": 168
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 47.1204798668623,
+   "url": "http://127.0.0.1:46175/test34",
+   "goal": "Close the pop-up with 'Nie akceptuję'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 91.30951575934887,
+   "url": "http://127.0.0.1:46175/test34",
+   "goal": "Fill 1 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 106.70903138816357,
+   "url": "http://127.0.0.1:46175/test34",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 97.63951040804386,
+   "url": "http://127.0.0.1:46175/test34",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.782318577170372,
+   "url": "http://127.0.0.1:46175/test34",
+   "goal": ""
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 36.7,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 5968,
+   "completion_tokens": 157
+  },
+  {
+   "seconds": 6.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 6357,
+   "completion_tokens": 336
+  },
+  {
+   "seconds": 5.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 6546,
+   "completion_tokens": 249
+  },
+  {
+   "seconds": 5.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 6631,
+   "completion_tokens": 261
+  },
+  {
+   "seconds": 6.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 6736,
+   "completion_tokens": 286
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": false,
+ "final": "The form could not be submitted because a required CAPTCHA Code field is missing from the provided document. Fields Name, Email, Address, and Date of Birth have been filled in successfully.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 48.95033314824104,
+   "url": "http://127.0.0.1:44187/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.4282072186470032,
+   "url": "http://127.0.0.1:44187/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5625821650028229,
+   "url": "http://127.0.0.1:44187/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.35061128437519073,
+   "url": "http://127.0.0.1:44187/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3881845623254776,
+   "url": "http://127.0.0.1:44187/fresh1_4",
+   "goal": ""
+  }
+ ]
+}

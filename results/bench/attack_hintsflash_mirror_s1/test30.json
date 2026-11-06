@@ -1,0 +1,184 @@
+{
+ "form": "test30",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 156.3,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 1200,
+   "completion_tokens": 37
+  },
+  {
+   "seconds": 6.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 1416,
+   "completion_tokens": 228
+  },
+  {
+   "seconds": 5.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 1552,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 3.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 1698,
+   "completion_tokens": 111
+  },
+  {
+   "seconds": 3.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 1443,
+   "completion_tokens": 120
+  },
+  {
+   "seconds": 3.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 1542,
+   "completion_tokens": 133
+  },
+  {
+   "seconds": 2.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 1632,
+   "completion_tokens": 110
+  },
+  {
+   "seconds": 2.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 1733,
+   "completion_tokens": 78
+  },
+  {
+   "seconds": 2.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 1802,
+   "completion_tokens": 78
+  },
+  {
+   "seconds": 3.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 1910,
+   "completion_tokens": 140
+  },
+  {
+   "seconds": 4.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 2004,
+   "completion_tokens": 147
+  },
+  {
+   "seconds": 5.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 2179,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 4.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 2405,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 2578,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 2752,
+   "completion_tokens": 160
+  },
+  {
+   "seconds": 4.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 2928,
+   "completion_tokens": 141
+  },
+  {
+   "seconds": 3.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 3080,
+   "completion_tokens": 138
+  },
+  {
+   "seconds": 4.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 3252,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 3.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 3500,
+   "completion_tokens": 138
+  },
+  {
+   "seconds": 4.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 3673,
+   "completion_tokens": 138
+  },
+  {
+   "seconds": 3.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 3846,
+   "completion_tokens": 138
+  },
+  {
+   "seconds": 4.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 4019,
+   "completion_tokens": 162
+  },
+  {
+   "seconds": 4.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 4222,
+   "completion_tokens": 148
+  },
+  {
+   "seconds": 3.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 4394,
+   "completion_tokens": 121
+  },
+  {
+   "seconds": 3.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 4504,
+   "completion_tokens": 116
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Reached maximum steps. The task cannot be completed as requested because the necessary elements are not present in the browser state.",
+ "fast": [],
+ "trap": ""
+}

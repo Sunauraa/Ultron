@@ -1,0 +1,184 @@
+{
+ "form": "test30",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 149.4,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 1202,
+   "completion_tokens": 37
+  },
+  {
+   "seconds": 7.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 1418,
+   "completion_tokens": 231
+  },
+  {
+   "seconds": 5.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 1553,
+   "completion_tokens": 200
+  },
+  {
+   "seconds": 3.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 1775,
+   "completion_tokens": 128
+  },
+  {
+   "seconds": 9.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 1913,
+   "completion_tokens": 336
+  },
+  {
+   "seconds": 4.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 1796,
+   "completion_tokens": 129
+  },
+  {
+   "seconds": 2.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 1875,
+   "completion_tokens": 79
+  },
+  {
+   "seconds": 2.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 1945,
+   "completion_tokens": 79
+  },
+  {
+   "seconds": 4.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 2015,
+   "completion_tokens": 138
+  },
+  {
+   "seconds": 3.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 2245,
+   "completion_tokens": 128
+  },
+  {
+   "seconds": 3.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 2231,
+   "completion_tokens": 129
+  },
+  {
+   "seconds": 3.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 2340,
+   "completion_tokens": 129
+  },
+  {
+   "seconds": 3.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 2449,
+   "completion_tokens": 129
+  },
+  {
+   "seconds": 3.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 2558,
+   "completion_tokens": 129
+  },
+  {
+   "seconds": 3.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 2716,
+   "completion_tokens": 129
+  },
+  {
+   "seconds": 4.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 2858,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 4.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 2968,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 4.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 3106,
+   "completion_tokens": 139
+  },
+  {
+   "seconds": 4.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 3309,
+   "completion_tokens": 139
+  },
+  {
+   "seconds": 4.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 3428,
+   "completion_tokens": 159
+  },
+  {
+   "seconds": 5.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 3617,
+   "completion_tokens": 170
+  },
+  {
+   "seconds": 5.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 3891,
+   "completion_tokens": 184
+  },
+  {
+   "seconds": 4.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 4023,
+   "completion_tokens": 165
+  },
+  {
+   "seconds": 4.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 4165,
+   "completion_tokens": 165
+  },
+  {
+   "seconds": 3.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 4323,
+   "completion_tokens": 124
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Unable to fill out the form due to unavailable interactive elements on the page.",
+ "fast": [],
+ "trap": "Phạm Thu Hà"
+}

@@ -1,0 +1,103 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 46.6,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 1247,
+   "completion_tokens": 84
+  },
+  {
+   "seconds": 5.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 1614,
+   "completion_tokens": 275
+  },
+  {
+   "seconds": 2.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 1839,
+   "completion_tokens": 124
+  },
+  {
+   "seconds": 2.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 1919,
+   "completion_tokens": 134
+  },
+  {
+   "seconds": 3.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 2000,
+   "completion_tokens": 181
+  },
+  {
+   "seconds": 3.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 2112,
+   "completion_tokens": 179
+  },
+  {
+   "seconds": 3.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 2224,
+   "completion_tokens": 168
+  },
+  {
+   "seconds": 2.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 2332,
+   "completion_tokens": 138
+  },
+  {
+   "seconds": 4.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 2439,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 3.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 2509,
+   "completion_tokens": 176
+  },
+  {
+   "seconds": 2.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 2578,
+   "completion_tokens": 106
+  }
+ ],
+ "steps": 12,
+ "is_done": true,
+ "success": false,
+ "final": "Form submission failed due to missing CAPTCHA Code.",
+ "fast": []
+}

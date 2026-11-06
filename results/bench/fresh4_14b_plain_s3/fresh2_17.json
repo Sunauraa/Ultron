@@ -1,0 +1,54 @@
+{
+ "form": "fresh2_17",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 32.4,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {
+   "f6": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accepteren",
+  "popup_ok": false,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 5976,
+   "completion_tokens": 142
+  },
+  {
+   "seconds": 7.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 6142,
+   "completion_tokens": 307
+  },
+  {
+   "seconds": 6.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 6281,
+   "completion_tokens": 256
+  },
+  {
+   "seconds": 7.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 6065,
+   "completion_tokens": 293
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed. Here is a summary of the information provided:\n- Given name: Jordan\n- Family name: Reed\n- Born: 02/17/1990\n- Contact number: 503-555-0147\n- E-mail address: jordan.reed@example.com\n- Residence: 742 Cedar Lane\n- Municipality: Portland\n- Province or state: Oregon\n- Postcode: 97201",
+ "fast": []
+}

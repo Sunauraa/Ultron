@@ -1,0 +1,178 @@
+{
+ "form": "fresh1_8",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 153.4,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 1309,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 6.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 1539,
+   "completion_tokens": 278
+  },
+  {
+   "seconds": 6.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 1727,
+   "completion_tokens": 240
+  },
+  {
+   "seconds": 6.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 1914,
+   "completion_tokens": 240
+  },
+  {
+   "seconds": 6.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 2101,
+   "completion_tokens": 240
+  },
+  {
+   "seconds": 3.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 2018,
+   "completion_tokens": 141
+  },
+  {
+   "seconds": 6.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 2111,
+   "completion_tokens": 272
+  },
+  {
+   "seconds": 8.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 2538,
+   "completion_tokens": 327
+  },
+  {
+   "seconds": 5.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 2737,
+   "completion_tokens": 217
+  },
+  {
+   "seconds": 4.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 2653,
+   "completion_tokens": 181
+  },
+  {
+   "seconds": 4.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 2740,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 4.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 2927,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 3071,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 3215,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 3359,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 4.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 3552,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 3729,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 3873,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 4104,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 4248,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 4393,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 4538,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 4680,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 4824,
+   "completion_tokens": 194
+  },
+  {
+   "seconds": 4.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 4984,
+   "completion_tokens": 180
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Form submitted successfully with partial completion due to label mismatches. Missing fields: Sinh ngày, Căn cước, Nơi ở, Nơi học, Nơi làm việc.",
+ "fast": []
+}

@@ -1,0 +1,4113 @@
+[
+ {
+  "url": "https://apps.gedling.gov.uk/forms/default.aspx?formid=20",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Title (Mr/Mrs/Ms/Miss/Other) *",
+    "name": "UcLiveForm1$dlPages$ctl00$dlSections$ctl00$dlQuestions$ctl00$rptAnswers$ctl00$UcResponseControl1$256"
+   },
+   {
+    "role": "text",
+    "label": "Forename *",
+    "name": "UcLiveForm1$dlPages$ctl00$dlSections$ctl00$dlQuestions$ctl01$rptAnswers$ctl00$UcResponseControl1$257"
+   },
+   {
+    "role": "text",
+    "label": "Surname *",
+    "name": "UcLiveForm1$dlPages$ctl00$dlSections$ctl00$dlQuestions$ctl02$rptAnswers$ctl00$UcResponseControl1$258"
+   },
+   {
+    "role": "text",
+    "label": "Address *",
+    "name": "UcLiveForm1$dlPages$ctl00$dlSections$ctl00$dlQuestions$ctl03$rptAnswers$ctl00$UcResponseControl1$259"
+   },
+   {
+    "role": "text",
+    "label": "Post Code *",
+    "name": "UcLiveForm1$dlPages$ctl00$dlSections$ctl00$dlQuestions$ctl04$rptAnswers$ctl00$UcResponseControl1$260"
+   },
+   {
+    "role": "text",
+    "label": "Telephone (Home)",
+    "name": "UcLiveForm1$dlPages$ctl00$dlSections$ctl00$dlQuestions$ctl05$rptAnswers$ctl00$UcResponseControl1$261"
+   },
+   {
+    "role": "text",
+    "label": "Telephone (Work)",
+    "name": "UcLiveForm1$dlPages$ctl00$dlSections$ctl00$dlQuestions$ctl06$rptAnswers$ctl00$UcResponseControl1$262"
+   },
+   {
+    "role": "text",
+    "label": "Mobile",
+    "name": "UcLiveForm1$dlPages$ctl00$dlSections$ctl00$dlQuestions$ctl07$rptAnswers$ctl00$UcResponseControl1$263"
+   },
+   {
+    "role": "text",
+    "label": "E-mail",
+    "name": "UcLiveForm1$dlPages$ctl00$dlSections$ctl00$dlQuestions$ctl08$rptAnswers$ctl00$UcResponseControl1$264"
+   },
+   {
+    "role": "text",
+    "label": "If this application is being made on behalf of an Organisation, please state name of Organisation.",
+    "name": "UcLiveForm1$dlPages$ctl00$dlSections$ctl00$dlQuestions$ctl09$rptAnswers$ctl00$UcResponseControl1$265"
+   }
+  ],
+  "submit": "Next"
+ },
+ {
+  "url": "https://www.chesapeakebeachmd.gov/FormCenter/Public-Information-Requests-6/Public-Information-Requests-48",
+  "fields": [
+   {
+    "role": "text",
+    "label": "",
+    "name": "fields[0].Value"
+   },
+   {
+    "role": "text",
+    "label": "First Name *",
+    "name": "fields[1].Value"
+   },
+   {
+    "role": "text",
+    "label": "Last Name *",
+    "name": "fields[2].Value"
+   },
+   {
+    "role": "text",
+    "label": "",
+    "name": "fields[3].Value"
+   },
+   {
+    "role": "text",
+    "label": "Address *",
+    "name": "fields[4].Value"
+   },
+   {
+    "role": "text",
+    "label": "City",
+    "name": "fields[5].Value"
+   },
+   {
+    "role": "text",
+    "label": "State",
+    "name": "fields[6].Value"
+   },
+   {
+    "role": "text",
+    "label": "Zip Code",
+    "name": "fields[7].Value"
+   },
+   {
+    "role": "text",
+    "label": "Email *",
+    "name": "fields[8].Value"
+   },
+   {
+    "role": "text",
+    "label": "",
+    "name": "fields[9].Value"
+   },
+   {
+    "role": "text",
+    "label": "Area Code *",
+    "name": "fields[10].Value"
+   },
+   {
+    "role": "text",
+    "label": "Phone Number *",
+    "name": "fields[11].Value"
+   },
+   {
+    "role": "text",
+    "label": "Specific document or record you are seeking *",
+    "name": "fields[12].Value"
+   },
+   {
+    "role": "text",
+    "label": "If you are seeking to view a Public Disclosure Form, please enter the elected or appointed officials name",
+    "name": "fields[13].Value"
+   },
+   {
+    "role": "text",
+    "label": "",
+    "name": "e_empty1"
+   },
+   {
+    "role": "checkbox",
+    "label": "Receive an email copy of this form.",
+    "name": "wantCopy"
+   },
+   {
+    "role": "text",
+    "label": "Email address",
+    "name": "wantCopyAddress"
+   }
+  ],
+  "submit": "Sign in to Save Progress"
+ },
+ {
+  "url": "https://www.eaglepasstx.gov/formcenter/Info-Tech-10/Contact-Us-Form-56",
+  "fields": [
+   {
+    "role": "text",
+    "label": "",
+    "name": "fields[0].Value"
+   },
+   {
+    "role": "text",
+    "label": "First Name *",
+    "name": "fields[1].Value"
+   },
+   {
+    "role": "text",
+    "label": "Last Name *",
+    "name": "fields[2].Value"
+   },
+   {
+    "role": "text",
+    "label": "Address *",
+    "name": "fields[3].Value"
+   },
+   {
+    "role": "text",
+    "label": "City *",
+    "name": "fields[4].Value"
+   },
+   {
+    "role": "text",
+    "label": "State *",
+    "name": "fields[5].Value"
+   },
+   {
+    "role": "text",
+    "label": "Zip *",
+    "name": "fields[6].Value"
+   },
+   {
+    "role": "text",
+    "label": "Phone Number *",
+    "name": "fields[7].Value"
+   },
+   {
+    "role": "text",
+    "label": "Email Address *",
+    "name": "fields[8].Value"
+   },
+   {
+    "role": "checkbox",
+    "label": "Animal Control",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Bridge System",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "City Attorney",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "City Council",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "City Engineering",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "City Manager",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "City Mayor",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "City Secretary",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Code Enforcement",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Community Development",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Emergency Operations Center",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Finance & Purchasing",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Fire Department",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Fire Marshal",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Grants",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Human Resources",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Information Technology",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "International Center for Trade (ICT)",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Marketing",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Municipal Court",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Parks & Recreation",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Police",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Public Relations",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Public Works",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Recycling",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Solid Waste",
+    "name": "e_19"
+   },
+   {
+    "role": "checkbox",
+    "label": "Tax Office",
+    "name": "e_19"
+   },
+   {
+    "role": "text",
+    "label": "Please leave your comments or questions below.",
+    "name": "fields[10].Value"
+   },
+   {
+    "role": "text",
+    "label": "",
+    "name": "e_empty1"
+   }
+  ],
+  "submit": "Sign in to Save Progress"
+ },
+ {
+  "url": "https://darlington.gov.uk/forms/asc-get-involved-form",
+  "fields": [
+   {
+    "role": "checkbox",
+    "label": "Consent for storing submitted data *",
+    "name": "84f91fdc-9f74-4b44-848d-cd3dbe112057"
+   },
+   {
+    "role": "checkbox",
+    "label": "Carers",
+    "name": "8f6f2f5c-f363-489e-b846-e76e006b92a4"
+   },
+   {
+    "role": "checkbox",
+    "label": "Preparing for adulthood",
+    "name": "8f6f2f5c-f363-489e-b846-e76e006b92a4"
+   },
+   {
+    "role": "checkbox",
+    "label": "Mental health",
+    "name": "8f6f2f5c-f363-489e-b846-e76e006b92a4"
+   },
+   {
+    "role": "checkbox",
+    "label": "Learning disabilities",
+    "name": "8f6f2f5c-f363-489e-b846-e76e006b92a4"
+   },
+   {
+    "role": "checkbox",
+    "label": "LGBTQ",
+    "name": "8f6f2f5c-f363-489e-b846-e76e006b92a4"
+   },
+   {
+    "role": "checkbox",
+    "label": "Autism",
+    "name": "8f6f2f5c-f363-489e-b846-e76e006b92a4"
+   },
+   {
+    "role": "checkbox",
+    "label": "All areas",
+    "name": "8f6f2f5c-f363-489e-b846-e76e006b92a4"
+   },
+   {
+    "role": "text",
+    "label": "Forename *",
+    "name": "172befbc-5800-45ca-a12b-a2af98526e20"
+   },
+   {
+    "role": "text",
+    "label": "Surname *",
+    "name": "86d2e016-3847-42a9-b544-852f1dcd27f3"
+   },
+   {
+    "role": "text",
+    "label": "House number or house name *",
+    "name": "ef34fd3d-4866-4c17-ded4-f1257cfdeadc"
+   },
+   {
+    "role": "text",
+    "label": "Street name *",
+    "name": "1bc69bc0-556c-4426-841a-2262024ec493"
+   },
+   {
+    "role": "text",
+    "label": "What town do you live in? *",
+    "name": "14e46535-41ac-45f0-e205-15b98c4f0aab"
+   },
+   {
+    "role": "text",
+    "label": "Telephone number",
+    "name": "5f2fc27a-d2dc-443d-e038-e91feb277b37"
+   },
+   {
+    "role": "text",
+    "label": "Email address",
+    "name": "1bd9a1da-07b7-486b-c2d7-0b222d0e5be8"
+   },
+   {
+    "role": "checkbox",
+    "label": "Telephone",
+    "name": "0d8d8bae-f1ab-4f4a-a839-cbba93c1e9c2"
+   },
+   {
+    "role": "checkbox",
+    "label": "Email",
+    "name": "0d8d8bae-f1ab-4f4a-a839-cbba93c1e9c2"
+   },
+   {
+    "role": "text",
+    "label": "",
+    "name": "440f6f3b7c0146d3bcebf6ae3c67f60c"
+   }
+  ],
+  "submit": "Submit"
+ },
+ {
+  "url": "https://www.piercecountywa.gov/FormCenter/Planning-Public-Works-13/Contact-Us-191",
+  "fields": [
+   {
+    "role": "text",
+    "label": "",
+    "name": "fields[0].Value"
+   },
+   {
+    "role": "text",
+    "label": "First Name *",
+    "name": "fields[1].Value"
+   },
+   {
+    "role": "text",
+    "label": "Last Name *",
+    "name": "fields[2].Value"
+   },
+   {
+    "role": "text",
+    "label": "Address1",
+    "name": "fields[3].Value"
+   },
+   {
+    "role": "text",
+    "label": "Address2",
+    "name": "fields[4].Value"
+   },
+   {
+    "role": "text",
+    "label": "City",
+    "name": "fields[5].Value"
+   },
+   {
+    "role": "text",
+    "label": "State",
+    "name": "fields[6].Value"
+   },
+   {
+    "role": "text",
+    "label": "Zip",
+    "name": "fields[7].Value"
+   },
+   {
+    "role": "text",
+    "label": "Phone Number *",
+    "name": "fields[8].Value"
+   },
+   {
+    "role": "text",
+    "label": "Email Address *",
+    "name": "fields[9].Value"
+   },
+   {
+    "role": "text",
+    "label": "Please enter your question / comment in the space provided below, providing detailed information so we can better assist you. *",
+    "name": "fields[10].Value"
+   },
+   {
+    "role": "text",
+    "label": "",
+    "name": "fields[11].Value"
+   },
+   {
+    "role": "text",
+    "label": "",
+    "name": "e_empty1"
+   },
+   {
+    "role": "checkbox",
+    "label": "Receive an email copy of this form.",
+    "name": "wantCopy"
+   },
+   {
+    "role": "text",
+    "label": "Email address",
+    "name": "wantCopyAddress"
+   }
+  ],
+  "submit": "Sign in to Save Progress"
+ },
+ {
+  "url": "https://stillwaterok.gov/FormCenter/Library-9/Adult-Library-Card-Application-18-73",
+  "fields": [
+   {
+    "role": "text",
+    "label": "",
+    "name": "fields[0].Value"
+   },
+   {
+    "role": "text",
+    "label": "First Name *",
+    "name": "fields[1].Value"
+   },
+   {
+    "role": "text",
+    "label": "Middle Name",
+    "name": "fields[2].Value"
+   },
+   {
+    "role": "text",
+    "label": "Last Name *",
+    "name": "fields[3].Value"
+   },
+   {
+    "role": "text",
+    "label": "Driver's License # or Alt ID # *",
+    "name": "fields[4].Value"
+   },
+   {
+    "role": "text",
+    "label": "Date of Birth *",
+    "name": "fields[5].Value"
+   },
+   {
+    "role": "radio",
+    "label": "Adult (not a college student)",
+    "name": "e_28"
+   },
+   {
+    "role": "radio",
+    "label": "College Student (18+)",
+    "name": "e_28"
+   },
+   {
+    "role": "radio",
+    "label": "Text",
+    "name": "e_29"
+   },
+   {
+    "role": "radio",
+    "label": "Email",
+    "name": "e_29"
+   },
+   {
+    "role": "radio",
+    "label": "Phone",
+    "name": "e_29"
+   },
+   {
+    "role": "text",
+    "label": "Gender",
+    "name": "fields[8].Value"
+   },
+   {
+    "role": "text",
+    "label": "Phone Number *",
+    "name": "fields[9].Value"
+   },
+   {
+    "role": "text",
+    "label": "Email Address *",
+    "name": "fields[10].Value"
+   },
+   {
+    "role": "radio",
+    "label": "Yes",
+    "name": "e_30"
+   },
+   {
+    "role": "radio",
+    "label": "No",
+    "name": "e_30"
+   },
+   {
+    "role": "text",
+    "label": "Payne County/Stillwater Address *",
+    "name": "fields[12].Value"
+   },
+   {
+    "role": "text",
+    "label": "Apartment #",
+    "name": "fields[13].Value"
+   },
+   {
+    "role": "text",
+    "label": "City *",
+    "name": "fields[14].Value"
+   },
+   {
+    "role": "text",
+    "label": "State *",
+    "name": "fields[15].Value"
+   },
+   {
+    "role": "text",
+    "label": "Zip Code *",
+    "name": "fields[16].Value"
+   },
+   {
+    "role": "text",
+    "label": "If you do not live or own property in Payne County, please list your school or employer below.",
+    "name": "fields[17].Value"
+   },
+   {
+    "role": "text",
+    "label": "Permanent or Mailing Address",
+    "name": "fields[18].Value"
+   },
+   {
+    "role": "text",
+    "label": "City",
+    "name": "fields[19].Value"
+   },
+   {
+    "role": "text",
+    "label": "State",
+    "name": "fields[20].Value"
+   },
+   {
+    "role": "text",
+    "label": "Zip Code",
+    "name": "fields[21].Value"
+   },
+   {
+    "role": "text",
+    "label": "E-Signature *",
+    "name": "fields[22].Value"
+   },
+   {
+    "role": "checkbox",
+    "label": "I Agree",
+    "name": "e_24"
+   },
+   {
+    "role": "text",
+    "label": "",
+    "name": "e_empty1"
+   },
+   {
+    "role": "checkbox",
+    "label": "Receive an email copy of this form.",
+    "name": "wantCopy"
+   },
+   {
+    "role": "text",
+    "label": "Email address",
+    "name": "wantCopyAddress"
+   }
+  ],
+  "submit": "Sign in to Save Progress"
+ },
+ {
+  "url": "https://montauklibrary.org/online-library-card-form/",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Comment *",
+    "name": "comment"
+   },
+   {
+    "role": "text",
+    "label": "Name *",
+    "name": "author"
+   },
+   {
+    "role": "text",
+    "label": "Email *",
+    "name": "email"
+   },
+   {
+    "role": "text",
+    "label": "Website",
+    "name": "url"
+   },
+   {
+    "role": "checkbox",
+    "label": "Notify me of follow-up comments by email.",
+    "name": "subscribe_comments"
+   },
+   {
+    "role": "checkbox",
+    "label": "Notify me of new posts by email.",
+    "name": "subscribe_blog"
+   },
+   {
+    "role": "text",
+    "label": "Δ",
+    "name": "ak_hp_textarea"
+   }
+  ],
+  "submit": "Post Comment"
+ },
+ {
+  "url": "https://rmlib.libnet.info/online-library-card",
+  "fields": [
+   {
+    "role": "text",
+    "label": "New Cardholder's Last Name:",
+    "name": "field13847_new_cardholder039s_last_name"
+   },
+   {
+    "role": "text",
+    "label": "First Name",
+    "name": "field13847_first_name"
+   },
+   {
+    "role": "text",
+    "label": "Middle Inital",
+    "name": "field13847_middle_inital"
+   },
+   {
+    "role": "text",
+    "label": "Your Home Address:",
+    "name": "field13847_your_home_address"
+   },
+   {
+    "role": "text",
+    "label": "Unit Number:",
+    "name": "field13847_unit_number"
+   },
+   {
+    "role": "text",
+    "label": "City:",
+    "name": "field13847_city"
+   },
+   {
+    "role": "text",
+    "label": "Zip Code:",
+    "name": "field13847_zip_code"
+   },
+   {
+    "role": "text",
+    "label": "Date of Birth",
+    "name": "field13847_date_of_birth"
+   },
+   {
+    "role": "text",
+    "label": "Responsible Adult's Name:",
+    "name": "field13847_responsible_adult039s_name"
+   },
+   {
+    "role": "text",
+    "label": "Email Address:",
+    "name": "field13847_email_address"
+   },
+   {
+    "role": "text",
+    "label": "Phone Number:",
+    "name": "field13847_phone_number"
+   },
+   {
+    "role": "select",
+    "label": "Notify me by:",
+    "name": "field13847_notify_me_by",
+    "options": [
+     "Please choose...",
+     "e-mail",
+     "text",
+     "phone"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "(Optional) Choose a language for your e-mail notices:",
+    "name": "field13847_optional_choose_a_language_for_your_email_notices",
+    "options": [
+     "Please choose...",
+     "English",
+     "Spanish",
+     "Polish",
+     "Arabic",
+     "Chinese",
+     "Hindi",
+     "Korean",
+     "Russian"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "Choose Your Card Design:",
+    "name": "field13847_choose_your_card_design",
+    "options": [
+     "Please choose...",
+     "Racoon in a tree (card & tag combo)",
+     "Geometric (card & tag combo)"
+    ]
+   }
+  ],
+  "submit": "Submit"
+ },
+ {
+  "url": "https://douglascountynv.hosted.civiclive.com/GOVERNMENT/departments/human-resources/volunteer_for_douglas_county/volunteer_interest_form",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Full Legal Name",
+    "name": "text-1755620691155-0"
+   },
+   {
+    "role": "text",
+    "label": "Phone",
+    "name": "text-1755620729470-0"
+   },
+   {
+    "role": "text",
+    "label": "Email",
+    "name": "text-1755620732751-0"
+   },
+   {
+    "role": "text",
+    "label": "Volunteer Areas of Interest",
+    "name": "text-1755620735174-0"
+   },
+   {
+    "role": "text",
+    "label": "Search",
+    "name": "ctl00$SearchTerm"
+   }
+  ],
+  "submit": "Submit"
+ },
+ {
+  "url": "https://www.iowacountywi.gov/iowa-county-volunteer-prospect",
+  "fields": [
+   {
+    "role": "text",
+    "label": "* First Name",
+    "name": "9813"
+   },
+   {
+    "role": "text",
+    "label": "* Last Name",
+    "name": "9812"
+   },
+   {
+    "role": "text",
+    "label": "Address",
+    "name": "9809"
+   },
+   {
+    "role": "text",
+    "label": "* City",
+    "name": "9808"
+   },
+   {
+    "role": "text",
+    "label": "* State",
+    "name": "9818"
+   },
+   {
+    "role": "text",
+    "label": "* Zip Code",
+    "name": "9806"
+   },
+   {
+    "role": "text",
+    "label": "* Supervisor District",
+    "name": "9819"
+   },
+   {
+    "role": "text",
+    "label": "* Phone",
+    "name": "9810"
+   },
+   {
+    "role": "radio",
+    "label": "Airport Commission",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "ADRC Board - County",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Barneveld Library Board",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Board of Adjustment",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Board of Health",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Cobb Public Library",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Dodgeville Library Board",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Ethics Committee",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Iowa County Library Board",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Land Conservation",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Land Information Council",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Livingston Public Library",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Mineral Point Library Board",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Lower WI State Riverway",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Pecatonica Rail Transit Commission",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Regional Planning Commission",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Southwest WI Library Board",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Unified Community Services",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Veterans Service Commission",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "WI River Rail Transit Commission",
+    "name": "9820"
+   },
+   {
+    "role": "radio",
+    "label": "Bicentennial Celebration Committee",
+    "name": "9820"
+   },
+   {
+    "role": "text",
+    "label": "* Email Address",
+    "name": "9811"
+   },
+   {
+    "role": "text",
+    "label": "",
+    "name": "21937"
+   }
+  ],
+  "submit": "Submit Form"
+ },
+ {
+  "url": "https://shenandoahcountyva.gov/513/Shenandoah-County-Online-Volunteer-Appli",
+  "fields": [
+   {
+    "role": "text",
+    "label": "",
+    "name": "fields[0].Value"
+   },
+   {
+    "role": "text",
+    "label": "Name: (First, middle, last) *",
+    "name": "fields[1].Value"
+   },
+   {
+    "role": "text",
+    "label": "Date of Birth",
+    "name": "e_3"
+   },
+   {
+    "role": "text",
+    "label": "Phone / Cell Phone Number",
+    "name": "fields[3].Value"
+   },
+   {
+    "role": "text",
+    "label": "Current Address *",
+    "name": "fields[4].Value"
+   },
+   {
+    "role": "text",
+    "label": "City *",
+    "name": "fields[5].Value"
+   },
+   {
+    "role": "text",
+    "label": "State *",
+    "name": "fields[6].Value"
+   },
+   {
+    "role": "text",
+    "label": "Zip Code *",
+    "name": "fields[7].Value"
+   },
+   {
+    "role": "text",
+    "label": "Email",
+    "name": "fields[8].Value"
+   },
+   {
+    "role": "text",
+    "label": "",
+    "name": "fields[9].Value"
+   },
+   {
+    "role": "checkbox",
+    "label": "Woodstock Rescue Squad (5)",
+    "name": "e_45"
+   },
+   {
+    "role": "checkbox",
+    "label": "Toms Brook Fire Department (9)",
+    "name": "e_45"
+   },
+   {
+    "role": "checkbox",
+    "label": "Woodstock Fire Department (12)",
+    "name": "e_45"
+   },
+   {
+    "role": "checkbox",
+    "label": "Conicville Fire Department (13)",
+    "name": "e_45"
+   },
+   {
+    "role": "checkbox",
+    "label": "Fort Valley Fire Department (14)",
+    "name": "e_45"
+   },
+   {
+    "role": "checkbox",
+    "label": "Edinburg Fire Company (15)",
+    "name": "e_45"
+   },
+   {
+    "role": "checkbox",
+    "label": "Star Tannery Fire Department (17)",
+    "name": "e_45"
+   },
+   {
+    "role": "checkbox",
+    "label": "Orkney Springs Fire and Rescue (18)",
+    "name": "e_45"
+   },
+   {
+    "role": "checkbox",
+    "label": "Mt. Jackson Rescue and Fire (21)",
+    "name": "e_45"
+   },
+   {
+    "role": "checkbox",
+    "label": "New Market Fire and Rescue (23)",
+    "name": "e_45"
+   },
+   {
+    "role": "checkbox",
+    "label": "Strasburg Rescue Squad (25)",
+    "name": "e_45"
+   },
+   {
+    "role": "checkbox",
+    "label": "Strasburg Fire Department (51)",
+    "name": "e_45"
+   },
+   {
+    "role": "checkbox",
+    "label": "Active Firefighter",
+    "name": "e_46"
+   },
+   {
+    "role": "checkbox",
+    "label": "Active EMT",
+    "name": "e_46"
+   },
+   {
+    "role": "checkbox",
+    "label": "Associate/Administrative Member",
+    "name": "e_46"
+   },
+   {
+    "role": "checkbox",
+    "label": "Junior/Cadet Member",
+    "name": "e_46"
+   },
+   {
+    "role": "checkbox",
+    "label": "Auxiliary Member",
+    "name": "e_46"
+   },
+   {
+    "role": "checkbox",
+    "label": "Other",
+    "name": "e_46"
+   },
+   {
+    "role": "checkbox",
+    "label": "Yes",
+    "name": "e_47"
+   },
+   {
+    "role": "checkbox",
+    "label": "No",
+    "name": "e_47"
+   },
+   {
+    "role": "text",
+    "label": "If yes, please provide the name of the organization",
+    "name": "fields[13].Value"
+   },
+   {
+    "role": "checkbox",
+    "label": "Firefighter",
+    "name": "e_53"
+   },
+   {
+    "role": "checkbox",
+    "label": "EMT",
+    "name": "e_53"
+   },
+   {
+    "role": "checkbox",
+    "label": "No",
+    "name": "e_53"
+   },
+   {
+    "role": "text",
+    "label": "EMT Certification Number: (If applicable)",
+    "name": "fields[15].Value"
+   },
+   {
+    "role": "checkbox",
+    "label": "Public Event",
+    "name": "e_69"
+   },
+   {
+    "role": "checkbox",
+    "label": "Social Media",
+    "name": "e_69"
+   },
+   {
+    "role": "checkbox",
+    "label": "School",
+    "name": "e_69"
+   },
+   {
+    "role": "checkbox",
+    "label": "Signage",
+    "name": "e_69"
+   },
+   {
+    "role": "checkbox",
+    "label": "Friends/Family",
+    "name": "e_69"
+   },
+   {
+    "role": "checkbox",
+    "label": "Other",
+    "name": "e_69"
+   },
+   {
+    "role": "text",
+    "label": "",
+    "name": "fields[17].Value"
+   },
+   {
+    "role": "checkbox",
+    "label": "I agree to allowing my online signature to be used.",
+    "name": "e_66"
+   },
+   {
+    "role": "text",
+    "label": "First Name *",
+    "name": "fields[19].Value"
+   },
+   {
+    "role": "text",
+    "label": "Last Name *",
+    "name": "fields[20].Value"
+   },
+   {
+    "role": "text",
+    "label": "",
+    "name": "e_empty1"
+   },
+   {
+    "role": "checkbox",
+    "label": "Receive an email copy of this form.",
+    "name": "wantCopy"
+   },
+   {
+    "role": "text",
+    "label": "Email address",
+    "name": "wantCopyAddress"
+   }
+  ],
+  "submit": "Sign in to Save Progress"
+ },
+ {
+  "url": "https://www.pvcombank.com.vn/lien-he",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Họ và tên *",
+    "name": "fullName"
+   },
+   {
+    "role": "text",
+    "label": "Địa chỉ *",
+    "name": "address"
+   },
+   {
+    "role": "text",
+    "label": "Điện thoại *",
+    "name": "tel"
+   },
+   {
+    "role": "text",
+    "label": "Email *",
+    "name": "email"
+   },
+   {
+    "role": "select",
+    "label": "Lĩnh vực",
+    "name": "field",
+    "options": [
+     "Chọn nhu cầu",
+     "Tài khoản",
+     "Tín dụng",
+     "Tiết kiệm",
+     "Khác"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Chi nhánh",
+    "name": "brand"
+   },
+   {
+    "role": "text",
+    "label": "Nội dung *",
+    "name": "content"
+   }
+  ],
+  "submit": "Gửi đi"
+ },
+ {
+  "url": "https://medlatec.vn/dat-lich-kham",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Nhập họ và tên",
+    "name": "patientName"
+   },
+   {
+    "role": "text",
+    "label": "-- / -- / ----",
+    "name": "patientBirthDate"
+   },
+   {
+    "role": "text",
+    "label": "Nhập số điện thoại",
+    "name": "phone"
+   },
+   {
+    "role": "text",
+    "label": "Nhập email",
+    "name": "email"
+   },
+   {
+    "role": "select",
+    "label": "",
+    "name": "patientSex",
+    "options": [
+     "Chọn giới tính",
+     "Nam",
+     "Nữ"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "",
+    "name": "ProvinceSelected",
+    "options": [
+     "Chọn Tỉnh/Thành phố",
+     "An Giang",
+     "Bắc Ninh",
+     "Cà Mau",
+     "Cần Thơ",
+     "Cao Bằng",
+     "Đà Nẵng",
+     "Đắk Lắk",
+     "Điện Biên",
+     "Đồng Nai",
+     "Đồng Tháp",
+     "Gia Lai",
+     "Hà Nội",
+     "Hà Tĩnh",
+     "Hải Phòng",
+     "Hồ Chí Minh",
+     "Hưng Yên",
+     "Khánh Hòa",
+     "Lai Châu",
+     "Lâm Đồng",
+     "Lạng Sơn",
+     "Lào Cai",
+     "Nghệ An",
+     "Ninh Bình",
+     "Phú Thọ",
+     "Quảng Ngãi",
+     "Quảng Ninh",
+     "Quảng Trị",
+     "Sơn La",
+     "Tây Ninh"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "",
+    "name": "WardSelected",
+    "options": []
+   },
+   {
+    "role": "text",
+    "label": "Nhập địa chỉ",
+    "name": "address"
+   },
+   {
+    "role": "select",
+    "label": "",
+    "name": "AreaSelected",
+    "options": [
+     "Chọn khu vực",
+     "An Giang",
+     "Bắc Ninh",
+     "Cần Thơ",
+     "Đà Nẵng",
+     "Đắk Lắk",
+     "Điện Biên",
+     "Đồng Nai",
+     "Gia Lai",
+     "Hà Nội",
+     "Hà Tĩnh",
+     "Hải Phòng",
+     "Hồ Chí Minh",
+     "Hưng Yên",
+     "Khánh Hòa",
+     "Lai Châu",
+     "Lâm Đồng",
+     "Lạng Sơn",
+     "Lào Cai",
+     "Nghệ An",
+     "Ninh Bình",
+     "Phú Thọ",
+     "Quảng Ngãi",
+     "Quảng Ninh",
+     "Quảng Trị",
+     "Sơn La",
+     "Tây Ninh",
+     "Thái Nguyên",
+     "Thanh Hóa",
+     "Thành phố Huế"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "",
+    "name": "FacilitiySelected",
+    "options": [
+     "Chọn cở sở",
+     "Hà Nội-TN-Chương Dương-Hoàn Kiếm",
+     "Phòng khám Đa khoa MEDLATEC số 1 - Tây Hồ, Hà Nội1",
+     "Phòng khám Đa khoa MEDLATEC số 2 - Thanh Xuân, Hà Nội",
+     "Hà Nội-TN-Đại Thịnh-Mê Linh",
+     "Bắc Ninh-Tại Nhà-Trụ Sở Chính",
+     "Vĩnh Phúc-Tại Nhà-Trụ Sở Chính",
+     "Thanh Hóa-Tại Nhà-Trụ Sở Chính",
+     "Cần Thơ-Tại Nhà-Trụ Sở Chính",
+     "Đắk Lắk-Tại Nhà-Trụ Sở Chính",
+     "Hà Nội-TN-Đức Giang-Long Biên",
+     "Hà Nội-TN-Cổ Nhuế 2-Bắc Từ Liêm",
+     "Lạng Sơn-Tại Nhà-Trụ Sở Chính",
+     "Phú Thọ-Tại Nhà-Trụ Sở Chính",
+     "Hà Giang-Tại Nhà-Trụ Sở Chính",
+     "Lào Cai-Tại Nhà-Trụ Sở Chính",
+     "Tuyên Quang-Tại Nhà-Trụ Sở Chính",
+     "Medlatec Thái Nguyên-VP Cao Bằng",
+     "KHU VỰC PHÍA NAM",
+     "Ban KHDN - MEDGROUP",
+     "Hà Nội-TN-Đa Tốn-Gia Lâm",
+     "Hồ Chí Minh-Tại Nhà-Trung Tâm",
+     "Hà Nội-TN-Trần Phú-Hoàng Mai",
+     "KHU VỰC PHÍA BẮC",
+     "Hà Nội-Ba Đình-Phường",
+     "Bình Phước-Tại Nhà-Trụ Sở Chính",
+     "Hòa Bình-Tại Nhà-Trụ Sở Chính",
+     "Ban TCPC - MEDGROUP",
+     "Ban Kế hoạch- MEDGROUP",
+     "MEDCOM"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "",
+    "name": "SpecialitySelected",
+    "options": [
+     "Chọn chuyên khoa",
+     "Ung bướu",
+     "Nhi khoa",
+     "CHUYÊN KHOA SẢN PHỤ KHOA",
+     "Tiêu hóa",
+     "Tim mạch",
+     "Chuyên khoa Cơ xương khớp",
+     "Da liễu",
+     "Răng hàm mặt",
+     "Chẩn đoán hình ảnh",
+     "Chuyên khoa Nội",
+     "TRUNG TÂM XÉT NGHIỆM MEDLATEC",
+     "Khoa ngoại",
+     "Nội tiết",
+     "Nam khoa",
+     "Truyền nhiễm",
+     "Thần kinh",
+     "Mắt",
+     "Tai mũi họng",
+     "Bác sĩ gia đình",
+     "Bỏng",
+     "Cắt lớp vi tính",
+     "Chấn thương chỉnh hình",
+     "Cộng hưởng từ",
+     "Dinh dưỡng",
+     "Ngoại",
+     "Ngoại tiết niệu",
+     "Ngoại tiêu hóa",
+     "Nội",
+     "PHCN"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "",
+    "name": "DoctorSelected",
+    "options": [
+     "Chọn bác sĩ",
+     "ThS.BS Nguyễn Thị Hồng Nga",
+     "Bác sĩ Hoàng Đình Nguyên",
+     "Bác sĩ Khuất Trang Anh",
+     "Bác sĩ Lê Thị Quỳnh",
+     "Bác sĩ Lương Thị Nga",
+     "Bác sĩ Mai Thị Quỳnh",
+     "Bác sĩ Nguyễn Gia Thưởng",
+     "Bác sĩ Nguyễn Như Quỳnh",
+     "Bác sĩ Nguyễn Thị Duyên",
+     "Bác sĩ Nguyễn Thị Duyên",
+     "Bác sĩ Nguyễn Thị Hoài Linh",
+     "Bác sĩ Nguyễn Thị Hương",
+     "Bác sĩ Phạm Thị Hoa",
+     "Bác sĩ Phạm Thị Hoa",
+     "Bác sĩ Phạm Thị Hoa",
+     "Bác sĩ Trần Khánh Huyền",
+     "Bác sĩ Văn Chuẩn",
+     "Bác sĩ Võ Thị Lê",
+     "Bác sĩ Vũ Ngọc Kiên",
+     "BS Bùi Hiếu Trung",
+     "BS Đặng Thị Hoa",
+     "BS Lã Thị Hải Yến",
+     "BS Nguyễn Anh Dũng",
+     "BS Nguyễn Thị Kim Anh",
+     "BS Phạm Thị Nhi",
+     "BS. Cao Thị Lộc",
+     "BS. Đặng Thái Sơn",
+     "BS. Đinh Văn Chỉnh",
+     "BS. Nguyễn Anh Tuấn"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Tôi cảm thấy...",
+    "name": "reasonNote"
+   },
+   {
+    "role": "text",
+    "label": "-- / -- / ----",
+    "name": "appointmentDate"
+   },
+   {
+    "role": "radio",
+    "label": "05:30-06:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "06:00-06:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "06:30-07:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "07:00-07:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "07:30-08:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "08:00-08:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "08:30-09:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "09:00-09:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "09:30-10:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "10:00-10:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "10:30-11:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "11:00-11:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "11:30-12:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "12:00-12:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "12:30-13:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "13:00-13:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "13:30-14:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "14:00-14:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "14:30-15:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "15:00-15:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "15:30-16:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "16:00-16:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "16:30-17:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "17:00-17:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "17:30-18:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "18:00-18:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "18:30-19:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "19:00-19:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "19:30-20:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "20:00-20:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "20:30-21:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "21:00-21:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "21:30-22:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "22:00-22:30",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "22:30-23:00",
+    "name": "TimeSelected"
+   },
+   {
+    "role": "radio",
+    "label": "23:00-23:30",
+    "name": "TimeSelected"
+   }
+  ],
+  "submit": "Tiếp theo"
+ },
+ {
+  "url": "https://medlatec.vn/dat-lich-kham",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Nhập họ và tên",
+    "name": "FullName"
+   },
+   {
+    "role": "text",
+    "label": "-- / -- / ----",
+    "name": "BirthDay"
+   },
+   {
+    "role": "select",
+    "label": "",
+    "name": "Gender",
+    "options": [
+     "Chọn giới tính",
+     "Nam",
+     "Nữ"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Nhập số điện thoại",
+    "name": "Phone"
+   },
+   {
+    "role": "text",
+    "label": "Nhập CMND / CCCD",
+    "name": "Cmnd"
+   },
+   {
+    "role": "select",
+    "label": "",
+    "name": "StateProvince",
+    "options": [
+     "Chọn tỉnh / Thành phố"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "",
+    "name": "District",
+    "options": [
+     "Chọn Quận / Huyện"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "",
+    "name": "Ward",
+    "options": [
+     "Chọn Phường / Xã"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Nhập địa chỉ",
+    "name": "Address"
+   }
+  ],
+  "submit": "Hoàn tất"
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSd4PJjc5dSc6Tq3prq5Snr36nyak_rU1MBOtlxsfNXxdKmKsg/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Họ và tên:",
+    "name": "1471020860"
+   },
+   {
+    "role": "radio",
+    "label": "Giới tính:",
+    "name": "821069076",
+    "options": [
+     "Nam",
+     "Nữ"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Năm sinh:",
+    "name": "20431930"
+   },
+   {
+    "role": "text",
+    "label": "Số CMND/CCCD/Hộ chiếu:",
+    "name": "1843396689"
+   },
+   {
+    "role": "text",
+    "label": "Số điện thoại:",
+    "name": "1051083292"
+   },
+   {
+    "role": "text",
+    "label": "Email:",
+    "name": "1466595731"
+   },
+   {
+    "role": "checkbox",
+    "label": "Tỉnh đang thường trú:",
+    "name": "821167387",
+    "options": [
+     "Quảng Ngãi",
+     ""
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Huyện đang thường trú:",
+    "name": "1874613611"
+   },
+   {
+    "role": "text",
+    "label": "Xã đang thường trú:",
+    "name": "2029491793"
+   },
+   {
+    "role": "text",
+    "label": "Địa chỉ cụ thể:",
+    "name": "1573027610"
+   },
+   {
+    "role": "select",
+    "label": "Trình độ văn hóa:",
+    "name": "1925651353",
+    "options": [
+     "Chưa tốt nghiệp tiểu học",
+     "Tốt nghiệp tiểu học",
+     "Tốt nghiệp trung học cơ sở",
+     "Tốt nghiệp trung học phổ thông"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "Trình độ chuyên môn:",
+    "name": "778647",
+    "options": [
+     "Lao động phổ thông",
+     "Sơ cấp",
+     "Trung cấp",
+     "Cao đẳng",
+     "Đại học",
+     "Thạc sĩ",
+     "Tiến sĩ"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Chuyên ngành:",
+    "name": "501941546"
+   },
+   {
+    "role": "text",
+    "label": "Kinh nghiệm làm việc (nếu có):",
+    "name": "1072037064"
+   },
+   {
+    "role": "text",
+    "label": "Vị trí ứng tuyển:",
+    "name": "709784545"
+   },
+   {
+    "role": "checkbox",
+    "label": "Chức vụ muốn ứng tuyển:",
+    "name": "505787277",
+    "options": [
+     "Nhân viên",
+     "Quản lý",
+     "Lãnh đạo",
+     ""
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Công ty muốn ứng tuyển:",
+    "name": "117557109"
+   },
+   {
+    "role": "select",
+    "label": "Mức lương mong muốn:",
+    "name": "1522883810",
+    "options": [
+     "Thỏa thuận",
+     "Dưới 5 triệu",
+     "5-10 triệu",
+     "20-50 triệu",
+     "> 50 triệu"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "Nơi làm việc mong muốn:",
+    "name": "1174542870",
+    "options": [
+     "Trong tỉnh",
+     "Ngoài tỉnh",
+     "Trong và ngoài tỉnh",
+     "Làm việc tại nước ngoài"
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "Sẵn sàng làm việc khi nào?",
+    "name": "1255455246",
+    "options": [
+     "Làm việc ngay",
+     ""
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "Hình thức tuyển dụng mong muốn",
+    "name": "1976741309",
+    "options": [
+     "Trực tiếp",
+     "Qua điện thoại",
+     "Phỏng vấn Online",
+     "Nộp CV"
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "Bạn tìm thấy phiếu đăng ký này ở đâu?",
+    "name": "1942165539",
+    "options": [
+     "Facebook",
+     "Zalo",
+     "Website",
+     ""
+    ]
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSe_DRyP4i80qM6MEvEbWKFHmioghajcnrs3W3jTkh_tL80ryg/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Họ và tên phụ huynh - Parent's name",
+    "name": "1087556900"
+   },
+   {
+    "role": "text",
+    "label": "Số điện thoại - Phone number",
+    "name": "1386412225"
+   },
+   {
+    "role": "text",
+    "label": "Địa chỉ email - Email address",
+    "name": "1312216401"
+   },
+   {
+    "role": "text",
+    "label": "Họ và tên học sinh - Student's name",
+    "name": "794458729"
+   },
+   {
+    "role": "text",
+    "label": "Ngày sinh của học sinh - Student's DOB",
+    "name": "1167831710"
+   },
+   {
+    "role": "select",
+    "label": "Lớp đăng ký - Grade",
+    "name": "1690437665",
+    "options": [
+     "Mầm non (16 tháng - 4 tuổi) - Kindergarten (16 months - 4 years old)",
+     "Tiền tiểu học (5 tuổi) - Pre-Primary School (5 years old)",
+     "Lớp 1 - Grade 1",
+     "Lớp 2 - Grade 2",
+     "Lớp 3 - Grade 3",
+     "Lớp 4 - Grade 4",
+     "Lớp 5 - Grade 5",
+     "Lớp 6 - Grade 6",
+     "Lớp 7 - Grade 7",
+     "Lớp 8 - Grade 8",
+     "Lớp 9 - Grade 9",
+     "Lớp 10 - Grade 10",
+     "Lớp 11 - Grade 11",
+     "Lớp 12 - Grade 12"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Tên trường học sinh theo học 5 năm gần nhất (điền \"Không\" nếu học sinh chưa đi học) - Name of school the student attended in the last 5 years (fill in \"No\" if the student has not yet attended school)",
+    "name": "541822964"
+   },
+   {
+    "role": "radio",
+    "label": "Kết quả học tập học kỳ gần nhất của học sinh - Student's most recent semester academic results",
+    "name": "1640047675",
+    "options": [
+     "Giỏi - Hoàn thành xuất sắc/ Excellent",
+     "Khá - Hoàn thành tốt/ Good",
+     "Trung bình - Hoàn thành/ Complete",
+     "Không xếp loại (Mầm non, Tiền Tiểu học, Lớp 1)"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "Kết quả hạnh kiểm học kỳ gần nhất của học sinh - Students' latest semester conduct results",
+    "name": "1180893516",
+    "options": [
+     "Tốt/ Excellent",
+     "Khá/ Good",
+     "Trung bình/ Complete"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Câu hỏi dành cho nhà trường (nếu có) - Questions for Hanoi Academy (if any)",
+    "name": "1763575191"
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLScrYQsmtYekhprMmTzAJhCAM38lFCzYnSCdUhw0Z5EPOHzrQw/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Họ và tên:",
+    "name": "2106933220"
+   },
+   {
+    "role": "text",
+    "label": "Họ và tên (Bố/mẹ)",
+    "name": "1610955118"
+   },
+   {
+    "role": "text",
+    "label": "Ngày tháng năm sinh",
+    "name": "1873783719"
+   },
+   {
+    "role": "radio",
+    "label": "Giới tinh",
+    "name": "470805206",
+    "options": [
+     "Nam",
+     "Nữ"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Điện thoại",
+    "name": "1747604818"
+   },
+   {
+    "role": "text",
+    "label": "Địa chỉ:",
+    "name": "1321856410"
+   },
+   {
+    "role": "radio",
+    "label": "Loại Khám",
+    "name": "670205639",
+    "options": [
+     "Bảo Hiểm",
+     "Dịch Vụ"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Mã Thẻ Bảo Hiểm",
+    "name": "1701126993"
+   },
+   {
+    "role": "text",
+    "label": "Thời gian đăng ký khám.",
+    "name": "776189026"
+   },
+   {
+    "role": "text",
+    "label": "Mô tả triệu chứng người bệnh:",
+    "name": "173204682"
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSezUMg98wRZqwLpcrknku0zmNQ3b_BcjPMsbsvAQDTpVHpOtQ/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "1. Họ và tên",
+    "name": "67675741"
+   },
+   {
+    "role": "radio",
+    "label": "2. Giới tính",
+    "name": "1436643349",
+    "options": [
+     "Nam",
+     "Nữ"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "3. Năm sinh",
+    "name": "1600661979"
+   },
+   {
+    "role": "text",
+    "label": "4. Nơi cư trú trước khi vào học tại trường CĐTM",
+    "name": "1184128804"
+   },
+   {
+    "role": "text",
+    "label": "5. Địa chỉ liên hệ hiện nay",
+    "name": "1223087608"
+   },
+   {
+    "role": "text",
+    "label": "6. Số điện thoại",
+    "name": "2086655710"
+   },
+   {
+    "role": "text",
+    "label": "7. Facebook",
+    "name": "1993343704"
+   },
+   {
+    "role": "text",
+    "label": "8. Email",
+    "name": "294515203"
+   },
+   {
+    "role": "text",
+    "label": "9. Ngành tốt nghiệp",
+    "name": "586310772"
+   },
+   {
+    "role": "radio",
+    "label": "10. Xếp loại tốt nghiệp",
+    "name": "30632037",
+    "options": [
+     "Xuất sắc",
+     "Giỏi",
+     "Khá",
+     "Trung bình"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "11. Tình hình việc làm hiện nay của Anh/Chị như thế nào?",
+    "name": "1166928951",
+    "options": [
+     "Đang có việc làm",
+     "Chưa có việc làm"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "12. Lý do Anh/Chị chưa đi làm?",
+    "name": "1944655584",
+    "options": [
+     "Chưa có nhu cầu",
+     "Đang học tiếp",
+     "Đã đi tìm việc làm nhưng chưa được"
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "13. Lý do Anh/Chị chưa tìm được việc làm?",
+    "name": "413227007",
+    "options": [
+     "Thiếu kiến thức chuyên môn nghiệp vụ",
+     "Thiếu kỹ năng chuyên môn nghiệp vụ",
+     "Thiếu kinh nghiệm làm việc",
+     "Thiếu thông tin tuyển dụng",
+     "Thiếu các mối liên hệ với nhà tuyển dụng",
+     "Trình độ Ngoại ngữ chưa đáp ứng yêu cầu",
+     "Trình độ Tin học chưa đáp ứng yêu cầu",
+     ""
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "14. Bao lâu sau khi tốt nghiệp Anh/Chị tìm được việc làm?",
+    "name": "865210853",
+    "options": [
+     "Dưới 6 tháng",
+     "Từ 6-12 tháng"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "15. Anh/Chị tìm được việc làm thông qua con đường nào?",
+    "name": "606428884",
+    "options": [
+     "Do Trường giới thiệu",
+     "Hội chợ việc làm",
+     "Thông qua quảng cáo",
+     "Trung tâm giới thiệu việc làm",
+     "Người trong gia đình giới thiệu",
+     "Tự tạo việc làm",
+     ""
+    ]
+   },
+   {
+    "role": "text",
+    "label": "16. Tên cơ quan Anh/Chị đang làm việc",
+    "name": "728537624"
+   },
+   {
+    "role": "text",
+    "label": "17. Địa chỉ cơ quan",
+    "name": "153704264"
+   },
+   {
+    "role": "radio",
+    "label": "18. Cơ quan Anh/Chị thuộc loại hình tổ chức nào?",
+    "name": "346966181",
+    "options": [
+     "Cơ quan Nhà nước",
+     "Công ty cổ phần",
+     "Doanh nghiệp tư nhân",
+     "Công ty trách nhiệm hữu hạn",
+     "Kinh tế hộ gia đình",
+     "Công ty có vốn đầu tư của nước ngoài",
+     "Tổ chức phi chính phủ",
+     ""
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "19.Chức vụ hiện tại của Anh/Chị",
+    "name": "2002591353",
+    "options": [
+     "Quản lý",
+     "Nhân viên"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "20. Mức thu nhập bình quân/tháng tính theo VNĐ",
+    "name": "1957544296",
+    "options": [
+     "Dưới 2 triệu",
+     "Từ 2 - dưới 4 triệu",
+     "Từ 4 - 6 triệu",
+     "Trên 6 triệu"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "21. Công việc Anh/Chị đang đảm nhận có phù hợp với ngành được đào tạo không?",
+    "name": "958979928",
+    "options": [
+     "Không phù hợp",
+     "Phù hợp",
+     "Rất phù hợp"
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "22. Anh/Chị cho biết lý do chấp nhận làm công việc này?",
+    "name": "1819864094",
+    "options": [
+     "Không tìm được việc đúng chuyên môn",
+     "Thích công việc này",
+     "Mức lương hấp dẫn",
+     "Làm tạm thời trong lúc tìm được việc phù hợp",
+     ""
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "23. Kiến thức được Trường đào tạo có hữu ích cho công việc hiện nay của Anh/Chị không?",
+    "name": "148384880",
+    "options": [
+     "Không hữu ích",
+     "Hữu ích",
+     "Rất hữu ích"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "24. Kỹ năng được Trường đào tạo có hữu ích cho công việc hiện nay của Anh/Chị không?",
+    "name": "505573088",
+    "options": [
+     "Không hữu ích",
+     "Hữu ích",
+     "Rất hữu ích"
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "25. Từ khi vào làm việc, cơ quan đã yêu cầu Anh/Chị đi học khóa học nào dưới đây?",
+    "name": "54724693",
+    "options": [
+     "Nâng cao kiến thức chuyên môn",
+     "Nâng cao kỹ năng nghiệp vụ",
+     "Nâng cao kỹ năng về công nghệ thông tin",
+     "Nâng cao các kỹ năng mềm (lập kế hoạch, quản lý, giao tiếp...)",
+     "Phát triển kỹ năng ngoại ngữ",
+     "Không học thêm khóa học nào"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "26. Anh/Chị có ý định xin chuyển việc làm khác không?",
+    "name": "749851644",
+    "options": [
+     "Có",
+     "Không"
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "27. Lý do Anh/Chị chuyển đổi công việc làm khác:",
+    "name": "745319791",
+    "options": [
+     "Công việc không phù hợp ngành được đào tạo",
+     "Thu nhập hàng tháng thấp hơn nhu cầu",
+     "Yêu cầu của công việc quá cao",
+     "Không được phát huy năng lực trong công việc",
+     "Không nhìn thấy cơ hội thăng tiến trong công việc",
+     "Môi trường làm việc không phù hợp",
+     "Địa điểm làm việc không phù hợp",
+     ""
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "28. Theo Anh/Chị những giải pháp nào sau đây giúp sinh viên tốt nghiệp tìm được việc làm?",
+    "name": "478898907",
+    "options": [
+     "Các nhà tuyển dụng tham gia xây dựng chương trình đào tạo",
+     "Các nhà tuyển dụng tham gia đào tạo cùng nhà trường",
+     "Các nhà tuyển dụng nhận sinh viên thực hành/thực tập",
+     "Các nhà tuyển dụng cam kết với trường về việc tuyển dụng sinh viên sau khi tốt nghiệp",
+     "Trường cập nhật thông tin về nhu cầu sử dụng lao động của xã hội",
+     "Trường phối hợp với các nhà sử dụng lao động tổ chức se-mi-na cho sinh viên",
+     "Thời lượng thực tập/thực tế được tăng thêm",
+     "Thời lượng thực hành được tăng thêm",
+     "Bổ sung các khóa đào tạo kỹ năng mềm",
+     "Rèn luyện các phẩm chất cá nhân",
+     "Nhà trường tạo điều kiện để sinh viên tham gia làm thêm tại các đơn vị thực tế",
+     ""
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "29. Theo Anh/chị chương trình đào tạo của Trường, có đáp ứng được yêu cầu của DN và xã hội không?",
+    "name": "561353194",
+    "options": [
+     "Đáp ứng tốt",
+     "Được một phần",
+     "Chưa tốt"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "30. Anh/chị đánh giá như thế nào về chất lượng đào tạo của nhà Trường?",
+    "name": "1555404820",
+    "options": [
+     "Tốt",
+     "Khá",
+     "Trung bình",
+     "Chưa tốt"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "31. Theo Anh/Chị để nâng cao chất lượng đào tạo của nhà trường cần:",
+    "name": "201108062"
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSfWTE3z1adfU-uxPQirWihRKSuuzq5vzQhVvDCYrzVUg7wGFQ/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Họ Tên",
+    "name": "898793259"
+   },
+   {
+    "role": "radio",
+    "label": "Giới tính",
+    "name": "1458967229",
+    "options": [
+     "Nam",
+     "Nữ"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Năm sinh",
+    "name": "1291788410"
+   },
+   {
+    "role": "text",
+    "label": "Email",
+    "name": "96146866"
+   },
+   {
+    "role": "text",
+    "label": "Điện thoại",
+    "name": "895918003"
+   },
+   {
+    "role": "text",
+    "label": "Địa chỉ",
+    "name": "1139392144"
+   },
+   {
+    "role": "text",
+    "label": "Chức Vụ, Nghề Nghiệp Hiện Tại",
+    "name": "1017565908"
+   },
+   {
+    "role": "text",
+    "label": "Bạn có thể đặt câu hỏi với chúng tôi",
+    "name": "827812301"
+   },
+   {
+    "role": "text",
+    "label": "Xin bạn vui lòng giới thiệu vài địa chỉ Email của bạn bè cho chúng tôi",
+    "name": "1471690700"
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/1-dDM35Tk4pmEwuaUDjsnkLoRC9jpqIKw-Z0_QLldevM/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "HỌ VÀ TÊN",
+    "name": "1409030332"
+   },
+   {
+    "role": "select",
+    "label": "GIỚI TÍNH",
+    "name": "796703517",
+    "options": [
+     "Nam",
+     "Nữ"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "NGÀY SINH",
+    "name": "101574801"
+   },
+   {
+    "role": "text",
+    "label": "CHIỀU CAO",
+    "name": "1184229914"
+   },
+   {
+    "role": "text",
+    "label": "CÂN NẶNG",
+    "name": "453734544"
+   },
+   {
+    "role": "text",
+    "label": "Số CCCD",
+    "name": "2108408074"
+   },
+   {
+    "role": "text",
+    "label": "Ngày cấp",
+    "name": "1783648687"
+   },
+   {
+    "role": "checkbox",
+    "label": "Nơi cấp",
+    "name": "824875806",
+    "options": [
+     "Cục Cảnh sát Quản lý Hành chính về Trật tự xã hội",
+     ""
+    ]
+   },
+   {
+    "role": "select",
+    "label": "Huyện/Thành phố",
+    "name": "493259425",
+    "options": [
+     "Rạch Giá",
+     "Phú Quốc",
+     "Hà Tiên",
+     "An Minh",
+     "An Biên",
+     "Châu Thành",
+     "Giồng Riềng",
+     "Gò Quao",
+     "Hòn Đất",
+     "Giang Thành",
+     "Kiên Hải",
+     "Kiên Lương",
+     "Tân Hiệp",
+     "U Minh Thượng",
+     "Vĩnh Thuận"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Địa chỉ cụ thể",
+    "name": "2046637223"
+   },
+   {
+    "role": "text",
+    "label": "Điện thoại",
+    "name": "1592830653"
+   },
+   {
+    "role": "text",
+    "label": "E-mail",
+    "name": "1923726108"
+   },
+   {
+    "role": "radio",
+    "label": "Thuộc đối tượng ưu tiên",
+    "name": "636258377",
+    "options": [
+     "Không",
+     "Người khuyết tật",
+     "Dân tộc thiểu số",
+     ""
+    ]
+   },
+   {
+    "role": "select",
+    "label": "Trình độ văn hóa",
+    "name": "705614232",
+    "options": [
+     "0/12",
+     "1/12",
+     "2/12",
+     "3/12",
+     "4/12",
+     "5/12",
+     "6/12",
+     "7/12",
+     "8/12",
+     "9/12",
+     "10/12",
+     "11/12",
+     "12/12"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "Trình độ chuyên môn kỹ thuật cao nhất",
+    "name": "1873004281",
+    "options": [
+     "Chưa qua đào tạo",
+     "Sơ cấp",
+     "Trung cấp",
+     "Cao đẳng",
+     "Đại học",
+     "Trên đại học"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Bậc trình độ kỹ năng nghề (Nếu có)",
+    "name": "863545258"
+   },
+   {
+    "role": "text",
+    "label": "Ngoại ngữ",
+    "name": "180169152"
+   },
+   {
+    "role": "text",
+    "label": "Trình độ ngoại ngữ",
+    "name": "222563876"
+   },
+   {
+    "role": "text",
+    "label": "Tin học",
+    "name": "465424317"
+   },
+   {
+    "role": "text",
+    "label": "Trình độ tin học",
+    "name": "1272280113"
+   },
+   {
+    "role": "select",
+    "label": "Tình trạng hôn nhân",
+    "name": "1711950174",
+    "options": [
+     "Độc thân",
+     "Đã kết hôn",
+     "Ly hôn"
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "Nội dung cần tư vấn",
+    "name": "639052484",
+    "options": [
+     "Việc làm",
+     "Học nghề",
+     "Chính sách, pháp luật lao động",
+     ""
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Kỹ năng mềm, công việc trước đây",
+    "name": "980149116"
+   },
+   {
+    "role": "text",
+    "label": "Vị trí xin việc",
+    "name": "977036109"
+   },
+   {
+    "role": "select",
+    "label": "Nơi làm việc",
+    "name": "1656549359",
+    "options": [
+     "Việc làm trong tỉnh Kiên Giang",
+     "Việc làm Rạch Giá",
+     "Việc làm Phú Quốc"
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "Người nhập thông tin tìm việc",
+    "name": "1119434265",
+    "options": [
+     "Lý Ngọc Điểm",
+     "Hồ Bình Đẳng",
+     "Huỳnh Thị Tú",
+     "Nguyễn Quốc Minh An",
+     "Lê Thị Thùy Giang",
+     "Đào Minh Tú",
+     "Thái Minh Tín",
+     "Lê Thị Hà Vân",
+     "Nguyễn Thanh Linh",
+     "Nguyễn Bảo Trâm",
+     ""
+    ]
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSca9yPmWriu7ko1n3r1kQf5cMxs34fsLlhntdcPF_SvKrTavA/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Họ và tên thí sinh",
+    "name": "1153037656"
+   },
+   {
+    "role": "text",
+    "label": "Ngày, tháng, năm sinh",
+    "name": "1756840961"
+   },
+   {
+    "role": "text",
+    "label": "Nơi sinh (Ghi tên tỉnh, thành phố nơi sinh)",
+    "name": "1601594177"
+   },
+   {
+    "role": "text",
+    "label": "Số CMND/CCCD",
+    "name": "2035119736"
+   },
+   {
+    "role": "radio",
+    "label": "Giới tính",
+    "name": "2008349329",
+    "options": [
+     "Nam",
+     "Nữ",
+     "Khác"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Số điện thoại thí sinh thường xuyên sử dụng",
+    "name": "256075864"
+   },
+   {
+    "role": "text",
+    "label": "Số điện thoại sử dụng zalo",
+    "name": "1947536876"
+   },
+   {
+    "role": "text",
+    "label": "Số điện thoại liên lạc Cha/Mẹ",
+    "name": "2041747497"
+   },
+   {
+    "role": "text",
+    "label": "Địa chỉ email thí sinh thường xuyên sử dụng",
+    "name": "1981438557"
+   },
+   {
+    "role": "text",
+    "label": "Năm tốt nghiệp THPT/TT GDTX-GDNN hoặc tương đương",
+    "name": "1748518254"
+   },
+   {
+    "role": "radio",
+    "label": "Ghi tên Tỉnh/Thành phố đang theo học lớp 12",
+    "name": "1749161981",
+    "options": [
+     "An Giang",
+     "Bà Rịa - Vũng Tàu",
+     "Bạc Liêu",
+     "Bến Tre",
+     "Bình Định",
+     "Bình Dương",
+     "Bình Phước",
+     "Bình Thuận",
+     "Cà Mau",
+     "Cần Thơ",
+     "Đà Nẵng",
+     "Đắk Lắk",
+     "Đắk Nông",
+     "Đồng Nai",
+     "Đồng Tháp",
+     "Gia Lai",
+     "Hậu Giang",
+     "Khánh Hòa",
+     "Kiên Giang",
+     "Kon Tum",
+     "Lâm Đồng",
+     "Long An",
+     "Ninh Thuận",
+     "Phú Yên",
+     "Quảng Ngãi",
+     "Sóc Trăng",
+     "Tây Ninh",
+     "Tiền Giang",
+     "TP. Hồ Chí Minh",
+     "Trà Vinh"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Ghi tên trường THPT/TT GDTX-GDNN đang học hoặc đã tốt nghiệp",
+    "name": "510626235"
+   },
+   {
+    "role": "text",
+    "label": "Vui lòng copy Link Facebook hoặc số điện thoại Zalo cá nhân của thí sinh * Hoặc bạn Like trang fanpage của trường tại => https://www.facebook.com/caodangvanlangsaigon (Để Trường chuyển tải thông tin nhanh nhất đến thí sinh)",
+    "name": "1938313135"
+   },
+   {
+    "role": "select",
+    "label": "Ngành đăng ký xét tuyển nguyện vọng 1",
+    "name": "885993142",
+    "options": [
+     "Quan hệ công chúng",
+     "Marketing",
+     "Truyền thông đa phương tiện",
+     "Quản trị kinh doanh",
+     "Kinh doanh thương mại",
+     "Thương mại điện tử",
+     "Quản trị nhân sự",
+     "Tài chính - Ngân hàng",
+     "Kế toán",
+     "Quản trị văn phòng",
+     "Quản trị dịch vụ du lịch và lữ hành",
+     "Quản trị khách sạn",
+     "Công nghệ thông tin",
+     "Thiết kế đồ họa",
+     "Thiết kế nội thất",
+     "CNTT (Ứng dụng phần mềm)",
+     "Đồ họa đa phương tiện",
+     "Tiếng Anh",
+     "Tiếng Nhật",
+     "Tiếng Hàn Quốc",
+     "Tiếng Trung Quốc",
+     "Chăm sóc sắc đẹp",
+     "Tiếng Việt và văn hóa Việt Nam (dành cho người nước ngoài)",
+     "Digital Marketing*",
+     "Logistics*",
+     "Quản trị Nhà hàng và Dịch vụ ăn uống*",
+     "Diễn viên kịch - điện ảnh*",
+     "Thanh nhạc*",
+     "Tiếng Đức*",
+     "Kỹ thuật tạo mẫu tóc"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "Ngành đăng ký xét tuyển nguyện vọng 2",
+    "name": "1807011542",
+    "options": [
+     "Quan hệ công chúng",
+     "Marketing",
+     "Truyền thông đa phương tiện",
+     "Quản trị kinh doanh",
+     "Kinh doanh thương mại",
+     "Thương mại điện tử",
+     "Quản trị nhân sự",
+     "Tài chính - Ngân hàng",
+     "Kế toán",
+     "Quản trị văn phòng",
+     "Quản trị dịch vụ du lịch và lữ hành",
+     "Quản trị khách sạn",
+     "Công nghệ thông tin",
+     "Thiết kế đồ họa",
+     "Thiết kế nội thất",
+     "CNTT (Ứng dụng phần mềm)",
+     "Đồ họa đa phương tiện",
+     "Tiếng Anh",
+     "Tiếng Nhật",
+     "Tiếng Hàn Quốc",
+     "Tiếng Trung Quốc",
+     "Chăm sóc sắc đẹp",
+     "Tiếng Việt và văn hóa Việt Nam (dành cho người nước ngoài)",
+     "Digital Marketing*",
+     "Logistics*",
+     "Quản trị Nhà hàng và Dịch vụ ăn uống*",
+     "Diễn viên kịch - điện ảnh*",
+     "Thanh nhạc*",
+     "Tiếng Đức*",
+     "Kỹ thuật tạo mẫu tóc"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Địa chỉ nhận giấy báo trúng tuyển (thí sinh ghi rõ số nhà, đường, ấp, thôn, xã, phường, quận, huyện, tỉnh, thành",
+    "name": "267316384"
+   },
+   {
+    "role": "checkbox",
+    "label": "Bạn biết thông tin tuyển sinh của Trường qua các kênh nào sau đây",
+    "name": "1292390166",
+    "options": [
+     "Facebook",
+     "Zalo",
+     "Youtube",
+     "Tiktok",
+     "Instagram",
+     "Tìm kiếm trên Google,…",
+     "Tư vấn tại các trường THPT",
+     "Website VLSC",
+     "Người thân, Bạn bè giới thiệu",
+     "Cẩm nang tuyển sinh của các báo",
+     "Chương trình trực tuyến trên các Báo",
+     "Các group trường THPT"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Câu hỏi thắc mắc: * Bạn muốn cần tư vấn gì thêm, vui lòng nhập câu hỏi tại đây. VLSC sẽ giải đáp ngay khi nhận được thông tin đăng ký của bạn",
+    "name": "199186511"
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSf9ITMemUBPsnAfPkdRm5bm2RtmdmnkrwiJSfGeBRLFgKw2ZA/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Họ và tên",
+    "name": "850688858"
+   },
+   {
+    "role": "text",
+    "label": "Số CCCD",
+    "name": "1001637976"
+   },
+   {
+    "role": "text",
+    "label": "Ngày sinh",
+    "name": "517236164"
+   },
+   {
+    "role": "radio",
+    "label": "Giới tính",
+    "name": "1038602527",
+    "options": [
+     "Nam",
+     "Nữ"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Điện thoại",
+    "name": "1614511856"
+   },
+   {
+    "role": "text",
+    "label": "Điện thoại người thân",
+    "name": "1806755833"
+   },
+   {
+    "role": "text",
+    "label": "E-mail",
+    "name": "1086900192"
+   },
+   {
+    "role": "radio",
+    "label": "Khu vực ưu tiên",
+    "name": "1150146762",
+    "options": [
+     "KV1",
+     "KV2",
+     "KV2-NT",
+     "KV3"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "Đối tượng ưu tiên",
+    "name": "283943001",
+    "options": [
+     "00 (Không ưu tiên)",
+     "01 (Dân tộc thiểu số)",
+     "02 (CNƯT-CS thi đua)",
+     "03 (Thương binh, bệnh binh)",
+     "04 (Con liệt sĩ, thương/bệnh binh trên 81%)",
+     "05 (Quân nhân, Công an, TNXP)",
+     "06 (Con thương/bệnh binh dưới 81%)",
+     "07 (Người khuyết tật, Lao động ưu tú)"
+    ]
+   },
+   {
+    "role": "select",
+    "label": "Nghành ĐKXT",
+    "name": "2089428803",
+    "options": [
+     "Kế toán",
+     "Quản trị kinh doanh",
+     "Khoa học cây trồng",
+     "Bảo vệ thực vật",
+     "Quản lý đất đai",
+     "Lâm sinh"
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "Xét tuyển theo",
+    "name": "1967773704",
+    "options": [
+     "Điểm trung bình chung của tổ hợp môn HK1 lớp 12",
+     "Điểm trung bình chung của tổ hợp môn cả năm lớp 12",
+     "Điểm trung bình chung của tổng điểm TB lớp 10, 11, 12",
+     "Điểm Thi THPT"
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "Nguyện vọng xét tuyển",
+    "name": "911323052",
+    "options": [
+     "NV 1",
+     "NV 2",
+     "NV 3",
+     "NV 4",
+     "NV 5",
+     "NV 6"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Địa chỉ liên lạc (Số nhà - Đường - Thôn - Xã - Huyện - Tỉnh)",
+    "name": "896349486"
+   },
+   {
+    "role": "text",
+    "label": "Người giới thiệu (Nếu có)",
+    "name": "900624798"
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSftkRDPQJf22vbrFz4PwQp_KzNBk6yWUHDyK6adcldkCXQT1Q/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "HỌ TÊN THÍ SINH",
+    "name": "1700881515"
+   },
+   {
+    "role": "text",
+    "label": "NGÀY SINH",
+    "name": "192235638"
+   },
+   {
+    "role": "text",
+    "label": "CMND - CCCD",
+    "name": "1961258056"
+   },
+   {
+    "role": "text",
+    "label": "EMAIL",
+    "name": "1419568056"
+   },
+   {
+    "role": "radio",
+    "label": "ĐĂNG KÝ BẬC HỌC",
+    "name": "216086496",
+    "options": [
+     "Đại học (Liên kết ĐH Kinh tế TPHCM)",
+     "Đại học (Liên kết ĐH Giao thông vận tải TPHCM)",
+     "Đại học (Liên kết ĐH Mở TPHCM)",
+     "Đại học (Liên kết ĐH Sư phạm kỹ thuật TPHCM)",
+     "Đại học (Liên kết Khoa Y Đại học Quốc Gia TPHCM)",
+     "Đại học (Liên kết ĐH Đồng Nai)",
+     "Cao đẳng chính quy"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "NGÀNH ĐĂNG KÝ",
+    "name": "1268371036",
+    "options": [
+     "CNKT Cơ khí",
+     "CNKT Ô tô",
+     "CNKT Điện - Điện tử",
+     "CNKT Xây dựng",
+     "Trắc địa công trình",
+     "Quản trị kinh doanh",
+     "QTKD chuyên ngành Marketing",
+     "Logistics",
+     "Kế toán",
+     "Tài chính - Ngân hàng",
+     "Quản trị văn phòng",
+     "Thiết kế đồ họa",
+     "Công nghệ thông tin",
+     "Truyền thông và Mạng máy tính",
+     "Tiếng anh thương mại",
+     "Tiếng anh giảng dạy",
+     "Chăm sóc sắc đẹp",
+     "Điều dưỡng",
+     "Hộ sinh",
+     "Xét nghiệm y học",
+     "QTKD chuyên ngành Quan hệ công chúng PR",
+     "Quản trị Nhà hang - Khách sạn",
+     "Quản trị Dịch vụ Du lịch - Lữ hành",
+     "Kỹ thuật chế biến món ăn",
+     "Y sĩ đã khoa (Liên thông Bác sĩ đa khoa)",
+     "Dược sĩ",
+     "Sư phạm mầm non",
+     "Thư ký y khoa"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "ĐIỂM TRUNG BÌNH CẢ NĂM 12 (THÍ SINH ĐƯỢC LỰA CHỌN 1 TRONG 2 HÌNH THỨC XÉT TUYỂN TỪ ĐIỂM THI THPT 2024 HOẶC ĐIỂM HỌC BẠ THPT)",
+    "name": "302575233"
+   },
+   {
+    "role": "text",
+    "label": "ĐIỂM THI TỐT NGHIỆP THPT 2024 (THÍ SINH ĐƯỢC LỰA CHỌN 1 TRONG 2 HÌNH THỨC XÉT TUYỂN TỪ ĐIỂM THI THPT 2022 HOẶC ĐIỂM HỌC BẠ THPT) TỔNG ĐIỂM 3 MÔN THEO KHỐI LỰA CHỌN",
+    "name": "1508121559"
+   },
+   {
+    "role": "text",
+    "label": "TRƯỜNG THPT",
+    "name": "794374987"
+   },
+   {
+    "role": "text",
+    "label": "ĐIỆN THOẠI LIÊN HỆ",
+    "name": "345082033"
+   },
+   {
+    "role": "text",
+    "label": "ĐỊA CHỈ",
+    "name": "1362678550"
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLScfscLTsI6ZxA7hHuOEgMjUOl5eo9eOXsbzAD6TSRauhdhBwA/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Họ tên:",
+    "name": "80536940"
+   },
+   {
+    "role": "text",
+    "label": "Ngày tháng năm sinh",
+    "name": "680136117"
+   },
+   {
+    "role": "text",
+    "label": "Số điện thoại:",
+    "name": "2125460240"
+   },
+   {
+    "role": "text",
+    "label": "Số điện thoại sử dụng Zalo:",
+    "name": "798712287"
+   },
+   {
+    "role": "text",
+    "label": "Link facebook của bạn:",
+    "name": "221203016"
+   },
+   {
+    "role": "text",
+    "label": "Email thường dùng:",
+    "name": "446865326"
+   },
+   {
+    "role": "radio",
+    "label": "Bạn là",
+    "name": "1195031250",
+    "options": [
+     "Học sinh THPT",
+     "Sinh viên",
+     "Người đi làm",
+     ""
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Tên trường THPT (nếu là học sinh)",
+    "name": "270995731"
+   },
+   {
+    "role": "select",
+    "label": "Tỉnh (bạn đang sinh sống)",
+    "name": "1637557282",
+    "options": [
+     "Thành phố Cần Thơ",
+     "Tỉnh Vĩnh Long",
+     "Tỉnh Đồng Tháp",
+     "Tỉnh Cà Mau",
+     "Tỉnh An Giang",
+     "Thành phố Hồ Chí Minh",
+     "Tỉnh Đồng Nai",
+     "Tỉnh Tây Ninh",
+     "Tỉnh Lâm Đồng",
+     "Tỉnh Đắk Lắk",
+     "Tỉnh Khánh Hoà",
+     "Tỉnh Gia Lai",
+     "Tỉnh Quảng Ngãi",
+     "Thành phố Đà Nẵng",
+     "Tỉnh Quảng Trị",
+     "Tỉnh Ninh Bình",
+     "Thành phố Hải Phòng",
+     "Tỉnh Hưng Yên",
+     "Tỉnh Bắc Ninh",
+     "Tỉnh Phú Thọ",
+     "Tỉnh Thái Nguyên",
+     "Tỉnh Lào Cai",
+     "Tỉnh Tuyên Quang",
+     "Thành phố Hà Nội",
+     "Thành phố Huế",
+     "Tỉnh Lai Châu",
+     "Tỉnh Điện Biên",
+     "Tỉnh Sơn La",
+     "Tỉnh Lạng Sơn",
+     "Tỉnh Quảng Ninh"
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "Bạn yêu thích Ngành/Khóa học nào?",
+    "name": "1149543591",
+    "options": [
+     "Ngành Công nghệ Phần mềm - Định hướng Phát triển Ứng dụng (Thời gian đào tạo: 02 năm)",
+     "Ngành Mỹ thuật Đa phương tiện Quốc tế (Thời gian đào tạo: 02 năm)",
+     "Khóa Thiết kế đồ họa truyền thông (Thời gian đào tạo: 6 tháng)",
+     "Phát triển ứng dụng Web tương thích đa thiết bị (Thời gian đào tạo: 6 tháng)",
+     ""
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "Nguồn thông tin bạn biết đến các khóa học tại CUSC (qua các kênh: Email, Facebook, Zalo, SMS,..)",
+    "name": "968399596",
+    "options": [
+     "Mail",
+     "Fanpage",
+     "Tiktok",
+     "Zalo",
+     "Website",
+     "Youtube",
+     "Google",
+     "Thương hiệu",
+     "Bạn bè, người thân giới thiệu",
+     "Thầy Cô thông báo",
+     "SMS",
+     "Banderole, Poster",
+     "Tờ bướm",
+     "Chuyên đề, sự kiện, ngày hội Báo Tuổi trẻ",
+     "Fanpage, Tik Tok Cần Thơ - Báo & PTTH",
+     ""
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "Đồng ý nhận thông báo từ CUSC cập nhật các thông tin bổ ích, mới nhất về các sự kiện, hoạt động cộng đồng, cuộc thi tổ chức cho học sinh, sinh viên, tin tức Giáo dục và Công nghệ, tin hoạt động, tin tuyển sinh... (qua các kênh: Email, Facebook, Zalo, SMS,..)",
+    "name": "85722855",
+    "options": [
+     "Đồng ý",
+     "Không đồng ý",
+     ""
+    ]
+   },
+   {
+    "role": "text",
+    "label": "- Đối với học sinh THPT: Cần bổ sung Bảng điểm hoặc Bằng TN THPT. - Đối với sinh viên/Người đi làm: Bằng TN THPT, Cao đẳng hoặc bằng Đại học. (Nộp file ảnh hoặc bản scan qua kênh online Zalo: 0868 952 535 - 0868 952 545 Mail: tuyensinh@cusc.ctu.edu.vn) Quét QR kết nối zalo gửi hồ sơ",
+    "name": "755092142"
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLScXdnQwvlcfoGA0X--tzDkGCb3n0-KkyyKRUPqRwfaI8GLdBQ/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Họ Và Tên Bạn",
+    "name": "1961702923"
+   },
+   {
+    "role": "text",
+    "label": "Số CMND/CCCD",
+    "name": "1991491905"
+   },
+   {
+    "role": "text",
+    "label": "Số Điện Thoại",
+    "name": "345199780"
+   },
+   {
+    "role": "text",
+    "label": "Email",
+    "name": "2104473761"
+   },
+   {
+    "role": "radio",
+    "label": "Luyện thi VSTEP Thủ Đức",
+    "name": "591614574",
+    "options": [
+     "19h30 2-4-6 ngày 04.11.26 (Lớp 2 tháng)",
+     "18h 2-4-6 ngày 09.11.26",
+     "19h30 2-4-6 ngày 16.11.26 (Lớp 1 tháng)",
+     "18h 2-4-6 ngày 25.11.26 (Lớp 2 tháng)",
+     "19h30 3-5-7 ngày 01.12.26",
+     "18h 3-5-7 ngày 22.12.26",
+     "18h 2-4-6 ngày 07.12.26 (Lớp 1 tháng)"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "Tiếng Anh Căn Bản Thủ Đức",
+    "name": "1742040606",
+    "options": [
+     "18h 2-4-6 ngày 09.11.26",
+     "19h30 3-5-7 ngày 01.12.26",
+     "18h 3-5-7 ngày 22.12.26"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "Luyện Thi TOEIC 4 kĩ năng (Thủ Đức)",
+    "name": "17719932",
+    "options": [
+     "18h thứ 3-5-7 ngày 26.12.26"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "Luyện Thi Cambridge (CELA) Thủ Đức",
+    "name": "1193178091",
+    "options": [
+     "18h thứ 3-5 ngày 10.11.26 (MOVERS)",
+     "08h thứ 7, chủ nhật ngày 14.11.26 (KET)",
+     "09h30 thứ 7, 09h chủ nhật ngày 14.11.26 (PET)",
+     "09h thứ 7, chủ nhật ngày 14.11.26 (MOVERS)"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "Luyện Thi TOEIC Speaking & Writing Thủ Đức",
+    "name": "1171193230",
+    "options": [
+     "19h30 3-5-7 ngày 03.12.26"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "Luyện thi APTIS Thủ Đức",
+    "name": "1480247008",
+    "options": [
+     "19h30 3-5-7 ngày 31.10.26 (Lớp 1 tháng)",
+     "19h30 3-5-7 ngày 03.12.26 (Lớp 1 tháng)"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "Luyện Thi IELTS Thủ Đức",
+    "name": "2092508899",
+    "options": [
+     "Đang cập nhật"
+    ]
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSf3rbBIdQoOVYHbyTLHvmDiZ59hyrvuuxYvUencOlnbIKglWQ/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "1. Họ và tên",
+    "name": "1410897583"
+   },
+   {
+    "role": "radio",
+    "label": "2. Giới tính",
+    "name": "959077808",
+    "options": [
+     "Nam",
+     "Nữ"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "3. Ngày tháng năm sinh",
+    "name": "1318102707"
+   },
+   {
+    "role": "text",
+    "label": "4a. TP.HCM/ TP. Thủ Đức. Nhập địa chỉ cư trú ( số nhà, đường, khu phố Ấp, Phuờng xã Thị trấn, quận huyện)",
+    "name": "1329955379"
+   },
+   {
+    "role": "text",
+    "label": "4b. Tỉnh/ thành phố khác. Nhập địa chỉ cư trú ( số nhà, đường, khu phố Ấp, Phuờng xã Thị trấn, quận huyện)",
+    "name": "1873677519"
+   },
+   {
+    "role": "text",
+    "label": "5. Số điện thoại di động",
+    "name": "2062804157"
+   },
+   {
+    "role": "radio",
+    "label": "6. Trình độ",
+    "name": "1917959262",
+    "options": [
+     "Đại học",
+     "Cao đẳng",
+     "Trung cấp",
+     ""
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "7. Ngành",
+    "name": "1751201684",
+    "options": [
+     "Bác sĩ chuyên khoa hồi sức cấp cứu",
+     "Bác sĩ chuyên khoa nhiễm",
+     "Bác sĩ khác",
+     "Y sỹ",
+     "Điều dưỡng",
+     "Điều dưỡng hồi sức",
+     "Hộ sinh",
+     "Kỹ thuật y",
+     ""
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "8. Đối tượng tình nguyện",
+    "name": "975529148",
+    "options": [
+     "Lực lượng y tế về hưu, thành viên các tổ chức Hội nghề nghiệp (lĩnh vực y tế) trên địa bàn thành phố (Có đủ sức khỏe)",
+     "Dược sỹ, điều dưỡng, quân y không làm việc tại các đơn vị sự nghiệp công lập trên địa bàn thành phố nhưng tình nguyện tham gia chống dịch",
+     "Sinh viên ngành y tế; nhân viên thực hành, thực tập tại các đơn vị y tế",
+     ""
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "9. Nhiệm vụ tình nguyện",
+    "name": "1738847372",
+    "options": [
+     "Khám và điều trị cho bệnh nhân Covid-19 tại BV/KCL",
+     "Điều dưỡng/Y sỹ chăm sóc bệnh nhân nặng, chăm sóc ca nhiễm, nghi nhiễm tại BV/KCL",
+     "Dược sỹ (phân phối thuốc, làm việc tại kho thuốc của BV/KCL)",
+     "Hậu cần (vận chuyển BN, đẩy xe, chuyển mẫu, chuyển hàng hoá, vệ sinh dọn dẹp, khử khuẩn,...) tại BV và KCL",
+     "Nhập liệu (biết cơ bản về excel, có laptop)."
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "10. Đã tiêm vắc xin Covid 19",
+    "name": "2062720337",
+    "options": [
+     "Mũi 1",
+     "Mũi 2",
+     "Chưa tiêm"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "11. Số CMND/ CCCD",
+    "name": "1701118810"
+   },
+   {
+    "role": "text",
+    "label": "12. Ngày cấp CMND/ CCCD",
+    "name": "386867654"
+   },
+   {
+    "role": "text",
+    "label": "13. Mã số thẻ BHYT",
+    "name": "1603350196"
+   },
+   {
+    "role": "text",
+    "label": "14. Khi cần báo tin cho ai",
+    "name": "81697926"
+   },
+   {
+    "role": "text",
+    "label": "15. Số điện thoại người nhận tin",
+    "name": "1540556779"
+   },
+   {
+    "role": "radio",
+    "label": "16. Đã tham gia chống dịch COVID-19",
+    "name": "958410544",
+    "options": [
+     "Có",
+     "Không"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "17. Bạn có thể ở lại trong khu vực cách ly/ bệnh viện dã chiến hay không? (không về nhà)",
+    "name": "1778909503",
+    "options": [
+     "Có",
+     "Không"
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "18. Bạn có đang ở trong khu vực cách ly/ phong tỏa hay không?",
+    "name": "869073011",
+    "options": [
+     "Có",
+     "Không"
+    ]
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSeeXfpeG1KuAnLZ0m4Z-1B49q83Zo8AEJXeieOY0R4O3UiAEQ/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "1. Họ và tên",
+    "name": "1795273774"
+   },
+   {
+    "role": "text",
+    "label": "2. Ngày sinh",
+    "name": "1236924113"
+   },
+   {
+    "role": "text",
+    "label": "3. Số điện thoại",
+    "name": "2122991109"
+   },
+   {
+    "role": "text",
+    "label": "4. Email",
+    "name": "1571007922"
+   },
+   {
+    "role": "radio",
+    "label": "5. Trình độ học vấn",
+    "name": "964074223",
+    "options": [
+     "Đã chính thức tốt nghiệp",
+     "Sinh viên năm cuối (Sắp tốt nghiệp)",
+     "Sinh viên"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "6. Tên trường",
+    "name": "266000476"
+   },
+   {
+    "role": "text",
+    "label": "7 Kinh nghiệm làm việc",
+    "name": "132408004"
+   },
+   {
+    "role": "select",
+    "label": "8. Địa điểm làm việc mong muốn",
+    "name": "509583836",
+    "options": [
+     "Hà Nội",
+     "TP HCM",
+     "Cần Thơ",
+     "Đà Nẵng",
+     "Hải Phòng",
+     "An Giang",
+     "Bà Rịa - Vũng Tàu",
+     "Bắc Giang",
+     "Bắc Kạn",
+     "Bạc Liêu",
+     "Bắc Ninh",
+     "Bến Tre",
+     "Bình Định",
+     "Bình Dương",
+     "Bình Phước",
+     "Bình Thuận",
+     "Cà Mau",
+     "Cao Bằng",
+     "Đắk Lắk",
+     "Đắk Nông",
+     "Điện Biên",
+     "Đồng Nai",
+     "Đồng Tháp",
+     "Gia Lai",
+     "Hà Giang",
+     "Hà Nam",
+     "Hà Tĩnh",
+     "Hải Dương",
+     "Hậu Giang",
+     "Hòa Bình"
+    ]
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSc_DQrn2Z5lrelnB20NIhzUyAYIWe6HTfYGsRjQqNGD07ylbw/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Họ và tên",
+    "name": "36451935"
+   },
+   {
+    "role": "text",
+    "label": "Số điện thoại",
+    "name": "486689454"
+   },
+   {
+    "role": "text",
+    "label": "Email (Để nhận mail mời tham gia lớp học)",
+    "name": "615202006"
+   },
+   {
+    "role": "radio",
+    "label": "Học phí",
+    "name": "274003551",
+    "options": [
+     "Học online tương tác trực tiếp với giảng viên: 3 triệu đồng",
+     "Học offline trên lớp tại TP. Hồ Chí Minh: 4 triệu đồng"
+    ]
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSf9iLf2r_0Uybmw3U98aRT-M-LQtVlvOuvwBdeawgbjZtHG_w/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Email của Anh/Chị :",
+    "name": "1985956351"
+   },
+   {
+    "role": "text",
+    "label": "Điền Họ & Tên của Anh/Chị :",
+    "name": "260760269"
+   },
+   {
+    "role": "text",
+    "label": "Điền SĐT của Anh/Chị:",
+    "name": "915178206"
+   },
+   {
+    "role": "text",
+    "label": "Khóa học muốn tham gia :",
+    "name": "1763807127"
+   },
+   {
+    "role": "radio",
+    "label": "Địa chỉ tham gia khóa học tại :",
+    "name": "713672153",
+    "options": [
+     "Tp.Hồ Chí Minh",
+     "Hà Nội",
+     "Nha Trang",
+     "Đà Nẵng",
+     "Hải Phòng"
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "Đăng ký học cá nhân ( Nhóm/đơn vị)",
+    "name": "1486753835",
+    "options": [
+     "Cá Nhân",
+     "Nhóm/ đơn vị"
+    ]
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSfaXH29lhKVu29q1w9W-W6b-UqU7U1IZNJKm7qgEoI9_RmWHA/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Khóa học",
+    "name": "1927676459"
+   },
+   {
+    "role": "text",
+    "label": "Ngày khai giảng",
+    "name": "1858675869"
+   },
+   {
+    "role": "text",
+    "label": "Họ Và Tên",
+    "name": "785884871"
+   },
+   {
+    "role": "text",
+    "label": "Số điện thoại",
+    "name": "894726088"
+   },
+   {
+    "role": "text",
+    "label": "Email",
+    "name": "240226830"
+   },
+   {
+    "role": "text",
+    "label": "Lời nhắn",
+    "name": "659654971"
+   },
+   {
+    "role": "text",
+    "label": "Ngày tháng năm sinh",
+    "name": "1837123360"
+   },
+   {
+    "role": "text",
+    "label": "Nơi sinh",
+    "name": "1450823672"
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSc90uZJ2TtStgtIy2YeI0kd7e2wVa6K3127Yc4a1LERNJQMUg/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Họ tên",
+    "name": "1963315257"
+   },
+   {
+    "role": "text",
+    "label": "Năm sinh",
+    "name": "535573208"
+   },
+   {
+    "role": "text",
+    "label": "Số điện thoại",
+    "name": "1773399706"
+   },
+   {
+    "role": "checkbox",
+    "label": "Tham gia khóa học",
+    "name": "1395073281",
+    "options": [
+     "Học Hòa âm phối khí cơ bản",
+     "Học Hòa âm phối khí chuyên nghiệp",
+     "Học Sáng tác nhạc cơ bản",
+     "Học Sáng tác nhạc chuyên nghiệp",
+     "Đào tạo nhạc công Organ chuyên nghiệp",
+     "Tạo nhạc đệm Guitar",
+     ""
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "Trình độ âm nhạc hiện có?",
+    "name": "2136697720",
+    "options": [
+     "Đại học",
+     "Cao đẳng",
+     "Trung cấp",
+     "Học khóa ngắn hạn ở các trung tâm",
+     "Khác"
+    ]
+   },
+   {
+    "role": "checkbox",
+    "label": "Bạn đã từng biết về",
+    "name": "811213609",
+    "options": [
+     "Sáng tác nhạc",
+     "Hòa âm phối khí",
+     "Nhạc lý",
+     "Đàn Organ",
+     "Đàn Piano",
+     "Đàn Guitar",
+     "Khác"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Bạn biết khóa học này từ đâu? (Ví dụ: từ web nào, từ fanpage nào, từ group nào, từ email nào, từ quảng cáo...)",
+    "name": "529080036"
+   },
+   {
+    "role": "text",
+    "label": "Bạn muốn đạt được gì khi tham gia khóa học này?",
+    "name": "2068643594"
+   },
+   {
+    "role": "radio",
+    "label": "Thanh toán",
+    "name": "1558278377",
+    "options": [
+     "Đã thanh toán",
+     "Chưa thanh toán",
+     ""
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Ghi chú",
+    "name": "838180276"
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSeEHs2wYeABDddW4H7_b24QgjJh8IkdXTGfQqsFH3NTKq7NYA/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Họ Tên (học viên hoặc phụ huynh)",
+    "name": "1253345940"
+   },
+   {
+    "role": "text",
+    "label": "Địa Chỉ",
+    "name": "355472770"
+   },
+   {
+    "role": "text",
+    "label": "Email, Facebook hoặc Skype",
+    "name": "1416134186"
+   },
+   {
+    "role": "text",
+    "label": "Số điện thoại",
+    "name": "1594485037"
+   },
+   {
+    "role": "checkbox",
+    "label": "Bạn muốn học khóa nào?",
+    "name": "2075685725",
+    "options": [
+     "Khóa học Làm quen với máy tính",
+     "Khóa học Trở thành công dân số",
+     "Khóa học Tin học văn phòng cơ bản",
+     "Khóa học Tin học văn phòng nâng cao",
+     "Khóa học Lập trình Scratch",
+     "Khóa học Thiết kế web với Wordpress",
+     "Khóa học Lập trình Web cơ bản",
+     "Khóa học Lập trình Web nâng cao",
+     "Khóa học Thiết kế đồ họa cơ bản",
+     "Khóa học Thiết kế đồ họa nâng cao",
+     "Khóa học Học làm phim",
+     "Khóa học Lập trình App Inventer",
+     "Khóa học Tiếng anh cơ bản",
+     "Khóa học Tiếng anh nâng cao",
+     "Đào tạo lập trình/IT/English theo yêu cầu!",
+     ""
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "Bạn muốn học với hình thức nào?",
+    "name": "678079363",
+    "options": [
+     "1 giảng viên - 1 học viên",
+     "1 giảng viên - 2 học viên",
+     "1 giảng viên - N học viên"
+    ]
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSd7qx3x0LzM39RFUyFBpTA-RMNec9Z7K1Lgqmtipk6k3XUDqQ/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Họ tên",
+    "name": "944137106"
+   },
+   {
+    "role": "text",
+    "label": "Email",
+    "name": "1701569670"
+   },
+   {
+    "role": "text",
+    "label": "SĐT",
+    "name": "852290920"
+   },
+   {
+    "role": "text",
+    "label": "Sinh năm",
+    "name": "427208109"
+   },
+   {
+    "role": "text",
+    "label": "Trường học/ Đơn vị công tác",
+    "name": "145309099"
+   },
+   {
+    "role": "text",
+    "label": "Chuyên khoa (nếu có)",
+    "name": "1319818192"
+   },
+   {
+    "role": "text",
+    "label": "Mong muốn của bạn khi tham gia lớp học là gì?",
+    "name": "748633219"
+   },
+   {
+    "role": "text",
+    "label": "Bạn tự đánh giá trình độ tiếng Anh của mình ở mức độ nào? (Nếu bạn có chứng chỉ cụ thể hãy cho mình biết nhé)",
+    "name": "1533891421"
+   },
+   {
+    "role": "text",
+    "label": "Bạn đăng kí lớp nào?",
+    "name": "1302371653"
+   },
+   {
+    "role": "text",
+    "label": "Bạn biết đến lớp học thông qua nguồn thông tin nào? Nếu được bạn đã từng học ở Go Global Class giới thiệu, xin ghi rõ tên, lớp.",
+    "name": "66665863"
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/1EFQXB955qkRYQkbAXtdNDi8EiVrFuLmPv2bSBuRY460/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Tên",
+    "name": "322884199"
+   },
+   {
+    "role": "text",
+    "label": "Email",
+    "name": "1049550588"
+   },
+   {
+    "role": "text",
+    "label": "Số điện thoại",
+    "name": "118987505"
+   },
+   {
+    "role": "text",
+    "label": "Địa chỉ",
+    "name": "1802732004"
+   },
+   {
+    "role": "radio",
+    "label": "Bạn quan tâm đến:",
+    "name": "718757055",
+    "options": [
+     "Đầu tư tài chính",
+     "Bất động sản"
+    ]
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLScnWC4-vUmx9qRTJHjqy-_3BLi95QYUb8Kz1no7wADlvFV24A/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Số lượng",
+    "name": "1941031617"
+   },
+   {
+    "role": "text",
+    "label": "Tên khách hàng",
+    "name": "599451360"
+   },
+   {
+    "role": "text",
+    "label": "Số điện thoại",
+    "name": "1183334637"
+   },
+   {
+    "role": "text",
+    "label": "E-mail",
+    "name": "1146347585"
+   },
+   {
+    "role": "checkbox",
+    "label": "Cách liên hệ ưa thích",
+    "name": "343833981",
+    "options": [
+     "Điện thoại",
+     "Email"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Địa chỉ nhận sách",
+    "name": "109010416"
+   },
+   {
+    "role": "radio",
+    "label": "Hình thức thanh toán",
+    "name": "1870700300",
+    "options": [
+     "Chuyển khoản trước",
+     "Thanh toán khi nhận hàng (Ship code)"
+    ]
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSdPByjRHRABLCIKOgHK6GbFR0L7U8uMMwM-S3yahrbpPF6YBQ/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Tên Công ty",
+    "name": "205999134"
+   },
+   {
+    "role": "text",
+    "label": "Chức vụ",
+    "name": "1896940222"
+   },
+   {
+    "role": "text",
+    "label": "Họ Tên",
+    "name": "1414410392"
+   },
+   {
+    "role": "text",
+    "label": "Tel",
+    "name": "1845349871"
+   },
+   {
+    "role": "radio",
+    "label": "Nội dung tư vấn",
+    "name": "2073172764",
+    "options": [
+     "Google Cloud Platform",
+     "Google Maps",
+     "Google Workspace",
+     "Google Cloud Traning",
+     ""
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Nội dung liên hệ",
+    "name": "1985464812"
+   }
+  ],
+  "submit": null
+ },
+ {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSe9szbkTccfG7DUsqorD9lVR9f2mp5WFbZmDMlgD1pWdewXKA/viewform",
+  "fields": [
+   {
+    "role": "text",
+    "label": "Họ tên:",
+    "name": "954623037"
+   },
+   {
+    "role": "text",
+    "label": "Số Điện Thoại:",
+    "name": "2114310137"
+   },
+   {
+    "role": "text",
+    "label": "Ngày tháng năm sinh:",
+    "name": "26830758"
+   },
+   {
+    "role": "text",
+    "label": "Quê Quán:",
+    "name": "1217535848"
+   },
+   {
+    "role": "text",
+    "label": "Địa chỉ hiện tại:",
+    "name": "1232600012"
+   },
+   {
+    "role": "radio",
+    "label": "Giới Tính",
+    "name": "1817125067",
+    "options": [
+     "NỮ",
+     "NAM"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Số Chứng Minh Nhân Dân:",
+    "name": "804089712"
+   },
+   {
+    "role": "text",
+    "label": "Thời gian có thể đi làm:",
+    "name": "1358102518"
+   },
+   {
+    "role": "radio",
+    "label": "Địa điểm làm việc:",
+    "name": "1337352894",
+    "options": [
+     "Hải Dương",
+     "Bắc Ninh",
+     "Bắc Giang",
+     "Hưng Yên",
+     "Hà Nam",
+     "Vĩnh Phúc",
+     ""
+    ]
+   },
+   {
+    "role": "radio",
+    "label": "Đăng ký ở trọ",
+    "name": "625578909",
+    "options": [
+     "CÓ",
+     "KHÔNG"
+    ]
+   },
+   {
+    "role": "text",
+    "label": "Đi cùng những ai (nếu đi nhiều người):",
+    "name": "435143580"
+   },
+   {
+    "role": "text",
+    "label": "Địa chỉ Email, tên nick Facebook, Zalo... (nếu có)",
+    "name": "102685685"
+   }
+  ],
+  "submit": null
+ }
+]

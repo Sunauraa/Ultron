@@ -1,0 +1,101 @@
+{
+ "form": "fresh1_14",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 42.7,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 6135,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 6.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 6307,
+   "completion_tokens": 243
+  },
+  {
+   "seconds": 6.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 6400,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 6.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 6511,
+   "completion_tokens": 252
+  },
+  {
+   "seconds": 7.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 6616,
+   "completion_tokens": 272
+  },
+  {
+   "seconds": 4.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 6339,
+   "completion_tokens": 186
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission was successful. Confirmation message received.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 0.478353351354599,
+   "url": "http://127.0.0.1:45947/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.38567371666431427,
+   "url": "http://127.0.0.1:45947/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.40452741086483,
+   "url": "http://127.0.0.1:45947/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.6550569087266922,
+   "url": "http://127.0.0.1:45947/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.36339275538921356,
+   "url": "http://127.0.0.1:45947/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.8579605966806412,
+   "url": "http://127.0.0.1:45947/fresh1_14",
+   "goal": ""
+  }
+ ]
+}

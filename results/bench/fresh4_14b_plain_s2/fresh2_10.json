@@ -1,0 +1,82 @@
+{
+ "form": "fresh2_10",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 50.7,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 5,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accepteer alle cookies",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 5969,
+   "completion_tokens": 151
+  },
+  {
+   "seconds": 3.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 6120,
+   "completion_tokens": 149
+  },
+  {
+   "seconds": 3.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 6171,
+   "completion_tokens": 152
+  },
+  {
+   "seconds": 4.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 6224,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 4.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 6319,
+   "completion_tokens": 181
+  },
+  {
+   "seconds": 5.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 6414,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 7.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 6493,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 4.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 6578,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 5.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 6376,
+   "completion_tokens": 202
+  }
+ ],
+ "steps": 10,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission was successful. Confirmation message: Thank you. Your form has been received and no further action is needed.",
+ "fast": []
+}

@@ -1,0 +1,67 @@
+{
+ "form": "test31",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 10.0,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {
+   "f3": "21/06/1995"
+  },
+  "missing_consent": [],
+  "popup_choice": "Niet accepteren",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.89,
+   "format": "Answers",
+   "prompt_tokens": 353,
+   "completion_tokens": 117
+  },
+  {
+   "seconds": 0.27,
+   "format": "Review",
+   "prompt_tokens": 482,
+   "completion_tokens": 9
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 48.6610122025013,
+   "url": "http://127.0.0.1:34637/test31",
+   "goal": "Close the pop-up with 'Niet accepteren'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 3073.5486447811127,
+   "url": "http://127.0.0.1:34637/test31",
+   "goal": "Filled 5 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Chuyên khoa (nếu có); Mong muốn của bạn khi tham gia lớp học là gì?; Bạn tự đánh giá trình độ tiếng Anh của mình ở mức độ nào? (Nếu bạn có chứng chỉ cụ thể hãy cho mình biết nhé); Bạn đăng kí lớp nào?; Bạn biết đến lớp học thông qua nguồn thông tin nào? Nếu được bạn đã từng học ở Go Global Class giới thiệu, xin ghi rõ tên, lớp.. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 454.6893034130335,
+   "url": "http://127.0.0.1:34637/test31",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 171.48962430655956,
+   "url": "http://127.0.0.1:34637/test31",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

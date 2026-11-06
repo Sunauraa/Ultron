@@ -1,0 +1,338 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 193.1,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 5968,
+   "completion_tokens": 271
+  },
+  {
+   "seconds": 7.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 6198,
+   "completion_tokens": 303
+  },
+  {
+   "seconds": 5.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 6328,
+   "completion_tokens": 210
+  },
+  {
+   "seconds": 5.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 6717,
+   "completion_tokens": 218
+  },
+  {
+   "seconds": 5.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 6763,
+   "completion_tokens": 212
+  },
+  {
+   "seconds": 6.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 6902,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 6.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 7055,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 6.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 7172,
+   "completion_tokens": 242
+  },
+  {
+   "seconds": 4.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 7250,
+   "completion_tokens": 165
+  },
+  {
+   "seconds": 4.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 7304,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 5.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 7382,
+   "completion_tokens": 187
+  },
+  {
+   "seconds": 4.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 7461,
+   "completion_tokens": 170
+  },
+  {
+   "seconds": 6.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 7581,
+   "completion_tokens": 231
+  },
+  {
+   "seconds": 6.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 7695,
+   "completion_tokens": 248
+  },
+  {
+   "seconds": 4.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 7809,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 4.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 7904,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 5.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 7995,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 5.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 8087,
+   "completion_tokens": 197
+  },
+  {
+   "seconds": 6.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 8311,
+   "completion_tokens": 257
+  },
+  {
+   "seconds": 8.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 8436,
+   "completion_tokens": 341
+  },
+  {
+   "seconds": 10.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 8618,
+   "completion_tokens": 405
+  },
+  {
+   "seconds": 7.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 8746,
+   "completion_tokens": 299
+  },
+  {
+   "seconds": 8.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 8874,
+   "completion_tokens": 337
+  },
+  {
+   "seconds": 9.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 9002,
+   "completion_tokens": 355
+  },
+  {
+   "seconds": 8.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 9116,
+   "completion_tokens": 336
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "The form was filled with available information from the provided document. However, there are additional required fields that were not specified in the document, particularly a CAPTCHA code field which is mandatory. As per your instructions, I cannot invent values for these fields or leave them blank. Therefore, I am unable to complete the form submission successfully.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 58.286912739276886,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 57.30429291725159,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 58.08848515152931,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5481280386447906,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5479175597429276,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5370192229747772,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.6506573408842087,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.6212536245584488,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.7523484528064728,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5055926740169525,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5302447825670242,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.6074905395507812,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5483366549015045,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.48163533210754395,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.483732670545578,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.48918090760707855,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5346480756998062,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.47171860933303833,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5053840577602386,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.4738830029964447,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5121566355228424,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.47681666910648346,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5484763532876968,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.4753507673740387,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.4888996481895447,
+   "url": "http://127.0.0.1:43091/fresh1_4",
+   "goal": ""
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "form": "fresh2_16",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 108.6,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 7,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 5939,
+   "completion_tokens": 176
+  },
+  {
+   "seconds": 7.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 6205,
+   "completion_tokens": 375
+  },
+  {
+   "seconds": 8.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 6743,
+   "completion_tokens": 403
+  },
+  {
+   "seconds": 8.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 6648,
+   "completion_tokens": 404
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": false,
+ "final": "Could not complete the task because the required field 'State' could not be filled with 'Oregon' as it is not available in the dropdown options. Fields filled: First Name (Jordan), Last Name (Reed), Address (742 Cedar Lane), City (Portland), Zip (97201), Daytime Phone Number (503-555-0147), and Email Address (jordan.reed@example.com). Missing field: State.",
+ "fast": []
+}

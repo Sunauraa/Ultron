@@ -1,0 +1,139 @@
+{
+ "form": "fresh2_13",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 57.5,
+ "score": {
+  "blocked": [
+   "Comments-Question *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 6,
+  "wrong": {
+   "f1": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 1248,
+   "completion_tokens": 75
+  },
+  {
+   "seconds": 4.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 1361,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 4.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 1475,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 3.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 1617,
+   "completion_tokens": 160
+  },
+  {
+   "seconds": 2.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 1712,
+   "completion_tokens": 134
+  },
+  {
+   "seconds": 2.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 1808,
+   "completion_tokens": 137
+  },
+  {
+   "seconds": 2.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 1904,
+   "completion_tokens": 137
+  },
+  {
+   "seconds": 2.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 2000,
+   "completion_tokens": 137
+  },
+  {
+   "seconds": 2.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 2096,
+   "completion_tokens": 137
+  },
+  {
+   "seconds": 2.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 2231,
+   "completion_tokens": 109
+  },
+  {
+   "seconds": 3.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 2296,
+   "completion_tokens": 152
+  },
+  {
+   "seconds": 3.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 2361,
+   "completion_tokens": 152
+  },
+  {
+   "seconds": 2.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 2426,
+   "completion_tokens": 109
+  },
+  {
+   "seconds": 3.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 2491,
+   "completion_tokens": 152
+  },
+  {
+   "seconds": 2.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 2557,
+   "completion_tokens": 109
+  },
+  {
+   "seconds": 2.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 2622,
+   "completion_tokens": 132
+  },
+  {
+   "seconds": 2.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 2710,
+   "completion_tokens": 133
+  }
+ ],
+ "steps": 18,
+ "is_done": true,
+ "success": false,
+ "final": "Unable to complete the form submission due to a missing value for the 'Comments-Question' field.",
+ "fast": []
+}

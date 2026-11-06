@@ -1,0 +1,101 @@
+{
+ "form": "fresh1_14",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 43.6,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 6137,
+   "completion_tokens": 238
+  },
+  {
+   "seconds": 6.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 6309,
+   "completion_tokens": 243
+  },
+  {
+   "seconds": 6.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 6402,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 7.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 6513,
+   "completion_tokens": 270
+  },
+  {
+   "seconds": 7.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 6621,
+   "completion_tokens": 286
+  },
+  {
+   "seconds": 4.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 6365,
+   "completion_tokens": 188
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission was successful. Confirmation message received.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 0.4338640719652176,
+   "url": "http://127.0.0.1:34723/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.42415596544742584,
+   "url": "http://127.0.0.1:34723/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.41360966861248016,
+   "url": "http://127.0.0.1:34723/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.38693100214004517,
+   "url": "http://127.0.0.1:34723/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5616750568151474,
+   "url": "http://127.0.0.1:34723/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.7659049481153488,
+   "url": "http://127.0.0.1:34723/fresh1_14",
+   "goal": ""
+  }
+ ]
+}

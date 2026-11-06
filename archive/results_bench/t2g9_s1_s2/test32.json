@@ -1,0 +1,59 @@
+{
+ "form": "test32",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 16.3,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.62,
+   "format": "Answers",
+   "prompt_tokens": 248,
+   "completion_tokens": 65
+  },
+  {
+   "seconds": 4.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 6082,
+   "completion_tokens": 181
+  },
+  {
+   "seconds": 5.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 5951,
+   "completion_tokens": 203
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 1688.7639909982681,
+   "url": "http://127.0.0.1:43747/test32",
+   "goal": "Filled 4 field(s) from the document. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 69.23670880496502,
+   "url": "http://127.0.0.1:43747/test32",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.27902238070964813,
+   "url": "http://127.0.0.1:43747/test32",
+   "goal": ""
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "form": "fresh1_19",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 23.4,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {
+   "f7": "Công ty TNHH Minh Long",
+   "f8": "Trường THPT Chu Văn An"
+  },
+  "missing_consent": [],
+  "popup_choice": "AUSWAHL BESTÄTIGEN",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 1333,
+   "completion_tokens": 115
+  },
+  {
+   "seconds": 7.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 1449,
+   "completion_tokens": 310
+  },
+  {
+   "seconds": 4.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 1607,
+   "completion_tokens": 160
+  },
+  {
+   "seconds": 1.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 1416,
+   "completion_tokens": 62
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

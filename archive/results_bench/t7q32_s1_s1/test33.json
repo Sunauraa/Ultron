@@ -1,0 +1,70 @@
+{
+ "form": "test33",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 7.3,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Rechazar",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.17,
+   "format": "Answers",
+   "prompt_tokens": 272,
+   "completion_tokens": 62
+  },
+  {
+   "seconds": 0.21,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.16,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 7
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 54.4062964618206,
+   "url": "http://127.0.0.1:36915/test33",
+   "goal": "Close the pop-up with 'Rechazar'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1246.3250402361155,
+   "url": "http://127.0.0.1:36915/test33",
+   "goal": "Filled 4 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Số lượng; Hình thức thanh toán. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 299.1275228559971,
+   "url": "http://127.0.0.1:36915/test33",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 162.35272772610188,
+   "url": "http://127.0.0.1:36915/test33",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

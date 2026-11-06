@@ -1,0 +1,62 @@
+{
+ "form": "test4",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 9.5,
+ "score": {
+  "blocked": [
+   "Please enter your question / comment in the space provided below, providing detailed information so we can better assist you. *"
+  ],
+  "submitted": false,
+  "fields": 9,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null,
+   "f9": null,
+   "f14": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.15,
+   "format": "Answers",
+   "prompt_tokens": 278,
+   "completion_tokens": 128
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": false,
+ "final": "Nothing was sent. The form requires these and the document has no value for them: Please enter your question / comment in the space provided below, providing detailed information so we can better assist you..",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 60.17672270536423,
+   "url": "http://127.0.0.1:43801/test4",
+   "goal": "Close the pop-up with 'ÖSSZES ELUTASÍTÁSA'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 3343.3191552758217,
+   "url": "http://127.0.0.1:43801/test4",
+   "goal": "Filled 9 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Address2; Please enter your question / comment in the space provided below, providing detailed information so we can better assist you. *. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "stop",
+   "milliseconds": 204.17475886642933,
+   "url": "http://127.0.0.1:43801/test4",
+   "goal": "Nothing was sent. The form requires these and the document has no value for them: Please enter your question / comment in the space provided below, providing detailed information so we can better assist you.."
+  }
+ ]
+}

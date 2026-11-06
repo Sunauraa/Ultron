@@ -1,0 +1,50 @@
+{
+ "form": "fresh1_13",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 22.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 3,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 5888,
+   "completion_tokens": 207
+  },
+  {
+   "seconds": 8.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 6139,
+   "completion_tokens": 402
+  },
+  {
+   "seconds": 5.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 6250,
+   "completion_tokens": 261
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": false,
+ "final": "Form could not be submitted due to missing required field: Mã số sinh viên TDTU.",
+ "fast": []
+}

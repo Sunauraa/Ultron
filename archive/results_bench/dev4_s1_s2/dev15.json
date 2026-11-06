@@ -1,0 +1,71 @@
+{
+ "form": "dev15",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 24.7,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Rifiuta tutti",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 6346,
+   "completion_tokens": 326
+  },
+  {
+   "seconds": 4.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 6093,
+   "completion_tokens": 175
+  },
+  {
+   "seconds": 5.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 6130,
+   "completion_tokens": 200
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 58.23803134262562,
+   "url": "http://127.0.0.1:33929/dev15",
+   "goal": "Close the pop-up with 'Rifiuta tutti'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 163.72956335544586,
+   "url": "http://127.0.0.1:33929/dev15",
+   "goal": "Filled 3 field(s) from the document. Still empty, so check each against the document before submitting: Họ và tên:; Họ và tên (Bố/mẹ); Mã Thẻ Bảo Hiểm; Thời gian đăng ký khám.; Mô tả triệu chứng người bệnh:."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 156.30449913442135,
+   "url": "http://127.0.0.1:33929/dev15",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.21092593669891357,
+   "url": "http://127.0.0.1:33929/dev15",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5118885785341263,
+   "url": "about:blank",
+   "goal": ""
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "form": "fresh1_3",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 19.2,
+ "score": {
+  "blocked": [],
+  "unclear": [
+   "Complete Home Address: Be sure to include the CITY, STATE, and ZIP CODE (Please double-check for accuracy—your card will be mailed to this address.) If you are an MSMS student, please skip this section and enter \"N/A.\" All other students are required to answer this question.",
+   "Complete Mailing Address: Include CITY, STATE, and ZIP CODE. (Only if different from your home address. Please ensure this information is accurate—your card will be mailed here.) If you are an MSMS student, please skip this section and enter \"N/A.\" All other students are required to answer this question."
+  ],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 1922,
+   "completion_tokens": 284
+  },
+  {
+   "seconds": 4.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 2145,
+   "completion_tokens": 209
+  },
+  {
+   "seconds": 2.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 1298,
+   "completion_tokens": 106
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission successful. Page confirms receipt.",
+ "fast": []
+}

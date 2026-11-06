@@ -1,0 +1,72 @@
+{
+ "form": "fresh2_16",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 65.1,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 7,
+  "wrong": {
+   "f6": "(503) 555-0147"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Decline optional cookies",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 5937,
+   "completion_tokens": 171
+  },
+  {
+   "seconds": 13.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 6185,
+   "completion_tokens": 685
+  },
+  {
+   "seconds": 5.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 6294,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 8.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 6387,
+   "completion_tokens": 433
+  },
+  {
+   "seconds": 7.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 6973,
+   "completion_tokens": 348
+  },
+  {
+   "seconds": 6.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 6849,
+   "completion_tokens": 308
+  },
+  {
+   "seconds": 7.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 6499,
+   "completion_tokens": 353
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted with the following information:\n- Given name: Jordan\n- Family name: Reed\n- Address: 742 Cedar Lane\n- Municipality: Portland\n- Postcode: 97201\n- Contact number: (503) 555-0147\n- Email address: jordan.reed@example.com\n\nThe 'State' field could not be filled in as 'Oregon' is not an available option.\nThe page confirms receipt of the form.",
+ "fast": []
+}

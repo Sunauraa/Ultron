@@ -1,0 +1,73 @@
+{
+ "form": "test21",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 33.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 7,
+  "wrong": {
+   "f0": "21/06/1995",
+   "f1": "001195004567",
+   "f2": "ha.pham@example.com",
+   "f3": null,
+   "f8": "Công ty TNHH Minh Long",
+   "f9": "45 Trần Phú, Ba Đình",
+   "f10": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Aceptar todas",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 1142,
+   "completion_tokens": 53
+  },
+  {
+   "seconds": 7.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 3024,
+   "completion_tokens": 273
+  },
+  {
+   "seconds": 8.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 3170,
+   "completion_tokens": 292
+  },
+  {
+   "seconds": 2.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 3357,
+   "completion_tokens": 78
+  },
+  {
+   "seconds": 2.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 1475,
+   "completion_tokens": 88
+  },
+  {
+   "seconds": 3.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 1495,
+   "completion_tokens": 110
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": [],
+ "trap": "Phạm Thu Hà"
+}

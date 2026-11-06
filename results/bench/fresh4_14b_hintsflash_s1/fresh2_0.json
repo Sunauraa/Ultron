@@ -1,0 +1,68 @@
+{
+ "form": "fresh2_0",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 28.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {
+   "f0": "Jordan Reed"
+  },
+  "extra": {
+   "f4": "97201"
+  },
+  "missing_consent": [],
+  "popup_choice": "Rifiuta",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 1282,
+   "completion_tokens": 52
+  },
+  {
+   "seconds": 4.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 1244,
+   "completion_tokens": 167
+  },
+  {
+   "seconds": 4.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 1378,
+   "completion_tokens": 184
+  },
+  {
+   "seconds": 4.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 1712,
+   "completion_tokens": 197
+  },
+  {
+   "seconds": 2.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 1777,
+   "completion_tokens": 100
+  },
+  {
+   "seconds": 1.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 1679,
+   "completion_tokens": 75
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "success": true,
+ "final": "Form submitted successfully.",
+ "fast": []
+}

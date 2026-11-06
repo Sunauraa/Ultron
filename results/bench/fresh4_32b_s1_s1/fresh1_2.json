@@ -1,0 +1,71 @@
+{
+ "form": "fresh1_2",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 10.8,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Reject All",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.71,
+   "format": "Answers",
+   "prompt_tokens": 453,
+   "completion_tokens": 197
+  },
+  {
+   "seconds": 0.18,
+   "format": "Review",
+   "prompt_tokens": 129,
+   "completion_tokens": 8
+  },
+  {
+   "seconds": 0.15,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 7
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 34.57675315439701,
+   "url": "http://127.0.0.1:37583/fresh1_2",
+   "goal": "Close the pop-up with 'Reject All'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 3968.409325927496,
+   "url": "http://127.0.0.1:37583/fresh1_2",
+   "goal": "Filled 6 field(s) from the document. Left empty because the document has no value for them, so do not fill these: If you live outside the city's limits, what is your township (if applicable)?; County (ex. St. Louis, Itasca, Carlton, etc.); Name of parent/guardian if applicant is under 12 years of age (first name, last name); Preferred 4 digit PIN Number (default is the last four digits of home telephone number); Do you currently have an ALS library card?; Do you live within the city's limits?; Would you like to receive library notices via phone call, email, or text; How did you find out about online card sign ups?. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 445.7894992083311,
+   "url": "http://127.0.0.1:37583/fresh1_2",
+   "goal": "Sent the form with 'Submit'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 150.3718551248312,
+   "url": "http://127.0.0.1:37583/fresh1_2",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

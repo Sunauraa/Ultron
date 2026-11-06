@@ -1,0 +1,75 @@
+{
+ "form": "dev16",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 2,
+ "seconds": 77.6,
+ "score": {
+  "submitted": true,
+  "fields": 6,
+  "wrong": {
+   "f30": null
+  },
+  "extra": {
+   "f2": "1995",
+   "f3": "45 Trần Phú, Ba Đình"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 9.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 8420,
+   "completion_tokens": 337
+  },
+  {
+   "seconds": 9.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 8683,
+   "completion_tokens": 350
+  },
+  {
+   "seconds": 10.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 8798,
+   "completion_tokens": 404
+  },
+  {
+   "seconds": 10.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 8912,
+   "completion_tokens": 401
+  },
+  {
+   "seconds": 7.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 9012,
+   "completion_tokens": 287
+  },
+  {
+   "seconds": 9.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 8994,
+   "completion_tokens": 344
+  },
+  {
+   "seconds": 6.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 9134,
+   "completion_tokens": 242
+  },
+  {
+   "seconds": 5.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 6572,
+   "completion_tokens": 200
+  }
+ ],
+ "steps": 9,
+ "is_done": true,
+ "fast": []
+}

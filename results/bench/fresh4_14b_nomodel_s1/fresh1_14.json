@@ -1,0 +1,137 @@
+{
+ "form": "fresh1_14",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 61.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 6137,
+   "completion_tokens": 262
+  },
+  {
+   "seconds": 6.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 6330,
+   "completion_tokens": 261
+  },
+  {
+   "seconds": 7.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 6424,
+   "completion_tokens": 290
+  },
+  {
+   "seconds": 7.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 6550,
+   "completion_tokens": 273
+  },
+  {
+   "seconds": 9.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 6645,
+   "completion_tokens": 364
+  },
+  {
+   "seconds": 4.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 6724,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 3.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 6376,
+   "completion_tokens": 148
+  },
+  {
+   "seconds": 4.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 6419,
+   "completion_tokens": 161
+  },
+  {
+   "seconds": 4.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 6447,
+   "completion_tokens": 189
+  }
+ ],
+ "steps": 10,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed as received.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 0.4636179655790329,
+   "url": "http://127.0.0.1:43091/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.27336739003658295,
+   "url": "http://127.0.0.1:43091/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.31555257737636566,
+   "url": "http://127.0.0.1:43091/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3141537308692932,
+   "url": "http://127.0.0.1:43091/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.28146617114543915,
+   "url": "http://127.0.0.1:43091/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.29229186475276947,
+   "url": "http://127.0.0.1:43091/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.16846135258674622,
+   "url": "http://127.0.0.1:43091/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5826411545276642,
+   "url": "http://127.0.0.1:43091/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.6089007258415222,
+   "url": "http://127.0.0.1:43091/fresh1_14",
+   "goal": ""
+  }
+ ]
+}

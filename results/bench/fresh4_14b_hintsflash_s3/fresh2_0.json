@@ -1,0 +1,50 @@
+{
+ "form": "fresh2_0",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 17.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {
+   "f0": "Jordan"
+  },
+  "extra": {
+   "f4": "Applicant: Jordan Avery Reed"
+  },
+  "missing_consent": [],
+  "popup_choice": "Rifiuta",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 1282,
+   "completion_tokens": 50
+  },
+  {
+   "seconds": 7.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 1242,
+   "completion_tokens": 311
+  },
+  {
+   "seconds": 1.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 1341,
+   "completion_tokens": 66
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

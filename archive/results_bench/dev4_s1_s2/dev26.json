@@ -1,0 +1,77 @@
+{
+ "form": "dev26",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 20.5,
+ "score": {
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Refuser",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 6120,
+   "completion_tokens": 182
+  },
+  {
+   "seconds": 4.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 6028,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 5.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 6125,
+   "completion_tokens": 209
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 47.56171442568302,
+   "url": "http://127.0.0.1:33929/dev26",
+   "goal": "Close the pop-up with 'Refuser'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 72.53681495785713,
+   "url": "http://127.0.0.1:33929/dev26",
+   "goal": "Filled 1 field(s) from the document. Still empty, so check each against the document before submitting: Họ và tên; Email (Để nhận mail mời tham gia lớp học)."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 74.16275702416897,
+   "url": "http://127.0.0.1:33929/dev26",
+   "goal": ""
+  },
+  {
+   "kind": "form",
+   "milliseconds": 80.41089586913586,
+   "url": "http://127.0.0.1:33929/dev26",
+   "goal": "Submit with 'Gửi'"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.18354691565036774,
+   "url": "http://127.0.0.1:33929/dev26",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.18808618187904358,
+   "url": "http://127.0.0.1:33929/dev26",
+   "goal": ""
+  }
+ ]
+}

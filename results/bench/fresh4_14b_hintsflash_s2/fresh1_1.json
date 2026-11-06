@@ -1,0 +1,212 @@
+{
+ "form": "fresh1_1",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 194.3,
+ "score": {
+  "blocked": [
+   "Subdivision *",
+   "Emergency Contact Name *",
+   "Emergency Contact Number *",
+   "What volunteer opportunities interest you? *",
+   "Please list any previous volunteer experience you have *",
+   "Do you have any special skills or training? *",
+   "Please explain your level of proficiency (Native/Fluent, Advanced, Intermediate or Basic) *",
+   "What is your purpose for volunteering? *",
+   "Do you have any restrictions or limitations for service? (i.e., health concerns, allergies, etc.) *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "Please provide details below *",
+   "Please provide details below *",
+   "Please provide details below *"
+  ],
+  "unclear": [
+   "First Name *",
+   "Last Name *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 9,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null,
+   "f9": null,
+   "f10": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 13.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 1959,
+   "completion_tokens": 541
+  },
+  {
+   "seconds": 5.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 1964,
+   "completion_tokens": 229
+  },
+  {
+   "seconds": 5.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 2112,
+   "completion_tokens": 231
+  },
+  {
+   "seconds": 4.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 2190,
+   "completion_tokens": 192
+  },
+  {
+   "seconds": 7.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 2361,
+   "completion_tokens": 293
+  },
+  {
+   "seconds": 5.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 2420,
+   "completion_tokens": 202
+  },
+  {
+   "seconds": 6.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 2552,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 5.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 2687,
+   "completion_tokens": 212
+  },
+  {
+   "seconds": 7.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 2819,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 6.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 2913,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 5.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 3045,
+   "completion_tokens": 231
+  },
+  {
+   "seconds": 5.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 3180,
+   "completion_tokens": 202
+  },
+  {
+   "seconds": 6.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 3312,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 5.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 3392,
+   "completion_tokens": 202
+  },
+  {
+   "seconds": 5.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 3510,
+   "completion_tokens": 219
+  },
+  {
+   "seconds": 7.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 3646,
+   "completion_tokens": 302
+  },
+  {
+   "seconds": 5.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 3764,
+   "completion_tokens": 222
+  },
+  {
+   "seconds": 5.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 3858,
+   "completion_tokens": 212
+  },
+  {
+   "seconds": 7.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 4057,
+   "completion_tokens": 286
+  },
+  {
+   "seconds": 9.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 4149,
+   "completion_tokens": 381
+  },
+  {
+   "seconds": 5.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 4360,
+   "completion_tokens": 202
+  },
+  {
+   "seconds": 10.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 4425,
+   "completion_tokens": 413
+  },
+  {
+   "seconds": 8.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 4484,
+   "completion_tokens": 318
+  },
+  {
+   "seconds": 3.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 5440,
+   "completion_tokens": 119
+  },
+  {
+   "seconds": 3.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 5545,
+   "completion_tokens": 114
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Form partially filled and submitted. Many required fields remain unfilled due to lack of corresponding values in the document.",
+ "fast": []
+}

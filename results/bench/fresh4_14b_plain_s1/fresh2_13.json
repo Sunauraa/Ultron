@@ -1,0 +1,85 @@
+{
+ "form": "fresh2_13",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 61.3,
+ "score": {
+  "blocked": [
+   "Comments-Question *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 6,
+  "wrong": {
+   "f1": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 5963,
+   "completion_tokens": 150
+  },
+  {
+   "seconds": 7.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 6115,
+   "completion_tokens": 283
+  },
+  {
+   "seconds": 6.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 6201,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 6.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 6294,
+   "completion_tokens": 263
+  },
+  {
+   "seconds": 7.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 6400,
+   "completion_tokens": 274
+  },
+  {
+   "seconds": 6.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 6511,
+   "completion_tokens": 239
+  },
+  {
+   "seconds": 6.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 6599,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 6.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 6772,
+   "completion_tokens": 255
+  }
+ ],
+ "steps": 9,
+ "is_done": true,
+ "success": false,
+ "final": "The form submission was not successful because some required fields (City, ZIP Code, Comments-Question) are missing values from the provided document.",
+ "fast": []
+}

@@ -1,0 +1,212 @@
+{
+ "form": "fresh1_1",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 165.5,
+ "score": {
+  "blocked": [
+   "Subdivision *",
+   "Emergency Contact Name *",
+   "Emergency Contact Number *",
+   "What volunteer opportunities interest you? *",
+   "Please list any previous volunteer experience you have *",
+   "Do you have any special skills or training? *",
+   "Please explain your level of proficiency (Native/Fluent, Advanced, Intermediate or Basic) *",
+   "What is your purpose for volunteering? *",
+   "Do you have any restrictions or limitations for service? (i.e., health concerns, allergies, etc.) *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "Please provide details below *",
+   "Please provide details below *",
+   "Please provide details below *"
+  ],
+  "unclear": [
+   "First Name *",
+   "Last Name *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 9,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null,
+   "f9": null,
+   "f10": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 1957,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 5.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 2806,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 5.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 2944,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 5.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 3081,
+   "completion_tokens": 248
+  },
+  {
+   "seconds": 4.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 3247,
+   "completion_tokens": 192
+  },
+  {
+   "seconds": 5.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 3367,
+   "completion_tokens": 229
+  },
+  {
+   "seconds": 4.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 3481,
+   "completion_tokens": 194
+  },
+  {
+   "seconds": 3.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 3582,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 4.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 3688,
+   "completion_tokens": 218
+  },
+  {
+   "seconds": 7.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 3805,
+   "completion_tokens": 358
+  },
+  {
+   "seconds": 7.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 3948,
+   "completion_tokens": 374
+  },
+  {
+   "seconds": 7.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 4091,
+   "completion_tokens": 374
+  },
+  {
+   "seconds": 5.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 4283,
+   "completion_tokens": 229
+  },
+  {
+   "seconds": 7.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 4368,
+   "completion_tokens": 359
+  },
+  {
+   "seconds": 7.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 4511,
+   "completion_tokens": 359
+  },
+  {
+   "seconds": 9.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 4654,
+   "completion_tokens": 436
+  },
+  {
+   "seconds": 6.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 4794,
+   "completion_tokens": 303
+  },
+  {
+   "seconds": 4.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 4965,
+   "completion_tokens": 175
+  },
+  {
+   "seconds": 4.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 5150,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 4.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 5262,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 4.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 5386,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 4.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 5503,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 4.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 5620,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 4.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 5777,
+   "completion_tokens": 210
+  },
+  {
+   "seconds": 4.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 5917,
+   "completion_tokens": 195
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "The form could not be submitted because the following required fields are missing values: 'What volunteer opportunities interest you?', 'Please list any previous volunteer experience you have', and 'Do you have any special skills or training?'. These fields are required and there is no information in the provided document to fill them.",
+ "fast": []
+}

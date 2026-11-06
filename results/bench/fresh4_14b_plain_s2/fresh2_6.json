@@ -1,0 +1,155 @@
+{
+ "form": "fresh2_6",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 177.8,
+ "score": {
+  "blocked": [
+   "Closest Main Intersection:*",
+   "Occupation*",
+   "Why do you want to volunteer with us?*",
+   "Please briefly outline your pet owning history*",
+   "For how long are you looking to volunteer?*",
+   "How did you hear about Abbey Cat Adoptions?*"
+  ],
+  "unclear": [
+   "Full Home Address:*"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 3,
+  "wrong": {
+   "f0": null,
+   "f4": null,
+   "f5": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 10.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 6886,
+   "completion_tokens": 411
+  },
+  {
+   "seconds": 11.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 7225,
+   "completion_tokens": 424
+  },
+  {
+   "seconds": 7.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 7298,
+   "completion_tokens": 267
+  },
+  {
+   "seconds": 7.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 7242,
+   "completion_tokens": 288
+  },
+  {
+   "seconds": 7.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 7343,
+   "completion_tokens": 275
+  },
+  {
+   "seconds": 8.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 7621,
+   "completion_tokens": 301
+  },
+  {
+   "seconds": 7.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 7529,
+   "completion_tokens": 286
+  },
+  {
+   "seconds": 7.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 7638,
+   "completion_tokens": 286
+  },
+  {
+   "seconds": 9.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 7745,
+   "completion_tokens": 371
+  },
+  {
+   "seconds": 4.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 7824,
+   "completion_tokens": 153
+  },
+  {
+   "seconds": 3.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 7813,
+   "completion_tokens": 128
+  },
+  {
+   "seconds": 3.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 7844,
+   "completion_tokens": 141
+  },
+  {
+   "seconds": 4.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 7868,
+   "completion_tokens": 156
+  },
+  {
+   "seconds": 4.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 7924,
+   "completion_tokens": 157
+  },
+  {
+   "seconds": 3.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 8018,
+   "completion_tokens": 139
+  },
+  {
+   "seconds": 4.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 8070,
+   "completion_tokens": 176
+  },
+  {
+   "seconds": 4.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 8146,
+   "completion_tokens": 181
+  },
+  {
+   "seconds": 5.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 8212,
+   "completion_tokens": 184
+  },
+  {
+   "seconds": 7.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 8294,
+   "completion_tokens": 263
+  }
+ ],
+ "steps": 19,
+ "is_done": true,
+ "success": false,
+ "final": "The form was submitted successfully according to my actions, but no confirmation message has appeared on the page within the expected timeframe. Therefore, I am setting success to false as there is no explicit confirmation of receipt.",
+ "fast": []
+}

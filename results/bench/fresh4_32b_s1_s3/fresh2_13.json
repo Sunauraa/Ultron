@@ -1,0 +1,62 @@
+{
+ "form": "fresh2_13",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 7.0,
+ "score": {
+  "blocked": [
+   "Comments-Question *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 6,
+  "wrong": {
+   "f1": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.24,
+   "format": "Answers",
+   "prompt_tokens": 252,
+   "completion_tokens": 65
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": false,
+ "final": "Nothing was sent. The form requires these and the document has no value for them: Comments-Question.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 48.161456361413,
+   "url": "http://127.0.0.1:45791/fresh2_13",
+   "goal": "Close the pop-up with 'ABLEHNEN'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1350.8844431489706,
+   "url": "http://127.0.0.1:45791/fresh2_13",
+   "goal": "Filled 7 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Comments-Question *. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "stop",
+   "milliseconds": 118.19856986403465,
+   "url": "http://127.0.0.1:45791/fresh2_13",
+   "goal": "Nothing was sent. The form requires these and the document has no value for them: Comments-Question."
+  }
+ ]
+}

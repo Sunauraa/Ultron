@@ -1,0 +1,120 @@
+{
+ "form": "test4",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "seconds": 112.6,
+ "score": {
+  "submitted": true,
+  "fields": 9,
+  "wrong": {
+   "f14": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "ÖSSZES ELUTASÍTÁSA",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 6120,
+   "completion_tokens": 145
+  },
+  {
+   "seconds": 9.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 6117,
+   "completion_tokens": 365
+  },
+  {
+   "seconds": 6.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 6304,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 6.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 6412,
+   "completion_tokens": 244
+  },
+  {
+   "seconds": 7.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 6504,
+   "completion_tokens": 271
+  },
+  {
+   "seconds": 7.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 6579,
+   "completion_tokens": 274
+  },
+  {
+   "seconds": 6.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 6666,
+   "completion_tokens": 263
+  },
+  {
+   "seconds": 7.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 6771,
+   "completion_tokens": 275
+  },
+  {
+   "seconds": 6.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 6888,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 6.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 6957,
+   "completion_tokens": 240
+  },
+  {
+   "seconds": 6.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 7034,
+   "completion_tokens": 238
+  },
+  {
+   "seconds": 6.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 7109,
+   "completion_tokens": 238
+  },
+  {
+   "seconds": 6.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 7184,
+   "completion_tokens": 238
+  },
+  {
+   "seconds": 6.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 7259,
+   "completion_tokens": 235
+  },
+  {
+   "seconds": 6.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 7372,
+   "completion_tokens": 257
+  },
+  {
+   "seconds": 4.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 7072,
+   "completion_tokens": 189
+  }
+ ],
+ "steps": 17,
+ "is_done": true,
+ "fast": []
+}

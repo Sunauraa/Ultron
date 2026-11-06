@@ -1,0 +1,85 @@
+{
+ "form": "test22",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 31.9,
+ "score": {
+  "submitted": true,
+  "fields": 6,
+  "wrong": {
+   "f3": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Reject All",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.9,
+   "format": "Answers",
+   "prompt_tokens": 396,
+   "completion_tokens": 117
+  },
+  {
+   "seconds": 6.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 7045,
+   "completion_tokens": 246
+  },
+  {
+   "seconds": 5.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 7199,
+   "completion_tokens": 192
+  },
+  {
+   "seconds": 3.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 6458,
+   "completion_tokens": 139
+  },
+  {
+   "seconds": 4.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 6489,
+   "completion_tokens": 162
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 23.960191756486893,
+   "url": "http://127.0.0.1:40017/test22",
+   "goal": "Close the pop-up with 'Reject All'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2897.565433755517,
+   "url": "http://127.0.0.1:40017/test22",
+   "goal": "Filled 5 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Số điện thoại sử dụng Zalo:; Link facebook của bạn:; - Đối với học sinh THPT: Cần bổ sung Bảng điểm hoặc Bằng TN THPT. - Đối với sinh viên/Người đi làm: Bằng TN THPT, Cao đẳng hoặc bằng Đại học. (Nộp file ảnh hoặc bản scan qua kênh online Zalo: 0868 952 535 - 0868 952 545 Mail: tuyensinh@cusc.ctu.edu.vn) Quét QR kết nối zalo gửi hồ sơ. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.6424002349376678,
+   "url": "http://127.0.0.1:40017/test22",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5942825227975845,
+   "url": "http://127.0.0.1:40017/test22",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.22139772772789001,
+   "url": "http://127.0.0.1:40017/test22",
+   "goal": ""
+  }
+ ]
+}

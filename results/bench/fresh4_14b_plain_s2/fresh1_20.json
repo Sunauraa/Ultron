@@ -1,0 +1,76 @@
+{
+ "form": "fresh1_20",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 61.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 6004,
+   "completion_tokens": 242
+  },
+  {
+   "seconds": 7.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 6182,
+   "completion_tokens": 291
+  },
+  {
+   "seconds": 7.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6308,
+   "completion_tokens": 271
+  },
+  {
+   "seconds": 7.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 6412,
+   "completion_tokens": 302
+  },
+  {
+   "seconds": 8.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 6550,
+   "completion_tokens": 335
+  },
+  {
+   "seconds": 5.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 6653,
+   "completion_tokens": 224
+  },
+  {
+   "seconds": 5.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 6715,
+   "completion_tokens": 225
+  },
+  {
+   "seconds": 5.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 6549,
+   "completion_tokens": 206
+  }
+ ],
+ "steps": 9,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted. Confirmation message: Thank you. Your form has been received and no further action is needed.",
+ "fast": []
+}

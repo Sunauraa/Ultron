@@ -1,0 +1,177 @@
+{
+ "form": "test10",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 184.5,
+ "score": {
+  "blocked": [
+   "Nội dung *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {
+   "f6": "Nơi học: Trường THPT Chu Văn An"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 1327,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 4.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 1492,
+   "completion_tokens": 175
+  },
+  {
+   "seconds": 2.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 1372,
+   "completion_tokens": 76
+  },
+  {
+   "seconds": 4.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 1382,
+   "completion_tokens": 146
+  },
+  {
+   "seconds": 3.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 1529,
+   "completion_tokens": 96
+  },
+  {
+   "seconds": 2.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 1626,
+   "completion_tokens": 95
+  },
+  {
+   "seconds": 4.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 1712,
+   "completion_tokens": 157
+  },
+  {
+   "seconds": 3.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 1807,
+   "completion_tokens": 122
+  },
+  {
+   "seconds": 3.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 1922,
+   "completion_tokens": 114
+  },
+  {
+   "seconds": 3.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 2028,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 3.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 2132,
+   "completion_tokens": 114
+  },
+  {
+   "seconds": 3.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 2237,
+   "completion_tokens": 114
+  },
+  {
+   "seconds": 3.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 2342,
+   "completion_tokens": 114
+  },
+  {
+   "seconds": 3.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 2448,
+   "completion_tokens": 114
+  },
+  {
+   "seconds": 3.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 2553,
+   "completion_tokens": 114
+  },
+  {
+   "seconds": 3.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 2658,
+   "completion_tokens": 115
+  },
+  {
+   "seconds": 3.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 2764,
+   "completion_tokens": 114
+  },
+  {
+   "seconds": 3.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 2869,
+   "completion_tokens": 115
+  },
+  {
+   "seconds": 3.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 3059,
+   "completion_tokens": 115
+  },
+  {
+   "seconds": 3.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 3164,
+   "completion_tokens": 114
+  },
+  {
+   "seconds": 3.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 3269,
+   "completion_tokens": 114
+  },
+  {
+   "seconds": 3.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 3374,
+   "completion_tokens": 114
+  },
+  {
+   "seconds": 4.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 3479,
+   "completion_tokens": 148
+  },
+  {
+   "seconds": 4.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 3608,
+   "completion_tokens": 146
+  }
+ ],
+ "steps": 25,
+ "is_done": true,
+ "success": false,
+ "final": "Form submission was attempted but no confirmation message appeared as expected. Task cannot be completed within remaining steps.",
+ "fast": [],
+ "trap": ""
+}

@@ -1,0 +1,50 @@
+{
+ "form": "fresh1_5",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 19.0,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f6": null
+  },
+  "extra": {
+   "f5": "Công ty TNHH Minh Long"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 1682,
+   "completion_tokens": 303
+  },
+  {
+   "seconds": 4.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 1863,
+   "completion_tokens": 246
+  },
+  {
+   "seconds": 2.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 1367,
+   "completion_tokens": 102
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

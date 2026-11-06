@@ -1,0 +1,32 @@
+{
+ "when": "2026-11-05 09:20:43",
+ "split": "fresh",
+ "form_gate": 0.9,
+ "dialog_gate": 0.6,
+ "finish": true,
+ "seeds": [
+  1,
+  2,
+  3
+ ],
+ "arms": [
+  "plain",
+  "ultron",
+  "ultron without forms model"
+ ],
+ "primary_metric": "Handled correctly",
+ "note": "Replaces LOCK_fresh.json. That run was stopped after the user asked for a better result; its partial results (fresh_plain_s1, fresh_s1_s1) were never read and predate required-field enforcement, so they are not used. Design changes since came from the used-up test split and hand-written safety cases only. Known unfixed: full dates in year fields.",
+ "sha": {
+  "ultron/fastpath.py": "b2a8444df52c30a5",
+  "experiments/bench/real_bench.py": "cf507d3629824267",
+  "experiments/bench/run_bench.py": "bda90c1a442ebe89",
+  "experiments/bench/bench_table.py": "d3bb279896c20c3c",
+  "data/forms/real/testset.json": "676b41b03bb5140c",
+  "data/forms/real/fresh/labels_batch1.json": "03fbffd4bc642beb",
+  "data/forms/real/fresh/labels_batch2.json": "0ed0ac4f9459fab0",
+  "models/ultron-forms-0.1/a/model.safetensors": "36a7b131159533e7",
+  "models/ultron-forms-0.1/b/model.safetensors": "346ea5a1c27a816f",
+  "models/ultron-dialogs-0.1/a/model.safetensors": "ff871dd902c3fe55",
+  "models/ultron-dialogs-0.1/b/model.safetensors": "109717522b5797b7"
+ }
+}

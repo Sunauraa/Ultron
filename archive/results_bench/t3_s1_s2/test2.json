@@ -1,0 +1,77 @@
+{
+ "form": "test2",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 23.3,
+ "score": {
+  "submitted": true,
+  "fields": 8,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept all",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.84,
+   "format": "Answers",
+   "prompt_tokens": 257,
+   "completion_tokens": 115
+  },
+  {
+   "seconds": 0.36,
+   "format": "Review",
+   "prompt_tokens": 1143,
+   "completion_tokens": 8
+  },
+  {
+   "seconds": 4.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 7169,
+   "completion_tokens": 157
+  },
+  {
+   "seconds": 3.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 6047,
+   "completion_tokens": 144
+  },
+  {
+   "seconds": 5.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 6078,
+   "completion_tokens": 200
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 48.793695867061615,
+   "url": "http://127.0.0.1:34637/test2",
+   "goal": "Close the pop-up with 'Accept all'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2982.6428052037954,
+   "url": "http://127.0.0.1:34637/test2",
+   "goal": "Filled 8 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Please leave your comments or questions below.. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 503.6449544131756,
+   "url": "http://127.0.0.1:34637/test2",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.098625361919403,
+   "url": "http://127.0.0.1:34637/test2",
+   "goal": ""
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "form": "test22",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 10.5,
+ "score": {
+  "blocked": [],
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Reject All",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.14,
+   "format": "Answers",
+   "prompt_tokens": 436,
+   "completion_tokens": 127
+  },
+  {
+   "seconds": 0.28,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.18,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 24.236585944890976,
+   "url": "http://127.0.0.1:35097/test22",
+   "goal": "Close the pop-up with 'Reject All'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 3337.0967153459787,
+   "url": "http://127.0.0.1:35097/test22",
+   "goal": "Filled 6 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Link facebook của bạn:; Tỉnh (bạn đang sinh sống); - Đối với học sinh THPT: Cần bổ sung Bảng điểm hoặc Bằng TN THPT. - Đối với sinh viên/Người đi làm: Bằng TN THPT, Cao đẳng hoặc bằng Đại học. (Nộp file ảnh hoặc bản scan qua kênh online Zalo: 0868 952 535 - 0868 952 545 Mail: tuyensinh@cusc.ctu.edu.vn) Quét QR kết nối zalo gửi hồ sơ; Bạn là; nhận thông báo từ CUSC cập nhật các thông tin bổ ích, mới nhất về các sự. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 482.4041407555342,
+   "url": "http://127.0.0.1:35097/test22",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 180.00981584191322,
+   "url": "http://127.0.0.1:35097/test22",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

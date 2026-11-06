@@ -1,0 +1,67 @@
+{
+ "form": "test2",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 3,
+ "seconds": 26.7,
+ "score": {
+  "submitted": true,
+  "fields": 8,
+  "wrong": {
+   "f7": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept all",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 7076,
+   "completion_tokens": 246
+  },
+  {
+   "seconds": 3.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 6004,
+   "completion_tokens": 153
+  },
+  {
+   "seconds": 4.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 6035,
+   "completion_tokens": 169
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 52.82837525010109,
+   "url": "http://127.0.0.1:39479/test2",
+   "goal": "Close the pop-up with 'Accept all'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 725.8980851620436,
+   "url": "http://127.0.0.1:39479/test2",
+   "goal": "Fill 7 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 660.1750385016203,
+   "url": "http://127.0.0.1:39479/test2",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5864092856645584,
+   "url": "http://127.0.0.1:39479/test2",
+   "goal": ""
+  }
+ ]
+}

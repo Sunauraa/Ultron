@@ -1,0 +1,94 @@
+{
+ "form": "fresh1_18",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 88.7,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 5,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 9.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 7050,
+   "completion_tokens": 349
+  },
+  {
+   "seconds": 8.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 7329,
+   "completion_tokens": 335
+  },
+  {
+   "seconds": 7.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 7406,
+   "completion_tokens": 282
+  },
+  {
+   "seconds": 7.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 7440,
+   "completion_tokens": 272
+  },
+  {
+   "seconds": 7.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 7554,
+   "completion_tokens": 266
+  },
+  {
+   "seconds": 7.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 7650,
+   "completion_tokens": 273
+  },
+  {
+   "seconds": 8.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 7753,
+   "completion_tokens": 301
+  },
+  {
+   "seconds": 8.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 7871,
+   "completion_tokens": 319
+  },
+  {
+   "seconds": 7.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 7971,
+   "completion_tokens": 274
+  },
+  {
+   "seconds": 5.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 7983,
+   "completion_tokens": 188
+  },
+  {
+   "seconds": 5.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 6773,
+   "completion_tokens": 223
+  }
+ ],
+ "steps": 12,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission was successful and a confirmation message was received indicating that no further action is needed.",
+ "fast": []
+}

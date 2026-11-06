@@ -1,0 +1,65 @@
+{
+ "form": "test12",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 17.7,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Aceptar todas",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.93,
+   "format": "Answers",
+   "prompt_tokens": 269,
+   "completion_tokens": 78
+  },
+  {
+   "seconds": 4.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 6129,
+   "completion_tokens": 183
+  },
+  {
+   "seconds": 5.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 6042,
+   "completion_tokens": 202
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 25.49765445291996,
+   "url": "http://127.0.0.1:40017/test12",
+   "goal": "Close the pop-up with 'Aceptar todas'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1935.2546073496342,
+   "url": "http://127.0.0.1:40017/test12",
+   "goal": "Filled 5 field(s) from the document. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.28292834758758545,
+   "url": "http://127.0.0.1:40017/test12",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.20177103579044342,
+   "url": "http://127.0.0.1:40017/test12",
+   "goal": ""
+  }
+ ]
+}

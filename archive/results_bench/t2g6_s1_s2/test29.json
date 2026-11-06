@@ -1,0 +1,112 @@
+{
+ "form": "test29",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 51.8,
+ "score": {
+  "submitted": true,
+  "fields": 2,
+  "wrong": {},
+  "extra": {
+   "f1": "21/06/1995",
+   "f6": "001195004567",
+   "f7": "ha.pham@example.com",
+   "f9": "45 Trần Phú, Ba Đình"
+  },
+  "missing_consent": [],
+  "popup_choice": "Accept essential cookies only",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 5881,
+   "completion_tokens": 147
+  },
+  {
+   "seconds": 1.79,
+   "format": "Answers",
+   "prompt_tokens": 290,
+   "completion_tokens": 72
+  },
+  {
+   "seconds": 7.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 6641,
+   "completion_tokens": 294
+  },
+  {
+   "seconds": 9.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 6733,
+   "completion_tokens": 382
+  },
+  {
+   "seconds": 6.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 6951,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 5.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 7046,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 5.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 6577,
+   "completion_tokens": 196
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 48.22464846074581,
+   "url": "http://127.0.0.1:45719/test29",
+   "goal": ""
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1934.729853644967,
+   "url": "http://127.0.0.1:45719/test29",
+   "goal": "Filled 3 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Bạn biết khóa học này từ đâu? (Ví dụ: từ web nào, từ fanpage nào, từ group nào, từ email nào, từ quảng cáo...); Bạn muốn đạt được gì khi tham gia khóa học này?; Ghi chú. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 141.20079390704632,
+   "url": "http://127.0.0.1:45719/test29",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 142.24962517619133,
+   "url": "http://127.0.0.1:45719/test29",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 149.72171187400818,
+   "url": "http://127.0.0.1:45719/test29",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 149.61177855730057,
+   "url": "http://127.0.0.1:45719/test29",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.17977692186832428,
+   "url": "http://127.0.0.1:45719/test29",
+   "goal": ""
+  }
+ ]
+}

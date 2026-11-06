@@ -1,0 +1,71 @@
+{
+ "form": "test3",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 21.3,
+ "score": {
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Endast nödvändiga",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.17,
+   "format": "Answers",
+   "prompt_tokens": 253,
+   "completion_tokens": 88
+  },
+  {
+   "seconds": 0.3,
+   "format": "Review",
+   "prompt_tokens": 679,
+   "completion_tokens": 8
+  },
+  {
+   "seconds": 5.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 6494,
+   "completion_tokens": 199
+  },
+  {
+   "seconds": 5.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 6039,
+   "completion_tokens": 208
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 46.19557596743107,
+   "url": "http://127.0.0.1:37711/test3",
+   "goal": "Close the pop-up with 'Endast nödvändiga'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2266.598777845502,
+   "url": "http://127.0.0.1:37711/test3",
+   "goal": "Filled 7 field(s) from the document. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 406.77690878510475,
+   "url": "http://127.0.0.1:37711/test3",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.19067153334617615,
+   "url": "http://127.0.0.1:37711/test3",
+   "goal": ""
+  }
+ ]
+}

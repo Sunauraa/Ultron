@@ -1,0 +1,90 @@
+{
+ "form": "dev19",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 2,
+ "seconds": 118.1,
+ "score": {
+  "submitted": true,
+  "fields": 8,
+  "wrong": {
+   "f6": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Zavřít",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 6067,
+   "completion_tokens": 128
+  },
+  {
+   "seconds": 10.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 7669,
+   "completion_tokens": 393
+  },
+  {
+   "seconds": 11.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 7981,
+   "completion_tokens": 436
+  },
+  {
+   "seconds": 12.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 8123,
+   "completion_tokens": 459
+  },
+  {
+   "seconds": 11.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 8254,
+   "completion_tokens": 447
+  },
+  {
+   "seconds": 11.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 8366,
+   "completion_tokens": 428
+  },
+  {
+   "seconds": 11.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 8447,
+   "completion_tokens": 423
+  },
+  {
+   "seconds": 11.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 8544,
+   "completion_tokens": 443
+  },
+  {
+   "seconds": 12.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 8649,
+   "completion_tokens": 464
+  },
+  {
+   "seconds": 8.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 8750,
+   "completion_tokens": 316
+  },
+  {
+   "seconds": 5.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 6782,
+   "completion_tokens": 207
+  }
+ ],
+ "steps": 12,
+ "is_done": true,
+ "fast": []
+}

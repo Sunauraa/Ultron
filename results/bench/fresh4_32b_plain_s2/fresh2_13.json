@@ -1,0 +1,55 @@
+{
+ "form": "fresh2_13",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 23.2,
+ "score": {
+  "blocked": [
+   "Comments-Question *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 6,
+  "wrong": {
+   "f1": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 5961,
+   "completion_tokens": 193
+  },
+  {
+   "seconds": 8.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 6116,
+   "completion_tokens": 428
+  },
+  {
+   "seconds": 5.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 6227,
+   "completion_tokens": 282
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": false,
+ "final": "The form could not be submitted because a required Email field is missing from the provided document.",
+ "fast": []
+}

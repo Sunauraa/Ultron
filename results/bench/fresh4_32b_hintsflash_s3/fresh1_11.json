@@ -1,0 +1,63 @@
+{
+ "form": "fresh1_11",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 26.6,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f5": null,
+   "f6": null
+  },
+  "extra": {
+   "f4": "45 Trần Phú, Ba Đình"
+  },
+  "missing_consent": [],
+  "popup_choice": "Rechazar no necesarias",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 1227,
+   "completion_tokens": 79
+  },
+  {
+   "seconds": 4.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 1680,
+   "completion_tokens": 252
+  },
+  {
+   "seconds": 4.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 1798,
+   "completion_tokens": 242
+  },
+  {
+   "seconds": 4.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 1878,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 2.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 1468,
+   "completion_tokens": 131
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": true,
+ "final": "Form submitted successfully",
+ "fast": []
+}

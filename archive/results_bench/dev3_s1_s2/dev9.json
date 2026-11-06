@@ -1,0 +1,98 @@
+{
+ "form": "dev9",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 39.1,
+ "score": {
+  "submitted": true,
+  "fields": 11,
+  "wrong": {
+   "f1": null,
+   "f5": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "DENY",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 7426,
+   "completion_tokens": 223
+  },
+  {
+   "seconds": 4.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 7527,
+   "completion_tokens": 166
+  },
+  {
+   "seconds": 6.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 7587,
+   "completion_tokens": 234
+  },
+  {
+   "seconds": 4.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 7722,
+   "completion_tokens": 181
+  },
+  {
+   "seconds": 4.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 6248,
+   "completion_tokens": 188
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 40.66619277000427,
+   "url": "http://127.0.0.1:39453/dev9",
+   "goal": "Close the pop-up with 'DENY'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 851.6451232135296,
+   "url": "http://127.0.0.1:39453/dev9",
+   "goal": "Fill 7 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 831.1132453382015,
+   "url": "http://127.0.0.1:39453/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 840.1365857571363,
+   "url": "http://127.0.0.1:39453/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 832.5109798461199,
+   "url": "http://127.0.0.1:39453/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 808.077247813344,
+   "url": "http://127.0.0.1:39453/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 2.4211760610342026,
+   "url": "http://127.0.0.1:39453/dev9",
+   "goal": ""
+  }
+ ]
+}

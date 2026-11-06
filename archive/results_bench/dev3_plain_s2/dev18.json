@@ -1,0 +1,84 @@
+{
+ "form": "dev18",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 2,
+ "seconds": 80.7,
+ "score": {
+  "submitted": true,
+  "fields": 6,
+  "wrong": {},
+  "extra": {
+   "f23": "Việc làm trong tỉnh Kiên Giang"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 6845,
+   "completion_tokens": 320
+  },
+  {
+   "seconds": 8.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 7092,
+   "completion_tokens": 341
+  },
+  {
+   "seconds": 7.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 7185,
+   "completion_tokens": 282
+  },
+  {
+   "seconds": 7.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 7234,
+   "completion_tokens": 302
+  },
+  {
+   "seconds": 7.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 7382,
+   "completion_tokens": 280
+  },
+  {
+   "seconds": 8.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 7454,
+   "completion_tokens": 326
+  },
+  {
+   "seconds": 8.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 7851,
+   "completion_tokens": 321
+  },
+  {
+   "seconds": 4.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 7784,
+   "completion_tokens": 161
+  },
+  {
+   "seconds": 5.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 7859,
+   "completion_tokens": 188
+  },
+  {
+   "seconds": 4.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 6779,
+   "completion_tokens": 184
+  }
+ ],
+ "steps": 11,
+ "is_done": true,
+ "fast": []
+}

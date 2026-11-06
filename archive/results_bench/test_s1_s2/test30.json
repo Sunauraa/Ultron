@@ -1,0 +1,115 @@
+{
+ "form": "test30",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 42.6,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f0": "001195004567"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 6132,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 5.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 6296,
+   "completion_tokens": 222
+  },
+  {
+   "seconds": 6.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 6390,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 5.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 6496,
+   "completion_tokens": 218
+  },
+  {
+   "seconds": 5.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 6594,
+   "completion_tokens": 226
+  },
+  {
+   "seconds": 5.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 6415,
+   "completion_tokens": 205
+  }
+ ],
+ "steps": 10,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 47.353893518447876,
+   "url": "http://127.0.0.1:46175/test30",
+   "goal": "Close the pop-up with 'Accept'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 99.79583881795406,
+   "url": "http://127.0.0.1:46175/test30",
+   "goal": "Fill 1 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 100.00599548220634,
+   "url": "http://127.0.0.1:46175/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 104.19524274766445,
+   "url": "http://127.0.0.1:46175/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 103.44016924500465,
+   "url": "http://127.0.0.1:46175/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 105.1245704293251,
+   "url": "http://127.0.0.1:46175/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 106.56843706965446,
+   "url": "http://127.0.0.1:46175/test30",
+   "goal": ""
+  },
+  {
+   "kind": "form",
+   "milliseconds": 107.96976275742054,
+   "url": "http://127.0.0.1:46175/test30",
+   "goal": "Submit with 'Gửi'"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2507362514734268,
+   "url": "http://127.0.0.1:46175/test30",
+   "goal": ""
+  }
+ ]
+}

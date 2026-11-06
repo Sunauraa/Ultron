@@ -1,0 +1,73 @@
+{
+ "form": "dev9",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 30.2,
+ "score": {
+  "submitted": true,
+  "fields": 11,
+  "wrong": {
+   "f1": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "DENY",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 7545,
+   "completion_tokens": 305
+  },
+  {
+   "seconds": 3.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 7715,
+   "completion_tokens": 139
+  },
+  {
+   "seconds": 7.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 6210,
+   "completion_tokens": 289
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 38.19425590336323,
+   "url": "http://127.0.0.1:33929/dev9",
+   "goal": "Close the pop-up with 'DENY'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 904.2827636003494,
+   "url": "http://127.0.0.1:33929/dev9",
+   "goal": "Filled 7 field(s) from the document. Still empty, so check each against the document before submitting: Name: (First, middle, last) *; Phone / Cell Phone Number; City *; If yes, please provide the name of the organization; EMT Certification Number: (If applicable); First Name *; Last Name *."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 834.3785312026739,
+   "url": "http://127.0.0.1:33929/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 836.4623617380857,
+   "url": "http://127.0.0.1:33929/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.286923885345459,
+   "url": "http://127.0.0.1:33929/dev9",
+   "goal": ""
+  }
+ ]
+}

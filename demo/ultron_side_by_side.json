@@ -1,0 +1,43 @@
+{
+ "plain": {
+  "seconds": 22.068641545251012,
+  "calls": 4,
+  "fast": 0,
+  "score": {
+   "blocked": [],
+   "unclear": [],
+   "choices_answered": 1,
+   "submitted": true,
+   "fields": 8,
+   "wrong": {},
+   "extra": {},
+   "missing_consent": [],
+   "popup_choice": null,
+   "popup_ok": null,
+   "popup_trap": false
+  }
+ },
+ "s1": {
+  "seconds": 13.702792229130864,
+  "calls": 3,
+  "fast": 3,
+  "score": {
+   "blocked": [],
+   "unclear": [],
+   "choices_answered": 0,
+   "submitted": true,
+   "fields": 8,
+   "wrong": {},
+   "extra": {},
+   "missing_consent": [],
+   "popup_choice": null,
+   "popup_ok": null,
+   "popup_trap": false
+  }
+ },
+ "form": "fresh1_0",
+ "frames": {
+  "plain": 42,
+  "s1": 25
+ }
+}

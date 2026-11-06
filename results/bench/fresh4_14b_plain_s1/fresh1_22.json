@@ -1,0 +1,124 @@
+{
+ "form": "fresh1_22",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 115.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 5900,
+   "completion_tokens": 281
+  },
+  {
+   "seconds": 7.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 6058,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 5.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 6170,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 5.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 6134,
+   "completion_tokens": 219
+  },
+  {
+   "seconds": 5.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 6222,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 5.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 6278,
+   "completion_tokens": 232
+  },
+  {
+   "seconds": 8.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 6427,
+   "completion_tokens": 319
+  },
+  {
+   "seconds": 8.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 6575,
+   "completion_tokens": 327
+  },
+  {
+   "seconds": 8.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6730,
+   "completion_tokens": 310
+  },
+  {
+   "seconds": 9.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 6848,
+   "completion_tokens": 350
+  },
+  {
+   "seconds": 7.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 6981,
+   "completion_tokens": 308
+  },
+  {
+   "seconds": 8.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 7117,
+   "completion_tokens": 311
+  },
+  {
+   "seconds": 6.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 7262,
+   "completion_tokens": 253
+  },
+  {
+   "seconds": 1.07,
+   "format": null,
+   "prompt_tokens": 324,
+   "completion_tokens": 42
+  },
+  {
+   "seconds": 6.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 7376,
+   "completion_tokens": 242
+  },
+  {
+   "seconds": 8.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 7529,
+   "completion_tokens": 323
+  }
+ ],
+ "steps": 16,
+ "is_done": true,
+ "success": true,
+ "final": "Visited http://127.0.0.1:35659/fresh1_22 and filled in form fields for 'Họ tên', 'Email', and 'Điện thoại'. Left 'Nội dung' field empty as it was not provided in the document. No pop-ups or consent boxes detected. Form submission confirmed based on visible text content.",
+ "fast": []
+}

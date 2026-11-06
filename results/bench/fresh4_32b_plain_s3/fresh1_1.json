@@ -1,0 +1,104 @@
+{
+ "form": "fresh1_1",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 49.5,
+ "score": {
+  "blocked": [
+   "Subdivision *",
+   "Emergency Contact Name *",
+   "Emergency Contact Number *",
+   "What volunteer opportunities interest you? *",
+   "Please list any previous volunteer experience you have *",
+   "Do you have any special skills or training? *",
+   "Please explain your level of proficiency (Native/Fluent, Advanced, Intermediate or Basic) *",
+   "What is your purpose for volunteering? *",
+   "Do you have any restrictions or limitations for service? (i.e., health concerns, allergies, etc.) *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "First Name *",
+   "Last Name *",
+   "Phone *",
+   "Relationship *",
+   "Please provide details below *",
+   "Please provide details below *",
+   "Please provide details below *"
+  ],
+  "unclear": [
+   "First Name *",
+   "Last Name *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 9,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null,
+   "f9": null,
+   "f10": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 6676,
+   "completion_tokens": 283
+  },
+  {
+   "seconds": 4.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 7535,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 5.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 7586,
+   "completion_tokens": 238
+  },
+  {
+   "seconds": 6.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 7661,
+   "completion_tokens": 270
+  },
+  {
+   "seconds": 5.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 7761,
+   "completion_tokens": 257
+  },
+  {
+   "seconds": 6.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 7874,
+   "completion_tokens": 302
+  },
+  {
+   "seconds": 7.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 8018,
+   "completion_tokens": 349
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "success": false,
+ "final": "The form could not be completed because a required field ('Subdivision') is missing from the provided document.",
+ "fast": []
+}

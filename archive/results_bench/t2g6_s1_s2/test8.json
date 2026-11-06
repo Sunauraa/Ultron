@@ -1,0 +1,59 @@
+{
+ "form": "test8",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 18.5,
+ "score": {
+  "submitted": true,
+  "fields": 8,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.28,
+   "format": "Answers",
+   "prompt_tokens": 247,
+   "completion_tokens": 92
+  },
+  {
+   "seconds": 4.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 6939,
+   "completion_tokens": 165
+  },
+  {
+   "seconds": 5.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 6017,
+   "completion_tokens": 205
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 2764.760199934244,
+   "url": "http://127.0.0.1:45719/test8",
+   "goal": "Filled 8 field(s) from the document. Left empty because the document has no value for them, so do not fill these: * Supervisor District. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 521.6361470520496,
+   "url": "http://127.0.0.1:45719/test8",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5886500477790833,
+   "url": "http://127.0.0.1:45719/test8",
+   "goal": ""
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "form": "test2",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 9.3,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 8,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept all",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.21,
+   "format": "Answers",
+   "prompt_tokens": 275,
+   "completion_tokens": 119
+  },
+  {
+   "seconds": 0.18,
+   "format": "Review",
+   "prompt_tokens": 129,
+   "completion_tokens": 8
+  },
+  {
+   "seconds": 0.16,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 7
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 46.677447855472565,
+   "url": "http://127.0.0.1:36915/test2",
+   "goal": "Close the pop-up with 'Accept all'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2351.2041363865137,
+   "url": "http://127.0.0.1:36915/test2",
+   "goal": "Filled 8 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Please leave your comments or questions below.. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 320.8507690578699,
+   "url": "http://127.0.0.1:36915/test2",
+   "goal": "Sent the form with 'Submit'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 160.00206395983696,
+   "url": "http://127.0.0.1:36915/test2",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "form": "fresh1_15",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 26.0,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Manage preferences",
+  "popup_ok": false,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 5907,
+   "completion_tokens": 193
+  },
+  {
+   "seconds": 6.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 6126,
+   "completion_tokens": 316
+  },
+  {
+   "seconds": 5.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 6235,
+   "completion_tokens": 263
+  },
+  {
+   "seconds": 4.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 6090,
+   "completion_tokens": 232
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed by the page. Fields filled: Họ và tên: Phạm Thu Hà, Số điện thoại: 0934567890, Email: ha.pham@example.com.",
+ "fast": []
+}

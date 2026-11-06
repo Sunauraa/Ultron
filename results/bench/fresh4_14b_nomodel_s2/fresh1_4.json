@@ -1,0 +1,338 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 166.7,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 5968,
+   "completion_tokens": 177
+  },
+  {
+   "seconds": 5.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 5901,
+   "completion_tokens": 196
+  },
+  {
+   "seconds": 5.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 6231,
+   "completion_tokens": 213
+  },
+  {
+   "seconds": 5.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 6330,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 8.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 6734,
+   "completion_tokens": 340
+  },
+  {
+   "seconds": 4.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 7006,
+   "completion_tokens": 166
+  },
+  {
+   "seconds": 5.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 7054,
+   "completion_tokens": 217
+  },
+  {
+   "seconds": 6.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 7138,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 4.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 7247,
+   "completion_tokens": 171
+  },
+  {
+   "seconds": 5.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 7264,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 4.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 7343,
+   "completion_tokens": 182
+  },
+  {
+   "seconds": 4.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 7460,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 4.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 7541,
+   "completion_tokens": 159
+  },
+  {
+   "seconds": 4.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 7621,
+   "completion_tokens": 181
+  },
+  {
+   "seconds": 5.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 7747,
+   "completion_tokens": 193
+  },
+  {
+   "seconds": 5.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 7824,
+   "completion_tokens": 192
+  },
+  {
+   "seconds": 5.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 7911,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 5.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 8000,
+   "completion_tokens": 194
+  },
+  {
+   "seconds": 5.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 8170,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 5.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 8257,
+   "completion_tokens": 196
+  },
+  {
+   "seconds": 5.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 8335,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 5.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 8419,
+   "completion_tokens": 209
+  },
+  {
+   "seconds": 4.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 8496,
+   "completion_tokens": 183
+  },
+  {
+   "seconds": 5.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 8574,
+   "completion_tokens": 196
+  },
+  {
+   "seconds": 7.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 8672,
+   "completion_tokens": 267
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "I have navigated to the correct form page and filled in all required fields except for CAPTCHA. However, despite clicking the 'Submit' button multiple times, no confirmation message has appeared. Therefore, I am unable to confirm if the form was successfully submitted. Please check manually if needed.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 62.601685523986816,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.46264007687568665,
+   "url": "about:blank",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 58.675261214375496,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 58.03277529776096,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3075879067182541,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.42464397847652435,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.45572593808174133,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.4362408071756363,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.40319934487342834,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3521479666233063,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3990139812231064,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.4442669451236725,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.37428922951221466,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5373731255531311,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.42108073830604553,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.5741789937019348,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.4075337201356888,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.35005249083042145,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.33866800367832184,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 7.308494299650192,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.33489614725112915,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.423455610871315,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3590621054172516,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3596935421228409,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2886597067117691,
+   "url": "http://127.0.0.1:36705/fresh1_4",
+   "goal": ""
+  }
+ ]
+}

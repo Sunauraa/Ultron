@@ -1,0 +1,54 @@
+{
+ "form": "fresh1_10",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 19.1,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {
+   "f5": "45 Trần Phú, Ba Đình"
+  },
+  "missing_consent": [],
+  "popup_choice": "Хорошо",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 1145,
+   "completion_tokens": 59
+  },
+  {
+   "seconds": 5.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 1715,
+   "completion_tokens": 197
+  },
+  {
+   "seconds": 4.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 1854,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 1.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 1410,
+   "completion_tokens": 66
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "success",
+ "fast": []
+}

@@ -1,0 +1,103 @@
+{
+ "form": "test8",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 44.4,
+ "score": {
+  "submitted": true,
+  "fields": 8,
+  "wrong": {
+   "f3": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 6784,
+   "completion_tokens": 253
+  },
+  {
+   "seconds": 4.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 6875,
+   "completion_tokens": 179
+  },
+  {
+   "seconds": 5.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 6945,
+   "completion_tokens": 190
+  },
+  {
+   "seconds": 6.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 7042,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 5.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 7138,
+   "completion_tokens": 203
+  },
+  {
+   "seconds": 7.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 6220,
+   "completion_tokens": 287
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 498.7896643579006,
+   "url": "http://127.0.0.1:46175/test8",
+   "goal": "Fill 3 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 511.98263093829155,
+   "url": "http://127.0.0.1:46175/test8",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 519.0118309110403,
+   "url": "http://127.0.0.1:46175/test8",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 524.0435916930437,
+   "url": "http://127.0.0.1:46175/test8",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 507.88118690252304,
+   "url": "http://127.0.0.1:46175/test8",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 509.93275456130505,
+   "url": "http://127.0.0.1:46175/test8",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.8015950918197632,
+   "url": "http://127.0.0.1:46175/test8",
+   "goal": ""
+  }
+ ]
+}

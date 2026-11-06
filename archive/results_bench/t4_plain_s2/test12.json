@@ -1,0 +1,53 @@
+{
+ "form": "test12",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 2,
+ "seconds": 28.4,
+ "score": {
+  "blocked": [],
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f3": null,
+   "f4": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Aceptar todas",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 5857,
+   "completion_tokens": 140
+  },
+  {
+   "seconds": 6.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 6014,
+   "completion_tokens": 256
+  },
+  {
+   "seconds": 6.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 6126,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 5.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 6062,
+   "completion_tokens": 214
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission successful. Confirmation message received.",
+ "fast": []
+}

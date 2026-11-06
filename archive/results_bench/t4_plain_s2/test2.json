@@ -1,0 +1,85 @@
+{
+ "form": "test2",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "seconds": 64.4,
+ "score": {
+  "blocked": [],
+  "submitted": true,
+  "fields": 8,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept all",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 6125,
+   "completion_tokens": 175
+  },
+  {
+   "seconds": 8.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 7013,
+   "completion_tokens": 311
+  },
+  {
+   "seconds": 6.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 7084,
+   "completion_tokens": 231
+  },
+  {
+   "seconds": 5.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 7177,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 5.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 7248,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 5.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 7315,
+   "completion_tokens": 217
+  },
+  {
+   "seconds": 5.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 7394,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 5.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 7498,
+   "completion_tokens": 219
+  },
+  {
+   "seconds": 4.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 7611,
+   "completion_tokens": 179
+  },
+  {
+   "seconds": 5.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 6487,
+   "completion_tokens": 218
+  }
+ ],
+ "steps": 11,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission was successful. Confirmation message received: Thank you. Your form has been received and no further action is needed.",
+ "fast": []
+}

@@ -1,0 +1,46 @@
+{
+ "form": "fresh1_9",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 20.8,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "ÖSSZES ELUTASÍTÁSA",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 6173,
+   "completion_tokens": 202
+  },
+  {
+   "seconds": 6.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 6023,
+   "completion_tokens": 335
+  },
+  {
+   "seconds": 4.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 6032,
+   "completion_tokens": 226
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and received. All required fields were correctly filled according to the provided document.",
+ "fast": []
+}

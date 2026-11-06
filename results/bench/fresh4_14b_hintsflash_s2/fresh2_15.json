@@ -1,0 +1,48 @@
+{
+ "form": "fresh2_15",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 17.7,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 7,
+  "wrong": {
+   "f6": "Oregon"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 1305,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 3.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 1440,
+   "completion_tokens": 153
+  },
+  {
+   "seconds": 2.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 1300,
+   "completion_tokens": 103
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

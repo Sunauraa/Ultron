@@ -1,0 +1,55 @@
+{
+ "form": "fresh2_10",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 26.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 5,
+  "wrong": {
+   "f2": "(503) 555-0147",
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Stel je persoonlijke voorkeuren in",
+  "popup_ok": false,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 5969,
+   "completion_tokens": 181
+  },
+  {
+   "seconds": 7.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 6125,
+   "completion_tokens": 380
+  },
+  {
+   "seconds": 4.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 6281,
+   "completion_tokens": 238
+  },
+  {
+   "seconds": 4.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 6093,
+   "completion_tokens": 206
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully filled and submitted. The page confirms receipt.",
+ "fast": []
+}

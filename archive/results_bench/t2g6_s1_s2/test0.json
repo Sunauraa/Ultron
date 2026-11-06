@@ -1,0 +1,59 @@
+{
+ "form": "test0",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 17.7,
+ "score": {
+  "submitted": true,
+  "fields": 5,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.92,
+   "format": "Answers",
+   "prompt_tokens": 281,
+   "completion_tokens": 115
+  },
+  {
+   "seconds": 4.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 6300,
+   "completion_tokens": 163
+  },
+  {
+   "seconds": 4.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 6069,
+   "completion_tokens": 189
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 3109.9860686808825,
+   "url": "http://127.0.0.1:45719/test0",
+   "goal": "Filled 6 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Title (Mr/Mrs/Ms/Miss/Other) *; Telephone (Work); Mobile; If this application is being made on behalf of an Organisation, please state name of Organisation.. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 173.77767711877823,
+   "url": "http://127.0.0.1:45719/test0",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.3168919831514359,
+   "url": "http://127.0.0.1:45719/test0",
+   "goal": ""
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "form": "test6",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 51.5,
+ "score": {
+  "submitted": true,
+  "fields": 8,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept all",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.84,
+   "format": "Answers",
+   "prompt_tokens": 263,
+   "completion_tokens": 115
+  },
+  {
+   "seconds": 10.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 6530,
+   "completion_tokens": 403
+  },
+  {
+   "seconds": 7.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 6666,
+   "completion_tokens": 290
+  },
+  {
+   "seconds": 7.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 7228,
+   "completion_tokens": 268
+  },
+  {
+   "seconds": 4.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 6948,
+   "completion_tokens": 159
+  },
+  {
+   "seconds": 4.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 6476,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 5.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 6548,
+   "completion_tokens": 206
+  }
+ ],
+ "steps": 9,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 46.39914631843567,
+   "url": "http://127.0.0.1:38253/test6",
+   "goal": "Close the pop-up with 'Accept all'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 3086.93315833807,
+   "url": "http://127.0.0.1:38253/test6",
+   "goal": "Filled 8 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Middle Inital; Unit Number:; Responsible Adult's Name:. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 245.89624255895615,
+   "url": "http://127.0.0.1:38253/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 241.1463037133217,
+   "url": "http://127.0.0.1:38253/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 244.17727626860142,
+   "url": "http://127.0.0.1:38253/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 245.63279189169407,
+   "url": "http://127.0.0.1:38253/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.15805475413799286,
+   "url": "http://127.0.0.1:38253/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.3301651924848557,
+   "url": "http://127.0.0.1:38253/test6",
+   "goal": ""
+  }
+ ]
+}

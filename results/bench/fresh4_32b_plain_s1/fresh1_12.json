@@ -1,0 +1,51 @@
+{
+ "form": "fresh1_12",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 21.9,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 5898,
+   "completion_tokens": 171
+  },
+  {
+   "seconds": 7.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 6022,
+   "completion_tokens": 364
+  },
+  {
+   "seconds": 6.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 6160,
+   "completion_tokens": 313
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": false,
+ "final": "Could not complete the task as there is a missing required field: 'Workshop bạn muốn đăng ký'. Other fields were filled as per the provided document.",
+ "fast": []
+}

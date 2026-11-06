@@ -1,0 +1,54 @@
+{
+ "form": "fresh2_14",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 8.9,
+ "score": {
+  "blocked": [
+   "Message *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.55,
+   "format": "Answers",
+   "prompt_tokens": 423,
+   "completion_tokens": 144
+  }
+ ],
+ "steps": 3,
+ "is_done": true,
+ "success": false,
+ "final": "Nothing was sent. The form requires these and the document has no value for them: Message.",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 4069.883232936263,
+   "url": "http://127.0.0.1:45329/fresh2_14",
+   "goal": "Filled 5 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Message *; f5; f6; f7; f8; f9; f10; f11; f12; f13; f14; f15; f16; f17; f18; f19; f20; f21; f22; f23; f24; f25; f26; f27; f28; f29; f30. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "stop",
+   "milliseconds": 565.7200030982494,
+   "url": "http://127.0.0.1:45329/fresh2_14",
+   "goal": "Nothing was sent. The form requires these and the document has no value for them: Message."
+  }
+ ]
+}

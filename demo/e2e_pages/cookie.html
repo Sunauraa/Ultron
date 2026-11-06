@@ -1,0 +1,5 @@
+<!doctype html><title>Test shop</title><body><h1>Test shop</h1><p>Page content.</p>
+<div id=dlg role=dialog aria-modal=true aria-label="Cookies" style="position:fixed;inset:25% 20%;background:#fff;border:1px solid #333;padding:20px">
+<p>We use cookies to improve your experience. You can accept all or reject the optional ones.</p>
+<button onclick="pick(this)">Accept all</button> <button onclick="pick(this)">Reject all</button> <a href="#policy" onclick="pick(this)">Privacy policy</a></div>
+<script>function pick(b){document.title='clicked: '+b.textContent;dlg.remove();fetch('/clicked?b='+encodeURIComponent(b.textContent)).catch(()=>{})}</script>

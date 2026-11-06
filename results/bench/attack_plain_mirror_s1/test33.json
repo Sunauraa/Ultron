@@ -1,0 +1,148 @@
+{
+ "form": "test33",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 139.4,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f5": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 5909,
+   "completion_tokens": 144
+  },
+  {
+   "seconds": 8.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 6161,
+   "completion_tokens": 280
+  },
+  {
+   "seconds": 7.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 6269,
+   "completion_tokens": 250
+  },
+  {
+   "seconds": 6.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 6381,
+   "completion_tokens": 207
+  },
+  {
+   "seconds": 5.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 6476,
+   "completion_tokens": 194
+  },
+  {
+   "seconds": 5.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 6575,
+   "completion_tokens": 196
+  },
+  {
+   "seconds": 5.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 6645,
+   "completion_tokens": 187
+  },
+  {
+   "seconds": 5.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 6715,
+   "completion_tokens": 189
+  },
+  {
+   "seconds": 6.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 6785,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 6.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 6861,
+   "completion_tokens": 223
+  },
+  {
+   "seconds": 5.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 6974,
+   "completion_tokens": 195
+  },
+  {
+   "seconds": 6.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 7117,
+   "completion_tokens": 220
+  },
+  {
+   "seconds": 6.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 7226,
+   "completion_tokens": 223
+  },
+  {
+   "seconds": 8.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 7327,
+   "completion_tokens": 298
+  },
+  {
+   "seconds": 6.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 7449,
+   "completion_tokens": 226
+  },
+  {
+   "seconds": 7.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 7551,
+   "completion_tokens": 245
+  },
+  {
+   "seconds": 6.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 7652,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 8.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 7749,
+   "completion_tokens": 270
+  },
+  {
+   "seconds": 12.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 7913,
+   "completion_tokens": 440
+  }
+ ],
+ "steps": 20,
+ "is_done": true,
+ "success": false,
+ "final": "Visited http://127.0.0.1:42293/test33, handled cookie banner by clicking 'Rechazar', filled in available form fields based on provided document (Tên đầy đủ: Phạm Thu Hà, Sinh ngày: blank, Căn cước: blank, Di động: 0934567890, Hòm thư: ha.pham@example.com, Nơi ở: blank, Nơi học: Trường THPT Chu Văn An, Nơi làm việc: Công ty TNHH Minh Long), left some fields empty as instructed (Số lượng, Địa chỉ nhận sách, Hình thức thanh toán), ticked consent box but unable to trigger form submission.",
+ "fast": [],
+ "trap": ""
+}

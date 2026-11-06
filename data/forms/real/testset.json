@@ -1,0 +1,2018 @@
+{
+ "documents": {
+  "en": {
+   "full_name": [
+    "Applicant",
+    "Jordan Avery Reed"
+   ],
+   "first": [
+    "Given name",
+    "Jordan"
+   ],
+   "last": [
+    "Family name",
+    "Reed"
+   ],
+   "dob": [
+    "Born",
+    "02/17/1990"
+   ],
+   "phone": [
+    "Contact number",
+    "503-555-0147"
+   ],
+   "email": [
+    "E-mail address",
+    "jordan.reed@example.com"
+   ],
+   "address": [
+    "Residence",
+    "742 Cedar Lane"
+   ],
+   "city": [
+    "Municipality",
+    "Portland"
+   ],
+   "state": [
+    "Province or state",
+    "Oregon"
+   ],
+   "zip": [
+    "Postcode",
+    "97201"
+   ]
+  },
+  "vi": {
+   "full_name": [
+    "Tên đầy đủ",
+    "Phạm Thu Hà"
+   ],
+   "dob": [
+    "Sinh ngày",
+    "21/06/1995"
+   ],
+   "id": [
+    "Căn cước",
+    "001195004567"
+   ],
+   "phone": [
+    "Di động",
+    "0934567890"
+   ],
+   "email": [
+    "Hòm thư",
+    "ha.pham@example.com"
+   ],
+   "address": [
+    "Nơi ở",
+    "45 Trần Phú, Ba Đình"
+   ],
+   "school": [
+    "Nơi học",
+    "Trường THPT Chu Văn An"
+   ],
+   "company": [
+    "Nơi làm việc",
+    "Công ty TNHH Minh Long"
+   ]
+  }
+ },
+ "forms": [
+  {
+   "url": "https://apps.gedling.gov.uk/forms/default.aspx?formid=20",
+   "lang": "en",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Title (Mr/Mrs/Ms/Miss/Other) *",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Forename *",
+     "concept": "first"
+    },
+    {
+     "role": "Edit",
+     "label": "Surname *",
+     "concept": "last"
+    },
+    {
+     "role": "Edit",
+     "label": "Address *",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "Post Code *",
+     "concept": "zip"
+    },
+    {
+     "role": "Edit",
+     "label": "Telephone (Home)",
+     "concept": "phone",
+     "optional": true
+    },
+    {
+     "role": "Edit",
+     "label": "Telephone (Work)",
+     "concept": "phone",
+     "optional": true
+    },
+    {
+     "role": "Edit",
+     "label": "Mobile",
+     "concept": "phone",
+     "optional": true
+    },
+    {
+     "role": "Edit",
+     "label": "E-mail",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "If this application is being made on behalf of an Organisation, please s",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Next",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://www.chesapeakebeachmd.gov/FormCenter/Public-Information-Requests-6/Public-Information-Requests-48",
+   "lang": "en",
+   "split": "dev",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "First Name *",
+     "concept": "first"
+    },
+    {
+     "role": "Edit",
+     "label": "Last Name *",
+     "concept": "last"
+    },
+    {
+     "role": "Edit",
+     "label": "Address *",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "City",
+     "concept": "city"
+    },
+    {
+     "role": "Edit",
+     "label": "State",
+     "concept": "state"
+    },
+    {
+     "role": "Edit",
+     "label": "Zip Code",
+     "concept": "zip"
+    },
+    {
+     "role": "Edit",
+     "label": "Email *",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Area Code *",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Phone Number *",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Specific document or record you are seeking *",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "If you are seeking to view a Public Disclosure Form, please enter the el",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Email address",
+     "concept": "email"
+    },
+    {
+     "role": "Button",
+     "label": "Submit",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://www.eaglepasstx.gov/formcenter/Info-Tech-10/Contact-Us-Form-56",
+   "lang": "en",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "First Name *",
+     "concept": "first"
+    },
+    {
+     "role": "Edit",
+     "label": "Last Name *",
+     "concept": "last"
+    },
+    {
+     "role": "Edit",
+     "label": "Address *",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "City *",
+     "concept": "city"
+    },
+    {
+     "role": "Edit",
+     "label": "State *",
+     "concept": "state"
+    },
+    {
+     "role": "Edit",
+     "label": "Zip *",
+     "concept": "zip"
+    },
+    {
+     "role": "Edit",
+     "label": "Phone Number *",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Email Address *",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Please leave your comments or questions below.",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Submit",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://darlington.gov.uk/forms/asc-get-involved-form",
+   "lang": "en",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Forename *",
+     "concept": "first"
+    },
+    {
+     "role": "Edit",
+     "label": "Surname *",
+     "concept": "last"
+    },
+    {
+     "role": "Edit",
+     "label": "House number or house name *",
+     "concept": null,
+     "optional": true
+    },
+    {
+     "role": "Edit",
+     "label": "Street name *",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "What town do you live in? *",
+     "concept": "city"
+    },
+    {
+     "role": "Edit",
+     "label": "Telephone number",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Email address",
+     "concept": "email"
+    },
+    {
+     "role": "CheckBox",
+     "label": "Consent for storing submitted data *",
+     "action": "check"
+    },
+    {
+     "role": "Button",
+     "label": "Submit",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://www.piercecountywa.gov/FormCenter/Planning-Public-Works-13/Contact-Us-191",
+   "lang": "en",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "First Name *",
+     "concept": "first"
+    },
+    {
+     "role": "Edit",
+     "label": "Last Name *",
+     "concept": "last"
+    },
+    {
+     "role": "Edit",
+     "label": "Address1",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "Address2",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "City",
+     "concept": "city"
+    },
+    {
+     "role": "Edit",
+     "label": "State",
+     "concept": "state"
+    },
+    {
+     "role": "Edit",
+     "label": "Zip",
+     "concept": "zip"
+    },
+    {
+     "role": "Edit",
+     "label": "Phone Number *",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Email Address *",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Please enter your question / comment in the space provided below, provid",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Email address",
+     "concept": "email"
+    },
+    {
+     "role": "Button",
+     "label": "Submit",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://stillwaterok.gov/FormCenter/Library-9/Adult-Library-Card-Application-18-73",
+   "lang": "en",
+   "split": "dev",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "First Name *",
+     "concept": "first"
+    },
+    {
+     "role": "Edit",
+     "label": "Middle Name",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Last Name *",
+     "concept": "last"
+    },
+    {
+     "role": "Edit",
+     "label": "Driver's License # or Alt ID # *",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Date of Birth *",
+     "concept": "dob"
+    },
+    {
+     "role": "Edit",
+     "label": "Gender",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Phone Number *",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Email Address *",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Payne County/Stillwater Address *",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "Apartment #",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "City *",
+     "concept": "city"
+    },
+    {
+     "role": "Edit",
+     "label": "State *",
+     "concept": "state"
+    },
+    {
+     "role": "Edit",
+     "label": "Zip Code *",
+     "concept": "zip"
+    },
+    {
+     "role": "Edit",
+     "label": "If you do not live or own property in Payne County, please list your sch",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Permanent or Mailing Address",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "City",
+     "concept": "city"
+    },
+    {
+     "role": "Edit",
+     "label": "State",
+     "concept": "state"
+    },
+    {
+     "role": "Edit",
+     "label": "Zip Code",
+     "concept": "zip"
+    },
+    {
+     "role": "Edit",
+     "label": "E-Signature *",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Email address",
+     "concept": "email"
+    },
+    {
+     "role": "Button",
+     "label": "Submit",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://rmlib.libnet.info/online-library-card",
+   "lang": "en",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "New Cardholder's Last Name:",
+     "concept": "last"
+    },
+    {
+     "role": "Edit",
+     "label": "First Name",
+     "concept": "first"
+    },
+    {
+     "role": "Edit",
+     "label": "Middle Inital",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Your Home Address:",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "Unit Number:",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "City:",
+     "concept": "city"
+    },
+    {
+     "role": "Edit",
+     "label": "Zip Code:",
+     "concept": "zip"
+    },
+    {
+     "role": "Edit",
+     "label": "Date of Birth",
+     "concept": "dob"
+    },
+    {
+     "role": "Edit",
+     "label": "Responsible Adult's Name:",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Email Address:",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Phone Number:",
+     "concept": "phone"
+    },
+    {
+     "role": "Button",
+     "label": "Submit",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://douglascountynv.hosted.civiclive.com/GOVERNMENT/departments/human-resources/volunteer_for_douglas_county/volunteer_interest_form",
+   "lang": "en",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Full Legal Name",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Phone",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Email",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Volunteer Areas of Interest",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Submit",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://www.iowacountywi.gov/iowa-county-volunteer-prospect",
+   "lang": "en",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "* First Name",
+     "concept": "first"
+    },
+    {
+     "role": "Edit",
+     "label": "* Last Name",
+     "concept": "last"
+    },
+    {
+     "role": "Edit",
+     "label": "Address",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "* City",
+     "concept": "city"
+    },
+    {
+     "role": "Edit",
+     "label": "* State",
+     "concept": "state"
+    },
+    {
+     "role": "Edit",
+     "label": "* Zip Code",
+     "concept": "zip"
+    },
+    {
+     "role": "Edit",
+     "label": "* Supervisor District",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "* Phone",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "* Email Address",
+     "concept": "email"
+    },
+    {
+     "role": "Button",
+     "label": "Submit Form",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://shenandoahcountyva.gov/513/Shenandoah-County-Online-Volunteer-Appli",
+   "lang": "en",
+   "split": "dev",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Name: (First, middle, last) *",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Date of Birth",
+     "concept": "dob"
+    },
+    {
+     "role": "Edit",
+     "label": "Phone / Cell Phone Number",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Current Address *",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "City *",
+     "concept": "city"
+    },
+    {
+     "role": "Edit",
+     "label": "State *",
+     "concept": "state"
+    },
+    {
+     "role": "Edit",
+     "label": "Zip Code *",
+     "concept": "zip"
+    },
+    {
+     "role": "Edit",
+     "label": "Email",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "If yes, please provide the name of the organization",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "EMT Certification Number: (If applicable)",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "First Name *",
+     "concept": "first"
+    },
+    {
+     "role": "Edit",
+     "label": "Last Name *",
+     "concept": "last"
+    },
+    {
+     "role": "Edit",
+     "label": "Email address",
+     "concept": "email"
+    },
+    {
+     "role": "Button",
+     "label": "Submit",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://www.pvcombank.com.vn/lien-he",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Họ và tên *",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Địa chỉ *",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "Điện thoại *",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Email *",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Chi nhánh",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Nội dung *",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi đi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://medlatec.vn/dat-lich-kham",
+   "lang": "vi",
+   "split": "dev",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Nhập họ và tên",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Nhập số điện thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Nhập email",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Nhập địa chỉ",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "Tôi cảm thấy...",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Tiếp theo",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://medlatec.vn/dat-lich-kham",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Nhập họ và tên",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Nhập số điện thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Nhập CMND / CCCD",
+     "concept": "id"
+    },
+    {
+     "role": "Edit",
+     "label": "Nhập địa chỉ",
+     "concept": "address"
+    },
+    {
+     "role": "Button",
+     "label": "Hoàn tất",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSd4PJjc5dSc6Tq3prq5Snr36nyak_rU1MBOtlxsfNXxdKmKsg/viewform",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Họ và tên:",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Năm sinh:",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Số CMND/CCCD/Hộ chiếu:",
+     "concept": "id"
+    },
+    {
+     "role": "Edit",
+     "label": "Số điện thoại:",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Email:",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Huyện đang thường trú:",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Xã đang thường trú:",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Địa chỉ cụ thể:",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "Chuyên ngành:",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Kinh nghiệm làm việc (nếu có):",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Vị trí ứng tuyển:",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Công ty muốn ứng tuyển:",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSe_DRyP4i80qM6MEvEbWKFHmioghajcnrs3W3jTkh_tL80ryg/viewform",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Họ và tên phụ huynh - Parent's name",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Số điện thoại - Phone number",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Địa chỉ email - Email address",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Họ và tên học sinh - Student's name",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Ngày sinh của học sinh - Student's DOB",
+     "concept": "dob"
+    },
+    {
+     "role": "Edit",
+     "label": "Tên trường học sinh theo học 5 năm gần nhất (điền \"Không\" nếu học sinh c",
+     "concept": "school"
+    },
+    {
+     "role": "Edit",
+     "label": "Câu hỏi dành cho nhà trường (nếu có) - Questions for Hanoi Academy (if a",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLScrYQsmtYekhprMmTzAJhCAM38lFCzYnSCdUhw0Z5EPOHzrQw/viewform",
+   "lang": "vi",
+   "split": "dev",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Họ và tên:",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Họ và tên (Bố/mẹ)",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Ngày tháng năm sinh",
+     "concept": "dob"
+    },
+    {
+     "role": "Edit",
+     "label": "Điện thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Địa chỉ:",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "Mã Thẻ Bảo Hiểm",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Thời gian đăng ký khám.",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Mô tả triệu chứng người bệnh:",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSezUMg98wRZqwLpcrknku0zmNQ3b_BcjPMsbsvAQDTpVHpOtQ/viewform",
+   "lang": "vi",
+   "split": "dev",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "1. Họ và tên",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "3. Năm sinh",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "4. Nơi cư trú trước khi vào học tại trường CĐTM",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "5. Địa chỉ liên hệ hiện nay",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "6. Số điện thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "7. Facebook",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "8. Email",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "9. Ngành tốt nghiệp",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "16. Tên cơ quan Anh/Chị đang làm việc",
+     "concept": "company"
+    },
+    {
+     "role": "Edit",
+     "label": "17. Địa chỉ cơ quan",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "31. Theo Anh/Chị để nâng cao chất lượng đào tạo của nhà trường cần:",
+     "concept": "school"
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSfWTE3z1adfU-uxPQirWihRKSuuzq5vzQhVvDCYrzVUg7wGFQ/viewform",
+   "lang": "vi",
+   "split": "dev",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Họ Tên",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Năm sinh",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Email",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Điện thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Địa chỉ",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "Chức Vụ, Nghề Nghiệp Hiện Tại",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Bạn có thể đặt câu hỏi với chúng tôi",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Xin bạn vui lòng giới thiệu vài địa chỉ Email của bạn bè cho chúng tôi",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/1-dDM35Tk4pmEwuaUDjsnkLoRC9jpqIKw-Z0_QLldevM/viewform",
+   "lang": "vi",
+   "split": "dev",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "HỌ VÀ TÊN",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "NGÀY SINH",
+     "concept": "dob"
+    },
+    {
+     "role": "Edit",
+     "label": "CHIỀU CAO",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "CÂN NẶNG",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Số CCCD",
+     "concept": "id"
+    },
+    {
+     "role": "Edit",
+     "label": "Ngày cấp",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Địa chỉ cụ thể",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "Điện thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "E-mail",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Bậc trình độ kỹ năng nghề (Nếu có)",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Ngoại ngữ",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Trình độ ngoại ngữ",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Tin học",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Trình độ tin học",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Kỹ năng mềm, công việc trước đây",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Vị trí xin việc",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSca9yPmWriu7ko1n3r1kQf5cMxs34fsLlhntdcPF_SvKrTavA/viewform",
+   "lang": "vi",
+   "split": "dev",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Họ và tên thí sinh",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Ngày, tháng, năm sinh",
+     "concept": "dob"
+    },
+    {
+     "role": "Edit",
+     "label": "Nơi sinh (Ghi tên tỉnh, thành phố nơi sinh)",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Số CMND/CCCD",
+     "concept": "id"
+    },
+    {
+     "role": "Edit",
+     "label": "Số điện thoại thí sinh thường xuyên sử dụng",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Số điện thoại sử dụng zalo",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Số điện thoại liên lạc Cha/Mẹ",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Địa chỉ email thí sinh thường xuyên sử dụng",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Năm tốt nghiệp THPT/TT GDTX-GDNN hoặc tương đương",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Ghi tên trường THPT/TT GDTX-GDNN đang học hoặc đã tốt nghiệp",
+     "concept": "school"
+    },
+    {
+     "role": "Edit",
+     "label": "Vui lòng copy Link Facebook hoặc số điện thoại Zalo cá nhân của thí sinh",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Địa chỉ nhận giấy báo trúng tuyển (thí sinh ghi rõ số nhà, đường, ấp, th",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "Câu hỏi thắc mắc: * Bạn muốn cần tư vấn gì thêm, vui lòng nhập câu hỏi t",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSf9ITMemUBPsnAfPkdRm5bm2RtmdmnkrwiJSfGeBRLFgKw2ZA/viewform",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Họ và tên",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Số CCCD",
+     "concept": "id"
+    },
+    {
+     "role": "Edit",
+     "label": "Ngày sinh",
+     "concept": "dob"
+    },
+    {
+     "role": "Edit",
+     "label": "Điện thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Điện thoại người thân",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "E-mail",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Địa chỉ liên lạc (Số nhà - Đường - Thôn - Xã - Huyện - Tỉnh)",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "Người giới thiệu (Nếu có)",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSftkRDPQJf22vbrFz4PwQp_KzNBk6yWUHDyK6adcldkCXQT1Q/viewform",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "HỌ TÊN THÍ SINH",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "NGÀY SINH",
+     "concept": "dob"
+    },
+    {
+     "role": "Edit",
+     "label": "CMND - CCCD",
+     "concept": "id"
+    },
+    {
+     "role": "Edit",
+     "label": "EMAIL",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "ĐIỂM TRUNG BÌNH CẢ NĂM 12 (THÍ SINH ĐƯỢC LỰA CHỌN 1 TRONG 2 HÌNH THỨC XÉ",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "ĐIỂM THI TỐT NGHIỆP THPT 2024 (THÍ SINH ĐƯỢC LỰA CHỌN 1 TRONG 2 HÌNH THỨ",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "TRƯỜNG THPT",
+     "concept": "school"
+    },
+    {
+     "role": "Edit",
+     "label": "ĐIỆN THOẠI LIÊN HỆ",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "ĐỊA CHỈ",
+     "concept": "address"
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLScfscLTsI6ZxA7hHuOEgMjUOl5eo9eOXsbzAD6TSRauhdhBwA/viewform",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Họ tên:",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Ngày tháng năm sinh",
+     "concept": "dob"
+    },
+    {
+     "role": "Edit",
+     "label": "Số điện thoại:",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Số điện thoại sử dụng Zalo:",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Link facebook của bạn:",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Email thường dùng:",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Tên trường THPT (nếu là học sinh)",
+     "concept": "school"
+    },
+    {
+     "role": "Edit",
+     "label": "- Đối với học sinh THPT: Cần bổ sung Bảng điểm hoặc Bằng TN THPT. - Đối ",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLScXdnQwvlcfoGA0X--tzDkGCb3n0-KkyyKRUPqRwfaI8GLdBQ/viewform",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Họ Và Tên Bạn",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Số CMND/CCCD",
+     "concept": "id"
+    },
+    {
+     "role": "Edit",
+     "label": "Số Điện Thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Email",
+     "concept": "email"
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSf3rbBIdQoOVYHbyTLHvmDiZ59hyrvuuxYvUencOlnbIKglWQ/viewform",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "1. Họ và tên",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "3. Ngày tháng năm sinh",
+     "concept": "dob"
+    },
+    {
+     "role": "Edit",
+     "label": "4a. TP.HCM/ TP. Thủ Đức. Nhập địa chỉ cư trú ( số nhà, đường, khu phố Ấp",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "4b. Tỉnh/ thành phố khác. Nhập địa chỉ cư trú ( số nhà, đường, khu phố Ấ",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "5. Số điện thoại di động",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "11. Số CMND/ CCCD",
+     "concept": "id"
+    },
+    {
+     "role": "Edit",
+     "label": "12. Ngày cấp CMND/ CCCD",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "13. Mã số thẻ BHYT",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "14. Khi cần báo tin cho ai",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "15. Số điện thoại người nhận tin",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSeeXfpeG1KuAnLZ0m4Z-1B49q83Zo8AEJXeieOY0R4O3UiAEQ/viewform",
+   "lang": "vi",
+   "split": "dev",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "1. Họ và tên",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "2. Ngày sinh",
+     "concept": "dob"
+    },
+    {
+     "role": "Edit",
+     "label": "3. Số điện thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "4. Email",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "6. Tên trường",
+     "concept": "school"
+    },
+    {
+     "role": "Edit",
+     "label": "7 Kinh nghiệm làm việc",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSc_DQrn2Z5lrelnB20NIhzUyAYIWe6HTfYGsRjQqNGD07ylbw/viewform",
+   "lang": "vi",
+   "split": "dev",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Họ và tên",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Số điện thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Email (Để nhận mail mời tham gia lớp học)",
+     "concept": "email"
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSf9iLf2r_0Uybmw3U98aRT-M-LQtVlvOuvwBdeawgbjZtHG_w/viewform",
+   "lang": "vi",
+   "split": "dev",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Email của Anh/Chị :",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Điền Họ & Tên của Anh/Chị :",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Điền SĐT của Anh/Chị:",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Khóa học muốn tham gia :",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSfaXH29lhKVu29q1w9W-W6b-UqU7U1IZNJKm7qgEoI9_RmWHA/viewform",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Khóa học",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Ngày khai giảng",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Họ Và Tên",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Số điện thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Email",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Lời nhắn",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Ngày tháng năm sinh",
+     "concept": "dob"
+    },
+    {
+     "role": "Edit",
+     "label": "Nơi sinh",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSc90uZJ2TtStgtIy2YeI0kd7e2wVa6K3127Yc4a1LERNJQMUg/viewform",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Họ tên",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Năm sinh",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Số điện thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Bạn biết khóa học này từ đâu? (Ví dụ: từ web nào, từ fanpage nào, từ gro",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Bạn muốn đạt được gì khi tham gia khóa học này?",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Ghi chú",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSeEHs2wYeABDddW4H7_b24QgjJh8IkdXTGfQqsFH3NTKq7NYA/viewform",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Họ Tên (học viên hoặc phụ huynh)",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Địa Chỉ",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "Email, Facebook hoặc Skype",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Số điện thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSd7qx3x0LzM39RFUyFBpTA-RMNec9Z7K1Lgqmtipk6k3XUDqQ/viewform",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Họ tên",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Email",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "SĐT",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Sinh năm",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Trường học/ Đơn vị công tác",
+     "concept": "school"
+    },
+    {
+     "role": "Edit",
+     "label": "Chuyên khoa (nếu có)",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Mong muốn của bạn khi tham gia lớp học là gì?",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Bạn tự đánh giá trình độ tiếng Anh của mình ở mức độ nào? (Nếu bạn có ch",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Bạn đăng kí lớp nào?",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Bạn biết đến lớp học thông qua nguồn thông tin nào? Nếu được bạn đã từng",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/1EFQXB955qkRYQkbAXtdNDi8EiVrFuLmPv2bSBuRY460/viewform",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Tên",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Email",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Số điện thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Địa chỉ",
+     "concept": "address"
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLScnWC4-vUmx9qRTJHjqy-_3BLi95QYUb8Kz1no7wADlvFV24A/viewform",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Số lượng",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Tên khách hàng",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Số điện thoại",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "E-mail",
+     "concept": "email"
+    },
+    {
+     "role": "Edit",
+     "label": "Địa chỉ nhận sách",
+     "concept": "address"
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSdPByjRHRABLCIKOgHK6GbFR0L7U8uMMwM-S3yahrbpPF6YBQ/viewform",
+   "lang": "vi",
+   "split": "test",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Tên Công ty",
+     "concept": "company"
+    },
+    {
+     "role": "Edit",
+     "label": "Chức vụ",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Họ Tên",
+     "concept": "full_name"
+    },
+    {
+     "role": "Edit",
+     "label": "Tel",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Nội dung liên hệ",
+     "concept": null
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSe9szbkTccfG7DUsqorD9lVR9f2mp5WFbZmDMlgD1pWdewXKA/viewform",
+   "lang": "vi",
+   "split": "dev",
+   "rows": [
+    {
+     "role": "Edit",
+     "label": "Họ tên:",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Số Điện Thoại:",
+     "concept": "phone"
+    },
+    {
+     "role": "Edit",
+     "label": "Ngày tháng năm sinh:",
+     "concept": "dob"
+    },
+    {
+     "role": "Edit",
+     "label": "Quê Quán:",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Địa chỉ hiện tại:",
+     "concept": "address"
+    },
+    {
+     "role": "Edit",
+     "label": "Số Chứng Minh Nhân Dân:",
+     "concept": "id"
+    },
+    {
+     "role": "Edit",
+     "label": "Thời gian có thể đi làm:",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Đi cùng những ai (nếu đi nhiều người):",
+     "concept": null
+    },
+    {
+     "role": "Edit",
+     "label": "Địa chỉ Email, tên nick Facebook, Zalo... (nếu có)",
+     "concept": "email"
+    },
+    {
+     "role": "Button",
+     "label": "Gửi",
+     "action": "click"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "form": "test8",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 9.4,
+ "score": {
+  "submitted": true,
+  "fields": 8,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.26,
+   "format": "Answers",
+   "prompt_tokens": 389,
+   "completion_tokens": 91
+  },
+  {
+   "seconds": 0.38,
+   "format": "Review",
+   "prompt_tokens": 1142,
+   "completion_tokens": 8
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 2762.6960817724466,
+   "url": "http://127.0.0.1:37711/test8",
+   "goal": "Filled 8 field(s) from the document. Left empty because the document has no value for them, so do not fill these: * Supervisor District; f8; f9; f10; f11; f12; f13; f14; f15; f16; f17; f18; f19; f20; f21; f22; f23; f24; f25; f26; f27; f28. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 903.5851433873177,
+   "url": "http://127.0.0.1:37711/test8",
+   "goal": "Sent the form with 'Submit Form'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 170.31817138195038,
+   "url": "http://127.0.0.1:37711/test8",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

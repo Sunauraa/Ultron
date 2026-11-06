@@ -1,0 +1,46 @@
+{
+ "form": "fresh1_6",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 15.1,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Elfogadom",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 1170,
+   "completion_tokens": 111
+  },
+  {
+   "seconds": 4.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 1288,
+   "completion_tokens": 229
+  },
+  {
+   "seconds": 2.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 1307,
+   "completion_tokens": 110
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "Form submitted successfully and confirmation received.",
+ "fast": []
+}

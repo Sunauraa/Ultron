@@ -1,0 +1,170 @@
+{
+ "form": "dev9",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 88.5,
+ "score": {
+  "submitted": true,
+  "fields": 11,
+  "wrong": {
+   "f1": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "DENY",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 7289,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 5.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 7429,
+   "completion_tokens": 213
+  },
+  {
+   "seconds": 6.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 7505,
+   "completion_tokens": 225
+  },
+  {
+   "seconds": 6.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 7595,
+   "completion_tokens": 240
+  },
+  {
+   "seconds": 6.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 7696,
+   "completion_tokens": 239
+  },
+  {
+   "seconds": 6.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 7793,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 5.75,
+   "format": "AgentOutput",
+   "prompt_tokens": 7843,
+   "completion_tokens": 212
+  },
+  {
+   "seconds": 7.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 7918,
+   "completion_tokens": 283
+  },
+  {
+   "seconds": 7.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 8030,
+   "completion_tokens": 293
+  },
+  {
+   "seconds": 7.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 8136,
+   "completion_tokens": 269
+  },
+  {
+   "seconds": 4.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 6710,
+   "completion_tokens": 163
+  }
+ ],
+ "steps": 14,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 39.71454128623009,
+   "url": "http://127.0.0.1:33101/dev9",
+   "goal": "Close the pop-up with 'DENY'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 938.1920304149389,
+   "url": "http://127.0.0.1:33101/dev9",
+   "goal": "Fill 1 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 952.93178409338,
+   "url": "http://127.0.0.1:33101/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 950.3033962100744,
+   "url": "http://127.0.0.1:33101/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 931.2753714621067,
+   "url": "http://127.0.0.1:33101/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1100.787840783596,
+   "url": "http://127.0.0.1:33101/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 921.3981442153454,
+   "url": "http://127.0.0.1:33101/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 923.3114197850227,
+   "url": "http://127.0.0.1:33101/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 920.179532840848,
+   "url": "http://127.0.0.1:33101/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 920.1912693679333,
+   "url": "http://127.0.0.1:33101/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 919.5565395057201,
+   "url": "http://127.0.0.1:33101/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 933.7422344833612,
+   "url": "http://127.0.0.1:33101/dev9",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.5845242887735367,
+   "url": "http://127.0.0.1:33101/dev9",
+   "goal": ""
+  }
+ ]
+}

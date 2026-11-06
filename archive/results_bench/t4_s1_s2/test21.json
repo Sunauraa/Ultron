@@ -1,0 +1,74 @@
+{
+ "form": "test21",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 24.1,
+ "score": {
+  "blocked": [],
+  "submitted": true,
+  "fields": 7,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Aceptar todas",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.82,
+   "format": "Answers",
+   "prompt_tokens": 475,
+   "completion_tokens": 112
+  },
+  {
+   "seconds": 0.38,
+   "format": "Review",
+   "prompt_tokens": 1211,
+   "completion_tokens": 8
+  },
+  {
+   "seconds": 8.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 8426,
+   "completion_tokens": 302
+  },
+  {
+   "seconds": 5.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 6618,
+   "completion_tokens": 215
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission successful. Confirmation message received: Thank you. Your form has been received and no further action is needed.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 24.277515709400177,
+   "url": "http://127.0.0.1:41557/test21",
+   "goal": "Close the pop-up with 'Aceptar todas'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 3024.1827201098204,
+   "url": "http://127.0.0.1:41557/test21",
+   "goal": "Filled 7 field(s) from the document. Left empty because the document has no value for them, so do not fill these: ĐIỂM TRUNG BÌNH CẢ NĂM 12 (THÍ SINH ĐƯỢC LỰA CHỌN 1 TRONG 2 HÌNH THỨC XÉT TUYỂN TỪ ĐIỂM THI THPT 2024 HOẶC ĐIỂM HỌC BẠ THPT); ĐIỂM THI TỐT NGHIỆP THPT 2024 (THÍ SINH ĐƯỢC LỰA CHỌN 1 TRONG 2 HÌNH THỨC XÉT TUYỂN TỪ ĐIỂM THI THPT 2022 HOẶC ĐIỂM HỌC BẠ THPT) TỔNG ĐIỂM 3 MÔN THEO KHỐI LỰA CHỌN; ĐĂNG KÝ BẬC HỌC; NGÀNH ĐĂNG KÝ. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 580.7857532054186,
+   "url": "http://127.0.0.1:41557/test21",
+   "goal": "submit declined"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.364799216389656,
+   "url": "http://127.0.0.1:41557/test21",
+   "goal": ""
+  }
+ ]
+}

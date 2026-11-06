@@ -1,0 +1,149 @@
+{
+ "form": "dev11",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 101.7,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Aceptar todas",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 7531,
+   "completion_tokens": 249
+  },
+  {
+   "seconds": 6.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 7728,
+   "completion_tokens": 256
+  },
+  {
+   "seconds": 7.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 7834,
+   "completion_tokens": 265
+  },
+  {
+   "seconds": 7.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 7952,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 7.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 8059,
+   "completion_tokens": 262
+  },
+  {
+   "seconds": 7.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 8167,
+   "completion_tokens": 287
+  },
+  {
+   "seconds": 17.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 8265,
+   "completion_tokens": 677
+  },
+  {
+   "seconds": 13.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 8335,
+   "completion_tokens": 531
+  },
+  {
+   "seconds": 7.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 8684,
+   "completion_tokens": 260
+  },
+  {
+   "seconds": 5.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 6988,
+   "completion_tokens": 200
+  }
+ ],
+ "steps": 12,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 31.213844195008278,
+   "url": "http://127.0.0.1:33101/dev11",
+   "goal": "Close the pop-up with 'Aceptar todas'"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 769.9070759117603,
+   "url": "http://127.0.0.1:33101/dev11",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 810.8963910490274,
+   "url": "http://127.0.0.1:33101/dev11",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 786.2115204334259,
+   "url": "http://127.0.0.1:33101/dev11",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 802.7549125254154,
+   "url": "http://127.0.0.1:33101/dev11",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 784.0637117624283,
+   "url": "http://127.0.0.1:33101/dev11",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 797.3354570567608,
+   "url": "http://127.0.0.1:33101/dev11",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 825.5822528153658,
+   "url": "http://127.0.0.1:33101/dev11",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 815.3421375900507,
+   "url": "http://127.0.0.1:33101/dev11",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 817.0742876827717,
+   "url": "http://127.0.0.1:33101/dev11",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.23627839982509613,
+   "url": "http://127.0.0.1:33101/dev11",
+   "goal": ""
+  }
+ ]
+}

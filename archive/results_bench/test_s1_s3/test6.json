@@ -1,0 +1,155 @@
+{
+ "form": "test6",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 3,
+ "seconds": 75.9,
+ "score": {
+  "submitted": true,
+  "fields": 8,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept all",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 6355,
+   "completion_tokens": 314
+  },
+  {
+   "seconds": 6.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 6510,
+   "completion_tokens": 240
+  },
+  {
+   "seconds": 6.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 6651,
+   "completion_tokens": 232
+  },
+  {
+   "seconds": 7.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 6754,
+   "completion_tokens": 288
+  },
+  {
+   "seconds": 7.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 6882,
+   "completion_tokens": 295
+  },
+  {
+   "seconds": 6.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 7045,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 7.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 7159,
+   "completion_tokens": 294
+  },
+  {
+   "seconds": 7.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 7279,
+   "completion_tokens": 293
+  },
+  {
+   "seconds": 4.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 7437,
+   "completion_tokens": 164
+  },
+  {
+   "seconds": 4.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 6916,
+   "completion_tokens": 186
+  }
+ ],
+ "steps": 13,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 49.91709440946579,
+   "url": "http://127.0.0.1:39479/test6",
+   "goal": "Close the pop-up with 'Accept all'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 274.84444342553616,
+   "url": "http://127.0.0.1:39479/test6",
+   "goal": "Fill 3 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 268.5561552643776,
+   "url": "http://127.0.0.1:39479/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 250.7679145783186,
+   "url": "http://127.0.0.1:39479/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 262.47237622737885,
+   "url": "http://127.0.0.1:39479/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 249.57717396318913,
+   "url": "http://127.0.0.1:39479/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 245.41643634438515,
+   "url": "http://127.0.0.1:39479/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 247.07157909870148,
+   "url": "http://127.0.0.1:39479/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 255.85144385695457,
+   "url": "http://127.0.0.1:39479/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 281.40935860574245,
+   "url": "http://127.0.0.1:39479/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 243.799252435565,
+   "url": "http://127.0.0.1:39479/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4880690723657608,
+   "url": "http://127.0.0.1:39479/test6",
+   "goal": ""
+  }
+ ]
+}

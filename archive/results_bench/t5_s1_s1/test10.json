@@ -1,0 +1,51 @@
+{
+ "form": "test10",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 5.9,
+ "score": {
+  "blocked": [
+   "Nội dung *"
+  ],
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.82,
+   "format": "Answers",
+   "prompt_tokens": 270,
+   "completion_tokens": 73
+  }
+ ],
+ "steps": 3,
+ "is_done": true,
+ "success": false,
+ "final": "Nothing was sent. The form requires these and the document has no value for them: Nội dung.",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 1909.7577668726444,
+   "url": "http://127.0.0.1:35643/test10",
+   "goal": "Filled 4 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Lĩnh vực; Chi nhánh; Nội dung *. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "stop",
+   "milliseconds": 100.68755596876144,
+   "url": "http://127.0.0.1:35643/test10",
+   "goal": "Nothing was sent. The form requires these and the document has no value for them: Nội dung."
+  }
+ ]
+}

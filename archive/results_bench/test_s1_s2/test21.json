@@ -1,0 +1,109 @@
+{
+ "form": "test21",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 43.1,
+ "score": {
+  "submitted": true,
+  "fields": 7,
+  "wrong": {
+   "f10": "Công ty TNHH Minh Long"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Aceptar todas",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 7785,
+   "completion_tokens": 275
+  },
+  {
+   "seconds": 5.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 7896,
+   "completion_tokens": 218
+  },
+  {
+   "seconds": 5.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 8003,
+   "completion_tokens": 205
+  },
+  {
+   "seconds": 5.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 8109,
+   "completion_tokens": 192
+  },
+  {
+   "seconds": 5.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 8202,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 4.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 6368,
+   "completion_tokens": 184
+  }
+ ],
+ "steps": 9,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 29.762351885437965,
+   "url": "http://127.0.0.1:46175/test21",
+   "goal": "Close the pop-up with 'Aceptar todas'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 226.28027945756912,
+   "url": "http://127.0.0.1:46175/test21",
+   "goal": "Fill 4 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 213.13270553946495,
+   "url": "http://127.0.0.1:46175/test21",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 209.48565378785133,
+   "url": "http://127.0.0.1:46175/test21",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 217.74080023169518,
+   "url": "http://127.0.0.1:46175/test21",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 215.8421240746975,
+   "url": "http://127.0.0.1:46175/test21",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 212.19206787645817,
+   "url": "http://127.0.0.1:46175/test21",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.27245841920375824,
+   "url": "http://127.0.0.1:46175/test21",
+   "goal": ""
+  }
+ ]
+}

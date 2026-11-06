@@ -1,0 +1,186 @@
+{
+ "form": "test22",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 192.0,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 6,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f5": null,
+   "f7": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 5857,
+   "completion_tokens": 144
+  },
+  {
+   "seconds": 7.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 6693,
+   "completion_tokens": 269
+  },
+  {
+   "seconds": 7.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 6821,
+   "completion_tokens": 289
+  },
+  {
+   "seconds": 6.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 8304,
+   "completion_tokens": 253
+  },
+  {
+   "seconds": 5.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 6974,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 6.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 7068,
+   "completion_tokens": 229
+  },
+  {
+   "seconds": 5.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 7175,
+   "completion_tokens": 224
+  },
+  {
+   "seconds": 5.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 7271,
+   "completion_tokens": 218
+  },
+  {
+   "seconds": 5.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 7414,
+   "completion_tokens": 220
+  },
+  {
+   "seconds": 5.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 7565,
+   "completion_tokens": 223
+  },
+  {
+   "seconds": 7.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 7676,
+   "completion_tokens": 292
+  },
+  {
+   "seconds": 7.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 7812,
+   "completion_tokens": 288
+  },
+  {
+   "seconds": 7.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 7947,
+   "completion_tokens": 295
+  },
+  {
+   "seconds": 7.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 8082,
+   "completion_tokens": 296
+  },
+  {
+   "seconds": 7.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 8218,
+   "completion_tokens": 271
+  },
+  {
+   "seconds": 7.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 8353,
+   "completion_tokens": 282
+  },
+  {
+   "seconds": 7.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 8488,
+   "completion_tokens": 284
+  },
+  {
+   "seconds": 7.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 8608,
+   "completion_tokens": 293
+  },
+  {
+   "seconds": 7.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 8812,
+   "completion_tokens": 297
+  },
+  {
+   "seconds": 7.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 8947,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 7.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 9085,
+   "completion_tokens": 279
+  },
+  {
+   "seconds": 7.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 9205,
+   "completion_tokens": 286
+  },
+  {
+   "seconds": 7.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 9351,
+   "completion_tokens": 286
+  },
+  {
+   "seconds": 6.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 9497,
+   "completion_tokens": 249
+  },
+  {
+   "seconds": 8.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 9635,
+   "completion_tokens": 306
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "I have filled in several fields with information from the document and selected options from dropdown menus. However, I encountered issues when trying to interact with certain elements, specifically a radio button named f11. Despite multiple attempts, I was unable to successfully click this button or identify any additional required fields or consent checkboxes that need addressing before submitting the form. Therefore, I am unable to complete the submission process as requested.",
+ "fast": [],
+ "trap": "Phạm Thu Hà"
+}

@@ -1,0 +1,266 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 815.6,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 5968,
+   "completion_tokens": 218
+  },
+  {
+   "seconds": 4.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 6124,
+   "completion_tokens": 181
+  },
+  {
+   "seconds": 7.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 6519,
+   "completion_tokens": 300
+  },
+  {
+   "seconds": 7.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 6751,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 6.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 6817,
+   "completion_tokens": 263
+  },
+  {
+   "seconds": 4.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 6907,
+   "completion_tokens": 150
+  },
+  {
+   "seconds": 5.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 6820,
+   "completion_tokens": 197
+  },
+  {
+   "seconds": 5.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 6947,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 8.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 7050,
+   "completion_tokens": 310
+  },
+  {
+   "seconds": 4.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 7159,
+   "completion_tokens": 157
+  },
+  {
+   "seconds": 3.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 7214,
+   "completion_tokens": 145
+  },
+  {
+   "seconds": 4.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 7283,
+   "completion_tokens": 178
+  },
+  {
+   "seconds": 5.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 7363,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 5.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 7487,
+   "completion_tokens": 188
+  },
+  {
+   "seconds": 5.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 7573,
+   "completion_tokens": 194
+  },
+  {
+   "seconds": 6.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 7659,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 5.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 7747,
+   "completion_tokens": 224
+  },
+  {
+   "seconds": 7.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 7834,
+   "completion_tokens": 278
+  },
+  {
+   "seconds": 8.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 8053,
+   "completion_tokens": 322
+  }
+ ],
+ "steps": 16,
+ "is_done": true,
+ "success": false,
+ "final": "The form was filled out with the provided information and submitted successfully according to the page's behavior. However, no confirmation message or indicator was found on the page to confirm receipt of the form. Therefore, it is uncertain whether the submission was successful.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 51.83212831616402,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 51.7583042383194,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3533344715833664,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.42436644434928894,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3198795020580292,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.32623670995235443,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.34397467970848083,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3163181245326996,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2901274710893631,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.39433129131793976,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3082156181335449,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3168080002069473,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.35850517451763153,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.6344523280858994,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.3203675150871277,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2988576889038086,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.8142981678247452,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.40278397500514984,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.4453212022781372,
+   "url": "http://127.0.0.1:35547/fresh1_4",
+   "goal": ""
+  }
+ ]
+}

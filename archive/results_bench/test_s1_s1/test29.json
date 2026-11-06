@@ -1,0 +1,103 @@
+{
+ "form": "test29",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 53.0,
+ "score": {
+  "submitted": true,
+  "fields": 2,
+  "wrong": {
+   "f0": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept all cookies",
+  "popup_ok": false,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 5879,
+   "completion_tokens": 130
+  },
+  {
+   "seconds": 8.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 6421,
+   "completion_tokens": 328
+  },
+  {
+   "seconds": 8.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 6504,
+   "completion_tokens": 324
+  },
+  {
+   "seconds": 11.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 6592,
+   "completion_tokens": 447
+  },
+  {
+   "seconds": 6.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 6703,
+   "completion_tokens": 239
+  },
+  {
+   "seconds": 5.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 6262,
+   "completion_tokens": 210
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 47.11797088384628,
+   "url": "http://127.0.0.1:37445/test29",
+   "goal": ""
+  },
+  {
+   "kind": "form",
+   "milliseconds": 200.97665674984455,
+   "url": "http://127.0.0.1:37445/test29",
+   "goal": "Fill 2 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 197.11880385875702,
+   "url": "http://127.0.0.1:37445/test29",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 196.00109569728374,
+   "url": "http://127.0.0.1:37445/test29",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 210.12238413095474,
+   "url": "http://127.0.0.1:37445/test29",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 216.06964990496635,
+   "url": "http://127.0.0.1:37445/test29",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.311780720949173,
+   "url": "http://127.0.0.1:37445/test29",
+   "goal": ""
+  }
+ ]
+}

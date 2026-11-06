@@ -1,0 +1,99 @@
+{
+ "form": "fresh2_20",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 85.8,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f3": null,
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 10.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 6273,
+   "completion_tokens": 538
+  },
+  {
+   "seconds": 6.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 6602,
+   "completion_tokens": 325
+  },
+  {
+   "seconds": 5.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 6741,
+   "completion_tokens": 280
+  },
+  {
+   "seconds": 6.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 6812,
+   "completion_tokens": 302
+  },
+  {
+   "seconds": 6.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 6882,
+   "completion_tokens": 300
+  },
+  {
+   "seconds": 5.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 6950,
+   "completion_tokens": 255
+  },
+  {
+   "seconds": 5.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 6993,
+   "completion_tokens": 278
+  },
+  {
+   "seconds": 5.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 7065,
+   "completion_tokens": 261
+  },
+  {
+   "seconds": 5.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 7139,
+   "completion_tokens": 279
+  },
+  {
+   "seconds": 5.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 7212,
+   "completion_tokens": 257
+  },
+  {
+   "seconds": 8.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 7286,
+   "completion_tokens": 392
+  }
+ ],
+ "steps": 12,
+ "is_done": true,
+ "success": false,
+ "final": "Could not complete the task as required because 'Portland' is not an available option for the city field. Fields filled: First and Last Name: Jordan Avery Reed; Street Address: 742 Cedar Lane; Phone Number: +15035550147; Email: jordan.reed@example.com.",
+ "fast": []
+}

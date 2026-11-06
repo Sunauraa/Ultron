@@ -1,0 +1,183 @@
+{
+ "form": "fresh1_11",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 202.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f5": null,
+   "f6": null,
+   "f7": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 1225,
+   "completion_tokens": 84
+  },
+  {
+   "seconds": 9.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 1684,
+   "completion_tokens": 372
+  },
+  {
+   "seconds": 6.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 1829,
+   "completion_tokens": 264
+  },
+  {
+   "seconds": 5.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 1880,
+   "completion_tokens": 223
+  },
+  {
+   "seconds": 5.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 1958,
+   "completion_tokens": 217
+  },
+  {
+   "seconds": 5.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 2016,
+   "completion_tokens": 223
+  },
+  {
+   "seconds": 6.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 2094,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 7.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 2378,
+   "completion_tokens": 293
+  },
+  {
+   "seconds": 6.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 2510,
+   "completion_tokens": 249
+  },
+  {
+   "seconds": 7.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 2652,
+   "completion_tokens": 295
+  },
+  {
+   "seconds": 6.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 2813,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 7.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 2971,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 7.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 3181,
+   "completion_tokens": 306
+  },
+  {
+   "seconds": 6.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 3326,
+   "completion_tokens": 268
+  },
+  {
+   "seconds": 6.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 3499,
+   "completion_tokens": 261
+  },
+  {
+   "seconds": 6.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 3690,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 6.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 3870,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 6.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 4050,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 6.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 4314,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 6.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 4494,
+   "completion_tokens": 258
+  },
+  {
+   "seconds": 7.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 4712,
+   "completion_tokens": 287
+  },
+  {
+   "seconds": 5.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 4910,
+   "completion_tokens": 222
+  },
+  {
+   "seconds": 5.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 5153,
+   "completion_tokens": 228
+  },
+  {
+   "seconds": 5.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 5331,
+   "completion_tokens": 228
+  },
+  {
+   "seconds": 5.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 5526,
+   "completion_tokens": 191
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Form partially filled but discrepancies exist between typed text and actual field values. Document values not fully reflected in form.",
+ "fast": []
+}

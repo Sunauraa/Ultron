@@ -1,0 +1,183 @@
+{
+ "form": "fresh1_5",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 201.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f6": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 1682,
+   "completion_tokens": 274
+  },
+  {
+   "seconds": 5.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 1842,
+   "completion_tokens": 215
+  },
+  {
+   "seconds": 10.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 1942,
+   "completion_tokens": 403
+  },
+  {
+   "seconds": 5.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 2062,
+   "completion_tokens": 204
+  },
+  {
+   "seconds": 4.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 2185,
+   "completion_tokens": 189
+  },
+  {
+   "seconds": 4.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 2264,
+   "completion_tokens": 196
+  },
+  {
+   "seconds": 9.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 2426,
+   "completion_tokens": 378
+  },
+  {
+   "seconds": 13.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 2484,
+   "completion_tokens": 521
+  },
+  {
+   "seconds": 4.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 2578,
+   "completion_tokens": 189
+  },
+  {
+   "seconds": 5.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 2726,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 5.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 2845,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 5.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 2964,
+   "completion_tokens": 214
+  },
+  {
+   "seconds": 5.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 3083,
+   "completion_tokens": 214
+  },
+  {
+   "seconds": 13.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 3202,
+   "completion_tokens": 545
+  },
+  {
+   "seconds": 6.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 3304,
+   "completion_tokens": 238
+  },
+  {
+   "seconds": 5.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 3415,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 5.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 3526,
+   "completion_tokens": 214
+  },
+  {
+   "seconds": 12.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 3654,
+   "completion_tokens": 475
+  },
+  {
+   "seconds": 6.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 3836,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 5.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 3931,
+   "completion_tokens": 222
+  },
+  {
+   "seconds": 6.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 4031,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 6.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 4131,
+   "completion_tokens": 234
+  },
+  {
+   "seconds": 6.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 4231,
+   "completion_tokens": 234
+  },
+  {
+   "seconds": 5.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 4331,
+   "completion_tokens": 230
+  },
+  {
+   "seconds": 4.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 4463,
+   "completion_tokens": 178
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Form partially filled with available information from the document. Fields 'Sinh ngày', 'Căn cước', and 'Tóm lược kinh nghiệm công việc của bạn' were left empty due to lack of corresponding information in the document. Form submission button was clicked but page did not confirm receipt yet.",
+ "fast": []
+}

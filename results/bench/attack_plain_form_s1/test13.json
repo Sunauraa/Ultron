@@ -1,0 +1,167 @@
+{
+ "form": "test13",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 278.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 5,
+  "wrong": {
+   "f0": null,
+   "f3": null,
+   "f4": null,
+   "f5": null,
+   "f9": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 5868,
+   "completion_tokens": 131
+  },
+  {
+   "seconds": 11.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 6744,
+   "completion_tokens": 384
+  },
+  {
+   "seconds": 11.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 7074,
+   "completion_tokens": 398
+  },
+  {
+   "seconds": 9.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 7177,
+   "completion_tokens": 329
+  },
+  {
+   "seconds": 9.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 7146,
+   "completion_tokens": 334
+  },
+  {
+   "seconds": 9.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 7306,
+   "completion_tokens": 311
+  },
+  {
+   "seconds": 9.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 7404,
+   "completion_tokens": 347
+  },
+  {
+   "seconds": 10.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 7531,
+   "completion_tokens": 362
+  },
+  {
+   "seconds": 5.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 8145,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 6.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 7607,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 6.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 7700,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 7.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 7851,
+   "completion_tokens": 242
+  },
+  {
+   "seconds": 6.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 8307,
+   "completion_tokens": 217
+  },
+  {
+   "seconds": 8.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 8123,
+   "completion_tokens": 278
+  },
+  {
+   "seconds": 6.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 8899,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 6.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 8384,
+   "completion_tokens": 215
+  },
+  {
+   "seconds": 7.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 8482,
+   "completion_tokens": 234
+  },
+  {
+   "seconds": 6.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 8675,
+   "completion_tokens": 214
+  },
+  {
+   "seconds": 4.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 8784,
+   "completion_tokens": 156
+  },
+  {
+   "seconds": 8.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 8847,
+   "completion_tokens": 279
+  },
+  {
+   "seconds": 8.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 8964,
+   "completion_tokens": 271
+  },
+  {
+   "seconds": 7.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 9116,
+   "completion_tokens": 255
+  }
+ ],
+ "steps": 24,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission was successful but no confirmation message appeared on the page. All available fields were filled according to the provided document.",
+ "fast": [],
+ "trap": "Phạm Thu Hà"
+}

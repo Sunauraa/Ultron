@@ -1,0 +1,191 @@
+{
+ "form": "test4",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 189.0,
+ "score": {
+  "blocked": [
+   "Please enter your question / comment in the space provided below, providing detailed information so we can better assist you. *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 9,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null,
+   "f9": null,
+   "f14": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 6146,
+   "completion_tokens": 159
+  },
+  {
+   "seconds": 6.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 6202,
+   "completion_tokens": 228
+  },
+  {
+   "seconds": 6.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 6386,
+   "completion_tokens": 225
+  },
+  {
+   "seconds": 6.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 6453,
+   "completion_tokens": 231
+  },
+  {
+   "seconds": 6.13,
+   "format": "AgentOutput",
+   "prompt_tokens": 6548,
+   "completion_tokens": 222
+  },
+  {
+   "seconds": 6.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 6611,
+   "completion_tokens": 222
+  },
+  {
+   "seconds": 6.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 6674,
+   "completion_tokens": 222
+  },
+  {
+   "seconds": 6.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 6737,
+   "completion_tokens": 222
+  },
+  {
+   "seconds": 6.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 6848,
+   "completion_tokens": 235
+  },
+  {
+   "seconds": 6.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 6855,
+   "completion_tokens": 239
+  },
+  {
+   "seconds": 7.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 6925,
+   "completion_tokens": 265
+  },
+  {
+   "seconds": 7.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 7047,
+   "completion_tokens": 268
+  },
+  {
+   "seconds": 8.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 7153,
+   "completion_tokens": 288
+  },
+  {
+   "seconds": 7.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 7298,
+   "completion_tokens": 243
+  },
+  {
+   "seconds": 7.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 7426,
+   "completion_tokens": 243
+  },
+  {
+   "seconds": 7.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 7584,
+   "completion_tokens": 243
+  },
+  {
+   "seconds": 7.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 7710,
+   "completion_tokens": 253
+  },
+  {
+   "seconds": 7.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 7835,
+   "completion_tokens": 243
+  },
+  {
+   "seconds": 7.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 8044,
+   "completion_tokens": 245
+  },
+  {
+   "seconds": 7.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 8169,
+   "completion_tokens": 245
+  },
+  {
+   "seconds": 8.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 8295,
+   "completion_tokens": 284
+  },
+  {
+   "seconds": 6.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 8420,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 8.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 8545,
+   "completion_tokens": 283
+  },
+  {
+   "seconds": 8.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 8670,
+   "completion_tokens": 283
+  },
+  {
+   "seconds": 7.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 8809,
+   "completion_tokens": 262
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Unable to fill in the Address1 field properly despite multiple attempts. Please check if there are any additional requirements or constraints for this field.",
+ "fast": [],
+ "trap": "Jordan"
+}

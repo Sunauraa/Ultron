@@ -1,0 +1,65 @@
+{
+ "form": "test30",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 18.3,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.61,
+   "format": "Answers",
+   "prompt_tokens": 262,
+   "completion_tokens": 65
+  },
+  {
+   "seconds": 5.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 6223,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 4.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 6015,
+   "completion_tokens": 192
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 46.43368162214756,
+   "url": "http://127.0.0.1:37625/test30",
+   "goal": "Close the pop-up with 'Accept'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1682.3281235992908,
+   "url": "http://127.0.0.1:37625/test30",
+   "goal": "Filled 4 field(s) from the document. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 78.95239442586899,
+   "url": "http://127.0.0.1:37625/test30",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.1829192042350769,
+   "url": "http://127.0.0.1:37625/test30",
+   "goal": ""
+  }
+ ]
+}

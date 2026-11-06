@@ -1,0 +1,118 @@
+{
+ "form": "test23",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 118.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": "45 Trần Phú, Ba Đình"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 7344,
+   "completion_tokens": 328
+  },
+  {
+   "seconds": 6.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 7461,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 6.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 7586,
+   "completion_tokens": 260
+  },
+  {
+   "seconds": 7.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 7727,
+   "completion_tokens": 262
+  },
+  {
+   "seconds": 7.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 7863,
+   "completion_tokens": 282
+  },
+  {
+   "seconds": 9.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 8008,
+   "completion_tokens": 370
+  },
+  {
+   "seconds": 7.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 8093,
+   "completion_tokens": 274
+  },
+  {
+   "seconds": 7.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 8248,
+   "completion_tokens": 280
+  },
+  {
+   "seconds": 7.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 8416,
+   "completion_tokens": 291
+  },
+  {
+   "seconds": 7.8,
+   "format": "AgentOutput",
+   "prompt_tokens": 8589,
+   "completion_tokens": 290
+  },
+  {
+   "seconds": 9.77,
+   "format": "AgentOutput",
+   "prompt_tokens": 8757,
+   "completion_tokens": 366
+  },
+  {
+   "seconds": 9.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 8896,
+   "completion_tokens": 342
+  },
+  {
+   "seconds": 6.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 9066,
+   "completion_tokens": 245
+  },
+  {
+   "seconds": 6.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 7761,
+   "completion_tokens": 249
+  }
+ ],
+ "steps": 15,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted with the provided document values. Confirmation message received: Thank you. Your form has been received and no further action is needed.",
+ "fast": [],
+ "trap": ""
+}

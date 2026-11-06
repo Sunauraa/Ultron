@@ -1,0 +1,67 @@
+{
+ "form": "test20",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 32.6,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {
+   "f0": "001195004567",
+   "f1": "21/06/1995",
+   "f2": null,
+   "f6": null
+  },
+  "extra": {
+   "f13": "Trường THPT Chu Văn An",
+   "f5": "ha.pham@example.com"
+  },
+  "missing_consent": [],
+  "popup_choice": "Aceitar cookies",
+  "popup_ok": false,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 1225,
+   "completion_tokens": 46
+  },
+  {
+   "seconds": 10.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 1783,
+   "completion_tokens": 347
+  },
+  {
+   "seconds": 4.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 1933,
+   "completion_tokens": 159
+  },
+  {
+   "seconds": 3.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 2025,
+   "completion_tokens": 111
+  },
+  {
+   "seconds": 2.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 1409,
+   "completion_tokens": 72
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": true,
+ "final": "success",
+ "fast": [],
+ "trap": "Phạm Thu Hà"
+}

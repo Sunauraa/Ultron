@@ -1,0 +1,71 @@
+{
+ "form": "dev11",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 25.1,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Aceptar todas",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 7694,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 4.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 7819,
+   "completion_tokens": 177
+  },
+  {
+   "seconds": 5.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 6143,
+   "completion_tokens": 213
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 25.05786530673504,
+   "url": "http://127.0.0.1:33929/dev11",
+   "goal": "Close the pop-up with 'Aceptar todas'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 691.1492329090834,
+   "url": "http://127.0.0.1:33929/dev11",
+   "goal": "Filled 3 field(s) from the document. Still empty, so check each against the document before submitting: Nhập họ và tên; -- / -- / ----; Tôi cảm thấy...; -- / -- / ----."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 766.4896100759506,
+   "url": "http://127.0.0.1:33929/dev11",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 739.7645283490419,
+   "url": "http://127.0.0.1:33929/dev11",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.3101119548082352,
+   "url": "http://127.0.0.1:33929/dev11",
+   "goal": ""
+  }
+ ]
+}

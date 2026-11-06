@@ -1,0 +1,191 @@
+{
+ "form": "fresh2_6",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 195.3,
+ "score": {
+  "blocked": [
+   "Closest Main Intersection:*",
+   "Occupation*",
+   "Why do you want to volunteer with us?*",
+   "Please briefly outline your pet owning history*",
+   "For how long are you looking to volunteer?*",
+   "How did you hear about Abbey Cat Adoptions?*"
+  ],
+  "unclear": [
+   "Full Home Address:*"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 3,
+  "wrong": {
+   "f0": null,
+   "f4": null,
+   "f5": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 2173,
+   "completion_tokens": 278
+  },
+  {
+   "seconds": 6.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 2382,
+   "completion_tokens": 291
+  },
+  {
+   "seconds": 6.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 2561,
+   "completion_tokens": 291
+  },
+  {
+   "seconds": 6.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 2741,
+   "completion_tokens": 291
+  },
+  {
+   "seconds": 6.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 2921,
+   "completion_tokens": 291
+  },
+  {
+   "seconds": 6.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 3101,
+   "completion_tokens": 291
+  },
+  {
+   "seconds": 6.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 3281,
+   "completion_tokens": 291
+  },
+  {
+   "seconds": 5.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 3499,
+   "completion_tokens": 282
+  },
+  {
+   "seconds": 6.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 3628,
+   "completion_tokens": 302
+  },
+  {
+   "seconds": 6.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 3761,
+   "completion_tokens": 302
+  },
+  {
+   "seconds": 4.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 3894,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 4.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 4018,
+   "completion_tokens": 201
+  },
+  {
+   "seconds": 4.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 4165,
+   "completion_tokens": 201
+  },
+  {
+   "seconds": 4.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 4322,
+   "completion_tokens": 201
+  },
+  {
+   "seconds": 4.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 4469,
+   "completion_tokens": 201
+  },
+  {
+   "seconds": 4.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 4616,
+   "completion_tokens": 201
+  },
+  {
+   "seconds": 4.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 4801,
+   "completion_tokens": 222
+  },
+  {
+   "seconds": 4.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 4914,
+   "completion_tokens": 199
+  },
+  {
+   "seconds": 9.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 5347,
+   "completion_tokens": 433
+  },
+  {
+   "seconds": 7.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 5488,
+   "completion_tokens": 328
+  },
+  {
+   "seconds": 5.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 5632,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 7.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 5551,
+   "completion_tokens": 328
+  },
+  {
+   "seconds": 5.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 5894,
+   "completion_tokens": 253
+  },
+  {
+   "seconds": 3.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 5819,
+   "completion_tokens": 126
+  },
+  {
+   "seconds": 4.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 5974,
+   "completion_tokens": 207
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "The form has been partially filled with the available data from the document, but several required fields ('Closest Main Intersection', 'Age Range', 'Occupation', 'Why do you want to volunteer with us?', and 'Please briefly outline your pet owning history') are missing values. Since the document does not provide these values, the form cannot be submitted successfully. Therefore, the task is not fully completed.",
+ "fast": []
+}

@@ -1,0 +1,48 @@
+{
+ "form": "fresh2_5",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 26.7,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 1,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f3": "(503) 555-0147"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 6064,
+   "completion_tokens": 409
+  },
+  {
+   "seconds": 7.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 6345,
+   "completion_tokens": 370
+  },
+  {
+   "seconds": 5.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 6175,
+   "completion_tokens": 253
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted with the following details: Given name: Jordan, Family name: Reed, Email: jordan.reed@example.com, Contact number: (503) 555-0147. Other fields were left empty as they were not provided in the document.",
+ "fast": []
+}

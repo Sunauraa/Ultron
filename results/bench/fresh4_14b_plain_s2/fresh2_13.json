@@ -1,0 +1,151 @@
+{
+ "form": "fresh2_13",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 123.5,
+ "score": {
+  "blocked": [
+   "Comments-Question *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 6,
+  "wrong": {
+   "f1": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 5963,
+   "completion_tokens": 136
+  },
+  {
+   "seconds": 4.09,
+   "format": "AgentOutput",
+   "prompt_tokens": 6104,
+   "completion_tokens": 157
+  },
+  {
+   "seconds": 4.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 6151,
+   "completion_tokens": 167
+  },
+  {
+   "seconds": 5.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 6214,
+   "completion_tokens": 205
+  },
+  {
+   "seconds": 5.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 6287,
+   "completion_tokens": 202
+  },
+  {
+   "seconds": 4.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 6348,
+   "completion_tokens": 182
+  },
+  {
+   "seconds": 5.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 6422,
+   "completion_tokens": 195
+  },
+  {
+   "seconds": 4.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 6522,
+   "completion_tokens": 189
+  },
+  {
+   "seconds": 5.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 6608,
+   "completion_tokens": 216
+  },
+  {
+   "seconds": 4.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 6683,
+   "completion_tokens": 173
+  },
+  {
+   "seconds": 4.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 6753,
+   "completion_tokens": 163
+  },
+  {
+   "seconds": 4.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 6826,
+   "completion_tokens": 171
+  },
+  {
+   "seconds": 4.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 6900,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 4.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 7007,
+   "completion_tokens": 180
+  },
+  {
+   "seconds": 9.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 7084,
+   "completion_tokens": 372
+  },
+  {
+   "seconds": 8.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 7044,
+   "completion_tokens": 318
+  },
+  {
+   "seconds": 7.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 7134,
+   "completion_tokens": 295
+  },
+  {
+   "seconds": 10.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 7311,
+   "completion_tokens": 397
+  },
+  {
+   "seconds": 7.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 7491,
+   "completion_tokens": 270
+  }
+ ],
+ "steps": 20,
+ "is_done": true,
+ "success": false,
+ "final": "I have filled in all required fields from the document but could not receive a confirmation or error message upon submission. The form submission process seems to be stuck or non-functional.",
+ "fast": []
+}

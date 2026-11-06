@@ -1,0 +1,226 @@
+{
+ "form": "test33",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 97.7,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f5": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Rechazar",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 0.98,
+   "format": "Answers",
+   "prompt_tokens": 240,
+   "completion_tokens": 39
+  },
+  {
+   "seconds": 4.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 6241,
+   "completion_tokens": 189
+  },
+  {
+   "seconds": 6.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 6317,
+   "completion_tokens": 234
+  },
+  {
+   "seconds": 5.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 6231,
+   "completion_tokens": 211
+  },
+  {
+   "seconds": 5.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 6480,
+   "completion_tokens": 209
+  },
+  {
+   "seconds": 5.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 6595,
+   "completion_tokens": 207
+  },
+  {
+   "seconds": 4.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 6710,
+   "completion_tokens": 190
+  },
+  {
+   "seconds": 5.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 6861,
+   "completion_tokens": 201
+  },
+  {
+   "seconds": 5.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 6966,
+   "completion_tokens": 195
+  },
+  {
+   "seconds": 5.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 7073,
+   "completion_tokens": 193
+  },
+  {
+   "seconds": 7.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 6938,
+   "completion_tokens": 271
+  },
+  {
+   "seconds": 6.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 7093,
+   "completion_tokens": 240
+  },
+  {
+   "seconds": 5.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 7230,
+   "completion_tokens": 218
+  },
+  {
+   "seconds": 5.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 7407,
+   "completion_tokens": 228
+  },
+  {
+   "seconds": 6.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 7570,
+   "completion_tokens": 238
+  },
+  {
+   "seconds": 8.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 7841,
+   "completion_tokens": 331
+  }
+ ],
+ "steps": 18,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 47.11470380425453,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": "Close the pop-up with 'Rechazar'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1061.1858069896698,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": "Filled 4 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Số lượng. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 90.42652510106564,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 89.00738134980202,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 46.412643045187,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 78.61774414777756,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 84.41143296658993,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 80.52480965852737,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 79.10608686506748,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 78.94551940262318,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 78.69457453489304,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.4391131699085236,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.499459147453308,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.16350485384464264,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.154910609126091,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.2439042329788208,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.500086858868599,
+   "url": "http://127.0.0.1:45719/test33",
+   "goal": ""
+  }
+ ]
+}

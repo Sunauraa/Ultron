@@ -1,0 +1,112 @@
+{
+ "form": "fresh2_1",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 180.0,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 4,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 7079,
+   "completion_tokens": 251
+  },
+  {
+   "seconds": 6.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 7259,
+   "completion_tokens": 243
+  },
+  {
+   "seconds": 6.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 7326,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 7.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 7419,
+   "completion_tokens": 268
+  },
+  {
+   "seconds": 19.08,
+   "format": "AgentOutput",
+   "prompt_tokens": 7517,
+   "completion_tokens": 734
+  },
+  {
+   "seconds": 14.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 7578,
+   "completion_tokens": 549
+  },
+  {
+   "seconds": 18.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 7654,
+   "completion_tokens": 701
+  },
+  {
+   "seconds": 18.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 7730,
+   "completion_tokens": 723
+  },
+  {
+   "seconds": 19.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 7806,
+   "completion_tokens": 749
+  },
+  {
+   "seconds": 18.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 7883,
+   "completion_tokens": 717
+  },
+  {
+   "seconds": 7.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 7994,
+   "completion_tokens": 289
+  },
+  {
+   "seconds": 8.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 8152,
+   "completion_tokens": 310
+  },
+  {
+   "seconds": 6.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 8167,
+   "completion_tokens": 236
+  },
+  {
+   "seconds": 5.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 6915,
+   "completion_tokens": 204
+  }
+ ],
+ "steps": 15,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully filled out and submitted. Confirmation message received: Thank you. Your form has been received and no further action is needed.",
+ "fast": []
+}

@@ -1,0 +1,188 @@
+{
+ "form": "test2",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 276.8,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 8,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 11.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 6163,
+   "completion_tokens": 436
+  },
+  {
+   "seconds": 9.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 6344,
+   "completion_tokens": 384
+  },
+  {
+   "seconds": 10.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 6562,
+   "completion_tokens": 414
+  },
+  {
+   "seconds": 9.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 6578,
+   "completion_tokens": 380
+  },
+  {
+   "seconds": 9.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 6771,
+   "completion_tokens": 363
+  },
+  {
+   "seconds": 9.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 6809,
+   "completion_tokens": 375
+  },
+  {
+   "seconds": 10.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 6992,
+   "completion_tokens": 422
+  },
+  {
+   "seconds": 9.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 7023,
+   "completion_tokens": 371
+  },
+  {
+   "seconds": 10.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 7206,
+   "completion_tokens": 396
+  },
+  {
+   "seconds": 9.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 7238,
+   "completion_tokens": 369
+  },
+  {
+   "seconds": 10.27,
+   "format": "AgentOutput",
+   "prompt_tokens": 7421,
+   "completion_tokens": 395
+  },
+  {
+   "seconds": 9.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 7452,
+   "completion_tokens": 377
+  },
+  {
+   "seconds": 10.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 7635,
+   "completion_tokens": 396
+  },
+  {
+   "seconds": 10.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 7666,
+   "completion_tokens": 406
+  },
+  {
+   "seconds": 10.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 7849,
+   "completion_tokens": 396
+  },
+  {
+   "seconds": 10.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 7880,
+   "completion_tokens": 403
+  },
+  {
+   "seconds": 10.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 8063,
+   "completion_tokens": 396
+  },
+  {
+   "seconds": 9.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 8094,
+   "completion_tokens": 370
+  },
+  {
+   "seconds": 10.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 8361,
+   "completion_tokens": 398
+  },
+  {
+   "seconds": 9.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 8392,
+   "completion_tokens": 367
+  },
+  {
+   "seconds": 10.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 8575,
+   "completion_tokens": 398
+  },
+  {
+   "seconds": 9.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 8606,
+   "completion_tokens": 369
+  },
+  {
+   "seconds": 10.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 8789,
+   "completion_tokens": 384
+  },
+  {
+   "seconds": 9.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 8820,
+   "completion_tokens": 367
+  },
+  {
+   "seconds": 6.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 9019,
+   "completion_tokens": 263
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "I was unable to fill in the form correctly as I couldn't match the field names and labels with those provided in the document. The task is incomplete as the form has not been filled and submitted.",
+ "fast": [],
+ "trap": ""
+}

@@ -1,0 +1,71 @@
+{
+ "form": "fresh1_21",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 7.2,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "I do not agree",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.39,
+   "format": "Answers",
+   "prompt_tokens": 275,
+   "completion_tokens": 74
+  },
+  {
+   "seconds": 0.21,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.15,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 7
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 50.39755627512932,
+   "url": "http://127.0.0.1:44187/fresh1_21",
+   "goal": "Close the pop-up with 'I do not agree'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1457.9959157854319,
+   "url": "http://127.0.0.1:44187/fresh1_21",
+   "goal": "Filled 3 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Ngày đến khám; Ghi chú. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 275.36011300981045,
+   "url": "http://127.0.0.1:44187/fresh1_21",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 152.18067169189453,
+   "url": "http://127.0.0.1:44187/fresh1_21",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

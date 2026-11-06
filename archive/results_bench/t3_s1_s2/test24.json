@@ -1,0 +1,61 @@
+{
+ "form": "test24",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 12.4,
+ "score": {
+  "submitted": true,
+  "fields": 5,
+  "wrong": {},
+  "extra": {
+   "f15": "0934567890"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.97,
+   "format": "Answers",
+   "prompt_tokens": 530,
+   "completion_tokens": 242
+  },
+  {
+   "seconds": 0.37,
+   "format": "Review",
+   "prompt_tokens": 1140,
+   "completion_tokens": 8
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 6326.878564432263,
+   "url": "http://127.0.0.1:34637/test24",
+   "goal": "Filled 6 field(s) from the document. Left empty because the document has no value for them, so do not fill these: 4a. TP.HCM/ TP. Thủ Đức. Nhập địa chỉ cư trú ( số nhà, đường, khu phố Ấp, Phuờng xã Thị trấn, quận huyện); 12. Ngày cấp CMND/ CCCD; 13. Mã số thẻ BHYT; 14. Khi cần báo tin cho ai; 2. Giới tính; 6. Trình độ; 7. Ngành; 8. Đối tượng tình nguyện; 9. Nhiệm vụ tình nguyện; 10. Đã tiêm vắc xin Covid 19; 16. Đã tham gia chống dịch COVID-19; 17. Bạn có thể ở lại trong khu vực cách ly/ bệnh viện dã chiến hay không; 18. Bạn có đang ở trong khu vực cách ly/ phong tỏa hay không?. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 772.7383393794298,
+   "url": "http://127.0.0.1:34637/test24",
+   "goal": "Sent the form with 'Gửi'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 169.02463138103485,
+   "url": "http://127.0.0.1:34637/test24",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

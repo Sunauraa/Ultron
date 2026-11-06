@@ -1,0 +1,65 @@
+{
+ "form": "test7",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 17.2,
+ "score": {
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Continue without accepting",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.71,
+   "format": "Answers",
+   "prompt_tokens": 236,
+   "completion_tokens": 69
+  },
+  {
+   "seconds": 4.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 6110,
+   "completion_tokens": 161
+  },
+  {
+   "seconds": 5.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 6026,
+   "completion_tokens": 216
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 50.52388086915016,
+   "url": "http://127.0.0.1:43747/test7",
+   "goal": "Close the pop-up with 'Continue without accepting'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1787.9681177437305,
+   "url": "http://127.0.0.1:43747/test7",
+   "goal": "Filled 3 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Volunteer Areas of Interest; Search. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 72.57269136607647,
+   "url": "http://127.0.0.1:43747/test7",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2065952867269516,
+   "url": "http://127.0.0.1:43747/test7",
+   "goal": ""
+  }
+ ]
+}

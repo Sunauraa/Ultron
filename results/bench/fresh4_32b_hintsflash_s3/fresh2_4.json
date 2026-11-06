@@ -1,0 +1,54 @@
+{
+ "form": "fresh2_4",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 22.4,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 2,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f7": "742 Cedar Lane, Portland, Oregon, 97201"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Close this consent banner",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 1133,
+   "completion_tokens": 68
+  },
+  {
+   "seconds": 5.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 2169,
+   "completion_tokens": 261
+  },
+  {
+   "seconds": 5.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 2371,
+   "completion_tokens": 245
+  },
+  {
+   "seconds": 2.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 1386,
+   "completion_tokens": 101
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

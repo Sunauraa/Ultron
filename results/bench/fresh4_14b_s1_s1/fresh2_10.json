@@ -1,0 +1,77 @@
+{
+ "form": "fresh2_10",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 12.3,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 5,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accepteer alle cookies",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.99,
+   "format": "AgentOutput",
+   "prompt_tokens": 5969,
+   "completion_tokens": 151
+  },
+  {
+   "seconds": 1.85,
+   "format": "Answers",
+   "prompt_tokens": 260,
+   "completion_tokens": 75
+  },
+  {
+   "seconds": 0.27,
+   "format": "Review",
+   "prompt_tokens": 129,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 63.384341076016426,
+   "url": "http://127.0.0.1:45329/fresh2_10",
+   "goal": ""
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1942.3153139650822,
+   "url": "http://127.0.0.1:45329/fresh2_10",
+   "goal": "Filled 5 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Number of Adults; Number of Children. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 370.5319855362177,
+   "url": "http://127.0.0.1:45329/fresh2_10",
+   "goal": "Sent the form with 'Submit'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 171.590069308877,
+   "url": "http://127.0.0.1:45329/fresh2_10",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "form": "fresh1_14",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 17.3,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 6135,
+   "completion_tokens": 409
+  },
+  {
+   "seconds": 4.25,
+   "format": "AgentOutput",
+   "prompt_tokens": 5996,
+   "completion_tokens": 206
+  }
+ ],
+ "steps": 3,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully filled in and submitted. The page confirms receipt of the form.",
+ "fast": [
+  {
+   "kind": "llm",
+   "milliseconds": 0.7818210870027542,
+   "url": "http://127.0.0.1:44187/fresh1_14",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2475939691066742,
+   "url": "http://127.0.0.1:44187/fresh1_14",
+   "goal": ""
+  }
+ ]
+}

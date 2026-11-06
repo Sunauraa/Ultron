@@ -1,0 +1,63 @@
+{
+ "form": "test31",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 19.1,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f4": "Công ty TNHH Minh Long"
+  },
+  "extra": {
+   "f3": "21/06/1995"
+  },
+  "missing_consent": [],
+  "popup_choice": "Niet accepteren",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 6218,
+   "completion_tokens": 332
+  },
+  {
+   "seconds": 4.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 5996,
+   "completion_tokens": 156
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 49.032216891646385,
+   "url": "http://127.0.0.1:46175/test31",
+   "goal": "Close the pop-up with 'Niet accepteren'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 201.740188524127,
+   "url": "http://127.0.0.1:46175/test31",
+   "goal": "Fill 3 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 202.32693664729595,
+   "url": "http://127.0.0.1:46175/test31",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.23250654339790344,
+   "url": "http://127.0.0.1:46175/test31",
+   "goal": ""
+  }
+ ]
+}

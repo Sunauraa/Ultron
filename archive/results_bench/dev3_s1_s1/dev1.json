@@ -1,0 +1,87 @@
+{
+ "form": "dev1",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 33.2,
+ "score": {
+  "submitted": true,
+  "fields": 9,
+  "wrong": {
+   "f11": "555-0147"
+  },
+  "extra": {
+   "f10": "503"
+  },
+  "missing_consent": [],
+  "popup_choice": "Да, верно",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 6257,
+   "completion_tokens": 301
+  },
+  {
+   "seconds": 6.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 6378,
+   "completion_tokens": 243
+  },
+  {
+   "seconds": 4.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 6518,
+   "completion_tokens": 163
+  },
+  {
+   "seconds": 5.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 6187,
+   "completion_tokens": 210
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 17.88165606558323,
+   "url": "http://127.0.0.1:45731/dev1",
+   "goal": "Close the pop-up with 'Да, верно'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 282.43135660886765,
+   "url": "http://127.0.0.1:45731/dev1",
+   "goal": "Fill 4 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 301.48301646113396,
+   "url": "http://127.0.0.1:45731/dev1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 275.63564479351044,
+   "url": "http://127.0.0.1:45731/dev1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 277.94666960835457,
+   "url": "http://127.0.0.1:45731/dev1",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.20422041416168213,
+   "url": "http://127.0.0.1:45731/dev1",
+   "goal": ""
+  }
+ ]
+}

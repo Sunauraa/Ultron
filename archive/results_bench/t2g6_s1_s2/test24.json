@@ -1,0 +1,62 @@
+{
+ "form": "test24",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 19.6,
+ "score": {
+  "submitted": true,
+  "fields": 5,
+  "wrong": {
+   "f4": null,
+   "f11": "Trường THPT Chu Văn An"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.18,
+   "format": "Answers",
+   "prompt_tokens": 390,
+   "completion_tokens": 129
+  },
+  {
+   "seconds": 6.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 8044,
+   "completion_tokens": 219
+  },
+  {
+   "seconds": 4.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 6293,
+   "completion_tokens": 193
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 3535.2971870452166,
+   "url": "http://127.0.0.1:45719/test24",
+   "goal": "Filled 4 field(s) from the document. Left empty because the document has no value for them, so do not fill these: 4a. TP.HCM/ TP. Thủ Đức. Nhập địa chỉ cư trú ( số nhà, đường, khu phố Ấp, Phuờng xã Thị trấn, quận huyện); 4b. Tỉnh/ thành phố khác. Nhập địa chỉ cư trú ( số nhà, đường, khu phố Ấp, Phuờng xã Thị trấn, quận huyện); 12. Ngày cấp CMND/ CCCD; 13. Mã số thẻ BHYT; 14. Khi cần báo tin cho ai; 15. Số điện thoại người nhận tin. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 360.1083718240261,
+   "url": "http://127.0.0.1:45719/test24",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.3997238129377365,
+   "url": "http://127.0.0.1:45719/test24",
+   "goal": ""
+  }
+ ]
+}

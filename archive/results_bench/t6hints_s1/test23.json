@@ -1,0 +1,57 @@
+{
+ "form": "test23",
+ "lang": "vi",
+ "arm": "hints",
+ "seed": 1,
+ "seconds": 42.7,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 4,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 7386,
+   "completion_tokens": 257
+  },
+  {
+   "seconds": 9.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 7527,
+   "completion_tokens": 369
+  },
+  {
+   "seconds": 9.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 7627,
+   "completion_tokens": 352
+  },
+  {
+   "seconds": 4.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 7912,
+   "completion_tokens": 168
+  },
+  {
+   "seconds": 5.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 6519,
+   "completion_tokens": 210
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission successful. Confirmation message received: Thank you. Your form has been received and no further action is needed.",
+ "fast": []
+}

@@ -1,0 +1,186 @@
+{
+ "form": "test22",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 151.1,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 2,
+  "submitted": true,
+  "fields": 6,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f5": null,
+   "f7": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept All Cookies",
+  "popup_ok": false,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 1144,
+   "completion_tokens": 55
+  },
+  {
+   "seconds": 7.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 1921,
+   "completion_tokens": 269
+  },
+  {
+   "seconds": 4.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 2107,
+   "completion_tokens": 167
+  },
+  {
+   "seconds": 3.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 2251,
+   "completion_tokens": 143
+  },
+  {
+   "seconds": 4.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 2399,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 4.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 2562,
+   "completion_tokens": 160
+  },
+  {
+   "seconds": 4.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 2774,
+   "completion_tokens": 157
+  },
+  {
+   "seconds": 4.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 2934,
+   "completion_tokens": 139
+  },
+  {
+   "seconds": 4.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 3078,
+   "completion_tokens": 151
+  },
+  {
+   "seconds": 4.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 3233,
+   "completion_tokens": 151
+  },
+  {
+   "seconds": 5.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 3387,
+   "completion_tokens": 200
+  },
+  {
+   "seconds": 5.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 3557,
+   "completion_tokens": 201
+  },
+  {
+   "seconds": 2.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 2824,
+   "completion_tokens": 88
+  },
+  {
+   "seconds": 5.97,
+   "format": "AgentOutput",
+   "prompt_tokens": 2843,
+   "completion_tokens": 214
+  },
+  {
+   "seconds": 12.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 2979,
+   "completion_tokens": 430
+  },
+  {
+   "seconds": 8.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 3216,
+   "completion_tokens": 277
+  },
+  {
+   "seconds": 6.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 4222,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 1.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 3550,
+   "completion_tokens": 60
+  },
+  {
+   "seconds": 3.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 3648,
+   "completion_tokens": 105
+  },
+  {
+   "seconds": 3.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 3713,
+   "completion_tokens": 106
+  },
+  {
+   "seconds": 2.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 3776,
+   "completion_tokens": 79
+  },
+  {
+   "seconds": 2.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 3839,
+   "completion_tokens": 79
+  },
+  {
+   "seconds": 2.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 3902,
+   "completion_tokens": 79
+  },
+  {
+   "seconds": 2.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 4047,
+   "completion_tokens": 79
+  },
+  {
+   "seconds": 2.48,
+   "format": "AgentOutput",
+   "prompt_tokens": 4126,
+   "completion_tokens": 81
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": true,
+ "final": "Form submitted successfully. Confirmation message received.",
+ "fast": [],
+ "trap": "Phạm Thu Hà"
+}

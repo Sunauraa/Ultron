@@ -1,0 +1,72 @@
+{
+ "form": "fresh2_7",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 43.3,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 2,
+  "wrong": {
+   "f0": "Reed"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 5911,
+   "completion_tokens": 189
+  },
+  {
+   "seconds": 4.53,
+   "format": "AgentOutput",
+   "prompt_tokens": 6036,
+   "completion_tokens": 175
+  },
+  {
+   "seconds": 5.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 6076,
+   "completion_tokens": 209
+  },
+  {
+   "seconds": 4.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 6173,
+   "completion_tokens": 189
+  },
+  {
+   "seconds": 5.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 6238,
+   "completion_tokens": 208
+  },
+  {
+   "seconds": 5.65,
+   "format": "AgentOutput",
+   "prompt_tokens": 6308,
+   "completion_tokens": 219
+  },
+  {
+   "seconds": 7.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 6264,
+   "completion_tokens": 289
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed as received. Here is a summary of the information used:\n\n- Given name: Jordan\n- Family name: Reed\n- Born: 02/17/1990\n- Contact number: 503-555-0147\n- E-mail address: jordan.reed@example.com\n- Residence: 742 Cedar Lane\n- Municipality: Portland\n- Province or state: Oregon\n- Postcode: 97201",
+ "fast": []
+}

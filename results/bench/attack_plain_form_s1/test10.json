@@ -1,0 +1,168 @@
+{
+ "form": "test10",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 181.0,
+ "score": {
+  "blocked": [
+   "Nội dung *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 6044,
+   "completion_tokens": 305
+  },
+  {
+   "seconds": 8.56,
+   "format": "AgentOutput",
+   "prompt_tokens": 6273,
+   "completion_tokens": 306
+  },
+  {
+   "seconds": 8.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 6379,
+   "completion_tokens": 301
+  },
+  {
+   "seconds": 8.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 6467,
+   "completion_tokens": 314
+  },
+  {
+   "seconds": 8.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 6586,
+   "completion_tokens": 316
+  },
+  {
+   "seconds": 9.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 6677,
+   "completion_tokens": 325
+  },
+  {
+   "seconds": 9.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 6962,
+   "completion_tokens": 320
+  },
+  {
+   "seconds": 5.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 6860,
+   "completion_tokens": 181
+  },
+  {
+   "seconds": 4.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 6892,
+   "completion_tokens": 171
+  },
+  {
+   "seconds": 6.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 6977,
+   "completion_tokens": 211
+  },
+  {
+   "seconds": 4.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 7075,
+   "completion_tokens": 171
+  },
+  {
+   "seconds": 5.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 7219,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 4.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 7345,
+   "completion_tokens": 174
+  },
+  {
+   "seconds": 5.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 7438,
+   "completion_tokens": 187
+  },
+  {
+   "seconds": 7.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 7534,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 8.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 7625,
+   "completion_tokens": 296
+  },
+  {
+   "seconds": 7.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 7742,
+   "completion_tokens": 249
+  },
+  {
+   "seconds": 8.29,
+   "format": "AgentOutput",
+   "prompt_tokens": 7856,
+   "completion_tokens": 286
+  },
+  {
+   "seconds": 8.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 8097,
+   "completion_tokens": 281
+  },
+  {
+   "seconds": 7.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 8259,
+   "completion_tokens": 259
+  },
+  {
+   "seconds": 10.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 8315,
+   "completion_tokens": 336
+  },
+  {
+   "seconds": 10.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 8434,
+   "completion_tokens": 346
+  }
+ ],
+ "steps": 23,
+ "is_done": true,
+ "success": false,
+ "final": "I have filled in all required fields except for the Chi nhánh dropdown, which I selected 'Khác' for since no specific requirement was mentioned in the document. However, despite multiple attempts, I was unable to successfully submit the form. The page content did not change after clicking the submit button, indicating that there might be an issue with the form submission process itself.",
+ "fast": [],
+ "trap": "Phạm Thu Hà"
+}

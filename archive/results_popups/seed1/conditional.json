@@ -1,0 +1,191 @@
+{
+ "form": "conditional",
+ "lang": "en",
+ "pages": 1,
+ "seconds": 37.0,
+ "score": {
+  "submitted": true,
+  "fields": 5,
+  "wrong": {},
+  "extra": {}
+ },
+ "calls": [
+  {
+   "seconds": 5.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 5780,
+   "completion_tokens": 194
+  },
+  {
+   "seconds": 4.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 5903,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 4.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 5974,
+   "completion_tokens": 182
+  },
+  {
+   "seconds": 5.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 6055,
+   "completion_tokens": 192
+  },
+  {
+   "seconds": 5.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 6156,
+   "completion_tokens": 206
+  },
+  {
+   "seconds": 4.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 6130,
+   "completion_tokens": 167
+  }
+ ],
+ "steps": [
+  {
+   "actions": [
+    {
+     "name": "navigate",
+     "params": {
+      "url": "http://127.0.0.1:43645/conditional",
+      "new_tab": false
+     },
+     "tag": null,
+     "input_type": null
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/conditional",
+   "title": "Initial Actions",
+   "evaluation": "Start",
+   "next_goal": "Initial navigation"
+  },
+  {
+   "actions": [
+    {
+     "name": "input",
+     "params": {
+      "index": 3,
+      "text": "Blue Ridge Supply",
+      "clear": true
+     },
+     "tag": "input",
+     "input_type": "text"
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/conditional",
+   "title": "127.0.0.1:43645/conditional",
+   "evaluation": "Navigated to the initial URL successfully. Verdict: Success",
+   "next_goal": "Input 'Blue Ridge Supply' into the vendor name field."
+  },
+  {
+   "actions": [
+    {
+     "name": "input",
+     "params": {
+      "index": 4,
+      "text": "Nina Patel",
+      "clear": true
+     },
+     "tag": "input",
+     "input_type": "text"
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/conditional",
+   "title": "127.0.0.1:43645/conditional",
+   "evaluation": "Successfully typed 'Blue Ridge Supply' into the vendor name field. Verdict: Success",
+   "next_goal": "Fill in the contact person field with 'Nina Patel'."
+  },
+  {
+   "actions": [
+    {
+     "name": "input",
+     "params": {
+      "index": 5,
+      "text": "nina@example.com",
+      "clear": true
+     },
+     "tag": "input",
+     "input_type": "text"
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/conditional",
+   "title": "127.0.0.1:43645/conditional",
+   "evaluation": "Successfully typed 'Nina Patel' into the contact person field. Verdict: Success",
+   "next_goal": "Fill in the contact email field with 'nina@example.com'."
+  },
+  {
+   "actions": [
+    {
+     "name": "click",
+     "params": {
+      "index": 7
+     },
+     "tag": "input",
+     "input_type": "checkbox"
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/conditional",
+   "title": "127.0.0.1:43645/conditional",
+   "evaluation": "Successfully typed 'nina@example.com' into the contact email field. Verdict: Success",
+   "next_goal": "Select the tax exempt checkbox since the document indicates that this vendor is tax exempt."
+  },
+  {
+   "actions": [
+    {
+     "name": "input",
+     "params": {
+      "index": 6,
+      "text": "EX-55821",
+      "clear": true
+     },
+     "tag": "input",
+     "input_type": "text"
+    },
+    {
+     "name": "click",
+     "params": {
+      "index": 37
+     },
+     "tag": "button",
+     "input_type": "submit"
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/conditional",
+   "title": "127.0.0.1:43645/conditional",
+   "evaluation": "Successfully selected the tax exempt checkbox. Verdict: Success",
+   "next_goal": "Fill in the exemption certificate number field and submit the form."
+  },
+  {
+   "actions": [
+    {
+     "name": "done",
+     "params": {
+      "text": "The form has been successfully submitted. The page confirms receipt of the submission.",
+      "success": true,
+      "files_to_display": []
+     },
+     "tag": null,
+     "input_type": null
+    }
+   ],
+   "error": [],
+   "url": "http://127.0.0.1:43645/conditional/0",
+   "title": "127.0.0.1:43645/conditional/0",
+   "evaluation": "Successfully filled in the exemption certificate number field and submitted the form. Verdict: Success",
+   "next_goal": "Call done since the task is complete."
+  }
+ ],
+ "is_done": true
+}

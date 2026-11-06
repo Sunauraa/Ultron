@@ -1,0 +1,65 @@
+{
+ "form": "fresh2_3",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 13.0,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 9,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.89,
+   "format": "Answers",
+   "prompt_tokens": 382,
+   "completion_tokens": 240
+  },
+  {
+   "seconds": 0.28,
+   "format": "Review",
+   "prompt_tokens": 129,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 0.17,
+   "format": "Received",
+   "prompt_tokens": 77,
+   "completion_tokens": 6
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": "The page confirmed receipt.",
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 6262.586265802383,
+   "url": "http://127.0.0.1:45329/fresh2_3",
+   "goal": "Filled 9 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Gender; Place of Birth; Ethnicity / Nationality; How long at the above residence?; Please list your employer(s):; Previous Volunteering Experience:; Previous Experience in [a field related to your organization's type of work]; Degrees Conferred; How many hours per week are you generally available?; Would you like to sign up for one of our volunteer orientation sessions now?; If no, when do you anticipate being ready to start working with us?. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "submit",
+   "milliseconds": 640.2273252606392,
+   "url": "http://127.0.0.1:45329/fresh2_3",
+   "goal": "Sent the form with 'Submit'."
+  },
+  {
+   "kind": "finish",
+   "milliseconds": 171.78813554346561,
+   "url": "http://127.0.0.1:45329/fresh2_3",
+   "goal": "The page confirmed receipt."
+  }
+ ]
+}

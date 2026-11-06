@@ -1,0 +1,63 @@
+{
+ "form": "test2",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 9.0,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 8,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.15,
+   "format": "Answers",
+   "prompt_tokens": 288,
+   "completion_tokens": 128
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": false,
+ "final": "Nothing was sent. The form requires these and the document has no value for them: This is the right place to input the First Name.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 49.37812313437462,
+   "url": "http://127.0.0.1:45111/test2",
+   "goal": "Close the pop-up with 'Accept all'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 3309.3755804002285,
+   "url": "http://127.0.0.1:45111/test2",
+   "goal": "Filled 8 field(s) from the document. Left empty because the document has no value for them, so do not fill these: This is the right place to input the First Name *; Please leave your comments or questions below.. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "stop",
+   "milliseconds": 157.0048425346613,
+   "url": "http://127.0.0.1:45111/test2",
+   "goal": "Nothing was sent. The form requires these and the document has no value for them: This is the right place to input the First Name."
+  }
+ ],
+ "trap": ""
+}

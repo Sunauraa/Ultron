@@ -1,0 +1,53 @@
+{
+ "form": "fresh2_14",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "model": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+ "seconds": 27.2,
+ "score": {
+  "blocked": [
+   "Message *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 6.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 6902,
+   "completion_tokens": 316
+  },
+  {
+   "seconds": 8.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 7065,
+   "completion_tokens": 373
+  },
+  {
+   "seconds": 7.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 7224,
+   "completion_tokens": 332
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": false,
+ "final": "The form could not be submitted because the required field 'Message' is missing a value.",
+ "fast": []
+}

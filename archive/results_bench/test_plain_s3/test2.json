@@ -1,0 +1,76 @@
+{
+ "form": "test2",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "seconds": 72.6,
+ "score": {
+  "submitted": true,
+  "fields": 8,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept all",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 6097,
+   "completion_tokens": 201
+  },
+  {
+   "seconds": 9.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 6986,
+   "completion_tokens": 363
+  },
+  {
+   "seconds": 7.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 7102,
+   "completion_tokens": 275
+  },
+  {
+   "seconds": 4.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 7256,
+   "completion_tokens": 182
+  },
+  {
+   "seconds": 4.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 6128,
+   "completion_tokens": 187
+  },
+  {
+   "seconds": 5.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 6165,
+   "completion_tokens": 200
+  },
+  {
+   "seconds": 4.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 6253,
+   "completion_tokens": 190
+  },
+  {
+   "seconds": 4.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 6318,
+   "completion_tokens": 191
+  },
+  {
+   "seconds": 5.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 6383,
+   "completion_tokens": 229
+  }
+ ],
+ "steps": 10,
+ "is_done": true,
+ "fast": []
+}

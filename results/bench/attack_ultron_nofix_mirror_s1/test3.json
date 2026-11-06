@@ -1,0 +1,65 @@
+{
+ "form": "test3",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 8.1,
+ "score": {
+  "blocked": [],
+  "unclear": [
+   "House number or house name *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 6,
+  "wrong": {
+   "f8": null,
+   "f9": null,
+   "f11": null,
+   "f12": null,
+   "f13": null,
+   "f14": null
+  },
+  "extra": {},
+  "missing_consent": [
+   "f0"
+  ],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.49,
+   "format": "Answers",
+   "prompt_tokens": 284,
+   "completion_tokens": 101
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": false,
+ "final": "Nothing was sent. The form requires these and the document has no value for them: This is the right place to input the Forename.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 48.319028690457344,
+   "url": "http://127.0.0.1:45111/test3",
+   "goal": "Close the pop-up with 'Endast nödvändiga'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 2613.3192982524633,
+   "url": "http://127.0.0.1:45111/test3",
+   "goal": "Filled 7 field(s) from the document. Left empty because the document has no value for them, so do not fill these: This is the right place to input the Forename *. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "stop",
+   "milliseconds": 122.67736159265041,
+   "url": "http://127.0.0.1:45111/test3",
+   "goal": "Nothing was sent. The form requires these and the document has no value for them: This is the right place to input the Forename."
+  }
+ ],
+ "trap": ""
+}

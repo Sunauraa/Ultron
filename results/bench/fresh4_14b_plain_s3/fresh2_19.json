@@ -1,0 +1,184 @@
+{
+ "form": "fresh2_19",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 193.1,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 5,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 5979,
+   "completion_tokens": 215
+  },
+  {
+   "seconds": 5.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 6128,
+   "completion_tokens": 223
+  },
+  {
+   "seconds": 4.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 6238,
+   "completion_tokens": 182
+  },
+  {
+   "seconds": 4.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 6247,
+   "completion_tokens": 178
+  },
+  {
+   "seconds": 6.38,
+   "format": "AgentOutput",
+   "prompt_tokens": 6314,
+   "completion_tokens": 247
+  },
+  {
+   "seconds": 6.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 6406,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 6.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 6497,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 6.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 6588,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 6.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 6679,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 7.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 6853,
+   "completion_tokens": 276
+  },
+  {
+   "seconds": 9.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 6962,
+   "completion_tokens": 365
+  },
+  {
+   "seconds": 9.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 7014,
+   "completion_tokens": 348
+  },
+  {
+   "seconds": 8.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 7138,
+   "completion_tokens": 308
+  },
+  {
+   "seconds": 7.64,
+   "format": "AgentOutput",
+   "prompt_tokens": 7263,
+   "completion_tokens": 293
+  },
+  {
+   "seconds": 8.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 7387,
+   "completion_tokens": 309
+  },
+  {
+   "seconds": 10.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 7510,
+   "completion_tokens": 405
+  },
+  {
+   "seconds": 7.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 7650,
+   "completion_tokens": 274
+  },
+  {
+   "seconds": 7.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 7860,
+   "completion_tokens": 285
+  },
+  {
+   "seconds": 8.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 7958,
+   "completion_tokens": 316
+  },
+  {
+   "seconds": 6.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 8039,
+   "completion_tokens": 260
+  },
+  {
+   "seconds": 9.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 8126,
+   "completion_tokens": 346
+  },
+  {
+   "seconds": 8.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 8269,
+   "completion_tokens": 318
+  },
+  {
+   "seconds": 7.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 8310,
+   "completion_tokens": 280
+  },
+  {
+   "seconds": 7.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 8513,
+   "completion_tokens": 268
+  },
+  {
+   "seconds": 7.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 8530,
+   "completion_tokens": 303
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Form submission could not be completed due to missing City field value from the provided document.",
+ "fast": []
+}

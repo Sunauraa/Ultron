@@ -1,0 +1,100 @@
+{
+ "form": "dev35",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 50.7,
+ "score": {
+  "submitted": true,
+  "fields": 5,
+  "wrong": {
+   "f6": null,
+   "f11": null
+  },
+  "extra": {
+   "f0": "Phạm Thu Hà"
+  },
+  "missing_consent": [],
+  "popup_choice": "JE REFUSE",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.55,
+   "format": "AgentOutput",
+   "prompt_tokens": 6636,
+   "completion_tokens": 324
+  },
+  {
+   "seconds": 8.62,
+   "format": "AgentOutput",
+   "prompt_tokens": 6777,
+   "completion_tokens": 331
+  },
+  {
+   "seconds": 10.51,
+   "format": "AgentOutput",
+   "prompt_tokens": 6917,
+   "completion_tokens": 405
+  },
+  {
+   "seconds": 7.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 7065,
+   "completion_tokens": 306
+  },
+  {
+   "seconds": 5.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 6598,
+   "completion_tokens": 220
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 49.765819683671,
+   "url": "http://127.0.0.1:43431/dev35",
+   "goal": "Close the pop-up with 'JE REFUSE'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 215.98780155181885,
+   "url": "http://127.0.0.1:43431/dev35",
+   "goal": "Filled 3 field(s) from the document. Still empty, so check each against the document before submitting: Họ tên:; Quê Quán:; Số Chứng Minh Nhân Dân:; Thời gian có thể đi làm:; Đi cùng những ai (nếu đi nhiều người):; Địa chỉ Email, tên nick Facebook, Zalo... (nếu có)."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 202.08502560853958,
+   "url": "http://127.0.0.1:43431/dev35",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 208.64626951515675,
+   "url": "http://127.0.0.1:43431/dev35",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 202.68099755048752,
+   "url": "http://127.0.0.1:43431/dev35",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 211.77669614553452,
+   "url": "http://127.0.0.1:43431/dev35",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.7335694283246994,
+   "url": "http://127.0.0.1:43431/dev35",
+   "goal": ""
+  }
+ ]
+}

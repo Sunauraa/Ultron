@@ -1,0 +1,83 @@
+{
+ "form": "dev27",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "seconds": 25.6,
+ "score": {
+  "submitted": true,
+  "fields": 3,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 6148,
+   "completion_tokens": 185
+  },
+  {
+   "seconds": 5.05,
+   "format": "AgentOutput",
+   "prompt_tokens": 6264,
+   "completion_tokens": 194
+  },
+  {
+   "seconds": 5.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 6342,
+   "completion_tokens": 221
+  },
+  {
+   "seconds": 4.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 6111,
+   "completion_tokens": 160
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 118.34108829498291,
+   "url": "http://127.0.0.1:39125/dev27",
+   "goal": "Fill 1 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 113.97058703005314,
+   "url": "http://127.0.0.1:39125/dev27",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 111.18503473699093,
+   "url": "http://127.0.0.1:39125/dev27",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 112.59264871478081,
+   "url": "http://127.0.0.1:39125/dev27",
+   "goal": ""
+  },
+  {
+   "kind": "form",
+   "milliseconds": 123.64677898585796,
+   "url": "http://127.0.0.1:39125/dev27",
+   "goal": "Submit with 'Gửi'"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.31960010528564453,
+   "url": "http://127.0.0.1:39125/dev27",
+   "goal": ""
+  }
+ ]
+}

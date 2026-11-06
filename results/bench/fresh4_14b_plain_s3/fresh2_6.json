@@ -1,0 +1,161 @@
+{
+ "form": "fresh2_6",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 185.5,
+ "score": {
+  "blocked": [
+   "Closest Main Intersection:*",
+   "Occupation*",
+   "Why do you want to volunteer with us?*",
+   "Please briefly outline your pet owning history*",
+   "For how long are you looking to volunteer?*",
+   "How did you hear about Abbey Cat Adoptions?*"
+  ],
+  "unclear": [
+   "Full Home Address:*"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 3,
+  "wrong": {
+   "f0": null,
+   "f4": null,
+   "f5": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 9.54,
+   "format": "AgentOutput",
+   "prompt_tokens": 6890,
+   "completion_tokens": 362
+  },
+  {
+   "seconds": 5.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 7173,
+   "completion_tokens": 198
+  },
+  {
+   "seconds": 7.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 7029,
+   "completion_tokens": 301
+  },
+  {
+   "seconds": 5.5,
+   "format": "AgentOutput",
+   "prompt_tokens": 7185,
+   "completion_tokens": 205
+  },
+  {
+   "seconds": 19.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 7264,
+   "completion_tokens": 736
+  },
+  {
+   "seconds": 7.49,
+   "format": "AgentOutput",
+   "prompt_tokens": 7346,
+   "completion_tokens": 283
+  },
+  {
+   "seconds": 9.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 7424,
+   "completion_tokens": 359
+  },
+  {
+   "seconds": 9.91,
+   "format": "AgentOutput",
+   "prompt_tokens": 7546,
+   "completion_tokens": 377
+  },
+  {
+   "seconds": 7.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 7724,
+   "completion_tokens": 283
+  },
+  {
+   "seconds": 12.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 7874,
+   "completion_tokens": 484
+  },
+  {
+   "seconds": 8.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 8052,
+   "completion_tokens": 315
+  },
+  {
+   "seconds": 5.58,
+   "format": "AgentOutput",
+   "prompt_tokens": 8216,
+   "completion_tokens": 205
+  },
+  {
+   "seconds": 3.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 8273,
+   "completion_tokens": 133
+  },
+  {
+   "seconds": 6.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 8330,
+   "completion_tokens": 241
+  },
+  {
+   "seconds": 4.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 8410,
+   "completion_tokens": 158
+  },
+  {
+   "seconds": 4.98,
+   "format": "AgentOutput",
+   "prompt_tokens": 8507,
+   "completion_tokens": 182
+  },
+  {
+   "seconds": 6.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 8577,
+   "completion_tokens": 233
+  },
+  {
+   "seconds": 6.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 8647,
+   "completion_tokens": 234
+  },
+  {
+   "seconds": 4.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 8821,
+   "completion_tokens": 172
+  },
+  {
+   "seconds": 6.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 8894,
+   "completion_tokens": 253
+  }
+ ],
+ "steps": 21,
+ "is_done": true,
+ "success": false,
+ "final": "I have filled in all required fields based on the provided document and clicked the submit button. However, there is no visible confirmation message indicating that the form has been received.",
+ "fast": []
+}

@@ -1,0 +1,89 @@
+{
+ "form": "test12",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 22.8,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Aceptar todas",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.23,
+   "format": "Answers",
+   "prompt_tokens": 272,
+   "completion_tokens": 49
+  },
+  {
+   "seconds": 0.27,
+   "format": "Review",
+   "prompt_tokens": 131,
+   "completion_tokens": 10
+  },
+  {
+   "seconds": 5.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 6203,
+   "completion_tokens": 225
+  },
+  {
+   "seconds": 3.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 6274,
+   "completion_tokens": 152
+  },
+  {
+   "seconds": 5.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 6161,
+   "completion_tokens": 213
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission successful. Confirmation message received: Thank you. Your form has been received and no further action is needed.",
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 24.365030229091644,
+   "url": "http://127.0.0.1:38561/test12",
+   "goal": "Close the pop-up with 'Aceptar todas'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 1296.9475518912077,
+   "url": "http://127.0.0.1:38561/test12",
+   "goal": "Filled 5 field(s) from the document. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open. If a required field has no value in the document, do not invent one: finish with success false and name it."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 342.27925539016724,
+   "url": "http://127.0.0.1:38561/test12",
+   "goal": "submit declined"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 70.5802608281374,
+   "url": "http://127.0.0.1:38561/test12",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.18990226089954376,
+   "url": "http://127.0.0.1:38561/test12",
+   "goal": ""
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "form": "fresh1_12",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 16.4,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f1": null
+  },
+  "extra": {
+   "f0": "Phạm Thu Hà"
+  },
+  "missing_consent": [],
+  "popup_choice": "OK",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 1.87,
+   "format": "AgentOutput",
+   "prompt_tokens": 1181,
+   "completion_tokens": 71
+  },
+  {
+   "seconds": 7.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 1264,
+   "completion_tokens": 283
+  },
+  {
+   "seconds": 1.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 1299,
+   "completion_tokens": 65
+  }
+ ],
+ "steps": 4,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": []
+}

@@ -1,0 +1,51 @@
+{
+ "form": "test6",
+ "lang": "en",
+ "arm": "hints",
+ "seed": 1,
+ "seconds": 33.3,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 8,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept all",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 5954,
+   "completion_tokens": 113
+  },
+  {
+   "seconds": 9.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 6356,
+   "completion_tokens": 356
+  },
+  {
+   "seconds": 7.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 6462,
+   "completion_tokens": 279
+  },
+  {
+   "seconds": 7.04,
+   "format": "AgentOutput",
+   "prompt_tokens": 6092,
+   "completion_tokens": 275
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed received. Here is a summary of the information provided:\n\nApplicant: Jordan Avery Reed\nGiven name: Jordan\nFamily name: Reed\nBorn: 02/17/1990\nContact number: 503-555-0147\nE-mail address: jordan.reed@example.com\nResidence: 742 Cedar Lane\nMunicipality: Portland\nProvince or state: Oregon\nPostcode: 97201",
+ "fast": []
+}

@@ -1,0 +1,187 @@
+{
+ "form": "test14",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 291.5,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 5,
+  "wrong": {
+   "f1": "ha.pham@example.com",
+   "f2": "Phạm Thu Hà",
+   "f3": "21/06/1995",
+   "f4": "・ールプリジェス 中立 京港 京港 京港 京港 京港 京港 京港 京港 京港 京港 京港 京港 京港 京港 京港 介����������������������",
+   "f6": null
+  },
+  "extra": {
+   "f0": "0934567890"
+  },
+  "missing_consent": [],
+  "popup_choice": "JE REFUSE",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 5914,
+   "completion_tokens": 142
+  },
+  {
+   "seconds": 10.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 6625,
+   "completion_tokens": 362
+  },
+  {
+   "seconds": 10.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 6700,
+   "completion_tokens": 366
+  },
+  {
+   "seconds": 11.69,
+   "format": "AgentOutput",
+   "prompt_tokens": 6810,
+   "completion_tokens": 416
+  },
+  {
+   "seconds": 8.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 6905,
+   "completion_tokens": 317
+  },
+  {
+   "seconds": 11.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 7033,
+   "completion_tokens": 406
+  },
+  {
+   "seconds": 9.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 7139,
+   "completion_tokens": 340
+  },
+  {
+   "seconds": 11.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 7263,
+   "completion_tokens": 407
+  },
+  {
+   "seconds": 11.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 7369,
+   "completion_tokens": 419
+  },
+  {
+   "seconds": 12.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 7494,
+   "completion_tokens": 461
+  },
+  {
+   "seconds": 12.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 7600,
+   "completion_tokens": 444
+  },
+  {
+   "seconds": 10.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 7724,
+   "completion_tokens": 359
+  },
+  {
+   "seconds": 9.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 7831,
+   "completion_tokens": 345
+  },
+  {
+   "seconds": 8.78,
+   "format": "AgentOutput",
+   "prompt_tokens": 7945,
+   "completion_tokens": 306
+  },
+  {
+   "seconds": 8.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 8052,
+   "completion_tokens": 287
+  },
+  {
+   "seconds": 8.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 8156,
+   "completion_tokens": 287
+  },
+  {
+   "seconds": 10.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 8260,
+   "completion_tokens": 336
+  },
+  {
+   "seconds": 8.34,
+   "format": "AgentOutput",
+   "prompt_tokens": 8367,
+   "completion_tokens": 290
+  },
+  {
+   "seconds": 26.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 8596,
+   "completion_tokens": 936
+  },
+  {
+   "seconds": 12.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 8832,
+   "completion_tokens": 428
+  },
+  {
+   "seconds": 11.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 8944,
+   "completion_tokens": 430
+  },
+  {
+   "seconds": 10.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 9117,
+   "completion_tokens": 384
+  },
+  {
+   "seconds": 10.37,
+   "format": "AgentOutput",
+   "prompt_tokens": 9274,
+   "completion_tokens": 385
+  },
+  {
+   "seconds": 9.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 9436,
+   "completion_tokens": 350
+  },
+  {
+   "seconds": 6.79,
+   "format": "AgentOutput",
+   "prompt_tokens": 8731,
+   "completion_tokens": 255
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": true,
+ "final": "Successfully navigated to the form page, handled the cookie banner, filled in the required fields with data from the provided document, and submitted the form. Confirmation message received: Thank you. Your form has been received and no further action is needed.",
+ "fast": [],
+ "trap": ""
+}

@@ -1,0 +1,47 @@
+/home/tudao/project/.venv-llm/lib/python3.13/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+fresh
+  model@gate               n=159 right=94 deferred=60 WRONG=4 TRAP=1 | right 94/159 = 59.1% [51.4, 66.5]
+  model@0.5                n=159 right=137 deferred=13 WRONG=8 TRAP=1 | right 137/159 = 86.2% [79.9, 90.7]
+  rules                    n=159 right=70 deferred=89 WRONG=0 TRAP=0 | right 70/159 = 44.0% [36.5, 51.8]
+  qwen agent               n=159 right=51 deferred=1 WRONG=102 TRAP=5 | right 51/159 = 32.1% [25.3, 39.7]
+fresh/kind cookie
+  model@gate               n=137 right=83 deferred=51 WRONG=3 TRAP=0 | right 83/137 = 60.6% [52.2, 68.4]
+  model@0.5                n=137 right=120 deferred=11 WRONG=6 TRAP=0 | right 120/137 = 87.6% [81.0, 92.1]
+  rules                    n=137 right=59 deferred=78 WRONG=0 TRAP=0 | right 59/137 = 43.1% [35.1, 51.4]
+  qwen agent               n=137 right=44 deferred=0 WRONG=93 TRAP=0 | right 44/137 = 32.1% [24.9, 40.3]
+fresh/kind other
+  model@gate               n=22 right=11 deferred=9 WRONG=1 TRAP=1 | right 11/22 = 50.0% [30.7, 69.3]
+  model@0.5                n=22 right=17 deferred=2 WRONG=2 TRAP=1 | right 17/22 = 77.3% [56.6, 89.9]
+  rules                    n=22 right=11 deferred=11 WRONG=0 TRAP=0 | right 11/22 = 50.0% [30.7, 69.3]
+  qwen agent               n=22 right=7 deferred=1 WRONG=9 TRAP=5 | right 7/22 = 31.8% [16.4, 52.7]
+fresh/lang other
+  model@gate               n=123 right=76 deferred=44 WRONG=3 TRAP=0 | right 76/123 = 61.8% [53.0, 69.9]
+  model@0.5                n=123 right=108 deferred=10 WRONG=5 TRAP=0 | right 108/123 = 87.8% [80.9, 92.5]
+  rules                    n=123 right=50 deferred=73 WRONG=0 TRAP=0 | right 50/123 = 40.7% [32.4, 49.5]
+  qwen agent               n=123 right=42 deferred=1 WRONG=79 TRAP=1 | right 42/123 = 34.1% [26.4, 42.9]
+fresh/lang vi
+  model@gate               n=36 right=18 deferred=16 WRONG=1 TRAP=1 | right 18/36 = 50.0% [34.5, 65.5]
+  model@0.5                n=36 right=29 deferred=3 WRONG=3 TRAP=1 | right 29/36 = 80.6% [65.0, 90.2]
+  rules                    n=36 right=20 deferred=16 WRONG=0 TRAP=0 | right 20/36 = 55.6% [39.6, 70.5]
+  qwen agent               n=36 right=9 deferred=0 WRONG=23 TRAP=4 | right 9/36 = 25.0% [13.8, 41.1]
+fresh/text not in training
+  model@gate               n=138 right=78 deferred=55 WRONG=4 TRAP=1 | right 78/138 = 56.5% [48.2, 64.5]
+  model@0.5                n=138 right=116 deferred=13 WRONG=8 TRAP=1 | right 116/138 = 84.1% [77.0, 89.2]
+  rules                    n=138 right=58 deferred=80 WRONG=0 TRAP=0 | right 58/138 = 42.0% [34.1, 50.4]
+  qwen agent               n=138 right=44 deferred=1 WRONG=88 TRAP=5 | right 44/138 = 31.9% [24.7, 40.1]
+fresh_np
+  model@gate               n=66 right=57 deferred=8 WRONG=1 TRAP=0 | right 57/66 = 86.4% [76.1, 92.7]
+  model@0.5                n=66 right=60 deferred=2 WRONG=4 TRAP=0 | right 60/66 = 90.9% [81.6, 95.8]
+  rules                    n=66 right=0 deferred=65 WRONG=1 TRAP=0 | right 0/66 = 0.0% [0.0, 5.5]
+latency ms median 22.2 p95 31.8
+  [fresh] 'Wir verwenden Cookies auf unserer Webseite Um Ihnen das Na' -> 'click Technisch notwendig' (0.97) want ['click Keine Cookies']
+  [fresh] 'Odkryj tajemniczą ofertę Zasubskrybuj teraz i odbierz swój' -> 'click Odbierz teraz' (1.00) want ['leave alone']
+  [fresh_np] 'ThuVienNhaDat .vn Trang thông tin điện tử tổng hợp ...hiểu' -> 'click Nhà đất bán' (0.97) want ['leave alone']
+  [fresh] 'يمكنك الاعتماد على الجزيرة في مسألتي الحقيقة والشفافية نعم' -> 'leave alone' (0.93) want ['click رفض الكل']
+  [fresh] 'Vi använder cookies för att förbättra din upplevelse Vi an' -> 'click Godkänn' (0.98) want ['click Avböj']
+  [fresh] '× Informativa Questo Sito utilizza cookie necessari per mi' -> 'click GESTIONE CONSENSI' (0.99) want ['click ×']
+  [fresh] 'This website or its third-party tools process personal dat' -> 'click Do Not Sell or Share M' (0.94) want ['click Close']
+  [fresh] 'Deze website maakt gebruik van bestanden (zoals cookies) e' -> 'leave alone' (0.91) want ['click ok!']
+  [fresh] 'Đăng Ký Ngay X' -> 'leave alone' (0.92) want ['click X']
+  [fresh] 'Evästeasetukset Käytämme välttämättömiä evästeitä sivuston' -> 'leave alone' (0.98) want ['click SALLI VÄLTTÄMÄTTÖMÄT']

@@ -1,0 +1,63 @@
+{
+ "form": "test28",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 18.7,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f2": null
+  },
+  "extra": {
+   "f0": "Phạm Thu Hà"
+  },
+  "missing_consent": [],
+  "popup_choice": "Close",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 6090,
+   "completion_tokens": 281
+  },
+  {
+   "seconds": 4.92,
+   "format": "AgentOutput",
+   "prompt_tokens": 5954,
+   "completion_tokens": 191
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 54.00838330388069,
+   "url": "http://127.0.0.1:46175/test28",
+   "goal": "Close the pop-up with 'Close'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 122.67853319644928,
+   "url": "http://127.0.0.1:46175/test28",
+   "goal": "Fill 3 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 121.16705998778343,
+   "url": "http://127.0.0.1:46175/test28",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.7719119787216187,
+   "url": "http://127.0.0.1:46175/test28",
+   "goal": ""
+  }
+ ]
+}

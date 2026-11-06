@@ -1,0 +1,190 @@
+{
+ "form": "test8",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 201.6,
+ "score": {
+  "blocked": [
+   "* Supervisor District"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 8,
+  "wrong": {
+   "f0": null,
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null,
+   "f5": null,
+   "f7": null,
+   "f29": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 8.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 6775,
+   "completion_tokens": 304
+  },
+  {
+   "seconds": 7.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 7005,
+   "completion_tokens": 262
+  },
+  {
+   "seconds": 7.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 7054,
+   "completion_tokens": 246
+  },
+  {
+   "seconds": 7.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 7115,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 7.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 7176,
+   "completion_tokens": 254
+  },
+  {
+   "seconds": 7.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 7237,
+   "completion_tokens": 252
+  },
+  {
+   "seconds": 8.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 7309,
+   "completion_tokens": 253
+  },
+  {
+   "seconds": 8.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 7374,
+   "completion_tokens": 292
+  },
+  {
+   "seconds": 8.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 7459,
+   "completion_tokens": 292
+  },
+  {
+   "seconds": 8.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 7552,
+   "completion_tokens": 290
+  },
+  {
+   "seconds": 7.63,
+   "format": "AgentOutput",
+   "prompt_tokens": 7635,
+   "completion_tokens": 249
+  },
+  {
+   "seconds": 7.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 7662,
+   "completion_tokens": 232
+  },
+  {
+   "seconds": 5.89,
+   "format": "AgentOutput",
+   "prompt_tokens": 7766,
+   "completion_tokens": 186
+  },
+  {
+   "seconds": 6.73,
+   "format": "AgentOutput",
+   "prompt_tokens": 7841,
+   "completion_tokens": 219
+  },
+  {
+   "seconds": 6.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 7914,
+   "completion_tokens": 201
+  },
+  {
+   "seconds": 6.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 7996,
+   "completion_tokens": 203
+  },
+  {
+   "seconds": 6.14,
+   "format": "AgentOutput",
+   "prompt_tokens": 8078,
+   "completion_tokens": 203
+  },
+  {
+   "seconds": 6.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 8160,
+   "completion_tokens": 205
+  },
+  {
+   "seconds": 6.02,
+   "format": "AgentOutput",
+   "prompt_tokens": 8375,
+   "completion_tokens": 209
+  },
+  {
+   "seconds": 5.17,
+   "format": "AgentOutput",
+   "prompt_tokens": 8492,
+   "completion_tokens": 177
+  },
+  {
+   "seconds": 5.83,
+   "format": "AgentOutput",
+   "prompt_tokens": 8576,
+   "completion_tokens": 190
+  },
+  {
+   "seconds": 5.06,
+   "format": "AgentOutput",
+   "prompt_tokens": 8663,
+   "completion_tokens": 173
+  },
+  {
+   "seconds": 5.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 8741,
+   "completion_tokens": 182
+  },
+  {
+   "seconds": 5.95,
+   "format": "AgentOutput",
+   "prompt_tokens": 8826,
+   "completion_tokens": 197
+  },
+  {
+   "seconds": 8.0,
+   "format": "AgentOutput",
+   "prompt_tokens": 8927,
+   "completion_tokens": 268
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "I have filled in all required fields except for the radio button selection. Despite multiple attempts, I could not select the correct radio button. Therefore, I am unable to submit the form successfully. Please check if there is a specific label or identifier for the correct radio button.",
+ "fast": [],
+ "trap": "Jordan"
+}

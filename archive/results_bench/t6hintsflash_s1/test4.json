@@ -1,0 +1,189 @@
+{
+ "form": "test4",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 1,
+ "seconds": 211.4,
+ "score": {
+  "blocked": [
+   "Please enter your question / comment in the space provided below, providing detailed information so we can better assist you. *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 9,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f5": null,
+   "f6": null,
+   "f7": null,
+   "f8": null,
+   "f9": null,
+   "f14": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 1431,
+   "completion_tokens": 286
+  },
+  {
+   "seconds": 6.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 1500,
+   "completion_tokens": 267
+  },
+  {
+   "seconds": 4.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 1607,
+   "completion_tokens": 196
+  },
+  {
+   "seconds": 3.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 1775,
+   "completion_tokens": 120
+  },
+  {
+   "seconds": 3.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 1873,
+   "completion_tokens": 120
+  },
+  {
+   "seconds": 3.15,
+   "format": "AgentOutput",
+   "prompt_tokens": 1972,
+   "completion_tokens": 120
+  },
+  {
+   "seconds": 3.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 2071,
+   "completion_tokens": 120
+  },
+  {
+   "seconds": 3.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 2170,
+   "completion_tokens": 120
+  },
+  {
+   "seconds": 3.12,
+   "format": "AgentOutput",
+   "prompt_tokens": 2269,
+   "completion_tokens": 120
+  },
+  {
+   "seconds": 2.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 2407,
+   "completion_tokens": 89
+  },
+  {
+   "seconds": 2.36,
+   "format": "AgentOutput",
+   "prompt_tokens": 2487,
+   "completion_tokens": 89
+  },
+  {
+   "seconds": 2.9,
+   "format": "AgentOutput",
+   "prompt_tokens": 2567,
+   "completion_tokens": 111
+  },
+  {
+   "seconds": 2.93,
+   "format": "AgentOutput",
+   "prompt_tokens": 2669,
+   "completion_tokens": 112
+  },
+  {
+   "seconds": 2.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 2772,
+   "completion_tokens": 112
+  },
+  {
+   "seconds": 2.94,
+   "format": "AgentOutput",
+   "prompt_tokens": 2876,
+   "completion_tokens": 112
+  },
+  {
+   "seconds": 5.82,
+   "format": "AgentOutput",
+   "prompt_tokens": 2978,
+   "completion_tokens": 228
+  },
+  {
+   "seconds": 4.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 3081,
+   "completion_tokens": 172
+  },
+  {
+   "seconds": 4.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 3222,
+   "completion_tokens": 172
+  },
+  {
+   "seconds": 4.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 3447,
+   "completion_tokens": 172
+  },
+  {
+   "seconds": 3.57,
+   "format": "AgentOutput",
+   "prompt_tokens": 3601,
+   "completion_tokens": 136
+  },
+  {
+   "seconds": 5.43,
+   "format": "AgentOutput",
+   "prompt_tokens": 3804,
+   "completion_tokens": 210
+  },
+  {
+   "seconds": 5.45,
+   "format": "AgentOutput",
+   "prompt_tokens": 3994,
+   "completion_tokens": 210
+  },
+  {
+   "seconds": 5.42,
+   "format": "AgentOutput",
+   "prompt_tokens": 4184,
+   "completion_tokens": 210
+  },
+  {
+   "seconds": 5.46,
+   "format": "AgentOutput",
+   "prompt_tokens": 4374,
+   "completion_tokens": 210
+  },
+  {
+   "seconds": 5.47,
+   "format": "AgentOutput",
+   "prompt_tokens": 4531,
+   "completion_tokens": 212
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "The form was partially filled out with the provided document information. The remaining fields (Address2 and Zip) were left blank as there were no corresponding values in the document. The consent checkbox was not ticked since it wasn't specified as required in the document. Despite clicking the submit button, the page did not show a confirmation message or any error messages.",
+ "fast": []
+}

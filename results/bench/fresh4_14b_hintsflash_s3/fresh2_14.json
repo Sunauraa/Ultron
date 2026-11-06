@@ -1,0 +1,65 @@
+{
+ "form": "fresh2_14",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 27.7,
+ "score": {
+  "blocked": [
+   "Message *"
+  ],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f1": null,
+   "f2": null,
+   "f3": null,
+   "f4": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.39,
+   "format": "AgentOutput",
+   "prompt_tokens": 2185,
+   "completion_tokens": 207
+  },
+  {
+   "seconds": 2.84,
+   "format": "AgentOutput",
+   "prompt_tokens": 2363,
+   "completion_tokens": 106
+  },
+  {
+   "seconds": 3.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 2428,
+   "completion_tokens": 114
+  },
+  {
+   "seconds": 4.1,
+   "format": "AgentOutput",
+   "prompt_tokens": 2521,
+   "completion_tokens": 156
+  },
+  {
+   "seconds": 3.59,
+   "format": "AgentOutput",
+   "prompt_tokens": 2643,
+   "completion_tokens": 135
+  }
+ ],
+ "steps": 6,
+ "is_done": true,
+ "success": false,
+ "final": "Unable to complete form submission due to missing information in the 'Message' field.",
+ "fast": []
+}

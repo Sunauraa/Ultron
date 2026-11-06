@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": ["WebFetch", "WebSearch",
+              "Bash(python *)", "Bash(pip *)",
+              "Bash(.venv/bin/python *)", "Bash(.venv/bin/pip *)",
+              "Read(//home/tudao/project/**)",
+              "Edit(//home/tudao/project/**)"],
+    "defaultMode": "acceptEdits"
+  }
+}

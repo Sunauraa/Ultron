@@ -1,0 +1,66 @@
+{
+ "form": "test29",
+ "lang": "vi",
+ "arm": "plain",
+ "seed": 2,
+ "seconds": 57.9,
+ "score": {
+  "submitted": true,
+  "fields": 2,
+  "wrong": {},
+  "extra": {
+   "f1": "1995"
+  },
+  "missing_consent": [],
+  "popup_choice": "Accept essential cookies only",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.86,
+   "format": "AgentOutput",
+   "prompt_tokens": 5881,
+   "completion_tokens": 147
+  },
+  {
+   "seconds": 7.31,
+   "format": "AgentOutput",
+   "prompt_tokens": 6357,
+   "completion_tokens": 282
+  },
+  {
+   "seconds": 9.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 6565,
+   "completion_tokens": 354
+  },
+  {
+   "seconds": 8.41,
+   "format": "AgentOutput",
+   "prompt_tokens": 6680,
+   "completion_tokens": 322
+  },
+  {
+   "seconds": 9.66,
+   "format": "AgentOutput",
+   "prompt_tokens": 6806,
+   "completion_tokens": 372
+  },
+  {
+   "seconds": 7.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 6917,
+   "completion_tokens": 293
+  },
+  {
+   "seconds": 5.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 6495,
+   "completion_tokens": 196
+  }
+ ],
+ "steps": 8,
+ "is_done": true,
+ "fast": []
+}

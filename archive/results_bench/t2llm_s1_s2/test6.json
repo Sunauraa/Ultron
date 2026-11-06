@@ -1,0 +1,65 @@
+{
+ "form": "test6",
+ "lang": "en",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 23.8,
+ "score": {
+  "submitted": true,
+  "fields": 8,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": "Accept all",
+  "popup_ok": true,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 3.85,
+   "format": "Answers",
+   "prompt_tokens": 281,
+   "completion_tokens": 157
+  },
+  {
+   "seconds": 8.03,
+   "format": "AgentOutput",
+   "prompt_tokens": 6530,
+   "completion_tokens": 307
+  },
+  {
+   "seconds": 5.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 6121,
+   "completion_tokens": 199
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "dialog",
+   "milliseconds": 52.817417308688164,
+   "url": "http://127.0.0.1:40017/test6",
+   "goal": "Close the pop-up with 'Accept all'"
+  },
+  {
+   "kind": "form",
+   "milliseconds": 3847.0648117363453,
+   "url": "http://127.0.0.1:40017/test6",
+   "goal": "Filled 8 field(s) from the document. Left empty because the document has no value for them, so do not fill these: Middle Inital; Unit Number:; Responsible Adult's Name:. Do not retype filled fields. Submit now, unless the form marks a choice as required and it is still open."
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2857185900211334,
+   "url": "http://127.0.0.1:40017/test6",
+   "goal": ""
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 1.3806875795125961,
+   "url": "http://127.0.0.1:40017/test6",
+   "goal": ""
+  }
+ ]
+}

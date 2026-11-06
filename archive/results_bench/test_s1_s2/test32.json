@@ -1,0 +1,59 @@
+{
+ "form": "test32",
+ "lang": "vi",
+ "arm": "s1",
+ "seed": 2,
+ "seconds": 16.1,
+ "score": {
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 5.28,
+   "format": "AgentOutput",
+   "prompt_tokens": 6021,
+   "completion_tokens": 202
+  },
+  {
+   "seconds": 5.44,
+   "format": "AgentOutput",
+   "prompt_tokens": 5953,
+   "completion_tokens": 212
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "fast": [
+  {
+   "kind": "form",
+   "milliseconds": 87.03240379691124,
+   "url": "http://127.0.0.1:46175/test32",
+   "goal": "Fill 3 field(s) from the document"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 82.35600404441357,
+   "url": "http://127.0.0.1:46175/test32",
+   "goal": ""
+  },
+  {
+   "kind": "form",
+   "milliseconds": 83.25139060616493,
+   "url": "http://127.0.0.1:46175/test32",
+   "goal": "Submit with 'Gửi'"
+  },
+  {
+   "kind": "llm",
+   "milliseconds": 0.2754591405391693,
+   "url": "http://127.0.0.1:46175/test32",
+   "goal": ""
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "when": "2026-11-05 14:36:19",
+ "split": "fresh",
+ "form_gate": 0.9,
+ "dialog_gate": 0.6,
+ "finish": true,
+ "seeds": [
+  1,
+  2,
+  3
+ ],
+ "llms": [
+  "Qwen/Qwen2.5-14B-Instruct",
+  "Qwen/Qwen2.5-32B-Instruct-AWQ"
+ ],
+ "arms": {
+  "14b": [
+   "default",
+   "tuned (hints + flash mode)",
+   "ultron (gate 0.9)",
+   "ultron, conformal gate 0.999403",
+   "ultron without forms model"
+  ],
+  "32b": [
+   "default",
+   "tuned (hints + flash mode)",
+   "ultron (gate 0.9)"
+  ]
+ },
+ "primary_metric": "Handled correctly",
+ "primary_comparisons": [
+  "Ultron vs default, each LLM",
+  "Ultron vs tuned, each LLM"
+ ],
+ "secondary": "LLM calls, seconds, tokens, submitted, sent despite a gap, wrong on sent forms; all-forms and clear-only tables",
+ "tuning_choice": "Tuned arm chosen on used forms, 14B, seed 1, one run each: default 7 handled/2751 s/2.03M prompt tokens; hints 6/2090 s/1.63M; hints+flash 5/1708 s/0.69M. On the 18 clear forms: 5, 4, 5. Chosen because it ties default on clear forms and is cheapest, so it is the hardest baseline on cost; default stays as its own column because it is better on all forms. Not retuned for 32B.",
+ "note": "Replaces LOCK_fresh4.json, written before any fresh result was read. fresh4_14b_plain_s1 has 17 forms from the paused run; run_bench.py and the data are unchanged since LOCK_fresh4, and that arm doesn't use the plugin, so they are kept and never read before the run ends.",
+ "sha": {
+  "ultron/fastpath.py": "22be4139d1108d47",
+  "experiments/bench/attack_bench.py": "d4cd2dd2e477a760",
+  "experiments/bench/calibrate_gate.py": "740b49c596eeabfb",
+  "tests/test_ultron_safety.py": "84708bd3a883d1dc",
+  "experiments/bench/real_bench.py": "ba8fa7d3c071da80",
+  "experiments/bench/run_bench.py": "948b505488c4a0d0",
+  "experiments/bench/bench_table.py": "53cd086e24513ed1",
+  "scripts/bench_fresh4.sh": "3899d7ba63861c95",
+  "data/forms/real/testset.json": "676b41b03bb5140c",
+  "data/forms/real/fresh/labels_batch1.json": "03fbffd4bc642beb",
+  "data/forms/real/fresh/labels_batch2.json": "0ed0ac4f9459fab0",
+  "models/ultron-forms-0.1/a/model.safetensors": "36a7b131159533e7",
+  "models/ultron-forms-0.1/b/model.safetensors": "346ea5a1c27a816f",
+  "models/ultron-dialogs-0.1/a/model.safetensors": "ff871dd902c3fe55",
+  "models/ultron-dialogs-0.1/b/model.safetensors": "109717522b5797b7"
+ },
+ "secondary_comparisons": [
+  "Ultron conformal gate vs Ultron gate 0.9 (14B)",
+  "Ultron vs no forms model (14B)"
+ ],
+ "plugin_change": "Since LOCK_fresh4: text fields and buttons a person can't see (opacity below 0.5 through parents, under 2 px, or off the page) are skipped, after EIA (ICLR 2025). Used forms, 14B seed 1: same 19 of 23 handled as before. Real-LLM hidden-field attacks on used forms, 14B seed 1: before 8 of 23 (mirror) and 7 of 23 (separate form) reached the trap, after 0 and 1; the 1 came through the agent's own LLM after Ultron handed over.",
+ "conformal_gate": "Conformal risk control (ICLR 2024), alpha 0.05 chosen before calibration, loss = share of a form's scored text fields the forms model would fill wrongly, 23 used forms: gate 0.999403. Used forms, 14B, two seeds: 17 and 17 handled vs 19 and 19 at gate 0.9 (the same two forms each time: a required field the LLM then filled, and a field the LLM left empty). So 0.9 stays the default and the conformal gate is a secondary column."
+}

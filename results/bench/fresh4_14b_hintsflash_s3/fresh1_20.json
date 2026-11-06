@@ -1,0 +1,55 @@
+{
+ "form": "fresh1_20",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 3,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 19.4,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {
+   "f1": "001195004567",
+   "f3": "Công ty TNHH Minh Long"
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 4.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 1289,
+   "completion_tokens": 170
+  },
+  {
+   "seconds": 5.68,
+   "format": "AgentOutput",
+   "prompt_tokens": 1418,
+   "completion_tokens": 227
+  },
+  {
+   "seconds": 1.88,
+   "format": "AgentOutput",
+   "prompt_tokens": 1570,
+   "completion_tokens": 72
+  },
+  {
+   "seconds": 1.67,
+   "format": "AgentOutput",
+   "prompt_tokens": 1406,
+   "completion_tokens": 65
+  }
+ ],
+ "steps": 5,
+ "is_done": true,
+ "success": true,
+ "final": "Form submission confirmed.",
+ "fast": []
+}

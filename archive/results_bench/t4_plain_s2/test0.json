@@ -1,0 +1,65 @@
+{
+ "form": "test0",
+ "lang": "en",
+ "arm": "plain",
+ "seed": 2,
+ "seconds": 47.7,
+ "score": {
+  "blocked": [
+   "Title (Mr/Mrs/Ms/Miss/Other) *"
+  ],
+  "submitted": true,
+  "fields": 5,
+  "wrong": {},
+  "extra": {
+   "f0": "Mr"
+  },
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 11.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 6036,
+   "completion_tokens": 435
+  },
+  {
+   "seconds": 6.76,
+   "format": "AgentOutput",
+   "prompt_tokens": 6294,
+   "completion_tokens": 259
+  },
+  {
+   "seconds": 6.01,
+   "format": "AgentOutput",
+   "prompt_tokens": 6412,
+   "completion_tokens": 232
+  },
+  {
+   "seconds": 5.26,
+   "format": "AgentOutput",
+   "prompt_tokens": 6504,
+   "completion_tokens": 202
+  },
+  {
+   "seconds": 6.18,
+   "format": "AgentOutput",
+   "prompt_tokens": 6594,
+   "completion_tokens": 237
+  },
+  {
+   "seconds": 5.3,
+   "format": "AgentOutput",
+   "prompt_tokens": 6391,
+   "completion_tokens": 206
+  }
+ ],
+ "steps": 7,
+ "is_done": true,
+ "success": true,
+ "final": "The form has been successfully submitted and confirmed received. Here is the confirmation message: Thank you. Your form has been received and no further action is needed.",
+ "fast": []
+}

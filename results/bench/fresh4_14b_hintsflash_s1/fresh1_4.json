@@ -1,0 +1,187 @@
+{
+ "form": "fresh1_4",
+ "lang": "en",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 114.1,
+ "score": {
+  "blocked": [
+   "CAPTCHA Code: *"
+  ],
+  "unclear": [
+   "Address (MUST INCLUDE ADDRESS, STREET, CITY, STATE, ZIP) *"
+  ],
+  "choices_answered": 0,
+  "submitted": false,
+  "fields": 4,
+  "wrong": {
+   "f0": null,
+   "f2": null,
+   "f4": null,
+   "f12": null
+  },
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 2.21,
+   "format": "AgentOutput",
+   "prompt_tokens": 1251,
+   "completion_tokens": 84
+  },
+  {
+   "seconds": 5.4,
+   "format": "AgentOutput",
+   "prompt_tokens": 1630,
+   "completion_tokens": 214
+  },
+  {
+   "seconds": 1.35,
+   "format": "AgentOutput",
+   "prompt_tokens": 1845,
+   "completion_tokens": 49
+  },
+  {
+   "seconds": 1.32,
+   "format": "AgentOutput",
+   "prompt_tokens": 1880,
+   "completion_tokens": 48
+  },
+  {
+   "seconds": 3.33,
+   "format": "AgentOutput",
+   "prompt_tokens": 1919,
+   "completion_tokens": 129
+  },
+  {
+   "seconds": 1.96,
+   "format": "AgentOutput",
+   "prompt_tokens": 1986,
+   "completion_tokens": 73
+  },
+  {
+   "seconds": 3.61,
+   "format": "AgentOutput",
+   "prompt_tokens": 2050,
+   "completion_tokens": 140
+  },
+  {
+   "seconds": 2.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 2129,
+   "completion_tokens": 82
+  },
+  {
+   "seconds": 3.11,
+   "format": "AgentOutput",
+   "prompt_tokens": 2240,
+   "completion_tokens": 116
+  },
+  {
+   "seconds": 4.81,
+   "format": "AgentOutput",
+   "prompt_tokens": 1891,
+   "completion_tokens": 192
+  },
+  {
+   "seconds": 3.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 2031,
+   "completion_tokens": 125
+  },
+  {
+   "seconds": 3.19,
+   "format": "AgentOutput",
+   "prompt_tokens": 2140,
+   "completion_tokens": 125
+  },
+  {
+   "seconds": 3.2,
+   "format": "AgentOutput",
+   "prompt_tokens": 2295,
+   "completion_tokens": 125
+  },
+  {
+   "seconds": 3.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 2503,
+   "completion_tokens": 125
+  },
+  {
+   "seconds": 3.22,
+   "format": "AgentOutput",
+   "prompt_tokens": 2661,
+   "completion_tokens": 125
+  },
+  {
+   "seconds": 3.23,
+   "format": "AgentOutput",
+   "prompt_tokens": 2819,
+   "completion_tokens": 125
+  },
+  {
+   "seconds": 3.24,
+   "format": "AgentOutput",
+   "prompt_tokens": 2981,
+   "completion_tokens": 125
+  },
+  {
+   "seconds": 3.85,
+   "format": "AgentOutput",
+   "prompt_tokens": 3172,
+   "completion_tokens": 149
+  },
+  {
+   "seconds": 3.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 3239,
+   "completion_tokens": 135
+  },
+  {
+   "seconds": 3.52,
+   "format": "AgentOutput",
+   "prompt_tokens": 3413,
+   "completion_tokens": 135
+  },
+  {
+   "seconds": 3.6,
+   "format": "AgentOutput",
+   "prompt_tokens": 3583,
+   "completion_tokens": 138
+  },
+  {
+   "seconds": 3.7,
+   "format": "AgentOutput",
+   "prompt_tokens": 3763,
+   "completion_tokens": 141
+  },
+  {
+   "seconds": 3.71,
+   "format": "AgentOutput",
+   "prompt_tokens": 3960,
+   "completion_tokens": 141
+  },
+  {
+   "seconds": 3.72,
+   "format": "AgentOutput",
+   "prompt_tokens": 4154,
+   "completion_tokens": 141
+  },
+  {
+   "seconds": 3.74,
+   "format": "AgentOutput",
+   "prompt_tokens": 4367,
+   "completion_tokens": 142
+  }
+ ],
+ "steps": 26,
+ "is_done": true,
+ "success": false,
+ "final": "Form was submitted but there's no confirmation message present after waiting. The page content hasn't changed despite waiting. No errors or additional steps are visible.",
+ "fast": []
+}

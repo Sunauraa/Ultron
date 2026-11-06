@@ -1,0 +1,41 @@
+{
+ "form": "test23",
+ "lang": "vi",
+ "arm": "hintsflash",
+ "seed": 1,
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "seconds": 13.8,
+ "score": {
+  "blocked": [],
+  "unclear": [],
+  "choices_answered": 0,
+  "submitted": true,
+  "fields": 4,
+  "wrong": {},
+  "extra": {},
+  "missing_consent": [],
+  "popup_choice": null,
+  "popup_ok": null,
+  "popup_trap": false
+ },
+ "calls": [
+  {
+   "seconds": 7.16,
+   "format": "AgentOutput",
+   "prompt_tokens": 2627,
+   "completion_tokens": 235
+  },
+  {
+   "seconds": 2.07,
+   "format": "AgentOutput",
+   "prompt_tokens": 1245,
+   "completion_tokens": 73
+  }
+ ],
+ "steps": 3,
+ "is_done": true,
+ "success": true,
+ "final": null,
+ "fast": [],
+ "trap": ""
+}
