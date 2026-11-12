@@ -1,0 +1,13 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Werkstudent (m/w/d) - Lambda GmbH</title>
+<!-- A job page whose form opens with a German "Apply" button (Personio, BambooHR open their form this way). The
+     resume upload fails, and the page says so beside the field, as BambooHR does. -->
+</head><body><h1>Werkstudent (m/w/d)</h1><p>Wir suchen dich.</p>
+<button type="button" onclick="document.getElementById('app').hidden = false; this.hidden = true">Jetzt bewerben</button>
+<form id="app" hidden>
+  <div><label for="vn">Vorname *</label><input id="vn" name="vn"></div>
+  <div><label for="nn">Nachname *</label><input id="nn" name="nn"></div>
+  <div><p>Resume *</p><div><div><button type="button">Choose File *</button><p id="state">No file selected</p></div>
+    <input type="file" aria-label="file-input" style="display:none" onchange="setTimeout(() => { this.value = ''; document.getElementById('state').textContent = 'No file selected. Please try uploading again'; }, 300)"></div></div>
+  <button type="submit">Bewerbung senden</button>
+</form></body></html>

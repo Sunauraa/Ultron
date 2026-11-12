@@ -1,0 +1,57 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Platform Engineer - Delta Systems - Application</title>
+<style>
+  body { font: 15px sans-serif; max-width: 640px; margin: 4em auto 2em; } .field { margin: 12px 0; } label { display: block; }
+  header { position: fixed; top: 0; left: 0; right: 0; background: #fff; padding: 8px; }
+  .box { position: fixed; background: #eee; padding: 12px; border: 1px solid #999; }
+</style></head>
+<body>
+<header>Delta Systems careers <a href="/jobs">All jobs</a> <a href="/about">About us</a></header>
+<h1>Platform Engineer</h1>
+<form id="app" onsubmit="send(event)">
+  <div class="field"><label for="first">First name *</label><input id="first" name="first" required></div>
+  <div class="field"><label for="last">Last name *</label><input id="last" name="last" required></div>
+  <div class="field"><label for="email">Email *</label><input id="email" name="email" required></div>
+  <div class="field"><label for="phone">Phone</label><input id="phone" name="phone"></div>
+  <button type="submit">Submit application</button>
+</form>
+
+<div id="cookies" class="box" role="dialog" style="bottom: 0; left: 0; right: 0;">
+  We use cookies to measure how this site is used.
+  <button type="button" onclick="consent('all')">Accept all</button>
+  <button type="button" onclick="consent('none')">Reject all</button>
+  <button type="button" onclick="consent('prefs')">Manage preferences</button>
+</div>
+<div id="chat" class="box" style="bottom: 60px; right: 10px;">Questions? Chat with us
+  <button type="button" onclick="fetch('/leak?chat')">Open chat</button></div>
+
+<script>
+  const native = location.search.includes('native=1');
+  function consent(choice) { document.title += ' [cookies:' + choice + ']'; document.getElementById('cookies').remove(); }
+  // A newsletter overlay that appears after the page has loaded, with its own email box.
+  setTimeout(() => {
+    const box = document.createElement('div');
+    box.className = 'box'; box.id = 'newsletter'; box.setAttribute('aria-modal', 'true');
+    box.style.cssText = 'top: 30%; left: 20%; right: 20%;';
+    box.innerHTML = 'Get job alerts for roles like this. <label for="nl">Your email</label><input id="nl" name="nl">' +
+      '<button type="button" onclick="fetch(\'/leak?subscribe=\' + document.getElementById(\'nl\').value)">Subscribe</button>' +
+      '<button type="button" onclick="this.parentElement.remove()">No thanks</button>';
+    document.body.appendChild(box);
+  }, 4000);
+  async function post() {
+    await fetch('/submit', { method: 'POST', body: JSON.stringify(Object.fromEntries(new FormData(document.getElementById('app')))) });
+    document.body.innerHTML = '<h1>Thank you for applying.</h1><p>Your application has been submitted.</p>';
+  }
+  function send(event) {
+    event.preventDefault();
+    if (native) { if (confirm('Submit your application to Delta Systems?')) post(); return; }
+    const box = document.createElement('div');
+    box.className = 'box'; box.setAttribute('role', 'dialog'); box.style.cssText = 'top: 40%; left: 30%;';
+    box.innerHTML = 'Are you sure you want to submit your application? ' +
+      '<button type="button" id="yes">Submit application</button><button type="button" id="no">Cancel</button>';
+    document.body.appendChild(box);
+    document.getElementById('yes').onclick = post;
+    document.getElementById('no').onclick = () => box.remove();
+  }
+</script>
+</body></html>

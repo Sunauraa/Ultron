@@ -1,0 +1,3 @@
+#!/bin/bash
+# Stands in for Claude Code's `claude` on PATH: a local model through claude_standin.py.
+exec "$E2E_PYTHON" "$(dirname "$(readlink -f "$0")")/../claude_standin.py" "$@"

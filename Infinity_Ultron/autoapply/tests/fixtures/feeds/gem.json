@@ -1,0 +1,40 @@
+[
+ {
+  "absolute_url": "https://jobs.gem.com/gem/am9icG9zdDoxt66pB6mvVDH0kCIS4bLF",
+  "content": "(trimmed)",
+  "content_plain": "(trimmed)",
+  "created_at": "2026-03-02T22:19:39.236Z",
+  "departments": [
+   {
+    "child_ids": [],
+    "id": "4022145002",
+    "name": "Engineering",
+    "parent_id": null
+   }
+  ],
+  "employment_type": "full_time",
+  "first_published_at": "2026-03-05T00:36:12.573Z",
+  "id": "am9icG9zdDoxt66pB6mvVDH0kCIS4bLF",
+  "internal_job_id": "am9iOhN6Hswl2dOxq5j6fhezw3U",
+  "location": {
+   "name": "San Francisco, United States"
+  },
+  "location_type": "hybrid",
+  "offices": [
+   {
+    "child_ids": [],
+    "child_office_external_ids": [],
+    "id": "4010840002",
+    "location": {
+     "name": "San Francisco, United States"
+    },
+    "name": "San Francisco",
+    "parent_id": null,
+    "parent_office_external_id": null
+   }
+  ],
+  "requisition_id": "R20220355",
+  "title": "Engineering Manager (AI Products)",
+  "updated_at": "2026-03-30T22:20:48.131Z"
+ }
+]

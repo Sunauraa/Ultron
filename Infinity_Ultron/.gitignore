@@ -21,3 +21,12 @@ data/forms/ext/
 data/forms/real/raw/
 data/forms/real/fresh/pages*/*
 !data/forms/real/fresh/pages*/extracted.json
+
+# Scratch output from tests, benchmarks and debugging
+tmp/
+
+# Ours only: resume notes and the mistakes logs kept for interviews
+resume/
+MISTAKES.md
+autoapply/mistakes.md
+.vscode/

@@ -1,0 +1,47 @@
+{
+ "meta": {
+  "totalCount": 2
+ },
+ "result": [
+  {
+   "id": "279",
+   "jobOpeningName": "Technical Project Manager",
+   "departmentId": "18556",
+   "departmentLabel": "Technical Project Management",
+   "employmentStatusLabel": "Full-Time",
+   "employmentType": null,
+   "location": {
+    "city": "Somerville",
+    "state": "Massachusetts"
+   },
+   "atsLocation": {
+    "country": null,
+    "state": null,
+    "province": null,
+    "city": null
+   },
+   "isRemote": null,
+   "locationType": "0"
+  },
+  {
+   "id": "316",
+   "jobOpeningName": "Desktop Support Engineer",
+   "departmentId": "18779",
+   "departmentLabel": "IT Operations",
+   "employmentStatusLabel": "Full-Time",
+   "employmentType": null,
+   "location": {
+    "city": "Somerville",
+    "state": "Massachusetts"
+   },
+   "atsLocation": {
+    "country": null,
+    "state": null,
+    "province": null,
+    "city": null
+   },
+   "isRemote": null,
+   "locationType": "0"
+  }
+ ]
+}

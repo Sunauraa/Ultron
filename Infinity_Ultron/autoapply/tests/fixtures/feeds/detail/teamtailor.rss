@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:tt="https://teamtailor.com/locations" version="2.0">
+  <channel>
+    <title>Teamtailor</title>
+    <description>Current job openings</description>
+    <link>https://career.teamtailor.com/jobs</link>
+    <item>
+      <title>Enterprise Account Executive - Chicago</title>
+      <description>&lt;figure&gt;&lt;lite-youtube videoid="sc-TJB8qo00" title="Play: Video" posterquality="sddefault"&gt;&lt;/lite-youtube&gt;&lt;/figure&gt;&lt;h4&gt;&lt;strong&gt;Join us to shape the future!&lt;/strong&gt;&lt;/h4&gt;&lt;p&gt;Teamtailor is a global Employer Branding and ATS SaaS platform used by over 13,000 companies, 250,000 users, and available in 90 countries worldwide. 🌍&lt;/p&gt;&lt;p&gt;Working at &lt;a target="_blank" href="https://www.teamtailor.com/en/"&gt;Teamtailor&lt;/a&gt; means being part of a dynamic, fast-paced tech company that values impact and responsibility. Our workplace fosters an environment where everyone can contribute meaningfully to the growth of the company. 🎉🥳&lt;/p&gt;&lt;p&gt;Building a diverse team with a wide range of experiences, skills, and backgrounds has always been central to Teamtailor’s mission, and it remains a strength today. We welcome all individuals who share our vision and are committed to contributing to our collective success. Join us in helping companies and people communicate in more meaningful ways to make life-changing decisions together.👫&lt;br&gt;&lt;/p&gt;&lt;h4&gt;&lt;span&gt;&lt;strong id="docs-internal-guid-42b93ccc-7fff-057a-464f-0e2b6fe893c7"&gt;Why SaaS AEs love it here:&lt;/strong&gt;&lt;/span&gt;&lt;/h4&gt;&lt;p&gt;&lt;span&gt;You know the drill — you've sold SaaS before, you're good at it, and you're tired of environments that feel like a grind. Here's what's different at Teamtailor Chicago:&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong id="docs-internal-guid-42b93ccc-7fff-057a-464f-0e2b6fe893c7"&gt;A full sales cycle you actually own -&lt;/strong&gt; You prospect, run the demo, n</description>
+      <pubDate>Wed, 11 Nov 2026 17:34:36 +0100</pubDate>
+      <link>https://career.teamtailor.com/jobs/8706432-enterprise-account-executive-chicago</link>
+      <remoteStatus>hybrid</remoteStatus>
+      <guid>b5508148-ada5-4a7e-b2cb-55a3fd123a6f</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name>Chicago</tt:name>
+          <tt:address>125 S Clark St</tt:address>
+          <tt:zip>60603</tt:zip>
+          <tt:city>Chicago</tt:city>
+          <tt:country>United States</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Sales</tt:department>
+      <tt:role>Account Executive</tt:role>
+      <tt:division />
+    </item>
+    </channel>
+</rss>

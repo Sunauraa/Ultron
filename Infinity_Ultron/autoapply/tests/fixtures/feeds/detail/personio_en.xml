@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<workzag-jobs>
+
+<position>
+    <id>1316737</id>
+    <subcompany>F24 Schweiz AG</subcompany>
+    <office>Wollerau / CH</office>
+    <additionalOffices>
+        <office>Marly / CH</office>
+        <office>Olten / CH</office>
+    </additionalOffices>
+    <department>HR</department>
+    <recruitingCategory>CH - permanent employee</recruitingCategory>
+    <name>Initiativbewerbung (all genders)</name>
+    <jobDescriptions />
+    <employmentType>permanent</employmentType>
+    <seniority>experienced</seniority>
+    <schedule>full-or-part-time</schedule>
+    <yearsOfExperience>1-2</yearsOfExperience>
+    <occupation>administrative</occupation>
+    <occupationCategory>administrative_and_clerical</occupationCategory>
+    <createdAt>2023-11-07T08:43:41+00:00</createdAt>
+</position>
+
+<position>
+    <id>2676311</id>
+    <subcompany>F24 AG</subcompany>
+    <office>Zagreb / HR</office>
+    <department>ENGINEERING</department>
+    <recruitingCategory>Fix term employee</recruitingCategory>
+    <name>Junior Full Stack Engineer - Suite</name>
+    <jobDescriptions>
+        <jobDescription>
+            <name>About the job</name>
+            <value>
+                &lt;strong&gt;Junior Software Engineer – Full Stack&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Zagreb | Hybrid&lt;/strong&gt;&lt;br&gt;&lt;br&gt;F24 is Europe’s leading provider of crisis management and emergency notification software, helping thousands of organisations around the world respond quickly and effectively during critical situations.&lt;br&gt;&lt;br&gt;As we continue to grow our Zagreb Engineering Centre of Excellence, we’re looking for a Junior Software Engineer to join our Suite engineering team.&lt;br&gt;&lt;br&gt;This is an opportunity to develop your career within an experienced product engineering team, working across both frontend and backend technologies while contributing to software that supports organisations during critical situations.&lt;br&gt;&lt;strong&gt; &lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Why F24?&lt;/strong&gt;&lt;br&gt;&lt;br&gt;You’ll join a collaborative engineering team where you’ll have the opportunity to learn from experienced developers while contributing to real product features from an early stage.&lt;br&gt;&lt;br&gt;The Suite team is developing a modern platform that brings together capabilities from across F24’s product portfolio. You’ll gain exposure to the full development lifecycle and work with technologies including React, TypeScript, Node.js and Python.&lt;br&gt;&lt;br&gt;We don't expect you to know everything from day one. We're looking for someone with good software development fundamentals, curiosity and a genuine desire to become a strong full-stack engineer.&lt;br&gt;&lt;strong&gt; &lt;/strong&gt;&lt;br&gt;&lt;strong&gt;You&lt;/strong&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Develop frontend functionality</value>
+        </jobDescription>
+    </jobDescriptions>
+    <employmentType>permanent</employmentType>
+    <seniority>entry-level</seniority>
+    <schedule>full-time</schedule>
+    <yearsOfExperience>1-2</yearsOfExperience>
+    <occupation>general_and_other_engineering</occupation>
+    <occupationCategory>engineering</occupationCategory>
+    <createdAt>2026-06-17T14:56:53+00:00</createdAt>
+    <salaryInformation>
+        <min>22971.00</min>
+        <max>26971.00</max>
+        <currencySymbol>€</currencySymbol>
+        <currencyCode>EUR</currencyCode>
+        <type>yearly</type>
+    </salaryInformation>
+</position>
+
+</workzag-jobs>

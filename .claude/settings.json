@@ -6,5 +6,8 @@
               "Read(//home/tudao/project/**)",
               "Edit(//home/tudao/project/**)"],
     "defaultMode": "acceptEdits"
+  },
+  "env": {
+    "CLAUDE_CODE_AUTO_COMPACT_WINDOW": "300000"
   }
 }

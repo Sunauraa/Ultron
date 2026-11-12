@@ -1,0 +1,33 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Field Technician - Epsilon Utilities - Application</title>
+<style> body { font: 15px sans-serif; max-width: 640px; margin: 2em auto; } .field { margin: 12px 0; } label { display: block; } </style></head>
+<body>
+<h1>Field Technician</h1>
+<form id="app" onsubmit="send(event)">
+  <h2>About you</h2>
+  <div class="field"><label for="name">Full name *</label><input id="name" name="name" required></div>
+  <div class="field"><label for="email">Email *</label><input id="email" name="email" type="email" required></div>
+  <div class="field"><label for="phone">Mobile *</label><input id="phone" name="phone" type="tel" required></div>
+  <div class="field"><label for="res">Country of residence *</label><input id="res" name="res" required></div>
+  <div class="field"><label for="pass">Passport country *</label><input id="pass" name="pass" required></div>
+  <h2>Emergency contact</h2>
+  <div class="field"><label for="ename">Emergency contact name *</label><input id="ename" name="ename" required></div>
+  <div class="field"><label for="ephone">Emergency contact phone *</label><input id="ephone" name="ephone" type="tel" required></div>
+  <h2>Reference</h2>
+  <div class="field"><label for="rname">Reference name</label><input id="rname" name="rname"></div>
+  <div class="field"><label for="remail">Reference email</label><input id="remail" name="remail"></div>
+  <div class="field"><label for="c1email">Contact 1: E-mail address</label><input id="c1email" name="c1email"></div>
+  <!-- Radios exported one name each (seen in form builders): no shared question container. -->
+  <p><label><input type="radio" name="q1" value="Yes"> Yes</label></p>
+  <p><label><input type="radio" name="q2" value="No"> No</label></p>
+  <div class="field"><label><input type="checkbox" name="truth" required> I confirm the information above is true *</label></div>
+  <button type="submit">Submit application</button>
+</form>
+<script>
+  async function send(event) {
+    event.preventDefault();
+    await fetch('/submit', { method: 'POST', body: JSON.stringify(Object.fromEntries(new FormData(document.getElementById('app')))) });
+    document.body.innerHTML = '<h1>Thank you for applying.</h1>';
+  }
+</script>
+</body></html>

@@ -1,0 +1,44 @@
+# Copy to config.toml and edit.
+
+[filter]
+# A title must contain one of these words (whole words, any case).
+include = ["machine learning", "ML", "AI", "research engineer", "software engineer", "intern", "new grad"]
+# ...and none of these.
+exclude = ["senior", "staff", "principal", "lead", "manager", "director", "head of"]
+# The location must contain one of these (any case). Leave empty to accept every location.
+locations = ["remote", "san francisco", "new york"]
+# Skip postings older than this.
+max_age_days = 30
+
+[apply]
+# THE SWITCH. false: Ultron fills the form and stops before the final submit; the tab stays open,
+# the job is logged as "ready", and you submit it yourself. true: Ultron submits.
+auto_submit = false
+# Even with auto_submit on, hold forms where the agent wrote an answer itself (e.g. "Why do you
+# want to work here?") instead of copying it from answers.md. They are logged as "ready".
+auto_submit_written_answers = false
+# true: before anything is sent, submit shows the agent a review sheet (every field, its value and where it
+# came from, and each pop-up Ultron's model decided). The agent fixes what's wrong, records each mistake Ultron
+# made with note_mistake (mistakes.jsonl; wrong pop-up choices also go to popup_examples.jsonl as training
+# examples), then submits again. Who gives the final go is still auto_submit: true sends, false holds as ready.
+review = false
+# How many jobs one cron run handles (one `claude -p` per job).
+max_jobs_per_run = 5
+# Files the agent may use. Paths are relative to this folder.
+resume = "resume.pdf"
+answers = "answers.md"
+# Kept between runs so cookies and any logins survive.
+browser_profile = "browser-profile"
+# Run the browser without a window. Set false while you're watching the first runs.
+headless = false
+# Pages on these sites are never opened (high risk of an account ban for automation).
+blocked_sites = ["linkedin.com", "indeed.com", "glassdoor.com", "ziprecruiter.com", "monster.com", "handshake.com", "joinhandshake.com", "wellfound.com", "angel.co",
+                 "smartrecruiters.com", "workday.com", "myworkdayjobs.com"]  # bot walls (DataDome) or account sign-up required
+
+[cover_letter]
+# When the agent writes a cover letter (from the job's own posting, answers.md and your resume) for a form with a
+# cover-letter field: "off" never (a required one makes the job needs_info), "required" only when the form
+# requires one, "always" whenever the form has the field. Letters count as written by the agent, so they are held
+# for your review unless auto_submit_written_answers is true. Each one is saved in cover_letters/.
+write = "required"
+max_words = 350

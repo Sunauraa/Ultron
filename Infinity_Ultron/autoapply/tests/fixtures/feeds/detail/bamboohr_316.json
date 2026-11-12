@@ -1,0 +1,35 @@
+{
+ "meta": {},
+ "result": {
+  "jobOpening": {
+   "jobOpeningShareUrl": "https://onezero.bamboohr.com/careers/316",
+   "jobOpeningName": "Desktop Support Engineer",
+   "jobOpeningStatus": "Open",
+   "jobCategoryId": null,
+   "departmentId": "18779",
+   "departmentLabel": "IT Operations",
+   "employmentStatusLabel": "Full-Time",
+   "employmentType": null,
+   "location": {
+    "city": "Somerville",
+    "state": "Massachusetts",
+    "postalCode": "02145",
+    "addressCountry": "United States"
+   },
+   "atsLocation": {
+    "country": null,
+    "countryId": null,
+    "state": null,
+    "city": null
+   },
+   "description": "<p><span style=\"font-size: 12pt\">Come join oneZero Financial Systems! An exciting, fast-growing company with Headquarters in Somerville MA, oneZero empowers banks, brokerages and hedge funds with cutting edge trade routing and execution technology. Our platform, deployed with 200+ entities globally, features a low-latency trading environment, integrations to the world\u2019s leading execution venues, and reliable IT infrastructure and technical support\u2014all designed to be customized and scaled to serve any business model and any size of market participant. We take pride in our great work atmosphere and highly motivated team of engineers. We are currently looking for a motivated and talented Desktop Support Engineer to join our HQ office.\u00a0</span></p>\n<p><br><br></p>\n<p><span style=\"font-size: 12pt\">oneZero is proud to have been named one of Business Intelligence Group's Best Places to Work for four consecutive years:</span></p>\n<p><span style=\"font-size: 12pt\"><a href=\"https://www.onezero.com/awards/onezero-earns-recognition-as-a-2025-best-place-to-work/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.onezero.com/awards/onezero-earns-recognition-as-a-2025-best-place-to-work/</a></span></p>\n<p><br></p>\n<p><span style=\"font-size: 12pt\">The Boston Globe names oneZero a Top Place to Work in 2022, 2023, and 2024:\u00a0<a href=\"https://www.onezero.com/homepage/the-boston-globe-names-onezero-a-top-place-to-work-for-third-year-in-a-row/\" target=\"_blank\" rel=\"noopener noreferrer\">https://w",
+   "compensation": null,
+   "datePosted": "2026-05-26",
+   "minimumExperience": "Entry-level",
+   "locationType": "0",
+   "seekPromoted": false,
+   "aiProcessingDisclosureEnabled": false
+  },
+  "formFields": {}
+ }
+}

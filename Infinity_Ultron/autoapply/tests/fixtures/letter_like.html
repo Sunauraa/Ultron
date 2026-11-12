@@ -1,0 +1,23 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Data Engineer - Gamma Analytics - Application</title>
+<style> body { font: 15px sans-serif; max-width: 640px; margin: 2em auto; } .field { margin: 12px 0; } label { display: block; } </style></head>
+<body>
+<h1>Data Engineer</h1>
+<form id="app" onsubmit="send(event)">
+  <div class="field"><label for="name">Full name *</label><input id="name" name="name" required></div>
+  <div class="field"><label for="email">Email *</label><input id="email" name="email" required></div>
+  <div class="field"><label for="comp">Desired compensation *</label><input id="comp" name="comp" required></div>
+  <div class="field"><label for="cv">Resume *</label><input id="cv" name="cv" type="file" required></div>
+  <div class="field"><label for="cover">Cover Letter *</label><input id="cover" name="cover" type="file" required></div>
+  <div class="field"><label for="motivation">Motivation letter</label><textarea id="motivation" name="motivation"></textarea></div>
+  <button type="submit">Submit application</button>
+</form>
+<script>
+  async function send(event) {
+    event.preventDefault();
+    const data = Object.fromEntries([...new FormData(document.getElementById('app'))].map(([k, v]) => [k, v instanceof File ? v.name : v]));
+    await fetch('/submit', { method: 'POST', body: JSON.stringify(data) });
+    document.body.innerHTML = '<h1>Thank you for applying.</h1><p>Your application has been submitted.</p>';
+  }
+</script>
+</body></html>

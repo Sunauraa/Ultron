@@ -1,0 +1,34 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>ML Engineer - Lambda - Application</title>
+<!-- Built like Workable's form (apply.workable.com): a YES/NO question whose state lives on each option's box
+     (role=radio, aria-checked) while the hidden input inside stays unticked; and a read-only "Select an option…"
+     combobox whose list a click opens and at once closes again (it opens with the keyboard). -->
+<style>body { font: 15px sans-serif; } .q { margin: 14px 0; } [role=radio] { display: inline-block; padding: 4px 10px; border: 1px solid #999; cursor: pointer; }
+  [role=radio] input { position: absolute; opacity: 0; width: 1px; height: 1px; } [aria-checked=true] { background: #cde; } [role=listbox] li { padding: 4px; cursor: pointer; }</style>
+</head><body>
+<form id="app">
+  <div class="q"><label for="first">First name *</label><input id="first" name="first" required></div>
+  <div class="q"><label for="last">Last name *</label><input id="last" name="last" required></div>
+  <fieldset role="radiogroup" aria-labelledby="elig"><span id="elig">Are you eligible to work in the country you are applying? *</span>
+    <div role="radio" aria-checked="false"><label><input type="radio" name="elig" value="true"><span>YES</span></label></div>
+    <div role="radio" aria-checked="false"><label><input type="radio" name="elig" value="false"><span>NO</span></label></div>
+  </fieldset>
+  <div class="q"><label id="np" for="notice">Notice period / availability</label>
+    <label><input id="notice" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="np-list" aria-labelledby="np"
+      placeholder="Select an option…" readonly></label>
+    <ul id="np-list" role="listbox" hidden><li role="option">Available immediately</li><li role="option">2 weeks</li><li role="option">1 month</li></ul></div>
+</form>
+<script>
+  // The page keeps the choice on the option's box and keeps the inputs themselves unticked (React-controlled).
+  document.querySelectorAll('[role=radio]').forEach((box) => box.addEventListener('click', (e) => {
+    document.querySelectorAll('[role=radio]').forEach((b) => b.setAttribute('aria-checked', String(b === box)));
+    setTimeout(() => document.querySelectorAll('[role=radio] input').forEach((i) => (i.checked = false)));
+  }));
+  const box = document.getElementById('notice'), list = document.getElementById('np-list');
+  const show = (open) => { list.hidden = !open; box.setAttribute('aria-expanded', String(open)); };
+  // A click reaches the toggle twice (the input's and its label's), so it ends where it began.
+  box.parentElement.addEventListener('click', () => show(list.hidden));
+  box.addEventListener('keydown', (e) => { if (e.key === 'ArrowDown') show(true); });
+  list.querySelectorAll('li').forEach((li) => li.addEventListener('click', () => { box.value = li.textContent; show(false); }));
+</script>
+</body></html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Staff Engineer - Kappa</title>
+<!-- Built like Gem's form (jobs.gem.com): no <label>s, the question is plain text just before the field's box;
+     radios without a name; dropdowns drawn as "Please select" buttons opening a role=menuitem list; a read-only
+     "link to this job" box; a phone box with a country picker starting at +61 that follows a typed calling code;
+     a resume box whose input carries a code name and whose widget text is "Click to upload". Once a file is attached
+     the page shows its name and adds a fresh empty input for another file (Personio does this). Two send buttons:
+     "Apply and save" (keeps a profile on the site) and "Apply without saving". -->
+<style>body { font: 15px sans-serif; } .q { margin: 14px 0; } [role=menu] { border: 1px solid #ccc; } [role=menuitem] { padding: 4px; cursor: pointer; }
+  .drop { position: relative; border: 1px dashed #999; padding: 10px; } .drop input { position: absolute; inset: 0; opacity: 0; }</style>
+</head><body>
+<form id="app" onsubmit="send(event)">
+  <div class="q"><div><span>First name *</span></div><div><input name="first"></div></div>
+  <div class="q"><div><span>Email *</span></div><div><input name="email" type="email"></div></div>
+  <div class="q"><div><span>Phone *</span></div><div><button type="button" id="cc">+61</button><input name="phone" type="tel"></div></div>
+  <div class="q"><div><span>Link to this job</span></div><div><input readonly value="https://jobs.example/kappa/1"></div></div>
+  <div class="q"><div><span>Resume *</span></div><div class="drop" id="drop"><span>Click to upload or drag and drop here</span>
+    <input type="file" name="resume" aria-label="file-input" onchange="attached(this)"></div></div>
+  <div class="q"><div><span>Will you now or in the future require sponsorship? *</span></div>
+    <div id="sp"><label><input type="radio" value="Yes"> Yes</label> <label><input type="radio" value="No"> No</label></div></div>
+  <div class="q"><div><span>Gender</span></div><div class="menu">
+    <button type="button" aria-haspopup="menu" onclick="openMenu(this)">Please select</button>
+    <div role="menu" hidden><div role="menuitem">Male</div><div role="menuitem">Female</div><div role="menuitem">Decline to self-identify</div></div></div></div>
+  <div class="q"><div class="menu"><button type="button" aria-haspopup="true" aria-label="Country United States" onclick="openMenu(this)">United States</button>
+    <div role="menu" hidden><div role="menuitem">Canada</div><div role="menuitem">United States</div></div></div></div>
+  <div class="q"><span>Change file</span> <button type="button" title="remove"><svg width="10" height="10"></svg></button></div>
+  <button type="submit">Apply and save</button> <button type="submit">Apply without saving</button>
+</form>
+<script>
+  // Unnamed radios: the page keeps one ticked itself.
+  document.querySelectorAll('#sp input').forEach((r) => r.addEventListener('change', () => document.querySelectorAll('#sp input').forEach((o) => { if (o !== r) o.checked = false; })));
+  // The picker follows a calling code typed in the box (intl-tel-input does this).
+  document.querySelector('[name=phone]').addEventListener('input', (e) => { const m = e.target.value.match(/^\+(1|44|61)\b/); if (m) document.getElementById('cc').textContent = '+' + m[1]; });
+  function openMenu(button) {
+    const menu = button.nextElementSibling; menu.hidden = false;
+    menu.querySelectorAll('[role=menuitem]').forEach((item) => item.onclick = () => {
+      button.textContent = item.textContent; button.setAttribute('aria-label', button.getAttribute('aria-label') ? button.getAttribute('aria-label').replace(/ .*/, ' ') + item.textContent : ''); menu.hidden = true; });
+  }
+  function attached(input) {
+    const drop = document.getElementById('drop');
+    const name = document.createElement('span'); name.textContent = input.files[0].name + ' ×';
+    const fresh = document.createElement('input'); fresh.type = 'file'; fresh.setAttribute('aria-label', 'file-input'); fresh.onchange = () => attached(fresh);
+    drop.replaceChildren(name, fresh);
+  }
+  async function send(event) { event.preventDefault(); await fetch('/submit', { method: 'POST', body: 'gem: ' + event.submitter.textContent }); }
+</script>
+</body></html>

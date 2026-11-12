@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<workzag-jobs>
+
+<position>
+    <id>1316737</id>
+    <subcompany>F24 Schweiz AG</subcompany>
+    <office>Wollerau / CH</office>
+    <additionalOffices>
+        <office>Marly / CH</office>
+        <office>Olten / CH</office>
+    </additionalOffices>
+    <department>HR</department>
+    <recruitingCategory>CH - permanent employee</recruitingCategory>
+    <name>Initiativbewerbung (all genders)</name>
+    <jobDescriptions>
+        <jobDescription>
+            <name>Dein Aufgabengebiet</name>
+            <value>
+                Schade! Keine passende Stelle für Sie dabei an unserem Standort in der Schweiz? Kein Problem: Wir freuen uns auf Ihre Initiativbewerbung!&lt;br&gt;&lt;br&gt;F24 ist derzeit Europas Saas-Anbieter Nr. 1 im Bereich Notfallmeldung und Krisenmanagement und wir wollen mehr!&lt;br&gt;&lt;br&gt;Auch wenn es derzeit keine passende Stelle gibt, die genau auf Ihr Profil passt, prüfen wir gerne intern, ob wir Ihnen eine passende Position anbieten können.
+            </value>
+        </jobDescription>
+        <jobDescription>
+            <name>Du</name>
+            <value>
+                Wir wollen unser Ziel erreichen, weltweit die Nummer 1 der Saas-Anbieter im Bereich Notfallbenachrichtigung und Krisenmanagement zu sein. Wir wissen, dass wir es nicht schaffen, wenn wir nur davon träumen. Wir brauchen Sie da draußen - vom Praktikanten bis zum Junior- oder Senior Manager, um unsere Teams in den folgenden Abteilungen zu unterstützen:&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Customer Success &amp;amp; Customer Support/Service&lt;/li&gt;&lt;li&gt;Engineering &amp;amp; IT Operations&lt;/li&gt;&lt;li&gt;Finance &amp;amp; Legal&lt;/li&gt;&lt;li&gt;Marketing&lt;/li&gt;&lt;li&gt;People &amp;amp; Organization&lt;/li&gt;&lt;li&gt;Product Management&lt;/li&gt;&lt;li&gt;Sales&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;
+            </value>
+        </jobDescription>
+        <jobDescription>
+            <name>Dein zukünftiges Team</name>
+            <value>
+                Die F24 Schweiz AG (1997 gegründet als Dolphin Systems AG) mit Sitz in Wollerau (Kanton Schwyz) ist seit 2016 Teil der F24 Gruppe. Das Unternehmen beschäftigt über 30 hoch qualifizierte Mitarbeitende und verfügt über 30 Jahre Erfahrung bei der Realisierung von Telekom- und IT-Lösungen, sowie im Projektmanagement und Software Engineering.
+            </value>
+        </jobDescription>
+    </jobDescriptions>
+    <employmentType>permanent</employmentType>
+    <seniority>experienced</seniority>
+    <schedule>full-or-part-time</schedule>
+    <yearsOfExperience>1-2</yearsOfExperience>
+    <occupation>administrative</occupation>
+    <occupationCategory>administrative_and_clerical</occupationCategory>
+    <createdAt>2023-11-07T08:43:41+00:00</createdAt>
+</position>
+
+<position>
+    <id>2676311</id>
+    <subcompany>F24 AG</subcompany>
+    <office>Zagreb / HR</office>
+    <department>ENGINEERING</department>
+    <recruitingCategory>Fix term employee</recruitingCategory>
+    <name>Junior Full Stack Engineer - Suite</name>
+    <jobDescriptions />
+    <employmentType>permanent</employmentType>
+    <seniority>entry-level</seniority>
+    <schedule>full-time</schedule>
+    <yearsOfExperience>1-2</yearsOfExperience>
+    <occupation>general_and_other_engineering</occupation>
+    <occupationCategory>engineering</occupationCategory>
+    <createdAt>2026-06-17T14:56:53+00:00</createdAt>
+    <salaryInformation>
+        <min>22971.00</min>
+        <max>26971.00</max>
+        <currencySymbol>€</currencySymbol>
+        <currencyCode>EUR</currencyCode>
+        <type>yearly</type>
+    </salaryInformation>
+</position>
+
+</workzag-jobs>

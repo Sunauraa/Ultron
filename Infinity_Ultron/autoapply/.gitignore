@@ -1,0 +1,21 @@
+# Each user's own data: answers, resume, settings, job queue and results. Never commit.
+/answers.md
+/config.toml
+/resume.pdf
+/companies.txt
+/boards.json
+/postings.jsonl
+/jobs.txt
+/applied.csv
+/questions.json
+/learned.json
+/mistakes.jsonl
+/popup_examples.jsonl
+/cover_letters/
+/browser-profile/
+/logs/
+
+# Held-out benchmark: recordings of real company sites (their traffic, cookies included) and our results on them
+/bench/pages/
+/bench/pages_wide/
+/bench/results/

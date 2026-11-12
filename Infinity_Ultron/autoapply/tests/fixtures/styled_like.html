@@ -1,0 +1,41 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Product Designer - Zeta Labs - Application</title>
+<!-- Built like Recruitee's form (seen on jobs.channable.com): a phone box started with the country's calling code,
+     radios whose 1 px input sits under its own label, and a consent checkbox whose input is invisible and named by a
+     box beside it (aria-labelledby). A start date typed as text in its placeholder's format, cleared on leaving it
+     otherwise (BambooHR's date picker). The page also says "Thank you!" before anything is sent. -->
+<style>
+  body { font: 15px sans-serif; max-width: 640px; margin: 2em auto; } .field { margin: 12px 0; } label { display: block; }
+  .choice { position: relative; margin: 6px 0; }
+  .choice input { position: absolute; left: 4px; top: 4px; width: 1px; height: 1px; margin: 0; }
+  .choice label { position: relative; z-index: 1; padding-left: 24px; cursor: pointer; }
+  .consent { position: relative; }
+  .consent input { position: absolute; opacity: 0; width: 16px; height: 16px; margin: 0; }
+  .consent .box { padding-left: 24px; cursor: pointer; }
+</style></head>
+<body>
+<h1>Product Designer</h1>
+<p>Thank you! for your interest in Zeta Labs.</p>
+<form id="app" onsubmit="send(event)">
+  <div class="field"><label for="name">Full name *</label><input id="name" name="name" required></div>
+  <div class="field"><label for="phone">Phone number *</label><input id="phone" name="phone" type="tel" value="+31" required></div>
+  <div class="field"><label for="start">Date Available</label><input id="start" name="start" placeholder="mm/dd/yyyy"
+    onblur="if (!/^\d\d\/\d\d\/\d{4}$/.test(this.value)) this.value = ''"></div>
+  <fieldset><legend>Do you need visa sponsorship? *</legend>
+    <div class="choice"><input type="radio" id="sp-yes" name="sponsor" value="Yes" required><label for="sp-yes">Yes</label></div>
+    <div class="choice"><input type="radio" id="sp-no" name="sponsor" value="No" required><label for="sp-no">No</label></div>
+  </fieldset>
+  <fieldset><legend>Your personal data</legend>
+    <div class="consent"><input type="checkbox" name="consent" required aria-labelledby="consent-text">
+      <div id="consent-text" class="box" onclick="this.previousElementSibling.click()">I consent to Zeta Labs keeping my data for 90 days. *</div></div>
+  </fieldset>
+  <button type="submit">Send</button>
+</form>
+<script>
+  async function send(event) {
+    event.preventDefault();
+    await fetch('/submit', { method: 'POST', body: JSON.stringify(Object.fromEntries(new FormData(document.getElementById('app')))) });
+    // Nothing on the page changes: the "Thank you!" above was there before sending, so it confirms nothing.
+  }
+</script>
+</body></html>
