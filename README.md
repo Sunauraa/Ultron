@@ -1,10 +1,12 @@
-# Infinity Ultron
+# Ultron
 
-Claude Code applies to jobs for you. Each day it finds new postings on public job boards and opens each job on the company's own website. It fills the application from your answers and your resume. Then it either stops for you to check and send it (approval mode) or sends it itself (auto mode). Every job ends up in `applied.csv` with its status.
+**Until Landing That Role, Overnight, Nonstop.**
 
-Ultron is the browser Claude Code uses for this. It's an MCP server that pre-fills everything that needs no judgement and decides pop-ups with a tiny on-device model. Sending is controlled in code, never by the model. Ultron began as a research project on tiny models for web forms and pop-ups; that work, its models and results are in [`ultron/`](ultron/README.md).
+Ultron applies to jobs for you, with Claude Code as its brain. Each day it finds new postings on public job boards and opens each job on the company's own website. It fills the application from your answers and your resume. Then it either stops for you to check and send it (approval mode) or sends it itself (auto mode). Every job ends up in `applied.csv` with its status.
 
-The full guide to the job pipeline is [`autoapply/README.md`](autoapply/README.md).
+Claude Code does the thinking; Ultron does the rest. It reads the job boards, filters the new postings, and gives Claude a browser of its own: an MCP server that pre-fills everything that needs no judgement and decides pop-ups with a tiny on-device model. Sending is controlled in code, never by the model. Ultron began as research on tiny models for web forms and pop-ups; that work, its models and results are in [`research/`](research/README.md).
+
+The full guide to the job pipeline is [`autoapply/README.md`](autoapply/README.md). The project page, with a side-by-side video of Claude Code applying through Ultron and through Playwright MCP, is published from `docs/` with GitHub Pages.
 
 ## Run it with Claude Code
 
@@ -51,17 +53,30 @@ This opens Chrome and an interactive Claude Code session. Claude can use only Ul
 3. Claude fills the rest. When a required question isn't in answers.md, Claude asks you and saves your answer there.
 4. In approval mode it stops before sending. Check the form in Chrome and press Submit yourself, then record it with `python mark.py URL submitted`.
 
-### 4. The daily run
+### 4. Every morning: ask Claude Code
+
+List the companies once:
 
 ```bash
 echo "greenhouse anthropic" > companies.txt     # one company per line: "platform name", a board URL, or the careers page
-./run.sh
 ```
 
-`run.sh` runs these steps:
-1. It fetches new postings from the boards (no LLM).
-2. It filters them by your config, skipping jobs already in `applied.csv`.
-3. For each job, up to `max_jobs_per_run`, it runs `claude -p` with only Ultron's tools. Each run's transcript is saved in `logs/`.
+Then each morning, start Claude Code in `autoapply/` and ask:
+
+```
+cd autoapply && claude
+> submit job applications to those that just published within 24 hours
+```
+
+`autoapply/CLAUDE.md` tells Claude Code what to do with that request. It runs `./run.sh --hours 24`, which:
+1. Fetches new postings from the boards (no LLM).
+2. Keeps those published in the last 24 hours that match your config and aren't already in `applied.csv`. A posting with no date counts only when it first appeared in that window, on a board read before. A board that gives only a day (no time) counts that whole day, so such a job can be up to about two and a half days old.
+3. For each job, up to `max_jobs_per_run`, runs a separate `claude -p` with only Ultron's tools. Each run's transcript is saved in `logs/`.
+4. Prints a report of this run: each job, its status and what you should do.
+
+Claude reruns it while jobs still wait in the queue, then tells you the report. If a required question isn't in answers.md, Claude asks you in the chat (`python ask.py --list`), saves your reply (`python ask.py --answer N "reply"`), and offers to retry those jobs. It never answers for you and never changes `config.toml` unless you ask.
+
+The first time, Claude Code asks permission to run `./run.sh`; choose "don't ask again" to make the routine one sentence.
 
 Every job is logged in `applied.csv`:
 
@@ -69,18 +84,18 @@ Every job is logged in `applied.csv`:
 |---|---|
 | `ready` | The form is filled in its Chrome tab: check it, press Submit, then `python mark.py URL submitted` |
 | `submitted` | Nothing: the page confirmed it |
-| `needs_info` | A required question isn't in answers.md: run `python ask.py` to answer it, and the job is tried again on the next run |
+| `needs_info` | A required question isn't in answers.md: Claude asks you in the chat (or run `python ask.py`), and the job is tried again on the next run |
 | `needs_human` | A captcha, sign-in wall, Workday, or an error: apply yourself at the link |
 | `skipped` | Nothing: the job was closed or had no form |
 
-### 5. Run it every day
+### 5. Or without the chat, from cron
 
 Keep Chrome open between runs: start it once with `./browser.sh` and leave it running. Then add a cron line with `crontab -e`. Cron's `PATH` is short, so name where `claude` and your Python are:
 
 ```
 PATH=/home/you/.local/bin:/usr/local/bin:/usr/bin:/bin
 ULTRON_PYTHON=/path/to/venv/bin/python
-0 9 * * * /path/to/Infinity_Ultron/autoapply/run.sh >> /path/to/Infinity_Ultron/autoapply/logs/run.log 2>&1
+0 9 * * * /path/to/Infinity_Ultron/autoapply/run.sh --hours 24 >> /path/to/Infinity_Ultron/autoapply/logs/run.log 2>&1
 ```
 
 ### 6. Switch to auto
@@ -100,9 +115,9 @@ On a server, set `headless = true` in `config.toml`. To see and submit the held 
 - **The three offline test suites** in `autoapply/tests/`.
 - **36 recorded real application pages, replayed offline.** They cover Greenhouse, Lever, Ashby, Workable, Recruitee, Teamtailor, Personio, BambooHR and Gem, plus three company sites with Greenhouse in a frame.
 - **The whole `run.sh` pipeline end to end**, with a local model standing in for `claude -p`.
+- **Real Claude Code, on a recorded page served offline** (one run each): one application through Ultron (8 turns, $0.09, every scored field right) against Playwright MCP (53 turns, $0.30, also right); and the morning request above, which applied only to the job published in the last 24 hours.
 
 Not tested yet:
-- Real Claude Code end to end.
 - Filling or sending an application on a live site.
 
 Details are in [`autoapply/README.md`](autoapply/README.md#tested-so-far).
@@ -112,5 +127,6 @@ Details are in [`autoapply/README.md`](autoapply/README.md#tested-so-far).
 | Folder | What's in it |
 |---|---|
 | `autoapply/` | The job pipeline: `fetch.py` and `filter.py`, `run.sh`, the Ultron browser MCP server (`ultron_mcp.py`), its pop-up model, tests and the offline benchmark. Full guide: [`autoapply/README.md`](autoapply/README.md) |
-| `ultron/` | The research behind Ultron: the Browser Use plugin, the forms and pop-up models, their training data, benchmarks and results. See [`ultron/README.md`](ultron/README.md) |
-| `.github/` | Publishes `ultron/docs/` (the demo page) with GitHub Pages |
+| `research/` | The research behind Ultron: the Browser Use plugin, the forms and pop-up models, their training data, benchmarks and results. See [`research/README.md`](research/README.md) |
+| `docs/` | The project page and demo video |
+| `.github/` | Publishes `docs/` with GitHub Pages, and `research/docs/` under `/research/` |

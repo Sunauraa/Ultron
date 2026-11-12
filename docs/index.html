@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ultron</title>
+<meta name="description" content="Until Landing That Role, Overnight, Nonstop. Ultron applies to jobs for you, with Claude Code as its brain.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100,400;100,600;125,800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --bg: #e9edf1; --panel: #f7f9fb; --ink: #14202b; --muted: #54636f; --line: #c6d0d9;
+  --accent: #1d4ed8; --accent-soft: #dbe5fb; --go: #0f7a4f; --stop: #b42318; --on-accent: #ffffff;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif; --data: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #10161c; --panel: #182129; --ink: #e6edf3; --muted: #9aa9b5; --line: #2e3b46;
+  --accent: #7ea6ff; --accent-soft: #1f2d4d; --go: #4cc38a; --stop: #ff8b7e; --on-accent: #0b1220; color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --bg: #10161c; --panel: #182129; --ink: #e6edf3; --muted: #9aa9b5; --line: #2e3b46;
+  --accent: #7ea6ff; --accent-soft: #1f2d4d; --go: #4cc38a; --stop: #ff8b7e; --on-accent: #0b1220; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16px/1.55 var(--display); }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 32px 16px 64px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 48px; }
+.wrap > * { min-width: 0; }
+nav { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 14px; }
+nav a { color: var(--muted); text-decoration: none; }
+nav a:hover { color: var(--accent); }
+.eyebrow { font: 500 12.5px var(--data); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
+h1 { font-size: clamp(36px, 7vw, 64px); font-weight: 800; font-stretch: 125%; letter-spacing: -.01em; line-height: 1.02; margin: 0; }
+h2 { font-size: 22px; font-weight: 600; margin: 0 0 14px; text-wrap: balance; }
+h3 { font-size: 16px; font-weight: 600; margin: 0 0 8px; }
+p { margin: 0 0 12px; max-width: 70ch; }
+a { color: var(--accent); }
+.lede { font-size: 19px; max-width: 60ch; margin: 14px 0 0; }
+.note { color: var(--muted); font-size: 14px; max-width: 75ch; }
+.mono, code, pre { font-family: var(--data); }
+code { font-size: .92em; background: var(--panel); border: 1px solid var(--line); padding: 1px 5px; }
+pre { margin: 0; background: var(--panel); border: 1px solid var(--line); padding: 14px 16px; overflow-x: auto; font-size: 14px; line-height: 1.6; }
+pre code { background: none; border: 0; padding: 0; }
+.cta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.button { font: 600 15px var(--display); text-decoration: none; padding: 9px 18px; border: 1px solid var(--accent); }
+.button.primary { background: var(--accent); color: var(--on-accent); }
+.button.secondary { color: var(--accent); }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 16px; margin-top: 28px; }
+.stats > div { display: grid; gap: 4px; border-top: 2px solid var(--accent); padding-top: 10px; min-width: 0; }
+.stats b { font-size: 28px; font-weight: 500; font-family: var(--data); font-variant-numeric: tabular-nums; }
+.stats span { font-size: 14px; color: var(--muted); }
+figure { margin: 0; display: grid; gap: 10px; }
+video { width: 100%; aspect-ratio: 16 / 9; background: var(--panel); border: 1px solid var(--line); display: block; }
+.tablebox { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+th, td { text-align: right; padding: 9px 14px; border-bottom: 1px solid var(--line); white-space: nowrap; font-variant-numeric: tabular-nums; }
+th:first-child, td:first-child { text-align: left; white-space: normal; min-width: 160px; }
+th { font-size: 13px; color: var(--muted); font-weight: 600; }
+tr:last-child td { border-bottom: 0; }
+td.ours, th.ours { background: var(--accent-soft); font-weight: 600; }
+.steps { list-style: none; counter-reset: s; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 14px 28px; }
+.steps li { counter-increment: s; display: grid; grid-template-columns: 28px minmax(0, 1fr); column-gap: 8px; }
+.steps li::before { content: counter(s); grid-row: span 2; font: 500 13px var(--data); color: var(--accent); padding-top: 3px; }
+.steps b { font-weight: 600; }
+.steps span { color: var(--muted); font-size: 15px; }
+.chat { display: grid; gap: 10px; }
+.msg { background: var(--panel); border: 1px solid var(--line); padding: 12px 16px; max-width: 760px; }
+.msg.you { justify-self: start; border-left: 3px solid var(--accent); font-weight: 600; }
+.msg.claude { justify-self: start; }
+.msg .who { font: 500 12px var(--data); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 4px; }
+.msg ul { margin: 6px 0 0; padding-left: 18px; }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 28px; }
+.cols > div { min-width: 0; }
+ul.plain { margin: 0; padding-left: 18px; display: grid; gap: 7px; }
+footer { border-top: 1px solid var(--line); padding-top: 18px; display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 14px; color: var(--muted); }
+footer a { color: var(--muted); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+<div class="wrap">
+  <nav aria-label="Sections">
+    <a href="#demo">Demo</a><a href="#morning">Your morning</a><a href="#how">How it works</a><a href="#setup">Set up</a>
+    <a href="#tested">What's tested</a><a href="research/">The Ultron research</a><a href="https://github.com/Sunauraa/Ultron">GitHub</a>
+  </nav>
+
+  <header>
+    <p class="eyebrow">Until Landing That Role, Overnight, Nonstop</p>
+    <h1>Ultron</h1>
+    <p class="lede">Each morning, tell Claude Code to apply to the jobs published in the last 24 hours. It finds them on the job boards, fills each application from your answers and resume, and leaves it for you to check, or sends it once you trust it.</p>
+    <div class="cta">
+      <a class="button primary" href="#setup">Set it up</a>
+      <a class="button secondary" href="https://github.com/Sunauraa/Ultron">Code on GitHub</a>
+    </div>
+    <div class="stats">
+      <div><b>31 s vs 97 s</b><span>to fill the same job application, with Ultron against the usual browser tools</span></div>
+      <div><b>8 vs 53</b><span>Claude Code turns for that application</span></div>
+      <div><b>$0.09 vs $0.30</b><span>Claude cost for it; both forms were filled correctly</span></div>
+    </div>
+    <p class="note" style="margin-top:14px">One job, one run each, real Claude Code. Details under the video.</p>
+  </header>
+
+  <section id="demo" aria-labelledby="demo-h">
+    <h2 id="demo-h">The same application, two ways</h2>
+    <figure>
+      <video src="demo.mp4" poster="demo_poster.jpg" controls muted playsinline preload="metadata"></video>
+      <figcaption class="note">Real Claude Code in both, with the same flags: only the arm's browser tools, at most 40 turns. Left, run by <code>run.sh</code> through Ultron. Right, Playwright MCP with the facts in its prompt. The page is a Figma job form recorded from the live site and served offline, so nothing reached Figma; the applicant is fictional. Both agents stop before sending, as in approval mode; then Submit was pressed for each, and the request the page sent was scored against the form's correct answers. Played at 4× speed.</figcaption>
+    </figure>
+    <div class="tablebox" style="margin-top:16px">
+      <table>
+        <thead><tr><th>Same job, same applicant</th><th class="ours">Claude Code + Ultron</th><th>Claude Code + Playwright MCP</th></tr></thead>
+        <tbody>
+          <tr><td>Time</td><td class="ours">31 s</td><td>97 s</td></tr>
+          <tr><td>Turns</td><td class="ours">8</td><td>53</td></tr>
+          <tr><td>Input tokens, mostly cached</td><td class="ours">157k</td><td>987k</td></tr>
+          <tr><td>Claude cost</td><td class="ours">$0.09</td><td>$0.30</td></tr>
+          <tr><td>Wrong, missing or extra fields</td><td class="ours">0</td><td>0</td></tr>
+          <tr><td>Optional fields left empty that the facts answer</td><td class="ours">0</td><td>1 (race)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:12px">One run per side is a demonstration, not a benchmark. On 21 recorded application pages with a local 32B model, Ultron sent a fully correct application on 16 of 33 attempts and the Playwright MCP agent on 0 of 33, with about 12× fewer prompt tokens.</p>
+  </section>
+
+  <section id="morning" aria-labelledby="morning-h">
+    <h2 id="morning-h">Your morning</h2>
+    <p>Open a terminal in <code>autoapply/</code>, start <code>claude</code>, and ask. This exchange is from a test run of exactly that request, with Claude's reply shortened.</p>
+    <div class="chat">
+      <div class="msg you"><span class="who">You</span>submit job applications to those that just published within 24 hours</div>
+      <div class="msg claude"><span class="who">Claude Code</span>
+        The run is finished: one job from the last 24 hours was queued, and a posting with no date was left out.
+        <ul>
+          <li><b>ready</b>: Figma, Senior Inside Sales Representative. The form is filled and open in a Chrome tab, not submitted.</li>
+          <li>Check it in the tab, especially "Why do you want to join Figma?", which the agent wrote itself. Press Submit, then tell me and I'll record it.</li>
+        </ul>
+      </div>
+    </div>
+    <ol class="steps" style="margin-top:22px">
+      <li><b>The first days: approval mode</b><span>Every form is filled and left open in Chrome. You check it and press Submit. Fix answers.md and your filters as you go.</span></li>
+      <li><b>Then: auto</b><span>Set <code>auto_submit = true</code>. Forms filled only from your answers are sent. Any answer the agent wrote itself (a "Why us?") is still held for you, unless you allow that too.</span></li>
+      <li><b>Questions it can't answer</b><span>A required question your answers don't cover is never guessed. Claude asks you in the chat, saves your answer, and the job is retried.</span></li>
+    </ol>
+  </section>
+
+  <section id="how" aria-labelledby="how-h">
+    <h2 id="how-h">How it works</h2>
+    <ol class="steps">
+      <li><b>Find</b><span>Reads the public job lists of the companies you name: Greenhouse, Lever, Ashby, Workable, Recruitee, Teamtailor, Personio, BambooHR, Gem. No LLM.</span></li>
+      <li><b>Filter</b><span>Your titles and places, published in the last 24 hours, never applied to before. A posting with no date counts only when it newly appeared.</span></li>
+      <li><b>Open</b><span>On the company's own site when the board names it there, with the board's form as the fallback.</span></li>
+      <li><b>Fill</b><span>Ultron pre-fills everything answers.md and your resume cover, and handles pop-ups with a tiny on-device model. Claude fills the rest.</span></li>
+      <li><b>Review and send</b><span>Claude checks every field against where its value came from. Ultron sends only when config allows, and never with an empty required field, an error, or a captcha up.</span></li>
+      <li><b>Log</b><span>Every job lands in applied.csv as ready, submitted, needs_info, needs_human or skipped, and Claude tells you what to do with each.</span></li>
+    </ol>
+    <div class="cols" style="margin-top:28px">
+      <div>
+        <h3>Why a separate browser</h3>
+        <p class="note">A general browser tool sends the model the whole page after most actions. Ultron sends a short numbered list of the fields still to fill, already pre-filled where your answers apply. That is where the turns and tokens above go.</p>
+      </div>
+      <div>
+        <h3>What code decides, not the model</h3>
+        <ul class="plain note">
+          <li>The agent on each job gets only Ultron's tools: no shell, files or web.</li>
+          <li>Hidden fields, the way pages steal what agents type, are never filled.</li>
+          <li>No made-up email or phone: values not in your answers are refused or flagged.</li>
+          <li>No account is created; sign-in walls and bot checks go to you.</li>
+          <li>LinkedIn, Indeed and similar sites are never opened.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="setup" aria-labelledby="setup-h">
+    <h2 id="setup-h">Set up</h2>
+    <p>You need Claude Code, logged in; Python 3.11+; and Chrome. Then, once:</p>
+<pre><code>git clone https://github.com/Sunauraa/Ultron && cd Ultron/autoapply
+pip install playwright mcp pypdf reportlab numpy && playwright install chromium
+cp config.example.toml config.toml      # titles, places; auto_submit = false to start
+cp answers.example.md answers.md        # your answers, one "Question: answer" per line
+cp ~/path/to/resume.pdf resume.pdf
+echo "greenhouse anthropic" > companies.txt   # one company per line, or its careers page</code></pre>
+    <p style="margin-top:14px">Each morning:</p>
+<pre><code>cd Ultron/autoapply && claude
+&gt; submit job applications to those that just published within 24 hours</code></pre>
+    <p class="note" style="margin-top:12px">Prefer no chat? <code>./run.sh --hours 24</code> does the same from cron. The full guide is in the <a href="https://github.com/Sunauraa/Ultron#readme">README</a>.</p>
+  </section>
+
+  <section id="tested" aria-labelledby="tested-h">
+    <h2 id="tested-h">What's tested, and what isn't</h2>
+    <div class="cols">
+      <div>
+        <h3>Tested</h3>
+        <ul class="plain note">
+          <li>Real Claude Code: one application through Ultron, the baseline above, and the morning request end to end.</li>
+          <li>36 application pages recorded from real sites and replayed offline: the boards above and three company sites that show Greenhouse in a frame.</li>
+          <li>The whole pipeline on 31 of them, in approval and auto mode, with a local model standing in for Claude Code: 62 jobs, none lost or run out of turns.</li>
+          <li>Offline test suites for Ultron, the pipeline and the pop-up model.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Not yet</h3>
+        <ul class="plain note">
+          <li>Sending a real application on a live site: every page so far was a recording.</li>
+          <li>Workday, iCIMS, Oracle and SmartRecruiters: detected and handed to you, never filled.</li>
+          <li>Codex in place of Claude Code.</li>
+          <li>Whether applying on a company's own page gets more replies: it lands in the same applicant-tracking system.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Ultron</span>
+    <a href="research/">The Ultron research: tiny models for forms and pop-ups</a>
+    <a href="https://github.com/Sunauraa/Ultron">GitHub</a>
+  </footer>
+</div>
+</html>

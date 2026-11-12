@@ -1,6 +1,8 @@
-# Ultron autoapply
+# Ultron: the pipeline
 
-Claude Code (or Codex) applies to jobs for you every day. Ultron is its browser: it keeps the token bill small and the dangerous actions under code control.
+*Until Landing That Role, Overnight, Nonstop.*
+
+Ultron applies to jobs for you every day, with Claude Code (or Codex) as its brain. Its browser, an MCP server, keeps the token bill small and the dangerous actions under code control.
 
 ```
 companies.txt
@@ -26,7 +28,9 @@ echo "greenhouse anthropic" > companies.txt   # or a board URL, or the company's
 ./browser.sh                              # opens the dedicated Chrome profile
 ```
 
-Then add the cron line from the top of `run.sh`. To try one run by hand: `./run.sh`.
+Each morning, start `claude` in this folder and ask "submit job applications to those that just published within 24 hours". `CLAUDE.md` leads it to run `./run.sh --hours 24`, rerun while jobs wait in the queue, report each job with what you should do, and ask you in the chat any question answers.md lacks. Without the chat: the cron line from the top of `run.sh`, with `--hours 24`.
+
+**Which jobs count as published in the last N hours (`--hours N`).** The date the board gives: Greenhouse's `first_published` (never `updated_at`, which changes on any edit), Lever's `createdAt`, and so on. A board that gives only a day counts that whole day, so such a job can be up to about two and a half days old. A posting with no date counts only when fetch.py first saw it inside the window and its board had been read before (`boards_read.json`), so the first read of a board takes none of its undated jobs. Without `--hours`, `max_age_days` in config.toml applies.
 
 The Chrome window must stay open between runs: approval mode leaves each filled form in its own tab.
 
@@ -130,14 +134,16 @@ A general browser MCP sends the model a full page snapshot after most actions. U
 | `ultron_mcp.py` | the Ultron browser MCP server |
 | `prompt.md`, `playbooks/*.md` | what the agent is told; the playbook for the job's platform is added to the prompt |
 | `run.sh`, `browser.sh`, `mark.py` | the cron chain, the long-lived Chrome, manual status changes |
+| `CLAUDE.md`, `report.py` | what Claude Code does with the morning request; the end-of-run report |
+| `boards_read.json` | written at run time: when each board was first read, for undated postings |
 | `popups.py`, `models/popups/` | the pop-up model (numpy) and its two checkpoints |
 | `jobinfo.py` | reads the posting and company intro from the job's board, for `research_company` |
 | `learned.json`, `cover_letters/` | written at run time: learned question → answers.md line; every cover letter sent or held |
-| `ask.py`, `questions.py`, `apply_now.sh` | answering the questions answers.md lacked; applying with you in the conversation |
+| `ask.py`, `questions.py`, `apply_now.sh` | answering the questions answers.md lacked (`--list` and `--answer N` for Claude to ask you in the chat); applying with you in the conversation |
 | `config.example.toml`, `answers.example.md` | templates |
 | `tests/` | end-to-end test of the MCP server on local fixture pages (`python tests/test_ultron_mcp.py`); the pop-up model against its PyTorch original (`tests/test_popups.py`); fetch, careers pages, filter, jobinfo and `run.sh` offline with a stand-in `claude` (`tests/test_pipeline.py`) |
 | `boards.json` | written at run time: careers page → the board found on it |
-| `bench/e2e/` | the whole pipeline end to end (`run.sh` → fetch → filter → agent → Ultron → applied.csv) on recorded real pages served offline, with a local model in place of `claude -p` |
+| `bench/e2e/` | the whole pipeline end to end (`run.sh` → fetch → filter → agent → Ultron → applied.csv) on recorded real pages served offline, with a local model in place of `claude -p`; with real Claude Code, `record_demo.py` and `compose_demo.py` (the demo video, Ultron against Playwright MCP) and `daily_check.py` (the morning request) |
 
 ## Tested so far
 
@@ -156,9 +162,11 @@ A general browser MCP sends the model a full page snapshot after most actions. U
     - needs_human: Workday, Coinbase's bot check, and Gem after sending, because the recording can't show the site's confirmation.
     - skipped: a closed job (Ashby's "Page not found").
   - The first two runs found 8 Ultron bugs, now fixed.
+- **Real Claude Code** (`bench/e2e/`, one run each, on the recorded Figma page served offline, fictional applicant):
+  - `record_demo.py`: the real `run.sh` in approval mode with review, against Claude Code with Playwright MCP and the facts in its prompt (told to stop before sending). Submit was pressed afterwards and the request the page sent was scored. Ultron: 31 s, 8 turns, $0.09, every scored field right. Playwright MCP: 97 s, 53 turns, $0.30, every scored field right but one optional field the facts answer left empty.
+  - `daily_check.py`: `claude -p "submit job applications to those that just published within 24 hours"` with three postings queued (published 2 hours ago, 5 days ago, and undated from its board's first read). Claude ran `./run.sh --hours 24`; only the 2-hour-old job was applied to (`ready`); the other two were never opened. Its reply named the job, the answer the agent wrote itself, and `mark.py`.
 - **Not tested:**
-  - `run.sh` with real Claude Code or Codex. That would spend your quota; a local model stands in.
-  - The Codex flags.
+  - Real Claude Code on many jobs; Codex at all.
   - Jobvite past its consent step. The recording stops there.
   - Filling or sending a real application on a live site. Every page above is a recording.
   - The fallback onto a *real* board form after a company page fails. The board pages for the company-site jobs weren't recorded, so offline the fallback finds no form, and the fallback is tested on fixture pages.

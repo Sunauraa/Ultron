@@ -33,11 +33,16 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Assemble the site
+        # The pipeline's page at the root, the research under /research/
+        run: |
+          mkdir -p _site/research
+          cp -r docs/. _site/
+          cp -r research/docs/. _site/research/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: './ultron/docs'
+          path: './_site'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5

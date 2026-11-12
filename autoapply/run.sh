@@ -2,7 +2,15 @@
 # The daily chain: fetch -> filter -> one agent run per job -> applied.csv.
 # Cron example (9am daily):  0 9 * * * /path/to/autoapply/run.sh >> /path/to/autoapply/logs/run.log 2>&1
 # AGENT=claude (default) or AGENT=codex. ULTRON_PYTHON: the Python with playwright, mcp and pypdf installed.
+# --hours N: only jobs published in the last N hours (the daily "apply to what was published in the last 24 hours").
 set -euo pipefail
+HOURS=""
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --hours) HOURS="${2:?--hours needs a number}"; shift 2 ;;
+    *) echo "usage: run.sh [--hours N]" >&2; exit 2 ;;
+  esac
+done
 cd "$(dirname "$0")"
 DIR="$PWD"
 PYTHON="${ULTRON_PYTHON:-python3}"
@@ -11,9 +19,10 @@ mkdir -p logs
 exec 9> logs/.run.lock
 flock -n 9 || { echo "$(date -Is) another run is still going"; exit 0; }
 
+START=$("$PYTHON" report.py --count)  # applied.csv is only appended to: this run's jobs are the rows after these
 echo "$(date -Is) run start"
 "$PYTHON" fetch.py
-"$PYTHON" filter.py
+"$PYTHON" filter.py ${HOURS:+--hours "$HOURS"}
 MAX=$("$PYTHON" -c "import tomllib; print(tomllib.load(open('config.toml','rb'))['apply'].get('max_jobs_per_run', 5))")
 ./browser.sh
 
@@ -23,6 +32,7 @@ cat > logs/mcp.json <<EOF
 EOF
 
 count=0
+waiting=0
 # url: the job on the company's own site when the board names one, else on the board; Ultron falls back to the board's form.
 while IFS=$'\t' read -r url company title platform location board; do
   # Boards that ask for an account before the form: no agent run, the job is logged for you to apply yourself.
@@ -31,7 +41,7 @@ while IFS=$'\t' read -r url company title platform location board; do
     continue
   fi
   # Past the cap, keep reading so later Workday jobs are still logged; other jobs wait for the next run.
-  [ "$count" -ge "$MAX" ] && continue
+  if [ "$count" -ge "$MAX" ]; then waiting=$((waiting + 1)); continue; fi
   count=$((count + 1))
   playbook="playbooks/$platform.md"
   prompt="$(cat prompt.md)
@@ -55,6 +65,8 @@ URL: $url"
   # An agent that crashed or ran out of turns never logged the job: log it so it isn't retried blindly.
   "$PYTHON" mark.py --if-missing "$url" needs_human "Agent ended without logging; see $log"
 done < jobs.txt
+"$PYTHON" report.py "$START"
+[ "$waiting" != "0" ] && echo "$(date -Is) $waiting more job(s) wait in the queue (max_jobs_per_run = $MAX): run again to apply to them"
 WAITING=$("$PYTHON" -c "import questions, pathlib; print(len(questions.load(pathlib.Path('.'))))")
 [ "$WAITING" != "0" ] && echo "$(date -Is) $WAITING question(s) need your answer: run $PYTHON ask.py"
 echo "$(date -Is) run end"

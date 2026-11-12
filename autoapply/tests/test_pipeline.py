@@ -162,6 +162,64 @@ def test_fetch_and_filter() -> None:
     subprocess.run([sys.executable, str(ROOT / "filter.py"), str(WORK)], check=True)
     queue = [line.split("\t") for line in (WORK / "jobs.txt").read_text().splitlines()]
     check(len(queue) == 6 and all(len(q) == 6 and q[5] == q[0] for q in queue), "[filter] the new boards' jobs are queued with their platform and board form")
+    first_read = json.loads((WORK / "boards_read.json").read_text())
+    check(set(first_read) == {"teamtailor:career.teamtailor.com", "bamboohr:onezero", "workday:nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"},
+          "[fetch] each board's first read is remembered (boards that failed are not)")
+
+
+def test_window() -> None:
+    """filter.py --hours: the daily "jobs published in the last 24 hours"."""
+    from datetime import datetime, timedelta, timezone
+    folder = WORK / "window"
+    folder.mkdir()
+    now = datetime.now(timezone.utc)
+    ago = lambda **k: (now - timedelta(**k)).isoformat(timespec="seconds")  # noqa: E731
+    day = lambda days: (now - timedelta(days=days)).date().isoformat()  # noqa: E731
+    jobs = {  # name: (posted, first seen, board) -> queued with --hours 24?
+        "dated 2 h ago": (ago(hours=2), ago(hours=1), "lever:a", True),
+        "dated 30 h ago": (ago(hours=30), ago(hours=1), "lever:a", False),
+        "a bare date, yesterday": (day(1), ago(hours=1), "workable:b", True),
+        "a bare date, 4 days ago": (day(4), ago(hours=1), "workable:b", False),
+        "no date, new since an earlier read": ("", ago(hours=3), "bamboohr:c", True),
+        "no date, there on the board's first read": ("", ago(hours=3), "workday:d", False),
+        "no date, first seen 3 days ago": ("", ago(days=3), "bamboohr:c", False),
+    }
+    with (folder / "postings.jsonl").open("w") as f:
+        for n, (name, (posted, seen, board, _)) in enumerate(jobs.items()):
+            f.write(json.dumps({"id": n, "title": name, "location": "Remote", "url": f"https://x.example/{n}", "posted": posted,
+                                "key": f"{board}:{n}", "platform": board.split(":")[0], "company": board, "fetched": seen}) + "\n")
+    (folder / "boards_read.json").write_text(json.dumps({"bamboohr:c": ago(days=10), "workday:d": ago(hours=3)}))
+    shutil.copy(WORK / "config.toml", folder / "config.toml")
+    (folder / "config.toml").write_text((folder / "config.toml").read_text().replace('include = ["engineer", "manager", "executive"]', "include = []"))
+    out = subprocess.run([sys.executable, str(ROOT / "filter.py"), str(folder), "--hours", "24"], capture_output=True, text=True, check=True).stdout
+    queued = {line.split("\t")[2] for line in (folder / "jobs.txt").read_text().splitlines()}
+    for name, (*_, want) in jobs.items():
+        check((name in queued) == want, f"[window] {name}: " + ("queued" if want else "left out"))
+    check("published in the last 24 h" in out and "2 posting(s) with no date left out" in out, "[window] the run says which window it used and what it left out")
+    subprocess.run([sys.executable, str(ROOT / "filter.py"), str(folder)], check=True, capture_output=True)
+    check(len((folder / "jobs.txt").read_text().splitlines()) == len(jobs), "[window] without --hours, max_age_days applies as before")
+    fetch.get = lambda url, agent="": json.dumps({"jobs": [{"id": 1, "title": "T", "absolute_url": "", "updated_at": ago(hours=1)}]}).encode()
+    check(fetch.postings("greenhouse", "edited")[0]["posted"] == "", "[window] greenhouse: an edit (updated_at) is not taken for a publish date")
+    fetch.get = fake_get
+
+
+def test_ask_in_chat() -> None:
+    """ask.py --list / --answer: Claude Code asks the user in the chat and saves the reply as given."""
+    import questions
+    folder = WORK / "ask"
+    folder.mkdir()
+    shutil.copy(ROOT / "ask.py", folder / "ask.py")
+    shutil.copy(ROOT / "questions.py", folder / "questions.py")
+    (folder / "answers.md").write_text("Email: a@b.c\n")
+    questions.add(folder, [{"label": "Years of Python? *", "kind": "select", "options": ["0-2", "3-5", "6+"]},
+                           {"label": "Notice period", "kind": "text"}], {"url": "https://x.example/1", "company": "Acme", "title": "Engineer"})
+    listed = subprocess.run([sys.executable, str(folder / "ask.py"), "--list"], capture_output=True, text=True, check=True).stdout
+    check("[1] Years of Python?" in listed and "3. 6+" in listed and "Acme (Engineer)" in listed, "[ask] --list shows each question, its options and the job")
+    subprocess.run([sys.executable, str(folder / "ask.py"), "--answer", "1", "3"], check=True, capture_output=True)
+    subprocess.run([sys.executable, str(folder / "ask.py"), "--answer", "1", "4 weeks"], check=True, capture_output=True)
+    text = (folder / "answers.md").read_text()
+    check("Years of Python?: 6+" in text and "Notice period: 4 weeks" in text, "[ask] --answer saves the option or the words given")
+    check(questions.load(folder) == [], "[ask] an answered question no longer waits")
 
 
 class Version(http.server.BaseHTTPRequestHandler):
@@ -224,7 +282,7 @@ def test_jobinfo() -> None:
 def test_run_sh() -> None:
     folder = WORK / "app"
     folder.mkdir()
-    for name in ("run.sh", "browser.sh", "fetch.py", "filter.py", "mark.py", "questions.py", "prompt.md"):
+    for name in ("run.sh", "browser.sh", "fetch.py", "filter.py", "mark.py", "questions.py", "prompt.md", "report.py"):
         shutil.copy(ROOT / name, folder / name)
     shutil.copytree(ROOT / "playbooks", folder / "playbooks")
     for name in ("companies.txt", "config.toml", "answers.md"):
@@ -269,16 +327,26 @@ urllib.request.urlopen = urlopen
     check(len(others) == 2 and all(r["status"] == "needs_human" and "Agent ended without logging" in r["notes"] for r in others),
           "[run.sh] a job the agent didn't log is logged needs_human, not retried blindly")
     check(len(list((folder / "logs").glob("*.log"))) == len(agent_runs), "[run.sh] each agent run keeps its own log")
+    check("This run: 4 job(s): 4 needs_human" in done.stdout and "2 more job(s) wait in the queue" in done.stdout,
+          "[run.sh] the run ends with its report and says how many jobs still wait past the cap")
     done = subprocess.run(["bash", str(folder / "run.sh")], env=env, capture_output=True, text=True, timeout=300)
-    server.shutdown()
     rows = list(csv.DictReader((folder / "applied.csv").open()))
     check(len(rows) == 6 and len(calls.read_text().splitlines()) == 4, "[run.sh] the next run takes the rest of the queue, nothing twice")
+    check("This run: 2 job(s)" in done.stdout and "wait in the queue" not in done.stdout, "[run.sh] the report counts only this run's jobs")
+    done = subprocess.run(["bash", str(folder / "run.sh"), "--hours", "24"], env=env, capture_output=True, text=True, timeout=300)
+    check(done.returncode == 0 and "published in the last 24 h" in done.stdout and "This run logged no job" in done.stdout,
+          "[run.sh] --hours reaches the filter")
+    done = subprocess.run(["bash", str(folder / "run.sh"), "--days", "1"], env=env, capture_output=True, text=True, timeout=300)
+    server.shutdown()
+    check(done.returncode == 2 and "usage" in done.stderr, "[run.sh] an unknown option is refused")
 
 
 test_lines()
 test_boards()
 test_sites()
 test_fetch_and_filter()
+test_window()
+test_ask_in_chat()
 test_jobinfo()
 test_run_sh()
 print(f"\n{len(failures)} failure(s)" + (": " + "; ".join(failures) if failures else ""))

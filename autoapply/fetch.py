@@ -193,7 +193,7 @@ def postings(platform: str, company: str) -> list[dict]:
             own = job.get("absolute_url") or ""
             own = own if own.startswith("https://") and not re.search(r"(^|\.)greenhouse\.io$", urlparse(own).netloc) else ""
             rows.append(dict(id=job["id"], title=job["title"], location=(job.get("location") or {}).get("name", ""),
-                             url=own or form, board=form, posted=job.get("first_published") or job.get("updated_at", "")))
+                             url=own or form, board=form, posted=job.get("first_published") or ""))  # updated_at moves on every edit: not a publish date
     elif platform == "lever":
         for job in data:
             categories = job.get("categories") or {}
@@ -277,10 +277,16 @@ def feed_postings(platform: str, company: str) -> list[dict]:
     return rows
 
 
+# Each board's first successful read. A posting with no date that appears on a later read is new since then;
+# one already there on the first read is the board's backlog, of unknown age.
+FIRST_READ = "boards_read.json"
+
+
 def main(folder: Path) -> None:
     store = folder / "postings.jsonl"
     seen = {json.loads(line)["key"] for line in store.open()} if store.exists() else set()
     fetched = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    first_read = json.loads((folder / FIRST_READ).read_text()) if (folder / FIRST_READ).exists() else {}
     new = failed = 0
     with store.open("a") as out:
         for line in (folder / "companies.txt").read_text().splitlines():
@@ -291,6 +297,7 @@ def main(folder: Path) -> None:
                 if company[0] == "site":
                     company = resolve(folder, company[1])
                 rows = postings(*company)
+                first_read.setdefault(f"{company[0]}:{company[1]}", fetched)
             except Exception as error:  # one board failing must not stop the others
                 print(f"{company[0]} {company[1]}: failed ({error})", file=sys.stderr)
                 failed += 1
@@ -301,6 +308,7 @@ def main(folder: Path) -> None:
                     out.write(json.dumps({**row, "fetched": fetched}) + "\n")
                     new += 1
             time.sleep(1)  # be polite to the job boards
+    (folder / FIRST_READ).write_text(json.dumps(first_read, indent=1) + "\n")
     print(f"{new} new posting(s); {failed} board(s) failed")
 
 
