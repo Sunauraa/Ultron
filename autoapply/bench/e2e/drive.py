@@ -30,7 +30,7 @@ sys.path.insert(0, str(CODE / "bench"))
 from replay import Replay  # noqa: E402
 import score  # noqa: E402
 
-PY = str(CODE.parent / ".venv" / "bin" / "python")
+PY = str(CODE.parent / "ultron" / ".venv" / "bin" / "python")
 # Pages without a meta.json posting (the wide set): platform, company, title, location as the board lists them.
 WIDE = {
     "bamboohr_onezero": ("bamboohr", "onezero", "Desktop Support Engineer", "Somerville, Massachusetts"),

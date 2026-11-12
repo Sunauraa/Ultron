@@ -120,7 +120,7 @@ Cookie bars, newsletter overlays, chat widgets and notices are decided by Ultron
 
 ## Why it saves tokens
 
-A general browser MCP sends the model a full page snapshot after most actions. Ultron sends a numbered field list instead. It also fills everything that needs no judgement before the model sees the form: on the 22 recorded real pages, `open_job` pre-filled 171 fields (resume, contact details, links, self-identification), and none were wrong. The model then fills only what's left and calls `submit`. On three real application pages this was about 1.9–2.3 KB of text each (Anthropic on Greenhouse: 25 fields; Palantir on Lever: 30 fields, with a 3,301-option university list summarised; OpenAI on Ashby: 14 fields). A whole form is filled in one or two `fill` calls. The benchmark in `bench/` measures the difference against Playwright MCP. On 21 real application pages replayed offline, and scored on the request each page actually sent, Ultron sent a fully correct application on 16 of 33 attempts with Qwen3-32B. Playwright MCP managed 0 of 33, and Ultron used about 12× fewer prompt tokens (`bench/results/RESULTS_realpages.md`).
+A general browser MCP sends the model a full page snapshot after most actions. Ultron sends a numbered field list instead. It also fills everything that needs no judgement before the model sees the form: on the 22 recorded real pages, `open_job` pre-filled 171 fields (resume, contact details, links, self-identification), and none were wrong. The model then fills only what's left and calls `submit`. On three real application pages this was about 1.9–2.3 KB of text each (Anthropic on Greenhouse: 25 fields; Palantir on Lever: 30 fields, with a 3,301-option university list summarised; OpenAI on Ashby: 14 fields). A whole form is filled in one or two `fill` calls. The benchmark in `bench/` measures the difference against Playwright MCP. On 21 real application pages replayed offline, and scored on the request each page actually sent, Ultron sent a fully correct application on 16 of 33 attempts with Qwen3-32B. Playwright MCP managed 0 of 33, and Ultron used about 12× fewer prompt tokens. The page recordings and raw results are kept out of the repository, since the recordings hold the sites' own traffic.
 
 ## Files
 
@@ -137,7 +137,6 @@ A general browser MCP sends the model a full page snapshot after most actions. U
 | `config.example.toml`, `answers.example.md` | templates |
 | `tests/` | end-to-end test of the MCP server on local fixture pages (`python tests/test_ultron_mcp.py`); the pop-up model against its PyTorch original (`tests/test_popups.py`); fetch, careers pages, filter, jobinfo and `run.sh` offline with a stand-in `claude` (`tests/test_pipeline.py`) |
 | `boards.json` | written at run time: careers page → the board found on it |
-| `mistakes.md` | every bug found while building this, its cause, how it was caught and the fix |
 | `bench/e2e/` | the whole pipeline end to end (`run.sh` → fetch → filter → agent → Ultron → applied.csv) on recorded real pages served offline, with a local model in place of `claude -p` |
 
 ## Tested so far
@@ -156,7 +155,7 @@ A general browser MCP sends the model a full page snapshot after most actions. U
     - needs_info: the persona's answers.md lacks the answer, or the page offers no option for it (Stripe's residence list has no United States).
     - needs_human: Workday, Coinbase's bot check, and Gem after sending, because the recording can't show the site's confirmation.
     - skipped: a closed job (Ashby's "Page not found").
-  - The first two runs found 8 Ultron bugs, now fixed (`mistakes.md` 46–53).
+  - The first two runs found 8 Ultron bugs, now fixed.
 - **Not tested:**
   - `run.sh` with real Claude Code or Codex. That would spend your quota; a local model stands in.
   - The Codex flags.

@@ -10,7 +10,7 @@ import time
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent.parent
+ROOT = HERE.parent.parent / "ultron"  # the original model, its test pop-ups and its library
 sys.path[:0] = [str(HERE.parent), str(ROOT / "third_party/cua/libs/cua-s1/python/src")]
 from cua_s1.dialogs import EnsembleScorer  # noqa: E402
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 # The one run on the fresh forms: locked settings in results/bench/LOCK_fresh5.json, one arm at a time so seconds stay comparable. Finished forms are never repeated.
-cd /home/tudao/project; P=$PWD
+cd "$(dirname "$0")/.."; P=$PWD
 export HF_HOME=$P/.cache/hf PLAYWRIGHT_BROWSERS_PATH=$P/.cache/pw PYTHONWARNINGS=ignore CUDA_VISIBLE_DEVICES=""
 C=models/ultron-forms-0.1/a/model.safetensors,models/ultron-forms-0.1/b/model.safetensors
 serve() {

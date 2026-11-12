@@ -1,6 +1,6 @@
 #!/bin/bash
 # Usage: train_forms.sh DATA RUN SEED [extra train.py args]
-cd /home/tudao/project
+cd "$(dirname "$0")/.."
 export CUBLAS_WORKSPACE_CONFIG=:4096:8 PYTHONPATH=$PWD/third_party/cua/libs/cua-s1/python/src HF_HOME=$PWD/.cache/hf CUDA_VISIBLE_DEVICES=7 PATH=$PWD/.venv-llm/bin:$PATH
 data=$1 run=$2 seed=$3; shift 3
 python third_party/cua/libs/cua-s1/training/train.py train $data/train.jsonl --validation $data/validation.jsonl --output runs/forms/$run \

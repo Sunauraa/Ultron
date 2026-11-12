@@ -1,0 +1,29 @@
+# Environments, model downloads and browser builds (about 70 GB)
+.cache/
+.venv/
+.venv-llm/
+__pycache__/
+*.pyc
+
+# Logs and training checkpoints; the shipped models are in models/
+logs/
+runs/
+
+# Downloaded sites and third-party datasets
+external/
+
+# Generated training data and raw page captures (about 8 GB). The test sets stay tracked.
+data/popups/*/
+!data/popups/captures/
+data/popups/captures/*/
+data/forms/forms_v*/
+data/forms/ext/
+data/forms/real/raw/
+data/forms/real/fresh/pages*/*
+!data/forms/real/fresh/pages*/extracted.json
+
+# Scratch output
+tmp/
+
+# Ours only: the mistakes log
+MISTAKES.md

@@ -1,7 +1,7 @@
 #!/bin/bash
 # One seed of the 32B fresh run on its own GPU and port, so seeds run in parallel. Usage: bench_32b_seed.sh SEED GPU PORT
 # Settings as in results/bench/LOCK_fresh5.json; LOCK_fresh5b.json records the split. All arms of a seed share one GPU, one at a time.
-cd /home/tudao/project; P=$PWD; s=$1; g=$2; port=$3
+cd "$(dirname "$0")/.."; P=$PWD; s=$1; g=$2; port=$3
 export HF_HOME=$P/.cache/hf PLAYWRIGHT_BROWSERS_PATH=$P/.cache/pw PYTHONWARNINGS=ignore CUDA_VISIBLE_DEVICES="" ULTRON_LLM_PORT=$port
 C=models/ultron-forms-0.1/a/model.safetensors,models/ultron-forms-0.1/b/model.safetensors
 PATH=$P/.venv-llm/bin:$PATH CUDA_VISIBLE_DEVICES=$g HF_HUB_OFFLINE=1 python -m vllm.entrypoints.openai.api_server --model Qwen/Qwen2.5-32B-Instruct-AWQ --served-model-name local --host 127.0.0.1 --port $port --max-num-seqs 8 \
