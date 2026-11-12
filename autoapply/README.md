@@ -5,8 +5,10 @@
 Ultron applies to jobs for you every day, with Claude Code (or Codex) as its brain. Its browser, an MCP server, keeps the token bill small and the dangerous actions under code control.
 
 ```
-companies.txt
-   ↓  [1] fetch.py     (cron, daily, no LLM)  public job-board APIs and feeds (boards listed below)
+config.toml [search] roles
+   ↓  [0] search.py    Claude Code web-searches your roles on the job boards, at most once a day
+found_boards.txt  (+ companies.txt, optional)   every company board ever found
+   ↓  [1] fetch.py     (no LLM)  public job-board APIs and feeds (boards listed below)
 postings.jsonl
    ↓  [2] filter.py    keywords, location, age; skips anything already in applied.csv
 jobs.txt  (queue)
@@ -24,7 +26,6 @@ pip install playwright mcp pypdf reportlab numpy && playwright install chromium 
 cp config.example.toml config.toml        # keywords, locations, THE SWITCH
 cp answers.example.md answers.md          # your answers, one "Question: answer" per line
 cp /path/to/your/resume.pdf resume.pdf
-echo "greenhouse anthropic" > companies.txt   # or a board URL, or the company's careers page (below)
 ./browser.sh                              # opens the dedicated Chrome profile
 ```
 
@@ -36,7 +37,11 @@ The Chrome window must stay open between runs: approval mode leaves each filled 
 
 ## Where the jobs come from
 
-One line per company in `companies.txt`, in any of three forms:
+**Found by search (`search.py`).** You give roles, not companies: `[search] roles` in config.toml. Each run, at most once every 20 hours, Claude Code (`claude -p` with only its web-search tool) searches each role on each board site: Greenhouse, Lever, Ashby, Workable, and one search for the smaller boards. Every company board in the search results is checked by reading its job list, and added to `found_boards.txt` if it answers. Only addresses in the search results count, never ones the model writes. Boards in `[search] skip` (sites that repost other companies' jobs, such as Jobgether) are never added. The list only grows: reading a board costs no credits.
+
+Why keep the list instead of searching for today's jobs: search ranks by relevance, not date. In a check on 2026-11-12, 0 of 94 search results were published in the last 24 hours (median age: about 6 months), while the 73 boards those searches named had 55 matching jobs from the last 24 hours, none of which search returned. Search finds the companies; reading their boards every day finds the new jobs.
+
+**Named by you (`companies.txt`, optional).** Companies you always want read. One line per company, in any of three forms:
 
 - `greenhouse anthropic`: the platform and the board's name.
 - A board's address: `https://jobs.ashbyhq.com/notion`, `https://onezero.bamboohr.com/careers`...
@@ -130,12 +135,14 @@ A general browser MCP sends the model a full page snapshot after most actions. U
 
 | File | What |
 |---|---|
+| `search.py` | step 0: finds company boards for your roles (Claude Code web search, at most once a day) |
 | `fetch.py`, `filter.py` | steps 1 and 2 (no LLM) |
 | `ultron_mcp.py` | the Ultron browser MCP server |
 | `prompt.md`, `playbooks/*.md` | what the agent is told; the playbook for the job's platform is added to the prompt |
 | `run.sh`, `browser.sh`, `mark.py` | the cron chain, the long-lived Chrome, manual status changes |
 | `CLAUDE.md`, `report.py` | what Claude Code does with the morning request; the end-of-run report |
 | `boards_read.json` | written at run time: when each board was first read, for undated postings |
+| `found_boards.txt`, `searched.json` | written at run time: every board search found; when the last search ran |
 | `popups.py`, `models/popups/` | the pop-up model (numpy) and its two checkpoints |
 | `jobinfo.py` | reads the posting and company intro from the job's board, for `research_company` |
 | `learned.json`, `cover_letters/` | written at run time: learned question → answers.md line; every cover letter sent or held |

@@ -24,10 +24,15 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 
+# Short forms job titles use for a keyword: "Sr. Software Engineer" is excluded by "senior".
+SHORT = {"senior": ["sr"], "junior": ["jr"]}
+
+
 def words(keywords: list[str]) -> re.Pattern | None:
     """Whole-word, case-insensitive match, so "ML" doesn't match "HTML"."""
     if not keywords:
         return None
+    keywords = keywords + [short for k in keywords for short in SHORT.get(k.casefold(), [])]
     return re.compile(r"(?<!\w)(?:" + "|".join(re.escape(k) for k in keywords) + r")(?!\w)", re.I)
 
 

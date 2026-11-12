@@ -43,7 +43,7 @@ WIDE = {
     "site_coinbase": ("greenhouse", "coinbase", "Open position", "Remote"),
     "workday_nvidia": ("workday", "nvidia", "Senior engineer", "Zurich, Switzerland"),
 }
-RUNTIME = ["run.sh", "browser.sh", "fetch.py", "filter.py", "mark.py", "questions.py", "ask.py", "prompt.md", "ultron_mcp.py",
+RUNTIME = ["run.sh", "browser.sh", "search.py", "fetch.py", "filter.py", "mark.py", "questions.py", "ask.py", "prompt.md", "ultron_mcp.py",
            "popups.py", "jobinfo.py", "report.py"]
 
 
@@ -63,10 +63,12 @@ def make_app(lane: Path, mode: str) -> Path:
               .replace('exclude = ["senior", "staff", "principal", "lead", "manager", "director", "head of"]', "exclude = []")
               .replace('locations = ["remote", "san francisco", "new york"]', "locations = []")
               .replace("max_age_days = 30", "max_age_days = 100000")
+              # Offline: the jobs come from the recorded pages, never from a web search
+              .replace('roles = ["machine learning engineer", "research engineer", "software engineer new grad", "software engineer intern"]', "roles = []")
               .replace("max_jobs_per_run = 5", "max_jobs_per_run = 1"))
     if mode == "auto_review":
         config = config.replace("auto_submit = false", "auto_submit = true").replace("review = false", "review = true")
-    assert "include = []" in config and "max_jobs_per_run = 1" in config
+    assert "include = []" in config and "roles = []" in config and "max_jobs_per_run = 1" in config
     (app / "config.toml").write_text(config)
     return app
 

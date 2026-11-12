@@ -55,13 +55,7 @@ This opens Chrome and an interactive Claude Code session. Claude can use only Ul
 
 ### 4. Every morning: ask Claude Code
 
-List the companies once:
-
-```bash
-echo "greenhouse anthropic" > companies.txt     # one company per line: "platform name", a board URL, or the careers page
-```
-
-Then each morning, start Claude Code in `autoapply/` and ask:
+You don't list companies. Put the roles you want in `config.toml`: `[search] roles` (what to search for) and `[filter]` (which titles and places to accept). Each morning, start Claude Code in `autoapply/` and ask:
 
 ```
 cd autoapply && claude
@@ -69,10 +63,11 @@ cd autoapply && claude
 ```
 
 `autoapply/CLAUDE.md` tells Claude Code what to do with that request. It runs `./run.sh --hours 24`, which:
-1. Fetches new postings from the boards (no LLM).
-2. Keeps those published in the last 24 hours that match your config and aren't already in `applied.csv`. A posting with no date counts only when it first appeared in that window, on a board read before. A board that gives only a day (no time) counts that whole day, so such a job can be up to about two and a half days old.
-3. For each job, up to `max_jobs_per_run`, runs a separate `claude -p` with only Ultron's tools. Each run's transcript is saved in `logs/`.
-4. Prints a report of this run: each job, its status and what you should do.
+1. Searches the web for your roles on the job boards Ultron reads, at most once a day, and adds every company board it finds to `found_boards.txt` (about $0.40 of Claude per search, in one real test: 20 searches found 132 companies). Search finds companies, not fresh jobs, so the list keeps every company ever found.
+2. Reads the job lists of all those companies, plus any you name in the optional `companies.txt` (no LLM, no credits; 132 companies took 49 s).
+3. Keeps those published in the last 24 hours that match your config and aren't already in `applied.csv`. A posting with no date counts only when it first appeared in that window, on a board read before. A board that gives only a day (no time) counts that whole day, so such a job can be up to about two and a half days old.
+4. For each job, up to `max_jobs_per_run`, runs a separate `claude -p` with only Ultron's tools. Each run's transcript is saved in `logs/`.
+5. Prints a report of this run: each job, its status and what you should do.
 
 Claude reruns it while jobs still wait in the queue, then tells you the report. If a required question isn't in answers.md, Claude asks you in the chat (`python ask.py --list`), saves your reply (`python ask.py --answer N "reply"`), and offers to retry those jobs. It never answers for you and never changes `config.toml` unless you ask.
 

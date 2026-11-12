@@ -20,3 +20,5 @@
 /bench/pages_wide/
 /bench/results/
 /boards_read.json
+/found_boards.txt
+/searched.json

@@ -1,5 +1,5 @@
 #!/bin/bash
-# The daily chain: fetch -> filter -> one agent run per job -> applied.csv.
+# The daily chain: search -> fetch -> filter -> one agent run per job -> applied.csv.
 # Cron example (9am daily):  0 9 * * * /path/to/autoapply/run.sh >> /path/to/autoapply/logs/run.log 2>&1
 # AGENT=claude (default) or AGENT=codex. ULTRON_PYTHON: the Python with playwright, mcp and pypdf installed.
 # --hours N: only jobs published in the last N hours (the daily "apply to what was published in the last 24 hours").
@@ -21,6 +21,8 @@ flock -n 9 || { echo "$(date -Is) another run is still going"; exit 0; }
 
 START=$("$PYTHON" report.py --count)  # applied.csv is only appended to: this run's jobs are the rows after these
 echo "$(date -Is) run start"
+# A failed search costs nothing but new companies: the boards already known are still read.
+AGENT="$AGENT" "$PYTHON" search.py || echo "$(date -Is) search failed: reading the boards already known"
 "$PYTHON" fetch.py
 "$PYTHON" filter.py ${HOURS:+--hours "$HOURS"}
 MAX=$("$PYTHON" -c "import tomllib; print(tomllib.load(open('config.toml','rb'))['apply'].get('max_jobs_per_run', 5))")

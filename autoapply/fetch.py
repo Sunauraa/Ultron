@@ -1,10 +1,12 @@
-"""Step 1: fetch every posting from the companies in companies.txt through the public job lists of Greenhouse,
+"""Step 1: fetch every posting from the companies in companies.txt and found_boards.txt (the boards search.py found
+for your roles) through the public job lists of Greenhouse,
 Lever, Ashby, Workable, Recruitee, Teamtailor, Personio, BambooHR, Gem and Workday (no keys, no login, no LLM).
 New postings are appended to postings.jsonl. Each posting's url is where the agent applies: the job's page on the
 company's own site when the board names one (Greenhouse's absolute_url off greenhouse.io), else the board's form;
 board is the board's form, which Ultron falls back to when the company's page has no usable form.
 
-companies.txt has one company per line, in any of three forms. `#` starts a comment.
+companies.txt is optional: companies you always want read. It has one company per line, in any of three forms
+(found_boards.txt uses the first). `#` starts a comment.
 - `PLATFORM NAME`: `greenhouse anthropic`, `lever palantir`, `ashby openai`, `workable huggingface`, `recruitee bunq`,
   `teamtailor career.teamtailor.com` (its careers site's address), `personio f24`, `bamboohr onezero`, `gem gem`.
 - A job-board URL: job-boards.greenhouse.io/<name>, jobs.lever.co/<name>, jobs.ashbyhq.com/<name>,
@@ -18,7 +20,7 @@ Workday jobs are listed but not applied to by the agent: Workday asks for an acc
 as needs_human with their link, for you to apply yourself. SmartRecruiters is left out: its application pages sit
 behind DataDome bot protection, and iCIMS / Oracle need an account too.
 
-Usage: python fetch.py [DIR]   (DIR holds companies.txt and postings.jsonl; default: this folder)
+Usage: python fetch.py [DIR]   (DIR holds companies.txt, found_boards.txt and postings.jsonl; default: this folder)
 """
 
 from __future__ import annotations
@@ -27,6 +29,7 @@ import json
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -282,34 +285,73 @@ def feed_postings(platform: str, company: str) -> list[dict]:
 FIRST_READ = "boards_read.json"
 
 
+def per_platform(boards: list[tuple[str, str]], read) -> dict:
+    """read(board) for every board: the platforms in parallel, each platform's boards one at a time, a second apart
+    (polite to each job board, and many boards still take minutes, not one second each)."""
+    groups: dict[str, list] = {}
+    for board in boards:
+        groups.setdefault(board[0], []).append(board)
+
+    def one_platform(group: list) -> dict:
+        out = {}
+        for i, board in enumerate(group):
+            if i:
+                time.sleep(1)
+            out[board] = read(board)
+        return out
+    results: dict = {}
+    with ThreadPoolExecutor(max_workers=len(groups) or 1) as pool:
+        for part in pool.map(one_platform, groups.values()):
+            results.update(part)
+    return results
+
+
 def main(folder: Path) -> None:
     store = folder / "postings.jsonl"
     seen = {json.loads(line)["key"] for line in store.open()} if store.exists() else set()
     fetched = datetime.now(timezone.utc).isoformat(timespec="seconds")
     first_read = json.loads((folder / FIRST_READ).read_text()) if (folder / FIRST_READ).exists() else {}
     new = failed = 0
-    with store.open("a") as out:
-        for line in (folder / "companies.txt").read_text().splitlines():
-            company = parse_company(line)
-            if company is None:
-                continue
+    lines = [line for name in ("companies.txt", "found_boards.txt") if (folder / name).exists()
+             for line in (folder / name).read_text().splitlines()]
+    boards = []
+    for line in lines:
+        company = parse_company(line)
+        if company is None:
+            continue
+        if company[0] == "site":
             try:
-                if company[0] == "site":
-                    company = resolve(folder, company[1])
-                rows = postings(*company)
-                first_read.setdefault(f"{company[0]}:{company[1]}", fetched)
-            except Exception as error:  # one board failing must not stop the others
-                print(f"{company[0]} {company[1]}: failed ({error})", file=sys.stderr)
+                company = resolve(folder, company[1])
+            except Exception as error:  # one careers page failing must not stop the others
+                print(f"site {company[1]}: failed ({error})", file=sys.stderr)
                 failed += 1
                 continue
+        if company not in boards:
+            boards.append(company)
+
+    def read(board: tuple[str, str]):
+        try:
+            return postings(*board)
+        except Exception as error:  # one board failing must not stop the others
+            return error
+    results = per_platform(boards, read)
+    read_ok = 0
+    with store.open("a") as out:
+        for company in boards:  # in list order, so postings.jsonl doesn't depend on which thread finished first
+            rows = results[company]
+            if isinstance(rows, Exception):
+                print(f"{company[0]} {company[1]}: failed ({rows})", file=sys.stderr)
+                failed += 1
+                continue
+            read_ok += 1
+            first_read.setdefault(f"{company[0]}:{company[1]}", fetched)
             for row in rows:
                 if row["key"] not in seen:
                     seen.add(row["key"])
                     out.write(json.dumps({**row, "fetched": fetched}) + "\n")
                     new += 1
-            time.sleep(1)  # be polite to the job boards
     (folder / FIRST_READ).write_text(json.dumps(first_read, indent=1) + "\n")
-    print(f"{new} new posting(s); {failed} board(s) failed")
+    print(f"{read_ok} board(s) read: {new} new posting(s); {failed} board(s) failed")
 
 
 if __name__ == "__main__":

@@ -141,7 +141,7 @@ footer a { color: var(--muted); }
   <section id="how" aria-labelledby="how-h">
     <h2 id="how-h">How it works</h2>
     <ol class="steps">
-      <li><b>Find</b><span>Reads the public job lists of the companies you name: Greenhouse, Lever, Ashby, Workable, Recruitee, Teamtailor, Personio, BambooHR, Gem. No LLM.</span></li>
+      <li><b>Find</b><span>You name roles, not companies. Claude searches the web once a day for companies hiring for them, and every company found is kept. Ultron then reads all their public job lists (Greenhouse, Lever, Ashby, Workable, Recruitee, Teamtailor, Personio, BambooHR, Gem), with no LLM.</span></li>
       <li><b>Filter</b><span>Your titles and places, published in the last 24 hours, never applied to before. A posting with no date counts only when it newly appeared.</span></li>
       <li><b>Open</b><span>On the company's own site when the board names it there, with the board's form as the fallback.</span></li>
       <li><b>Fill</b><span>Ultron pre-fills everything answers.md and your resume cover, and handles pop-ups with a tiny on-device model. Claude fills the rest.</span></li>
@@ -171,10 +171,9 @@ footer a { color: var(--muted); }
     <p>You need Claude Code, logged in; Python 3.11+; and Chrome. Then, once:</p>
 <pre><code>git clone https://github.com/Sunauraa/Ultron && cd Ultron/autoapply
 pip install playwright mcp pypdf reportlab numpy && playwright install chromium
-cp config.example.toml config.toml      # titles, places; auto_submit = false to start
+cp config.example.toml config.toml      # your roles and places; auto_submit = false to start
 cp answers.example.md answers.md        # your answers, one "Question: answer" per line
-cp ~/path/to/resume.pdf resume.pdf
-echo "greenhouse anthropic" > companies.txt   # one company per line, or its careers page</code></pre>
+cp ~/path/to/resume.pdf resume.pdf</code></pre>
     <p style="margin-top:14px">Each morning:</p>
 <pre><code>cd Ultron/autoapply && claude
 &gt; submit job applications to those that just published within 24 hours</code></pre>

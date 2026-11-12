@@ -26,7 +26,9 @@ FEEDS = HERE / "fixtures" / "feeds"
 WORK = ROOT.parent / "tmp" / "pipeline_test"
 sys.path.insert(0, str(ROOT))
 import fetch  # noqa: E402
+import filter as queue_filter  # noqa: E402
 import jobinfo  # noqa: E402
+import search  # noqa: E402
 
 failures: list[str] = []
 
@@ -279,15 +281,81 @@ def test_jobinfo() -> None:
         jobinfo.urllib.request.urlopen = real
 
 
+def test_search() -> None:
+    """search.py with a stand-in `claude` that prints Claude Code's stream-json: only addresses in the search results
+    count, known and skipped boards aren't added again, a board that doesn't answer is never added, once per 20 h."""
+    fetch.get = fake_get
+    fetch.time.sleep = lambda s: None
+    folder = WORK / "search"
+    shutil.rmtree(folder, ignore_errors=True)
+    folder.mkdir(parents=True)
+    config = (ROOT / "config.example.toml").read_text()
+    (folder / "config.toml").write_text(config)
+    (folder / "companies.txt").write_text("greenhouse anthropic\n")
+    calls = folder / "calls.txt"
+    results = [{"type": "tool_result", "content": [{"type": "text", "text": json.dumps({"links": [
+        {"url": "https://job-boards.greenhouse.io/anthropic/jobs/1"}, {"url": "https://jobs.lever.co/jobgether/abc"},
+        {"url": "https://jobs.ashbyhq.com/deadboard/xyz"}, {"url": "https://onezero.bamboohr.com/careers/279"}]})}]}]
+    lines = [{"type": "system", "subtype": "init"},
+             {"type": "assistant", "message": {"content": [{"type": "text", "text": "see https://job-boards.greenhouse.io/airbnb"}]}},
+             {"type": "user", "message": {"content": results}},
+             {"type": "result", "total_cost_usd": 0.4, "result": "done"}]
+    bin_dir = folder / "bin"
+    bin_dir.mkdir()
+    (bin_dir / "claude").write_text("#!/bin/bash\necho call >> '%s'\ncat <<'EOF'\n%s\nEOF\n" % (calls, "\n".join(json.dumps(m) for m in lines)))
+    (bin_dir / "claude").chmod(0o755)
+    path = os.environ["PATH"]
+    os.environ["PATH"] = f"{bin_dir}:{path}"
+    try:
+        out = io.StringIO()
+        sys.stdout, real = out, sys.stdout
+        try:
+            search.main(folder)
+            search.main(folder)
+            os.environ["AGENT"] = "codex"
+            (folder / "searched.json").unlink()
+            search.main(folder)
+        finally:
+            sys.stdout = real
+            os.environ.pop("AGENT", None)
+        found = [fetch.parse_company(line) for line in (folder / "found_boards.txt").read_text().splitlines()]
+        check(found == [("bamboohr", "onezero")], "[search] only a new board that answers is added: not a known one, a skipped reposting site, "
+              "one that doesn't answer, or one only the model's own text names")
+        check(len(calls.read_text().splitlines()) == 1 and "already searched" in out.getvalue(),
+              "[search] a second run within 20 h doesn't search again")
+        check("needs Claude Code, skipped" in out.getvalue(), "[search] with AGENT=codex the search is skipped")
+        prompt = search.prompt(["research engineer"])
+        check(prompt.count('query "research engineer"') == len(search.SITES) and "jobs.lever.co" in prompt, "[search] one search per role and board site")
+        (folder / "config.toml").write_text(config.replace('roles = ["machine learning engineer", "research engineer", "software engineer new grad", "software engineer intern"]', "roles = []"))
+        (folder / "searched.json").unlink(missing_ok=True)
+        search.main(folder)
+        check(len(calls.read_text().splitlines()) == 1, "[search] no roles, no search")
+        (folder / "companies.txt").unlink()
+        fetch.main(folder)
+        keys = {json.loads(line)["key"].rsplit(":", 1)[0] for line in (folder / "postings.jsonl").read_text().splitlines()}
+        check(keys == {"bamboohr:onezero"}, "[search] fetch.py reads found_boards.txt, and companies.txt may be missing")
+    finally:
+        os.environ["PATH"] = path
+
+
+def test_short_forms() -> None:
+    exclude = queue_filter.words(["senior", "lead"])
+    check(bool(exclude.search("Sr. Software Engineer")) and bool(exclude.search("SR Software Engineer")) and not exclude.search("Software Engineer, SRE"),
+          "[filter] \"senior\" also excludes \"Sr.\" (not \"SRE\")")
+    check(bool(queue_filter.words(["junior"]).search("Jr Data Scientist")), "[filter] \"junior\" also matches \"Jr\"")
+
+
 def test_run_sh() -> None:
     folder = WORK / "app"
     folder.mkdir()
-    for name in ("run.sh", "browser.sh", "fetch.py", "filter.py", "mark.py", "questions.py", "prompt.md", "report.py"):
+    for name in ("run.sh", "browser.sh", "search.py", "fetch.py", "filter.py", "mark.py", "questions.py", "prompt.md", "report.py"):
         shutil.copy(ROOT / name, folder / name)
     shutil.copytree(ROOT / "playbooks", folder / "playbooks")
     for name in ("companies.txt", "config.toml", "answers.md"):
         shutil.copy(WORK / name, folder / name)
-    (folder / "config.toml").write_text((folder / "config.toml").read_text().replace("max_jobs_per_run = 5", "max_jobs_per_run = 2"))
+    config = (folder / "config.toml").read_text().replace("max_jobs_per_run = 5", "max_jobs_per_run = 2")
+    roles = 'roles = ["machine learning engineer", "research engineer", "software engineer new grad", "software engineer intern"]'
+    (folder / "config.toml").write_text(config.replace(roles, "roles = []"))
     # Offline: Python started by run.sh answers the boards' addresses from the saved feeds (sitecustomize).
     hooks = WORK / "hooks"
     hooks.mkdir()
@@ -337,8 +405,12 @@ urllib.request.urlopen = urlopen
     check(done.returncode == 0 and "published in the last 24 h" in done.stdout and "This run logged no job" in done.stdout,
           "[run.sh] --hours reaches the filter")
     done = subprocess.run(["bash", str(folder / "run.sh"), "--days", "1"], env=env, capture_output=True, text=True, timeout=300)
-    server.shutdown()
     check(done.returncode == 2 and "usage" in done.stderr, "[run.sh] an unknown option is refused")
+    (folder / "config.toml").write_text(config)  # roles set, and the stand-in claude answers no search: the run goes on
+    done = subprocess.run(["bash", str(folder / "run.sh"), "--hours", "24"], env=env, capture_output=True, text=True, timeout=300)
+    server.shutdown()
+    check(done.returncode == 0 and "search failed: reading the boards already known" in done.stdout and "board(s) read" in done.stdout,
+          "[run.sh] a failed search doesn't stop the run")
 
 
 test_lines()
@@ -348,6 +420,8 @@ test_fetch_and_filter()
 test_window()
 test_ask_in_chat()
 test_jobinfo()
+test_search()
+test_short_forms()
 test_run_sh()
 print(f"\n{len(failures)} failure(s)" + (": " + "; ".join(failures) if failures else ""))
 sys.exit(1 if failures else 0)

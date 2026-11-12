@@ -3,12 +3,20 @@
 [filter]
 # A title must contain one of these words (whole words, any case).
 include = ["machine learning", "ML", "AI", "research engineer", "software engineer", "intern", "new grad"]
-# ...and none of these.
+# ...and none of these ("senior" also excludes "Sr.", "junior" also "Jr.").
 exclude = ["senior", "staff", "principal", "lead", "manager", "director", "head of"]
 # The location must contain one of these (any case). Leave empty to accept every location.
 locations = ["remote", "san francisco", "new york"]
 # Skip postings older than this.
 max_age_days = 30
+
+[search]
+# Each run, Claude Code web-searches these roles on the job boards Ultron reads, and every company board it finds is
+# added to found_boards.txt and read from then on, so you don't have to list companies (companies.txt is optional).
+# About 5 searches per role, a fixed cost each run. Empty: no search.
+roles = ["machine learning engineer", "research engineer", "software engineer new grad", "software engineer intern"]
+# Boards never added: sites that repost other companies' jobs, in companies.txt form.
+skip = ["lever jobgether"]
 
 [apply]
 # THE SWITCH. false: Ultron fills the form and stops before the final submit; the tab stays open,

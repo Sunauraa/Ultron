@@ -5,7 +5,8 @@ applications to those that just published within 24 hours". Then:
 
 1. **Run `./run.sh --hours 24`** from this folder. Use the hours the user names; "just published", "today" or "new
    jobs" means 24. It takes about a minute per job, so run it in the background and wait for it to finish.
-   run.sh fetches the boards in companies.txt, keeps the jobs published in that window that match config.toml, and
+   run.sh searches the web for companies hiring for the roles in config.toml (at most once a day), reads the job lists
+   of every company found so far, keeps the jobs published in that window that match config.toml, and
    runs one separate Claude Code agent per job with only Ultron's browser tools. That agent fills the form and, as
    config.toml says, sends it or leaves it for the user. Never fill, submit or open job pages yourself.
 2. **If it ends with "more job(s) wait in the queue"**, run the same command again, until none wait. Each run is
